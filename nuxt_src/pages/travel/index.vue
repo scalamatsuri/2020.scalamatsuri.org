@@ -3,7 +3,7 @@
 en:
   title: "Accommodation and facilities near the venue"
   overview: |
-    On May 2020, ScalaMatsuri will take place at Tokyo International Exchange Center.<br>
+    On 15th and 16th May 2020, ScalaMatsuri will take place at Tokyo International Exchange Center.<br>
     This page should help you plan your travels.<br>
     If you have any questions ask us on  <a href="https://gitter.im/scalamatsuri/scalamatsuri-en" target="_blank" rel="noopener">Gitter #scalamatsuri/scalamatsuri-en</a> or using the
     <a href="https://docs.google.com/forms/d/e/1FAIpQLSftjA6961ZzzJjqq1CrWtAN9wwrqXRUGFqZI5G8x2BjmZHeWw/viewform" target="_blank" rel="noopener">ScalaMatsuri inquiry form</a>.
@@ -36,7 +36,7 @@ en:
 ja:
   title: "会場付近の宿泊・施設"
   overview: |
-    ScalaMatsuri は 2020年5月に東京国際交流館にて開催します。<br>
+    ScalaMatsuri は 2020年5月15日および16日に東京国際交流館にて開催します。<br>
     このページでは遠方からの参加者のためのか会場付近の宿泊・施設をまとめています。<br>
     何かご不明な点がありましたら <a href="https://gitter.im/scalamatsuri/scalamatsuri-ja" target="_blank" rel="noopener">Gitter #scalamatsuri/scalamatsuri-ja</a> か
     <a href="https://docs.google.com/forms/d/e/1FAIpQLSfiRa3AIShPAPaZJ5o1sKfdvUzwMlP6Mysw_qnVsI9o1zocuw/viewform" target="_blank" rel="noopener">問い合わせフォーム</a>
