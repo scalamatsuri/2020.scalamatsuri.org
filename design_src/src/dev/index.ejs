@@ -1,0 +1,283 @@
+<%
+var meta = {id: 'top',title:'',desc:'Scalaをテーマにした、日本最大級のカンファレンス。ScalaMatsuri 2019',url: ''};
+// 個別CSS
+var css = []
+// 個別JS
+var js = []
+%>
+
+<!DOCTYPE html>
+<html lang="ja">
+<% include templates/_meta %>
+<body id="<%= meta.id %>">
+<% include templates/_header %>
+  <!-- メインビジュアル ここから -->
+  <main class="main">
+    <div class="main_inner">
+      <h1 class="main_title"><span>ScalaMatsuri 2019</span></h1>
+      <p class="main_date"><span>2019.3.17(Sat.) -3.18(Sun.)<br class="is_sp">@東京国際交流館 プラザ平成</span></p>
+      <ul class="main_sponsor">
+        <li class="main_sponsor_item">
+          <a href="/"><img src="/assets/img/dummy/bnr-sponsor.png" alt=""></a>
+        </li>
+        <li class="main_sponsor_item">
+          <a href="/"><img src="/assets/img/dummy/bnr-sponsor.png" alt=""></a>
+        </li>
+        <li class="main_sponsor_item">
+          <a href="/"><img src="/assets/img/dummy/bnr-sponsor.png" alt=""></a>
+        </li>
+        <li class="main_sponsor_item">
+          <a href="/"><img src="/assets/img/dummy/bnr-sponsor.png" alt=""></a>
+        </li>
+        <li class="main_sponsor_item">
+          <a href="/"><img src="/assets/img/dummy/bnr-sponsor.png" alt=""></a>
+        </li>
+        <li class="main_sponsor_item">
+          <a href="/"><img src="/assets/img/dummy/bnr-sponsor.png" alt=""></a>
+        </li>
+      </ul>
+    </div>
+  </main>
+  <!-- メインビジュアル ここまで -->
+  <!-- News ここから -->
+  <div class="news">
+    <div class="news_inner">
+      <h2 class="news_title">News</h2>
+      <ul class="news_list">
+      </ul>
+    </div>
+  </div>
+  <!-- News ここまで -->
+  <!-- バナー ここから -->
+  <div class="banner">
+    <div class="banner_list">
+    <a href="/sponsorship/" class="banner_item banner_item-sponsor"><span>スポンサー募集</span></a>
+    <a href="/temporary-staff/" class="banner_item banner_item-staff"><span>当日スタッフ募集</span></a>
+    </div>
+  </div>
+  <!-- バナー ここまで -->
+  <!-- セッション ここから -->
+  <section class="content sessions">
+    <div class="content_inner">
+      <h2 class="content_title">Sessions</h2>
+      <p class="content_text">（仮）現場を知り尽くしたScalaエンジニアたちが40以上のセッションとワークショップで伝授3日間。<br>最終日は当日まで何が発表されるかわからないアンカンファンス形式。</p>
+      <div class="content_days">
+        <div class="content_days_col">
+          <h3 class="content_days_title"><span class="content_days_tag">Day 1</span> Workshop</h3>
+          <img  src="/assets/img/top/img-days1.jpg" alt="" class="content_days_img">
+          <p class="content_days_text">Scalaに興味があるけど、少し敷居が高いと感じている人向けに効率よく学べる場としてレーニングデーを開催しします。基礎、初心者がつまずきやすいところ、開発環境などScalaを始める上で必要な情報を１日で学ぶことができます。</p>
+          <p class="content_link"><a href="/program/#day1">プログラムを見る<img src="/assets/img/common/arrow-next-b.svg" alt=""></a></p>
+        </div>
+        <div class="content_days_col">
+          <h3 class="content_days_title"><span class="content_days_tag">Day 2</span> Conference</h3>
+          <img  src="/assets/img/top/img-days2.jpg" alt="" class="content_days_img">
+          <p class="content_days_text">ダミーテキストダミーテキストダミーテキストダミーテキスト</p>
+          <p class="content_link"><a href="/program/#day2">プログラムを見る<img src="/assets/img/common/arrow-next-b.svg" alt=""></a></p>
+        </div>
+        <div class="content_days_col">
+          <h3 class="content_days_title"><span class="content_days_tag">Day 3</span> Unconference</h3>
+          <img  src="/assets/img/top/img-days3.jpg" alt="" class="content_days_img">
+          <p class="content_days_text">講演内容や発表者が当日まで決まっておらず、来場者が自分の話したい内容を発表する参加者全員でつくりあげるカンファレンスです。 Day1のカンファレンス中に発表内容を提案し、参加者の投票によってプログラムが決まります。</p>
+          <p class="content_link"><a href="/program/#day3">プログラムを見る<img src="/assets/img/common/arrow-next-b.svg" alt=""></a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- セッション ここまで -->
+  <!-- イベント ここから -->
+  <section class="content events">
+    <div class="content_inner">
+      <h2 class="content_title">Events</h2>
+      <p class="content_text">（仮）スポンサーによる展示や日本ならではの屋台や交流会など、思い出に残る楽しい企画が満載です。<br>セッションの合間に是非お立ち寄りください。</p>
+      <div class="content_contents">
+        <figure class="content_img content_img-big"><img src="/assets/img/top/img-events1.jpg" alt=""><figcaption class="content_imgcaption">[仮]無料コーヒースタンド</figcaption></figure>
+        <figure class="content_img"><img src="/assets/img/top/img-events2.jpg" alt=""></figure>
+        <figure class="content_img"><img src="/assets/img/top/img-events3.jpg" alt=""></figure>
+        <figure class="content_img"><img src="/assets/img/top/img-events4.jpg" alt=""></figure>
+        <figure class="content_img"><img src="/assets/img/top/img-events5.jpg" alt=""><figcaption class="content_imgcaption">[仮]無料コーヒースタンド</figcaption></figure>
+        <figure class="content_img"><img src="/assets/img/top/img-events6.jpg" alt=""></figure>
+        <figure class="content_img"><img src="/assets/img/top/img-events7.jpg" alt=""></figure>
+        <figure class="content_img"><img src="/assets/img/top/img-events8.jpg" alt=""><figcaption class="content_imgcaption">[仮]無料コーヒースタンド</figcaption></figure>
+        <figure class="content_img"><img src="/assets/img/top/img-events9.jpg" alt=""></figure>
+        <figure class="content_img"><img src="/assets/img/top/img-events10.jpg" alt=""></figure>
+        <figure class="content_img"><img src="/assets/img/top/img-events11.jpg" alt=""></figure>
+        <figure class="content_img"><img src="/assets/img/top/img-events12.jpg" alt=""></figure>
+        <figure class="content_img"><img src="/assets/img/top/img-events13.jpg" alt=""></figure>
+      </div>
+    </div>
+  </section>
+  <!-- イベント ここまで -->
+  <!-- アクセス ここから -->
+  <section class="content access" id="access">
+    <h2 class="content_title">Access</h2>
+    <p class="content_link"><a href="/travel/">会場付近の宿泊・施設の情報<img src="/assets/img/common/arrow-next-b.svg" alt=""></a></p>
+    <div id="map" class="access_gmap"></div>
+    <script>
+      var map;
+      function initMap() {
+        var uluru = {lat: 35.6208626, lng: 139.7760936};
+        var image = '/assets/img/common/icon-pin.svg';
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: uluru,
+          zoom: 17
+        });
+        var marker = new google.maps.Marker({position: uluru, map: map, icon: image});
+      }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCgjX7v2q71aNfdp3VVF2fNoOdVfWBgks0&callback=initMap"
+    async defer></script>
+    <div class="content_inner">
+      <div class="access_contents">
+        <div class="access_col">
+          <h3 class="access_subtitle">日時</h3>
+          <dl class="access_date">
+            <dt>Day 0</dt>
+            <dd>2019.3.16（Fri.）13:00 - 19:00</dd>
+            <dt>Day 1</dt>
+            <dd>2019.3.17（Sat.）9:30 - 21:00（受付開始 9:30予定）</dd>
+            <dt>Day 2</dt>
+            <dd>2019.3.18（Sun.）9:30 - 21:00（受付開始 9:30予定）</dd>
+          </dl>
+        </div>
+        <div class="access_col">
+          <h3 class="access_subtitle">会場</h3>
+          <div class="access_place">
+            <p class="access_place_name">東京国際交流館</p>
+            <p class="access_place_address"><a href="https://goo.gl/maps/cRF32b5vyGM2" target="_blank">〒135-0064 東京都江東区2丁目2-1</a></p>
+            <p class="access_place_note">公共の交通機関を利用するには <a href="https://goo.gl/maps/cRF32b5vyGM2" target="_blank">Google Map</a> が便利です。<br>例えば、ホテルサンルート有明からはU11 国際展示場正門駅でゆりかもめ新橋行きに乗って、U08 船の科学館駅で降りてください。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- アクセス ここまで -->
+  <!-- インフォ ここから -->
+  <section class="info">
+    <div class="info_inner">
+      <h2 class="info_title">運営からのお願い</h2>
+      <p class="info_text">ScalaMatsuriは、様々な地域やコミュニティから集う技術者に対して開かれたカンファレンスを目指しています。特に、性別や人種など、多様な背景を持つ人々が互いに敬意を払って楽しい時間を過ごせるよう、当カンファレンスでは、発表者や参加者、スポンサーの皆様に行動規範を守っていただくようにお願いしています。</p>
+      <p class="info_text">ScalaMatsuri の主催者は、行動規範の趣旨に反してハラスメント行為を行う参加者に対して、発表の中止や会場からの退出を指示する場合があります。行動規範についてご質問がある場合は、お近くのスタッフ までお問い合わせください。</p>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSfiRa3AIShPAPaZJ5o1sKfdvUzwMlP6Mysw_qnVsI9o1zocuw/viewform" target="_blank" class="info_btn">お問い合わせ</a>
+    </div>
+  </section>
+  <!-- インフォ ここまで -->
+  <!-- スポンサー ここから -->
+  <section class="sponsors">
+    <div class="sponsors_inner">
+      <h2 class="sponsors_title">Sponsors</h2>
+      <p class="content_text">アジア最大級の国際Scalaカンファレンスである、ScalaMatsuriに協賛いただけるスポンサー様を募集しています。<br>詳細は <a href="/sponsor/">スポンサー募集ページ</a> をご覧ください。</p>
+      <h3 class="sponsors_subtitle sponsors_subtitle-em">将軍スポンサー</h3>
+      <ul class="sponsors_list">
+        <li class="sponsors_item">
+          <a href="/"><img src="/assets/img/dummy/bnr-sponsor.png" alt=""></a>
+        </li>
+        <li class="sponsors_item">
+          <a href="/"><img src="/assets/img/dummy/bnr-sponsor.png" alt=""></a>
+        </li>
+        <li class="sponsors_item">
+          <a href="/"><img src="/assets/img/dummy/bnr-sponsor.png" alt=""></a>
+        </li>
+        <li class="sponsors_item">
+          <a href="/"><img src="/assets/img/dummy/bnr-sponsor.png" alt=""></a>
+        </li>
+        <li class="sponsors_item">
+          <a href="/"><img src="/assets/img/dummy/bnr-sponsor.png" alt=""></a>
+        </li>
+      </ul>
+      <h3 class="sponsors_subtitle">大老スポンサー</h3>
+      <ul class="sponsors_list">
+        <li class="sponsors_item">
+          <a href="/"><img src="/assets/img/dummy/bnr-sponsor.png" alt=""></a>
+        </li>
+        <li class="sponsors_item">
+          <a href="/"><img src="/assets/img/dummy/bnr-sponsor.png" alt=""></a>
+        </li>
+        <li class="sponsors_item">
+          <a href="/"><img src="/assets/img/dummy/bnr-sponsor.png" alt=""></a>
+        </li>
+        <li class="sponsors_item">
+          <a href="/"><img src="/assets/img/dummy/bnr-sponsor.png" alt=""></a>
+        </li>
+      </ul>
+      <h3 class="sponsors_subtitle">大名スポンサー</h3>
+      <ul class="sponsors_list">
+        <li class="sponsors_item">
+          <a href="/"><img src="/assets/img/dummy/bnr-sponsor.png" alt=""></a>
+        </li>
+        <li class="sponsors_item">
+          <a href="/"><img src="/assets/img/dummy/bnr-sponsor.png" alt=""></a>
+        </li>
+        <li class="sponsors_item">
+          <a href="/"><img src="/assets/img/dummy/bnr-sponsor.png" alt=""></a>
+        </li>
+      </ul>
+      <h3 class="sponsors_subtitle">侍スポンサー</h3>
+      <ul class="sponsors_list">
+        <li class="sponsors_item">
+          <a href="/"><img src="/assets/img/dummy/bnr-sponsor.png" alt=""></a>
+        </li>
+        <li class="sponsors_item">
+          <a href="/"><img src="/assets/img/dummy/bnr-sponsor.png" alt=""></a>
+        </li>
+        <li class="sponsors_item">
+          <a href="/"><img src="/assets/img/dummy/bnr-sponsor.png" alt=""></a>
+        </li>
+        <li class="sponsors_item">
+          <a href="/"><img src="/assets/img/dummy/bnr-sponsor.png" alt=""></a>
+        </li>
+        <li class="sponsors_item">
+          <a href="/"><img src="/assets/img/dummy/bnr-sponsor.png" alt=""></a>
+        </li>
+        <li class="sponsors_item">
+          <a href="/"><img src="/assets/img/dummy/bnr-sponsor.png" alt=""></a>
+        </li>
+      </ul>
+      <h3 class="sponsors_subtitle">忍者スポンサー</h3>
+      <ul class="sponsors_list">
+        <li class="sponsors_item">
+          <a href="/"><img src="/assets/img/dummy/bnr-sponsor.png" alt=""></a>
+        </li>
+        <li class="sponsors_item">
+          <a href="/"><img src="/assets/img/dummy/bnr-sponsor.png" alt=""></a>
+        </li>
+        <li class="sponsors_item">
+          <a href="/"><img src="/assets/img/dummy/bnr-sponsor.png" alt=""></a>
+        </li>
+        <li class="sponsors_item">
+          <a href="/"><img src="/assets/img/dummy/bnr-sponsor.png" alt=""></a>
+        </li>
+        <li class="sponsors_item">
+          <a href="/"><img src="/assets/img/dummy/bnr-sponsor.png" alt=""></a>
+        </li>
+        <li class="sponsors_item">
+          <a href="/"><img src="/assets/img/dummy/bnr-sponsor.png" alt=""></a>
+        </li>
+      </ul>
+      <h3 class="sponsors_subtitle">奉公スポンサー</h3>
+      <ul class="sponsors_list sponsors_list-houkou">
+        <li class="sponsors_item">
+          <a href="/"><img src="/assets/img/dummy/bnr-sponsor.png" alt=""></a>
+        </li>
+        <li class="sponsors_item">
+          <a href="/"><img src="/assets/img/dummy/bnr-sponsor.png" alt=""></a>
+        </li>
+        <li class="sponsors_item">
+          <a href="/"><img src="/assets/img/dummy/bnr-sponsor.png" alt=""></a>
+        </li>
+        <li class="sponsors_item">
+          <a href="/"><img src="/assets/img/dummy/bnr-sponsor.png" alt=""></a>
+        </li>
+        <li class="sponsors_item">
+          <a href="/"><img src="/assets/img/dummy/bnr-sponsor.png" alt=""></a>
+        </li>
+        <li class="sponsors_item">
+          <a href="/"><img src="/assets/img/dummy/bnr-sponsor.png" alt=""></a>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <!-- スポンサー ここまで -->
+
+<% include templates/_footer %>
+</body>
+</html>

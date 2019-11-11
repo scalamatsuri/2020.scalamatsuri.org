@@ -1,0 +1,43 @@
+<%
+var meta = {id: 'staff',title:'スタッフ一覧',desc:'Scalaをテーマにした、日本最大級のカンファレンス。ScalaMatsuri 2019',url: ''};
+// 個別CSS
+var css = ['https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css']
+// 個別JS
+var js = []
+%>
+<!DOCTYPE html>
+<html lang="ja">
+<% include ../templates/_meta %>
+
+<body id="<%= meta.id %>">
+  <% include ../templates/_header %>
+  <div class="main">
+    <div class="main_inner">
+      <h1 class="main_title">スタッフ一覧</h1>
+    </div>
+  </div>
+  <!-- スタッフ ここから -->
+  <div class="staff">
+    <ul class="staff_list">
+      <% for (var i = 0; i < 10; i++) { %>
+        <% var ary = ['aaa', 'nekonekoanekone koaneko neko anekonekoa asdfasefawef sdfzafawerf  adsfa sdfadf sadfafsadf sdfasdfsfwf sdagasgd', '受付、クローク、ジョブボード受付、クローク、ジョブボード', '受付、クローク、ジョブボード', 'aaa', '受付、クローク、ジョブボード', 'test aaatest asdfasf', '受付、クローク、ジョブボード', '受付、クローク、ジョブボード','aaa']; %>
+        <% var num = (i%2) %>
+        <li class="staff_item">
+          <div class="staff_img" style="background-image: url(/assets/img/dummy/icon-user<%= num+1 %>.jpg);"></div>
+          <p class="staff_ruby">Ryuhei Ishibashir</p>
+          <p class="staff_name">石橋 隆平</p>
+          <ul class="staff_sns">
+            <li class="staff_sns_item staff_sns_item-tw"><a href="https://twitter.com/" target="_blank"><img src="/assets/img/common/icon-sns-tw.svg" alt="Twitter"></a></li>
+            <li class="staff_sns_item staff_sns_item-git"><a href="https://github.com/" target="_blank"><img src="/assets/img/common/icon-sns-git.svg" alt="Github"></a></li>
+          </ul>
+          <p class="staff_profile"><%= ary[i] %></p>
+        </li>
+        <!-- Staff一人分 ここまで -->
+      <% } %>
+    </ul>
+  </div>
+  <!-- スタッフ ここまで -->
+  <% include ../templates/_footer %>
+</body>
+
+</html>

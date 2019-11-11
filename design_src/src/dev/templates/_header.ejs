@@ -1,0 +1,124 @@
+  <!-- Twitter -->
+  <script>window.twttr = (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0],
+      t = window.twttr || {};
+    if (d.getElementById(id)) return t;
+    js = d.createElement(s);
+    js.id = id;
+    js.src = "https://platform.twitter.com/widgets.js";
+    fjs.parentNode.insertBefore(js, fjs);
+
+    t._e = [];
+    t.ready = function(f) {
+      t._e.push(f);
+    };
+
+    return t;
+  }(document, "script", "twitter-wjs"));</script>
+  <!-- fb -->
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v3.2';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+  <header>
+    <!-- グローバルナビ PC ここから -->
+    <div class="header js-header is_active is_pc">
+      <div class="header_inner">
+        <p class="logo"><a href="/"><img src="/assets/img/common/logo.svg" alt="ScalaMatsuri 2019" width="42" height="32"></a></p>
+        <div class="menu js-menu_target">
+          <ul class="gnav">
+            <li class="gnav_item <%= (meta.id === 'top') ? ' gnav_item-current' : '' %>"><a href="/"><span>開催概要</span></a></li>
+            <li class="gnav_item <%= (meta.id === 'program') ? ' gnav_item-current' : '' %>"><a href="/program/"><span>プログラム</span></a></li>
+            <li class="gnav_item <%= (meta.id === 'codeOfConduct') ? ' gnav_item-current' : '' %>"><a href="/code-of-conduct/"><span>行動規範</span></a></li>
+            <li class="gnav_item <%= (meta.id === 'sponsor') ? ' gnav_item-current' : '' %>"><a href="/sponsor/"><span>スポンサー</span></a></li>
+            <li class="gnav_item <%= (meta.id === 'access') ? ' gnav_item-current' : '' %>"><a href="/#access"><span>アクセス</span></a></li>
+            <li class="gnav_item">
+              <select name="" id="" class="js-select">
+                <option value="日本語">日本語</option>
+                <option value="English" selected>English</option>
+                <option value="简体中文">简体中文</option>
+                <option value="繁體中文">繁體中文</option>
+              </select>
+            </li>
+          </ul>
+          <!--  ログイン前 ここから -->
+          <ul class="function">
+            <li class="function_item function_item-login"><a href="">ログイン</a></li>
+            <li class="function_item function_item-application"><a href="">チケット申込</a></li>
+          </ul>
+          <!-- ログイン前 ここまで -->
+          <!-- ログイン後 ここから -->
+          <!-- <ul class="function">
+            <li class="function_item function_item-userIcon">
+                <div class="userMenu js-myMenu">
+                  <div class="function_userIcon js-myMenuIcon" style="background-image: url('/assets/img/dummy/icon-user2.jpg')"></div>
+                  <ul class="userMenu_list js-myMenuList">
+                    <li class="userMenu_list_item"><a href="#">メニュー1</a></li>
+                    <li class="userMenu_list_item"><a href="#">メニュー2</a></li>
+                    <li class="userMenu_list_item"><a href="#">メニュー3</a></li>
+                  </ul>
+                </div>
+            </li>
+            <li class="function_item function_item-application"><a href="">チケット申込</a></li>
+          </ul> -->
+          <!-- ログイン後 ここまで -->
+        </div>
+      </div>
+    </div>
+    <!-- グローバルナビ PC ここまで -->
+    <!-- グローバルナビ SP ここから -->
+    <div class="header is_sp">
+      <div class="header_inner">
+        <p class="logo"><a href="/"><img src="/assets/img/common/logo.svg" alt="ScalaMatsuri 2019" height="24"><span class="logo_type">ScalaMatsuri 2019</span></a></p>
+        <div class="menu js-menu_target">
+          <ul class="gnav">
+            <li class="gnav_item <%= (meta.id === 'top') ? ' gnav_item-current' : '' %>"><a href="/"><span>開催概要</span></a></li>
+            <li class="gnav_item <%= (meta.id === 'program') ? ' gnav_item-current' : '' %>"><a href="/program/"><span>プログラム</span></a></li>
+            <li class="gnav_item <%= (meta.id === 'codeOfConduct') ? ' gnav_item-current' : '' %>"><a href="/code-of-conduct/"><span>行動規範</span></a></li>
+            <li class="gnav_item <%= (meta.id === 'sponsor') ? ' gnav_item-current' : '' %>"><a href="/sponsor/"><span>スポンサー</span></a></li>
+            <li class="gnav_item <%= (meta.id === 'access') ? ' gnav_item-current' : '' %>"><a href="/#access"><span>アクセス</span></a></li>
+          </ul>
+          <!--  ログイン前 ここから -->
+          <div class="function">
+            <div class="function_item function_item-application"><a href="">チケット申込</a></div>
+            <div class="function_item function_item-login"><a href="">ログイン</a></div>
+          <!--  ログイン前 ここまで -->
+          <!--  ログイン後 ここから -->
+            <!-- <div class="function_item-userIcon">
+              <div class="userMenu">
+                <div class="function_userInfo js-accordion">
+                  <div class="function_userIcon" style="background-image: url('/assets/img/dummy/icon-user2.jpg')"></div>
+                  <p class="function_userName">ポプテピピック氏</p>
+                </div>
+                <ul class="userMenu_list js-accordionTarget">
+                  <li class="userMenu_list_item"><a href="#">メニュー1</a></li>
+                  <li class="userMenu_list_item"><a href="#">メニュー2</a></li>
+                  <li class="userMenu_list_item"><a href="#">メニュー3</a></li>
+                </ul>
+              </div>
+            </div> -->
+          <!--  ログイン後 ここまで -->
+          </div>
+          <ul class="choose_langage">
+            <li class="langage_item active"><a href="#">日本語</a></li>
+            <li class="langage_item"><a href="#">English</a></li>
+            <li class="langage_item"><a href="#">简体中文</a></li>
+            <li class="langage_item"><a href="#">繁體中文</a></li>
+          </ul>
+          <a class="menuCloseBtn is_sp js-menu_close" href="javascript:void(0)">閉じる</a>
+        </div>
+        <a class="menuBtn js-menu_trigger" href="javascript:void(0)">
+          <span></span>
+          <span></span>
+          <span></span>
+        </a>
+      </div>
+    </div>
+    <!-- グローバルナビ SP ここまで -->
+
+  </header>
+  <div class="shadow js-shadow"></div>

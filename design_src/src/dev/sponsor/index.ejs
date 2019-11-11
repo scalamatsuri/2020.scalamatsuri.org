@@ -1,0 +1,55 @@
+<%
+var meta = {id: 'sponsor',title:'スポンサー',desc:'Scalaをテーマにした、日本最大級のカンファレンス。ScalaMatsuri 2019',url: ''};
+// 個別CSS
+var css = ['https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css']
+// 個別JS
+var js = []
+%>
+<!DOCTYPE html>
+<html lang="ja">
+<% include ../templates/_meta %>
+
+<body id="<%= meta.id %>">
+  <% include ../templates/_header %>
+  <div class="main">
+    <div class="main_inner">
+      <h1 class="main_title">スポンサー</h1>
+    </div>
+  </div>
+  <!-- sponsor ここから -->
+  <div class="sponsor">
+    <h2 class="sponsor_title">将軍スポンサー</h2>
+    <div class="sponsor_list">
+      <% for (var i = 0; i < 2; i++) { %>
+      <!-- 1企業 ここから -->
+      <section class="sponsor_item">
+        <div class="sponsor_logo"><img src="/assets/img/dummy/bnr-sponsor.png" alt="株式会社サイバーエージェント"></div>
+        <section class="sponsor_content">
+          <h3 class="sponsor_name">株式会社サイバーエージェント</h3>
+          <p class="sponsor_url"><a href="https://www.cyberagent.co.jp/" target="_blank">https://www.cyberagent.co.jp/</a></p>
+          <div class="sponsor_text">
+            <p>（仮250文字程度）株式会社ドワンゴは、ゲームや音楽をはじめとするエンタテインメント分野において、次世代ネットワークコミュニケーションの創出を目指す、ネットワーク・エンタテインメント・カンパニーです。</p>
+            <ul>
+              <li><a href="#" target="_blank">リンク1</a></li>
+              <li><a href="#" target="_blank">リンク2</a></li>
+            </ul>
+            <p>3,900万人を超える登録ユーザー数を誇る国内最大級の動画サイト「niconico（ニコニコ動画）」の運営をじめ、モバイル向け音楽配信、ゲームソフト及びオンラインゲームの企画・開発・販売などを行っています。 高度なネットワーク技術と独創的な発想を強みに、良質なコンテンツを様々なプラットフォームに提供しています。</p>
+          </div>
+          <a href="#" class="sponsor_btn" target="_blank">エンジニア採用ページ</a>
+        </section>
+      </section>
+      <!-- 1企業 ここまで -->
+      <% } %>
+    </div>
+    <section class="inquiry">
+      <h3 class="inquiry_title">掲載に関するお問い合わせ</h3>
+      <p class="inquiry_text">このページでの求人情報の掲載は Silver 以上のスポンサー企業様に提供させていただいております。<br><br>
+      ScalaMatsuri 事務局 スポンサー担当<br>
+      <a href="mailto:sponsor@scalaconf.jp">sponsor@scalaconf.jp</a></p>
+    </section>
+  </div>
+  <!-- sponsor ここまで -->
+  <% include ../templates/_footer %>
+</body>
+
+</html>

@@ -1,0 +1,156 @@
+<%
+var meta = {id: 'program',title:'プログラム',desc:'Scalaをテーマにした、日本最大級のカンファレンス。ScalaMatsuri 2019',url: ''};
+// 個別CSS
+var css = ['https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css']
+// 個別JS
+var js = []
+%>
+<!DOCTYPE html>
+<html lang="ja">
+<% include ../templates/_meta %>
+
+<body id="<%= meta.id %>">
+  <% include ../templates/_header %>
+  <div class="main js-subNav">
+    <div class="main_inner">
+      <h1 class="main_title">プログラム</h1>
+      <ul class="main_index">
+        <li class="main_item"><a href="#day1">8/10  Training Day</a></li>
+        <li class="main_item"><a href="#day2">8/11  Conference</a></li>
+        <li class="main_item"><a href="#day3">8/12  Unconference</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="btnArea programCtrl">
+    <p class="content_link candidatesBtn"><a href="/candidates/">過去の応募セッション一覧を表示する<img src="/assets/img/common/arrow-next-b.svg" alt=""></a></p>
+    <a class="js-changeView favBtn" href="javascript:void(0) ">ブックマークのみ表示</a>
+  </div>
+  <% for (var i = 0; i < 3; i++) { %>
+  <% var titleArr = ['8/10 Training Day','8/11 Conference','8/12 Unconference']; %>
+  <% var idArr = ['day1','day2','day3']; %>
+  <% var roomArr = ['A','B','C']; %>
+  <% var checkArr = ['','checked','']; %>
+  <% var repeatNum = 1; %>
+
+  <div class="program" id="<%= idArr[i] %>">
+    <h2 class="program_title"><%= titleArr[i] %></h2>
+    <p class="program_text">ダミーテキストダミーテキスト<br>ダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキスト</p>
+    <div class="schedule">
+      <!-- schedule 1コマ ここから -->
+      <div class="schedule_content">
+        <p class="schedule_time">13:00 - 13:30</p>
+        <div class="schedule_events">
+          <div class="schedule_event schedule_event-allArea">
+            <p>受付開始</p>
+          </div>
+        </div>
+      </div>
+      <!-- schedule 1コマ ここまで -->
+      <% for (var j = 0; j < 3; j++) { %>
+
+      <!-- schedule 1コマ ここから -->
+      <div class="schedule_content">
+        <p class="schedule_time">13:00 - 13:30</p>
+        <div class="schedule_events">
+          <% if (j === 0) { repeatNum = 3 } else { repeatNum = 1 } %>
+          <% for (var k = 0; k < repeatNum; k++) { %>
+          <!-- Room ここから -->
+          <div class="js-modal schedule_event" data-target="modal<%= i %>-<%= j %>-<%= k %>" data-name="taro">
+            <p class="schedule_room">ROOM <%= roomArr[k] %></p>
+            <!-- 内容 ここから -->
+            <div class="schedule_detail">
+              <p class="schedule_title">Scalaに関する神話と真実 <%= i %>-<%= j %>-<%= k %></p>
+              <div class="schedule_tags"><p class="schedule_tag">日本語</p> <p class="schedule_tag">初心者向け</p></div>
+              <ul class="schedule_function">
+                <li class="schedule_function_item"><a href="https://www.youtube.com/watch?v=dDn04KCpdR0" target="_blank" class="schedule_icon schedule_icon-yt js-anc"><img src="/assets/img/common/icon-yt.svg" alt="YouTube">YouTube</a></li>
+                <li class="schedule_function_item"><a href="#" target="_blank" class="schedule_icon schedule_icon-gs js-anc"><img src="/assets/img/common/icon-gs.svg" alt="Google Slide">Google Slide</a></li>
+              </ul>
+            </div>
+            <!-- 内容 ここまで -->
+            <!-- 登壇者 ここから -->
+            <div class="schedule_speakers">
+              <div class="schedule_speaker">
+                <div class="schedule_speaker_icon" style="background-image: url('/assets/img/dummy/icon-user2.jpg')"></div>
+                <p class="schedule_speaker_name">水島宏太</p>
+                <p class="schedule_speaker_id"><a href="https://www.youtube.com/watch?v=dDn04KCpdR0" class="js-anc" target="_blank">@kmizu</a></p>
+              </div>
+            </div>
+            <!-- 登壇者 ここまで -->
+            <!-- お気に入り ここから -->
+            <div class="schedule_fav js-anc">
+
+              <input type="checkbox" id="favCheck<%= i %>-<%= j %>-<%= k %>" name="favCheck<%= i %>-<%= j %>-<%= k %>" class="schedule_fav_checkbox js-fav" <%= checkArr[k] %>>
+              <label for="favCheck<%= i %>-<%= j %>-<%= k %>" class=" schedule_fav_icon js-favLabel" ></label>
+            </div>
+            <!-- お気に入り ここまで -->
+          </div>
+          <!-- Room ここまで -->
+          <% } %>
+        </div>
+      </div>
+      <!-- schedule 1コマ ここまで -->
+      <% } %>
+      <!-- schedule 1コマ ここから -->
+      <div class="schedule_content">
+        <p class="schedule_time">13:00 - 13:30</p>
+        <div class="schedule_events">
+          <div class="schedule_event schedule_event-allArea">
+            <p>終了・解散</p>
+          </div>
+        </div>
+      </div>
+      <!-- schedule 1コマ ここまで -->
+    </div>
+  </div>
+  <% } %>
+  <% for (var i = 0; i < 3; i++) { %>
+  <% for (var j = 0; j < 3; j++) { %>
+  <% for (var k = 0; k < 3; k++) { %>
+  <!-- モーダル<%= i %>-<%= j %>-<%= k %> ここから -->
+  <div class="modal modal<%= i %>-<%= j %>-<%= k %>">
+    <div class="modal_inner">
+      <div class="modal_content">
+        <h2 class="modal_title">Scalaに関する神話と真実<%= i %>-<%= j %>-<%= k %></h2>
+        <div class="modal_speakers">
+          <div class="modal_speaker">
+            <div class="modal_speaker_icon" style="background-image: url('/assets/img/dummy/icon-user2.jpg')"></div>
+            <p class="modal_speaker_name">水島宏太 (株式会社ドワンゴ)</p>
+            <p class="modal_speaker_id"><a href="" target="_blank">@kmizu</a></p>
+          </div>
+        </div>
+        <div class="modal_text">
+          <p>プログラミング言語Scalaは、言語そのものやそれを取り巻くコミュニティ、ツール等に関する「神話」が散見されます。それらの全てが間違いというわけではありませんが、誤解にもとづいていたり、間違いではないものの現在は改善されている問題もあります。この発表では、Scalaに関する「神話」を解き明かし、Scalaに関して恐れをいだくことはないということを説明したいと思います。</p>
+        </div>
+        <div class="modal_scopeArea">
+          <dl class="modal_scope">
+            <dt>発表言語</dt>
+            <dd>日本語</dd>
+          </dl>
+          <dl class="modal_scope">
+            <dt>発表言語</dt>
+            <dd>日本語</dd>
+          </dl>
+          <dl class="modal_scope">
+            <dt>発表言語</dt>
+            <dd>日本語</dd>
+          </dl>
+          <dl class="modal_scope">
+            <dt>発表言語</dt>
+            <dd>日本語</dd>
+          </dl>
+        </div>
+      </div>
+      <div class="modal_close js-close">
+        閉じる
+      </div>
+    </div>
+
+  </div>
+  <!-- モーダル<%= i %>-<%= j %>-<%= k %> ここまで -->
+  <% } %>
+  <% } %>
+  <% } %>
+  <% include ../templates/_footer %>
+</body>
+
+</html>

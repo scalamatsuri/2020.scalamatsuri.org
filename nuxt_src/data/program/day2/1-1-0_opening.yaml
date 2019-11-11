@@ -1,0 +1,46 @@
+---
+id: '1-1-0' # day-room-登壇順とかかな？
+time:
+  started_at: '09:50'
+  ended_at: '10:10'
+room: 'A'
+star: false
+ja:
+  speaker:
+    id: ''
+    name: ''
+    twitter: ''
+    github: ''
+    icon: ''
+    organization: ''
+    contributes:
+      -
+    speaker_experience:
+      -
+  program:
+    title: 'オープニング'
+    length: 20
+    lang: ''
+    audience: ''
+    detail: ''
+    links:
+en:
+  speaker:
+    id: ''
+    name: ''
+    twitter: ''
+    github: ''
+    icon: ''
+    organization: ''
+    contributes:
+      -
+    speaker_experience:
+      -
+  program:
+    title: 'Opening'
+    length: 20
+    lang: ''
+    audience: ''
+    detail: ''
+    links:
+

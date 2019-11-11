@@ -1,0 +1,42 @@
+<head>
+  <meta charset="UTF-8">
+<% if (meta.title) { -%>
+  <title><%= meta.title -%> - ScalaMatsuri 2019</title>
+<% } else { -%>
+  <title>ScalaMatsuri 2019｜日本最大級の Scala のカンファレンス</title>
+<% } -%>
+<% if (meta.desc !== '') { -%>
+  <meta name="description" content="<%= meta.desc %>">
+<% } -%>
+  <meta name="keywords" content="">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="format-detection" content="telephone=no">
+
+<% if (meta.title) { -%>
+  <meta property="og:title" content="<%= meta.title %>　|　ScalaMatsuri">
+<% } else { -%>
+  <meta property="og:title" content="ScalaMatsuri 2018｜日本最大級の Scala のカンファレンス">
+<% } -%>
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="<%= meta.url %>">
+  <meta property="og:image" content="logo_ogp.png">
+  <meta property="og:site_name" content="ScalaMatsuri">
+<% if (meta.desc !== '') { -%>
+  <meta property="og:description" content="<%= meta.desc %>">
+<% } -%>
+
+  <link rel="shortcut icon" href="/favicon.ico">
+
+  <!-- 共通CSS -->
+  <link rel="stylesheet" href="/assets/vendor/sanitize.css/sanitize.css">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <!-- 個別CSS -->
+  <% if (css) {  css.forEach(function (value, key) { %><link rel="stylesheet" href="<%= value %>"><% }); } %>
+
+  <!-- 共通JS -->
+  <script src="/assets/vendor/jquery-3.3.1/jquery-3.3.1.min.js"></script>
+  <script src="/assets/js/util.js"></script>
+  <script src="/assets/js/common.js"></script>
+  <!-- 個別JS -->
+  <% if (js) {  js.forEach(function (value, key) { %><script src="<%= value %>"></script><% }); } %>
+</head>

@@ -1,0 +1,159 @@
+<%
+var meta = {id: 'candidates',title:'応募セッション一覧',desc:'Scalaをテーマにした、日本最大級のカンファレンス。ScalaMatsuri 2019',url: ''};
+// 個別CSS
+var css = ['https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css']
+// 個別JS
+var js = []
+%>
+<!DOCTYPE html>
+<html lang="ja">
+<% include ../templates/_meta %>
+
+<body id="<%= meta.id %>">
+  <% include ../templates/_header %>
+  <div class="main">
+    <div class="main_inner">
+      <h1 class="main_title">応募セッション一覧</h1>
+    </div>
+  </div>
+  <ul class="js-tags tagIndex"></ul>
+  <% for (var k = 0; k < 4; k++) { %>
+  <% var titleArr = ['90分英語','90分日本語','40分英語','40分日本語']; %>
+  <!-- <%= titleArr[k] %> ここから -->
+  <div class="program">
+    <h2 class="program_title"><%= titleArr[k] %></h2>
+    <div class="schedule schedule-thin">
+      <!-- schedule 1コマ ここから -->
+      <div class="schedule_content">
+        <div class="schedule_events">
+          <% for (var i = 0; i < 5; i++) { %>
+          <% var tagArr = ['Big Data / Fast Data', 'Functional Programming', 'Tools', 'Data Science / Machine Learning', 'Software Design and Architecture', 'aaa0', 'aaa2', 'aaa3', 'aaa4', 'aaa5', 'aaa6', 'aaa7', 'aaa1', 'aaa8', 'aaa9', 'aaa20']; %>
+
+          <% var randomNumber = Math.floor(Math.random() * 5)+1; %>
+          <!-- Room ここから -->
+          <div class="js-modal schedule_event schedule_event-disabled" data-target="modal02">
+            <!-- 内容 ここから -->
+            <div class="schedule_detail">
+              <p class="schedule_title">Scalaに関する神話と真実Scalaに関する神話と</p>
+              <p class="schedule_division">中級者向け<% tagArr.length %></p>
+              <div class="schedule_tags">
+                <% for (var j = 0; j < randomNumber; j++) { %>
+                <div class="js-tag schedule_tag" data-tag="<%= tagArr[j] %>"><span><%= tagArr[j] %></span></div>
+                <% } %>
+              </div>
+            </div>
+            <!-- 内容 ここまで -->
+            <!-- 登壇者 ここから -->
+            <div class="schedule_speakers">
+              <div class="schedule_speaker">
+                <div class="schedule_speaker_icon" style="background-image: url('/assets/img/dummy/icon-user2.jpg')"></div>
+                <p class="schedule_speaker_name">水島宏太</p>
+                <p class="schedule_speaker_id"><a href="https://www.youtube.com/watch?v=dDn04KCpdR0" class=" js-anc" target="_blank">@kmizu</a></p>
+              </div>
+            </div>
+            <!-- 登壇者 ここまで -->
+          </div>
+          <!-- Room ここまで -->
+          <% } %>
+        </div>
+      </div>
+      <!-- schedule 1コマ ここまで --></div>
+  </div>
+  <!-- <%= titleArr[k] %> ここまで -->
+  <% } %>
+
+  <!--DEMO02-->
+  <div class="modal modal01">
+    <div class="modal_inner">
+      <h2 class="modal_title">Scalaに関する神話と真実1</h2>
+      <div class="modal_speakers">
+        <div class="modal_speaker">
+          <div class="modal_speaker_icon" style="background-image: url('/assets/img/dummy/icon-user2.jpg')"></div>
+          <p class="modal_speaker_name">水島宏太 (株式会社ドワンゴ)</p>
+          <p class="modal_speaker_id"><a href="">@kmizu</a></p>
+        </div>
+        <div class="modal_speaker">
+          <div class="modal_speaker_icon" style="background-image: url('/assets/img/dummy/icon-user2.jpg')"></div>
+          <p class="modal_speaker_name">水島宏太 (株式会社ドワンゴ)</p>
+          <p class="modal_speaker_id"><a href="">@kmizu</a></p>
+        </div>
+      </div>
+      <div class="modal_text">
+        <p>プログラミング言語Scalaは、言語そのものやそれを取り巻くコミュニティ、ツール等に関する「神話」が散見されます。それらの全てが間違いというわけではありませんが、誤解にもとづいていたり、間違いではないものの現在は改善されている問題もあります。この発表では、Scalaに関する「神話」を解き明かし、Scalaに関して恐れをいだくことはないということを説明したいと思います。</p>
+      </div>
+      <div class="modal_scopeArea">
+        <dl class="modal_scope">
+          <dt>発表言語</dt>
+          <dd>日本語</dd>
+        </dl>
+        <dl class="modal_scope">
+          <dt>発表言語</dt>
+          <dd>日本語</dd>
+        </dl>
+        <dl class="modal_scope">
+          <dt>発表言語</dt>
+          <dd>日本語</dd>
+        </dl>
+        <dl class="modal_scope">
+          <dt>発表言語</dt>
+          <dd>日本語</dd>
+        </dl>
+      </div>
+      <div class="modal_close js-close">
+        閉じる
+      </div>
+    </div>
+
+    <div class="modal-content">
+      <!--Your modal content goes here-->
+    </div>
+  </div>
+  <div class="modal modal02">
+    <div class="modal_inner">
+      <h2 class="modal_title">Scalaに関する神話と真実2</h2>
+      <div class="modal_speakers">
+        <div class="modal_speaker">
+          <div class="modal_speaker_icon" style="background-image: url('/assets/img/dummy/icon-user2.jpg')"></div>
+          <p class="modal_speaker_name">水島宏太 (株式会社ドワンゴ)</p>
+          <p class="modal_speaker_id"><a href="">@kmizu</a></p>
+        </div>
+        <div class="modal_speaker">
+          <div class="modal_speaker_icon" style="background-image: url('/assets/img/dummy/icon-user2.jpg')"></div>
+          <p class="modal_speaker_name">水島宏太 (株式会社ドワンゴ)</p>
+          <p class="modal_speaker_id"><a href="">@kmizu</a></p>
+        </div>
+      </div>
+      <div class="modal_text">
+        <p>プログラミング言語Scalaは、言語そのものやそれを取り巻くコミュニティ、ツール等に関する「神話」が散見されます。それらの全てが間違いというわけではありませんが、誤解にもとづいていたり、間違いではないものの現在は改善されている問題もあります。この発表では、Scalaに関する「神話」を解き明かし、Scalaに関して恐れをいだくことはないということを説明したいと思います。</p>
+      </div>
+      <div class="modal_scopeArea">
+        <dl class="modal_scope">
+          <dt>発表言語</dt>
+          <dd>日本語</dd>
+        </dl>
+        <dl class="modal_scope">
+          <dt>発表言語</dt>
+          <dd>日本語</dd>
+        </dl>
+        <dl class="modal_scope">
+          <dt>発表言語</dt>
+          <dd>日本語</dd>
+        </dl>
+        <dl class="modal_scope">
+          <dt>発表言語</dt>
+          <dd>日本語</dd>
+        </dl>
+      </div>
+      <div class="modal_close js-close">
+        閉じる
+      </div>
+    </div>
+
+    <div class="modal-content">
+      <!--Your modal content goes here-->
+    </div>
+  </div>
+  <% include ../templates/_footer %>
+</body>
+
+</html>

@@ -1,0 +1,202 @@
+<%
+var meta = {id: 'id',title:'タイトルが入ります',desc:'ディスクリプションが入ります',url: ''};
+// 個別CSS
+var css = []
+// 個別JS
+var js = []
+%>
+<!DOCTYPE html>
+<html lang="ja">
+<% include templates/_meta %>
+
+<body id="<%= meta.id %>">
+  <% include templates/_header %>
+  <div class="main">
+    <div class="main_inner">
+      <h1 class="main_title">タイトル</h1>
+    </div>
+  </div>
+  <div class="section">
+    <figure class="section_figure">
+      <iframe class="section_movie" width="560" height="315" src="https://www.youtube.com/embed/lIfOQNTWdxI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <figcaption class="section_figcaption">動画のキャプション</figcaption>
+    </figure>
+  </div>
+  <div class="section">
+    <h2 class="section_title"><span class="section_title_inner">タイトル</span></h2>
+    <p class="section_text">通常テキスト<a href="#">リンクテキスト</a>通常テキスト通常テキスト通常テキスト通常テキスト通常テキスト通常テキスト通常テキスト通常テキスト通常テキスト通常テキスト通常テキスト通常テキスト通常テキスト通常テキスト通常テキスト</p>
+    <p class="section_text">
+      <span class="color color_shogun">将軍カラー : .color.color_shogun</span><br>
+      <span class="color color_tairou">大老カラー : .color.color_tairou</span><br>
+      <span class="color color_daimyo">大名カラー : .color.color_daimyo</span><br>
+      <span class="color color_samurai">侍カラー : .color.color_samurai</span><br>
+      <span class="color color_ninja">忍者カラー : .color.color_ninja</span>
+    </p>
+    <p class="section_text section_text-strong">強調テキスト強調テキスト強調テキスト強調テキスト強調テキスト強調テキスト強調テキスト強調テキスト強調テキスト強調テキスト強調テキスト強調テキスト強調テキスト強調テキスト強調テキスト強調テキスト強調テキスト強調テキスト<a href="#">リンクテキスト</a>強調テキスト強調テキスト強調テキスト強調テキスト強調テキスト強調テキスト</p>
+    <p class="section_text section_text-em">更に強調したテキスト更に強調したテキスト更に強調したテキスト更に強調したテキスト更に強調したテキスト更に強調したテキスト更に強調したテキスト更に強調したテキスト更に強調したテキスト更に強調したテキスト</p>
+    <img src="/assets/img/travel/img-map.png" alt="画像" class="section_img">
+    <p class="section_btnArea"><a href="#" class="section_btn">ボタン</a></p>
+    <ul class="section_note">
+      <li class="section_note_item">リストリストリストリスト</li>
+      <li class="section_note_item"><a href="">リストリストリストリスト</a></li>
+      <li class="section_note_item">リストリストリストリスト</li>
+    </ul>
+  </div>
+  <div class="section">
+    <h2 class="section_title"><span class="section_title_inner">テーブル</span></h2>
+    <p class="section_text section_text-strong">・SP時にリストになる</p>
+    <table class="section_table">
+      <thead>
+        <tr>
+          <th>PC用の見出し1（SPには表示されない）</th>
+          <th>PC用の見出し2</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>テキスト</td>
+          <td data-title="SP用の見出し2">テキスト</td>
+        </tr>
+        <tr>
+          <td>テキスト</td>
+          <td data-title="SP用の見出し2">テキスト</td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="section_text section_text-strong">・横幅にフィット</p>
+    <table class="section_table2 section_table2-alignL">
+      <tr>
+        <th>金額</th>
+        <td>¥250,000</td>
+      </tr>
+      <tr>
+        <th>上限枠数</th>
+        <td>11枠(将軍プラン6枠 + 別売り5枠)</td>
+      </tr>
+      <tr>
+        <th>招待枠</th>
+        <td>2名様</td>
+      </tr>
+    </table>
+    <p class="section_text section_text-strong">・横幅にフィットせずはみ出した部分をスクロール</p>
+    <div class="section_scroll">
+      <table class="section_table2 section_table2-wide">
+        <thead>
+          <tr>
+            <th colspan="2"></th>
+            <th><p class="color color_shogun">
+              将軍<span>ショーグン</span>
+            </p></th>
+            <th><p class="color color_tairou">
+              大老<span>タイロウ</span>
+            </p></th>
+            <th><p class="color color_daimyo">
+              大名<span>ダイミョー</span>
+            </p></th>
+            <th><p class="color color_samurai">
+              侍<span>サムライ</span>
+            </p></th>
+            <th><p class="color color_ninja">
+              忍者<span>ニンジャ</span>
+            </p></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th colspan="2">金額</th>
+            <td>¥1,500,000</td>
+            <td>¥750,000</td>
+            <td>¥300,000</td>
+            <td>¥100,000</td>
+            <td>¥25,000</td>
+          </tr>
+          <tr>
+            <th colspan="2">招待枠 (6/28,29)</th>
+            <td>12名様</td>
+            <td>8名様</td>
+            <td>6名様</td>
+            <td>2名様</td>
+            <td>1名様</td>
+          </tr>
+          <tr>
+            <th colspan="2">貴社ノベルティ配布(6/27,28,29)</th>
+            <td>3点まで</td>
+            <td>3点まで</td>
+            <td>2点まで</td>
+            <td>1点まで</td>
+            <td>─</td>
+          </tr>
+          <tr>
+            <th rowspan="5">ロゴ・社名掲載</th>
+            <th>Web</th>
+            <td>◎<br>first view</td>
+            <td>○</td>
+            <td>○</td>
+            <td>○</td>
+            <td>○</td>
+          </tr>
+          <tr>
+            <th>スピーカーバックパネル<br>(6/28,29)</th>
+            <td>A会場</td>
+            <td>B会場</td>
+            <td>─</td>
+            <td>─</td>
+            <td>─</td>
+          </tr>
+          <tr>
+            <th>会場内装飾品<br>(6/28,29)</th>
+            <td>○</td>
+            <td>─</td>
+            <td>─</td>
+            <td>─</td>
+            <td>─</td>
+          </tr>
+          <tr>
+            <th>弊社ノベルティ<br>(6/27,28,29)</th>
+            <td>○</td>
+            <td>○</td>
+            <td>○</td>
+            <td>─</td>
+            <td>─</td>
+          </tr>
+          <tr>
+            <th>Tシャツ<br>(6/28,29)</th>
+            <td>○</td>
+            <td>─</td>
+            <td>─</td>
+            <td>─</td>
+            <td>─</td>
+          </tr>
+          <tr>
+            <th colspan="2">広告用スライド(6/27,28,29) <span class="color color_new">NEW!!</span></th>
+            <td>1ページ</td>
+            <td>1/2ページ</td>
+            <td>1/4ページ</td>
+            <td>─</td>
+            <td>─</td>
+          </tr>
+          <tr>
+            <th colspan="2">常設ブース (6/28,29)</th>
+            <td>○</td>
+            <td>─</td>
+            <td>─</td>
+            <td>─</td>
+            <td>─</td>
+          </tr>
+          <tr>
+            <th colspan="2">Web情報掲載 ※2</th>
+            <td>○</td>
+            <td>○</td>
+            <td>○</td>
+            <td>○</td>
+            <td>─</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+  <% include templates/_footer %>
+</body>
+
+</html>

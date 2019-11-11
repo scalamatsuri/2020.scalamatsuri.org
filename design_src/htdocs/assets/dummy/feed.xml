@@ -1,0 +1,2541 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+  <channel>
+    <title>ScalaMatsuri運営ブログ</title>
+    <link>http://blog.scalamatsuri.org/</link>
+    <description>アジア最大級のScalaカンファレンス「ScalaMatsuri」の運営ブログです。このブログは株式会社はてな様のご協力でお送りしています。</description>
+    <lastBuildDate>Fri, 05 Oct 2018 16:57:54 +0900</lastBuildDate>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <generator>Hatena::Blog</generator>
+
+
+
+        <item>
+          <title>「ScalaMatsuri 2019」開催決定とセッション募集開始のお知らせ</title>
+          <link>http://blog.scalamatsuri.org/entry/2018/10/05/165754</link>          <description>&lt;p&gt;&lt;span itemscope itemtype=&quot;http://schema.org/Photograph&quot;&gt;&lt;img src=&quot;https://cdn-ak.f.st-hatena.com/images/fotolife/o/omiend/20181005/20181005152327.png&quot; alt=&quot;f:id:omiend:20181005152327p:plain&quot; title=&quot;f:id:omiend:20181005152327p:plain&quot; class=&quot;hatena-fotolife&quot; itemprop=&quot;image&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;こんにちは。 &lt;a href=&quot;https://twitter.com/omiend&quot;&gt;@omiend&lt;/a&gt; です。ScalaMatsuriでは主に、PR領域の担当させていただいております。&lt;/p&gt;
+
+&lt;p&gt;さて、「ScalaMatsuri 2019」の開催決定と、セッション募集開始のお知らせです！&lt;/p&gt;
+
+&lt;h2&gt;まとめ&lt;/h2&gt;
+
+&lt;p&gt;TL;DR&lt;/p&gt;
+
+&lt;h3&gt;「ScalaMatsuri 2019」開催決定&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://2019.scalamatsuri.org/&quot;&gt;https://2019.scalamatsuri.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;場所：&lt;a href=&quot;https://www.jasso.go.jp/ryugaku/kyoten/tiec/&quot;&gt;東京国際交流館&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;開催日時：2019年6/27(木) - 6/29(土)
+
+&lt;ul&gt;
+&lt;li&gt;※開催日に関しては変更の可能性あり。公式サイトにてアナウンスいたします。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h3&gt;セッション募集開始&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;応募フォーム：&lt;a href=&quot;https://2019.scalamatsuri.org/ja/cfp/&quot;&gt;https://2019.scalamatsuri.org/ja/cfp/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;締切：2019年 2/2(土) 23:59 JST
+
+&lt;ul&gt;
+&lt;li&gt;応募に際して・旅費助成金・行動規範についてのお願いも上記応募フォームに記載してございますので、併せてご確認ください。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;hr /&gt;
+
+&lt;h2&gt;「ScalaMatsuri 2019」開催決定！&lt;/h2&gt;
+
+&lt;p&gt;今年もこのご案内ができること、とてもうれしく思います！&lt;/p&gt;
+
+&lt;p&gt;すでにTwitterやfacebookにてお知らせしておりますが、「ScalaMatsuri 2019」の開催が決定しました！&lt;/p&gt;
+
+&lt;p&gt;今回は「2019年6/27(木) - 6/29(土)」の平日を含む３日間で、場所は例年通りお台場にあります「&lt;a href=&quot;https://www.jasso.go.jp/ryugaku/kyoten/tiec/&quot;&gt;東京国際交流館&lt;/a&gt;」を予定しております。&lt;/p&gt;
+
+&lt;p&gt;日程につきましては6月開催の海外カンファレンスと重ならないよう確認中となっており、場合によっては若干の日程移動の可能性もございます。ご了承ください。&lt;/p&gt;
+
+&lt;h2&gt;なぜ６月の平日を含む開催日程なのか？&lt;/h2&gt;
+
+&lt;p&gt;毎年２〜４月の開催でしたが、なにかと忙しい時期ですので、業務都合で参加出来ない人もいるのではないかという考えです。&lt;/p&gt;
+
+&lt;p&gt;&lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;HASH(0xdcaca68)&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;今回 &lt;a href=&quot;https://twitter.com/hashtag/ScalaMatsuri?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#ScalaMatsuri&lt;/a&gt; を6月開催にしたのは、年度末や初めは皆が何かと忙しいのと、運営の内部体制を整えるためのリードタイムを確保したかった、などの理由があります。&lt;br&gt;&lt;br&gt;時期変更に伴い6月開催の海外カンファレンスと重ならないよう連絡を取っていますが、万が一の場合は若干の日程移動がありえます。&lt;/p&gt;&amp;mdash; Taisuke OE (@OE_uia) &lt;a href=&quot;https://twitter.com/OE_uia/status/1047811700391440384?ref_src=twsrc%5Etfw&quot;&gt;October 4, 2018&lt;/a&gt;&lt;/blockquote&gt;&lt;script async src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;また、平日を含む開催日程としましたのは、土日にご参加いただき翌日お仕事へ・・・という流れですと、正直ツライ方もいるのではないか？ということ。&lt;/p&gt;
+
+&lt;p&gt;さらに、最近「ScalaMatsuriは業務で参加している」というお声を頂くようになりまして、平日を含む開催日程とさせていただいております。&lt;/p&gt;
+
+&lt;p&gt;やや実験的ではあるのものの、みなさんが参加しやすく、ゆとりを持って集中できる素敵な祭にしていきたいと考えております。&lt;/p&gt;
+
+&lt;h2&gt;セッションの募集も開始！&lt;/h2&gt;
+
+&lt;p&gt;開催決定のお知らせと併せて、セッションの募集も開始します！&lt;/p&gt;
+
+&lt;p&gt;是非、日本最大級のカンファレンス「Scala Matsuri 2019」にて、あなたのアツイお話をお聞かせください！&lt;/p&gt;
+
+&lt;p&gt;Scalaに限らず、「こういうことをやっている」「プロジェクトで◯◯が困っていたけど、こういう解決方法があったよ」といったお話も歓迎です！&lt;/p&gt;
+
+&lt;p&gt;みなさんのご応募、お待ちしております！&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://2019.scalamatsuri.org/ja/cfp/&quot;&gt;セッション応募はこちら - https://2019.scalamatsuri.org/ja/cfp/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;締切：2019年 2/2(土) 23:59 JST&lt;/p&gt;
+
+&lt;p&gt;応募に際して・旅費助成金・行動規範についてのお願いも上記応募フォームに記載してございますので、併せてご確認ください。&lt;/p&gt;
+
+&lt;h2&gt;さいごに&lt;/h2&gt;
+
+&lt;p&gt;前回、「Scala Conference in Japan 2013」から数えると５回目となる「ScalaMatsuri 2018」でしたが、スピーカーさま、スポンサー企業さま、そして何よりご参加頂いたみなさまからの多大なるサポートを受け、大盛況のうちに終わることができました！&lt;/p&gt;
+
+&lt;p&gt;「ScalaMatsuri 2019」では、より一層みなさまに楽しんでいただけるようなカンファレンスにするべく、スタッフ一同準備を進めております！&lt;/p&gt;
+
+&lt;p&gt;どうぞお楽しみに！&lt;/p&gt;
+
+&lt;p&gt;ScalaMatsuri スタッフ
+&lt;a href=&quot;https://twitter.com/omiend&quot;&gt;@omiend&lt;/a&gt;&lt;/p&gt;
+</description>          <pubDate>Fri, 05 Oct 2018 16:57:54 +0900</pubDate>
+          <guid isPermalink="false">hatenablog://entry/10257846132646132448</guid>
+
+          <enclosure url="https://cdn-ak.f.st-hatena.com/images/fotolife/o/omiend/20181005/20181005152327.png" type="image/png" length="0" />
+        </item>
+
+
+
+
+        <item>
+          <title>OSSハッカソンをスピンオフして2018年5月27日(日曜)に開催します!</title>
+          <link>http://blog.scalamatsuri.org/entry/2018/05/20/140905</link>          <description>&lt;h2&gt;お知らせ&lt;/h2&gt;
+
+&lt;p&gt;TL;DR&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ScalaMatsuriからOSSハッカソンがスピンオフ！第一回を2018年5月27日(日曜)に開催！&lt;/li&gt;
+&lt;li&gt;ハッカソンに参加できない方も&lt;a href=&quot;https://osshackathon.slack.com/shared_invite/enQtMzYwMTIxODQ1Mzk1LWY0Mjk4YWI3MDY4NTQ4NTI3MGQ2M2I3ZTgzY2QzOGRjOTg5YTFlYWU1MGU3MTRmODFkM2IyZGQxNGZlNzlkOTM&quot;&gt;Slackに参加&lt;/a&gt;してください&lt;/li&gt;
+&lt;li&gt;メンテナまたはチュータの応募も大歓迎です!
+
+&lt;ul&gt;
+&lt;li&gt;現在&lt;a href=&quot;https://github.com/scalikejdbc/scalikejdbc&quot;&gt;ScalikeJDBC&lt;/a&gt;/&lt;a href=&quot;https://github.com/skinny-framework/skinny-framework&quot;&gt;SkinnyFramework&lt;/a&gt;メンテナの&lt;a href=&quot;https://twitter.com/seratch_ja&quot;&gt;瀬良 和弘&lt;/a&gt;さんがリモートで参加してくださる予定です！&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;&lt;b&gt;持ち物: ハッカソンなので必ずノートPCを持ってきてください&lt;/b&gt;。電源、WiFiは会場にあります。
+&lt;b&gt;昼食・夕食は提供されません。&lt;/b&gt;&lt;/p&gt;
+
+&lt;h2&gt;OSSハッカソンについて&lt;/h2&gt;
+
+&lt;p&gt;OSSハッカソンとは、みんなで集まって各々好きなOSSに対してコントリビュートする(GitHub上のプロジェクトであればプルリクエストを送る)ことを目指すハッカソンです。&lt;/p&gt;
+
+&lt;p&gt;参考までに、過去にScalaMatsuriでは&lt;a href=&quot;http://blog.scalamatsuri.org/entry/2018/02/05/130033&quot;&gt;ScalaMatsuri 2018 OSS Hackathon&lt;/a&gt;と題するイベントを3月16日金曜日に開催いたしました。当日は5人のOSSメンテナの方々からのヘルプのもと、約25名の一般参加の方々が計12ものプルリクエストを提出されました！&lt;/p&gt;
+
+&lt;p&gt;&lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;ja&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;&lt;a href=&quot;https://twitter.com/hashtag/ScalaMatsuri?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#ScalaMatsuri&lt;/a&gt; OSSハッカソンは、大きな成果とともに閉幕しました。たくさんのプルリクとエンジニア同士の交流が生まれたようです。少し感動してしまいました &lt;a href=&quot;https://t.co/Fx2E31rTf5&quot;&gt;pic.twitter.com/Fx2E31rTf5&lt;/a&gt;&lt;/p&gt;&amp;mdash; scala_jp (@scala_jp) &lt;a href=&quot;https://twitter.com/scala_jp/status/974576709579108353?ref_src=twsrc%5Etfw&quot;&gt;2018年3月16日&lt;/a&gt;&lt;/blockquote&gt;&lt;script async src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;OSS活動を年一回ではなく継続的に盛り上げていきたいという思いから、 ScalaMatsuriスタッフの有志が発起人となり、新たな「OSSハッカソン」コミュニティを作りました。そして、新コミュニティのもとでの第一回OSSハッカソンを2018年5月27日(日曜)に開催します！&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe src=&quot;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fosshackathon.connpass.com%2Fevent%2F87631%2F&quot; title=&quot;OSSハッカソン第1回 in オプトテクノロジーズ (2018/05/27 14:00〜)&quot; class=&quot;embed-card embed-webcard&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;&quot;&gt;&lt;/iframe&gt;&lt;cite class=&quot;hatena-citation&quot;&gt;&lt;a href=&quot;https://osshackathon.connpass.com/event/87631/&quot;&gt;osshackathon.connpass.com&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+
+&lt;p&gt;Scalaに限らず、どんなOSSプロジェクトを希望する方でもご参加いただけます。 チュータやOSSメンテナが参加しないプロジェクトを希望する方でも、ハッカソンに参加していただくことはできます。その場合はヘルプの提供は難しいですが、質問に依っては他の参加者の中に分かる人がいるかもしれません。事前に下記のSlackに登録して、どの程度ハッカソンでヘルプが得られそうか確かめてみるのも一つの方法です。&lt;/p&gt;
+
+&lt;p&gt;過去のOSSハッカソン参加者の声の中で、「最初のプルリクエストのハードルが高い、近くにコントリビュータがいないと何をしていいかわからない」という声がありました。OSSハッカソンではそういった人々のOSSコントリビューションのハードルを下げ、また継続的にOSSコントリビュートする支えになるコミュニティを作っていきたいと思います。&lt;/p&gt;
+
+&lt;h2&gt;OSSメンテナの参加について&lt;/h2&gt;
+
+&lt;p&gt;今回&lt;a href=&quot;https://github.com/scalikejdbc/scalikejdbc&quot;&gt;ScalikeJDBC&lt;/a&gt;/&lt;a href=&quot;https://github.com/skinny-framework/skinny-framework&quot;&gt;SkinnyFramework&lt;/a&gt;メンテナの&lt;a href=&quot;https://twitter.com/seratch_ja&quot;&gt;瀬良 和弘&lt;/a&gt;さんが、リモート参加してくださることになりました。&lt;/p&gt;
+
+&lt;p&gt;ScalikeJDBC, SkinnyFrameworkのコントリビュータになりたい方、今回のハッカソンは絶好のチャンスです!!
+ちなみに、ScalaMatsuriでのOSSハッカソンでは、およそ25人の参加者が対象OSSのメンテナごとに5つのグループに分かれたのですが、唯一瀬良さんのグループだけ全員がプルリクエストを上げることが出来ました。&lt;/p&gt;
+
+&lt;p&gt;&lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;ja&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;4th pull request to me at &lt;a href=&quot;https://twitter.com/hashtag/ScalaMatsuri?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#ScalaMatsuri&lt;/a&gt; has been merged. Thanks .&lt;a href=&quot;https://twitter.com/aa7th?ref_src=twsrc%5Etfw&quot;&gt;@aa7th&lt;/a&gt; again! &lt;a href=&quot;https://t.co/CsLjb8xw0R&quot;&gt;https://t.co/CsLjb8xw0R&lt;/a&gt;&lt;/p&gt;&amp;mdash; Kazuhiro Sera (@seratch) &lt;a href=&quot;https://twitter.com/seratch/status/974570530131996677?ref_src=twsrc%5Etfw&quot;&gt;2018年3月16日&lt;/a&gt;&lt;/blockquote&gt;&lt;script async src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;さて、その他OSSプロジェクトのメンテナの方も参加は大歓迎ですのでぜひとも応募してください！
+またOSSメンテナでなくとも、得意なOSSプロジェクトがあれば是非チュータ枠として他の参加者の方をヘルプしていただけると、とても有り難いです！いずれの場合も&lt;a href=&quot;https://osshackathon.connpass.com/event/87631/&quot;&gt;Connpassからご応募いただけます&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;OSSメンテナ・チュータの方は、当日他の参加者から質問がない間は好きな作業をしていただいて勿論構いません。&lt;/p&gt;
+
+&lt;h2&gt;Slackの設置&lt;/h2&gt;
+
+&lt;p&gt;今回OSSハッカソンのためのSlackを設置しました。&lt;a href=&quot;https://osshackathon.slack.com/shared_invite/enQtMzYwMTIxODQ1Mzk1LWY0Mjk4YWI3MDY4NTQ4NTI3MGQ2M2I3ZTgzY2QzOGRjOTg5YTFlYWU1MGU3MTRmODFkM2IyZGQxNGZlNzlkOTM&quot;&gt;こちらのリンクから登録してください&lt;/a&gt;。こちらは当日リモート参加の方々とやり取りするためにも使いますが、当日以外もどんどん活用していきたいと考えています。5月27のハッカソンに参加できる方も参加できない方も、&lt;b&gt;OSSコントリビューションに興味がある方ならどなたでも、いつでもSlackへの参加を歓迎します。&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;例えば、時間に余裕のある方は事前にSlackでハッカソン当日に取り組みやすいイシューを相談しても良いでしょう。あるいはイシューを解決するための技術的な質問、OSSコントリビューションを継続するコツ、その他相談でも雑談でも、ぜひSlackとコミュニティを活用して質問してください。ハッカソン当日か開催前後かを問わず活発な議論をしていただけるとうれしいです。&lt;/p&gt;
+
+&lt;h2&gt;ハッカソン当日の流れ&lt;/h2&gt;
+
+&lt;h3&gt;自己紹介・アイスブレーク&lt;/h3&gt;
+
+&lt;p&gt;せっかく他のエンジニアの方々と知り合う良い機会だと思いますので、簡単な自己紹介をしていただければとおもいます。
+また、皆様のConnpassでの登録名・画像をもとに名札を作る予定です。私と同じように名前を覚えるのが苦手で「この人さっき名前教えてもらったけど誰だっけ？」問題を避けるには最適だと思います。
+名札を希望されない方はConnpass登録時のアンケートに名札に関する質問がありますので、不要とお伝え下さい。&lt;/p&gt;
+
+&lt;h3&gt;ハッカソン開始&lt;/h3&gt;
+
+&lt;p&gt;自己紹介が終わったら、みんなでわいわいしながら希望のOSSに対するコントリビュートを目指しましょう！
+メンテナやチュータがいるプロジェクトの場合は彼ら/彼女らの助けを得ながら、またそうでない場合も他の参加者がヘルプできる可能性もあるかもしれませんので、遠慮せずに質問をしてみてください。メンテナやチュータの皆様は他の方のヘルプをしてくださると助かります。&lt;/p&gt;
+
+&lt;p&gt;それから、必ずしも当日中にプルリクエストを出す必要はありません。後日プルリクエストを出すためのきっかけを掴んでいただければ幸いです。&lt;/p&gt;
+
+&lt;p&gt;それでは、ハッカソンとコミュニティが皆様のOSSコントリビュートの後押しになるよう、私達も皆様と一緒に頑張ってまいります！&lt;/p&gt;
+
+&lt;p&gt;ScalaMatsuri スタッフ &amp;amp; OSS ハッカソン 管理人&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/richardimaokajp&quot;&gt;リチャード　伊真岡&lt;/a&gt;&lt;/p&gt;
+</description>          <pubDate>Sun, 20 May 2018 14:09:05 +0900</pubDate>
+          <guid isPermalink="false">hatenablog://entry/17391345971633614475</guid>
+
+          <enclosure url="https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png" type="image/png" length="0" />
+        </item>
+
+
+
+
+        <item>
+          <title>ScalaMatsuri 2018トレーニングDAYにおけるScalaハンズオンについての調査報告</title>
+          <link>http://blog.scalamatsuri.org/entry/2018/04/17/141237</link>          <description>&lt;p&gt;ScalaMatsuri座長の&lt;a href=&quot;https://twitter.com/OE_uia&quot;&gt;麻植&lt;/a&gt;です。お騒がせしていてすみません。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://kyon-mm.hatenablog.com/entry/2018/04/13/074023&quot;&gt;きょんさんのブログ記事&lt;/a&gt;に端を発しまして、Twitter TL上で
+ScalaMatsuri 2018トレーニングDAYにおけるScalaハンズオンについて２つの疑義が持ち上がりました。
+それを受けて、ScalaMatsuriではどのように問題を捉えているか、及び今の改善について、調査と議論をした結果をご報告します。&lt;/p&gt;
+
+&lt;h3&gt;まとめ&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;第三者の証言から、ハラスメントには該当しないと判断しました。&lt;/li&gt;
+&lt;li&gt;ハンズオンの進め方については、参加者のフォローと告知について大きく改善の余地がありました。&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;詳細は以下のとおりです。&lt;/p&gt;
+
+&lt;h4&gt;1. 初心者に対するハラスメントの有無について&lt;/h4&gt;
+
+&lt;p&gt;ブログ中で言及されている以下の文言です。&lt;/p&gt;
+
+&lt;p&gt;「それでは進捗確認をしましょうか。〜〜まで進んだひとっていますか？おもったより少ないですね。あれーどこが難しいんですかね。〜〜かなー？〜〜って初心者わかってくれないんだよなー。」&lt;/p&gt;
+
+&lt;p&gt;こちらの文言は、&lt;b&gt;言い方によっては初心者に対するハラスメントの恐れがある&lt;/b&gt;、という指摘がありました。
+そこで調査として、当日参加されていたスタッフ外の第三者の証言を複数集めました。&lt;/p&gt;
+
+&lt;p&gt;結果として「初心者がわかってくれないこと」に対する何らかの発言はあったとは思われるものの、
+明らかに見下している、ハラスメントといえるような口調で言っていたという証言は他にはなく、むしろそのニュアンスを否定する証言が有りました。
+結果として、ScalaMatsuri準備委員会としては「&lt;b&gt;ハラスメントとまでは認定しないが、初心者向けのイベントである以上特に配慮が必要である話題であり、その意味において配慮に欠けた発言であった&lt;/b&gt;」と判断いたしました。&lt;/p&gt;
+
+&lt;p&gt;この点、件のハンズオンのスピーカーに、今後同じような機会があれば特に気をつけてくださるようお伝えしました。
+またScalaMatsuri準備委員会としても、イベントの趣旨の上で特に配慮すべき点の意識合わせを、今後スピーカーと行うようにしたいと考えています。&lt;/p&gt;
+
+&lt;h4&gt;2.  ハンズオンの進め方について&lt;/h4&gt;
+
+&lt;p&gt;調査の結果、件のブログに記載されている通り、以下の問題が発生していたことを確認しました。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ハンズオンの実施形式(&lt;a href=&quot;https://github.com/dwango/scala_text&quot;&gt;scala_text&lt;/a&gt;を使用する、ドワンゴ社の説明が入る)が分からず、参加者を困惑させることになってしまった。&lt;/li&gt;
+&lt;li&gt;参加者のフォロー体制に欠けている状態で実施してしまい、結果参加者を放置することになってしまった。&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;この問題が発生した直接の理由は、以下の通りです。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;発表概要がWebサイトに掲載されておらず、実施形式が一切周知されていなかった&lt;/li&gt;
+&lt;li&gt;チューターが不在であった&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;では何故こうなったのかについてScalaMatsuri準備委員会内で調査と議論を重ねました。&lt;/p&gt;
+
+&lt;p&gt;結論として、最も大きな原因は「ドワンゴ社のScala研修を切り出す形でScalaハンズオンしていただける人はいないか」という打診をする際に、実施形式のすり合わせができていなかったことだと考えています。
+もっといえば、&lt;b&gt;ハンズオンとScala研修は似ているようで実施形式が全く異なるものである、ゆえにすり合わせを綿密に行わなければならない、という認識がなかったことこそが痛恨の失敗&lt;/b&gt;でした。&lt;/p&gt;
+
+&lt;p&gt;具体的には、以下のような状況と認識でした。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;開催１月ほど前のチケット売れ行きを基に参加人数予測をして講演者一人で賄えるという判断になりましたが、
+  結果としては参加人数予測を大きく見誤り、最終的にはドワンゴ社が実際に行っているScala研修の倍近い参加者でした。&lt;/li&gt;
+&lt;li&gt;前述の通り見誤ったことも有り、チューターがいませんでした。本来のScala研修であれば、数人のチューターを置いていました。&lt;/li&gt;
+&lt;li&gt;本来のScala研修で行っていた、理解度チェックのための参加者レポート提出を実施できない前提で、難易度設定をする必要がありましたが出来ていませんでした。&lt;/li&gt;
+&lt;li&gt;開催直前まで実施形態が固まらず概要を作成できる状態になっていませんでしたが、実施形態の事前周知が重要であるという認識がありませんでした。&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;その一方で、&lt;b&gt;研修と違い、ハンズオン参加者は「お金と時間を使って自由参加している」ため、事前案内や期待値のすり合わせがより重要であった&lt;/b&gt;ように考えております。&lt;/p&gt;
+
+&lt;p&gt;今後の反省としては、まず第一に今回の対象となる参加者・時間を基にScala入門に適していると思われるハンズオンを考えるべきでした。
+今回トレーニングDAYの初めての開催ということもあり、実績のあるドワンゴ社のScala研修を基に実施する方向で、安易に最初から調整に入ってしまったことが問題でした。&lt;/p&gt;
+
+&lt;p&gt;研修を基にする場合には特に、その差について十分理解し、すり合わせるべきと思います。もっといえば、その研修を実施している人にハンズオン形式で実施してみていただく、など、言語化できていない差分をチェックするためのプロセスが事前準備には必要だと感じています。
+そもそも作られた目的が違うものを、機能が似ているからと言って安易に流用することで失敗してしまった、という技術選択のアンチパターンにも通ずる状態に陥ってしまった反省があります。&lt;/p&gt;
+
+&lt;p&gt;第二の反省は、ハンズオンの内容と対象者を早い段階で告知するべきでした。前述の失敗は、この２つ目の失敗と相まってより深刻度が高くなってしまいました。&lt;/p&gt;
+
+&lt;p&gt;もし次回があるとするならば、必ずチューター数名を確保し、受講者へのフォロー体制を拡充した上で、実施形式等の事前告知をするようにいたします。&lt;/p&gt;
+
+&lt;p&gt;今回はScalaMatsuri 2018の初めてのトレーニングDAYとして考えても、手痛い失敗となってしまいました。
+関係者の皆様、及びご参加され不快な思いをされた皆様、申し訳ありません。次回以降、改善してまいります。また、フィードバックや調査へのご協力をくださった皆様、ありがとうございます。&lt;/p&gt;
+
+&lt;p&gt;この件について更なるご意見、ご感想のある方は、ぜひ info[at]scalamatsuri.org までお願いします。ご返信はできないかもしれませんが、一つ一つ確認いたします。&lt;/p&gt;
+</description>          <pubDate>Tue, 17 Apr 2018 14:12:37 +0900</pubDate>
+          <guid isPermalink="false">hatenablog://entry/17391345971635489306</guid>
+
+          <enclosure url="https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png" type="image/png" length="0" />
+        </item>
+
+
+
+
+        <item>
+          <title>ScalaMatsuri 2018 OSS ハッカソンの参加者募集中、OSSコントリビュータになろう！</title>
+          <link>http://blog.scalamatsuri.org/entry/2018/02/05/130033</link>          <description>&lt;p&gt;表題の通りハッカソンの参加者を募集しています。ぜひご応募ください！&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;持ち物: ハッカソンなので必ずノートPCを持ってきてください。電源は会場にあります。&lt;/b&gt;
+WiFiは、WiFi奉行スポンサーであるサイバーエージェントad tech studio様提供のもと会場で用意しております。&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe src=&quot;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fjsa.connpass.com%2Fevent%2F78748%2F&quot; title=&quot;ScalaMatsuri 2018 OSS ハッカソン (2018/03/16 14:00〜)&quot; class=&quot;embed-card embed-webcard&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;&quot;&gt;&lt;/iframe&gt;&lt;cite class=&quot;hatena-citation&quot;&gt;&lt;a href=&quot;https://jsa.connpass.com/event/78748/&quot;&gt;jsa.connpass.com&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+
+&lt;p&gt;ScalaMatsuri2018では3月16日金曜日にScalaMatsuri 2018と同会場にてOSSハッカソンを同時開催します。
+あなたが&lt;b&gt;有名OSSのコントリビュータとなる絶好のチャンス&lt;/b&gt;です！このハッカソンでは複数の有名OSSプロジェクトのメンテナを会場にお招きし、最大30名の一般参加者の方にOSSメンテナのサポートのもとコントリビュート(Pull Requestを揚げてマージ)を目指してもらいます。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;参加希望は第三希望まで入力していただきますが、当日参加するプロジェクトはひとつです&lt;/li&gt;
+&lt;li&gt;ScalaMatsuri準備委員会で各プロジェクトごとの参加人数調整の後、参加していただける方には指定のプロジェクト名とともにメールで連絡を致します&lt;/li&gt;
+&lt;li&gt;各プロジェクトの応募人数が多い場合には、人数調整の結果参加いただけないこともありますのでご了承ください&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;&lt;iframe src=&quot;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fdocs.google.com%2Fforms%2Fd%2Fe%2F1FAIpQLSfgbnS8PlTvfkSXngnl3qhTJmDXRHVu8Sk4v27wMplcoD2Deg%2Fviewform%3Fusp%3Dsf_link&quot; title=&quot;ScalaMatsuri 2018 OSS ハッカソン参加応募フォーム　(2月28日応募締め切り)&quot; class=&quot;embed-card embed-webcard&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;&quot;&gt;&lt;/iframe&gt;&lt;cite class=&quot;hatena-citation&quot;&gt;&lt;a href=&quot;https://docs.google.com/forms/d/e/1FAIpQLSfgbnS8PlTvfkSXngnl3qhTJmDXRHVu8Sk4v27wMplcoD2Deg/viewform?usp=sf_link&quot;&gt;docs.google.com&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+
+&lt;p&gt;ハッカソンの様子がどのようなものか知りたい、という方は前回開催の様子をこちらからご覧ください。&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe src=&quot;https://hatenablog-parts.com/embed?url=http%3A%2F%2Fblog.scalamatsuri.org%2Fentry%2F2017%2F12%2F04%2F102031&quot; title=&quot;「AkkaにPull Requestをあげようハッカソン」を開催しました - ScalaMatsuri運営ブログ&quot; class=&quot;embed-card embed-blogcard&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;display: block; width: 100%; height: 190px; max-width: 500px; margin: 10px 0px;&quot;&gt;&lt;/iframe&gt;&lt;cite class=&quot;hatena-citation&quot;&gt;&lt;a href=&quot;http://blog.scalamatsuri.org/entry/2017/12/04/102031&quot;&gt;blog.scalamatsuri.org&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+
+&lt;p&gt;私達ScalaMatsuriスタッフは日本国内からもっとたくさんのScala OSSコントリビュータが生まれてほしいという願っています。そのきっかけを作れないかと考えてきたところ、海外で行われている類似のイベントにヒントを得て、今回のハッカソンを開催することになりました。&lt;/p&gt;
+
+&lt;p&gt;さて今回のOSSハッカソン、総勢5名の非常に豪華なOSSメンテナ陣が参加をしてくれることになりました。それでは簡単ですが以下にメンテナの方々の紹介を載せていますので、御覧ください。&lt;/p&gt;
+
+&lt;h3&gt;Daniela Sfregola - twitter4s&lt;/h3&gt;
+
+&lt;p&gt;&lt;iframe src=&quot;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fgithub.com%2FDanielaSfregola&quot; title=&quot;DanielaSfregola (Daniela Sfregola)&quot; class=&quot;embed-card embed-webcard&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;&quot;&gt;&lt;/iframe&gt;&lt;cite class=&quot;hatena-citation&quot;&gt;&lt;a href=&quot;https://github.com/DanielaSfregola&quot;&gt;github.com&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+
+&lt;p&gt;PayTouchでのTech Leadであり、Manning社でGet Programmiong with Scalaという本を執筆中です。OSS活動としては&lt;a href=&quot;https://github.com/DanielaSfregola/twitter4s&quot;&gt;twitter4s&lt;/a&gt;ライブラリの作成者であり、(コレは私が個人的にとても強い興味を持った領域なのですが)ランダムなデータを使ったScalaCheckでのテストを行う&lt;a href=&quot;https://github.com/DanielaSfregola/random-data-generator&quot;&gt;ライブラリ&lt;/a&gt;の作成も行っています。圏論への造詣も深く、Scala Days、Scala By the bayを始めとした各種カンファレンスで圏論入門者向けのトーク、あるいは上記で述べたScalaCheck用ライブラリに関するトークを始め数多くの登壇経験があります。今回のハッカソンでは&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/DanielaSfregola/twitter4s&quot;&gt;twitter4s&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/DanielaSfregola/random-data-generator&quot;&gt;random-data-generator&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;のメンテナとしてお招きしています。みなさん、twitter大好きですよね！Scalaからtwitterを便利に使えるようにコントリビュートしましょう。
+random-data-generatorも皆さんのテストを楽しくしてくれる最高にイケてるライブラリですよ！&lt;/p&gt;
+
+&lt;h3&gt;Martin Thompson - aeron, agrona, simple-binary-encoding&lt;/h3&gt;
+
+&lt;p&gt;&lt;iframe src=&quot;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fgithub.com%2Fmjpt777&quot; title=&quot;mjpt777 (Martin Thompson)&quot; class=&quot;embed-card embed-webcard&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;&quot;&gt;&lt;/iframe&gt;&lt;cite class=&quot;hatena-citation&quot;&gt;&lt;a href=&quot;https://github.com/mjpt777&quot;&gt;github.com&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+
+&lt;p&gt;Java界の大物がハッカソンに参加してくれることになりました、ハイパフォーマンスなJavaコードの大家です。Martinさんは&lt;a href=&quot;https://lmax-exchange.github.io/disruptor/&quot;&gt;LMAX Disrupter&lt;/a&gt;の作成者であり、&lt;a href=&quot;https://mechanical-sympathy.blogspot.jp/&quot;&gt;Mechanical Sympathy&lt;/a&gt;というコンピュータのハード面を意識したプログラミング手法を扱った技術ブログの執筆者であり、また&lt;a href=&quot;https://github.com/real-logic/aeron&quot;&gt;aeron&lt;/a&gt;の作成者であり、正直経歴がすごすぎてあげていったらキリがありません。より詳しい経歴は&lt;a href=&quot;https://www.real-logic.co.uk/about.html&quot;&gt;Real Logic - About&lt;/a&gt;から御覧ください。&lt;/p&gt;
+
+&lt;p&gt;今回は以下の3つのプロジェクトのメンテナとして参加していただきます。Martinさんから直接指導を受けられる機会なんてホントにないですよ！！&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/real-logic/aeron&quot;&gt;aeron&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/real-logic/agrona&quot;&gt;agrona&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/real-logic/simple-binary-encoding&quot;&gt;Simple Binary Encoding, SBE&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h3&gt;Konrad Malawski - akka, akka-http, alpakka&lt;/h3&gt;
+
+&lt;p&gt;&lt;iframe src=&quot;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fgithub.com%2Fktoso&quot; title=&quot;ktoso (Konrad `ktoso` Malawski)&quot; class=&quot;embed-card embed-webcard&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;&quot;&gt;&lt;/iframe&gt;&lt;cite class=&quot;hatena-citation&quot;&gt;&lt;a href=&quot;https://github.com/ktoso&quot;&gt;github.com&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+
+&lt;p&gt;前回ハッカソンも手伝ってくださったKonradさんです！&lt;/p&gt;
+
+&lt;p&gt;Lightbend社のシニアエンジニアであり、&lt;a href=&quot;https://github.com/akka/akka&quot;&gt;akka&lt;/a&gt;、&lt;a href=&quot;https://github.com/akka/akka-http&quot;&gt;akka-http&lt;/a&gt;のメンテナでもあります。akkaに関しては2013年以降はずっとコミット数ランキング二位(一位は現akkaテックリードのPatrick Nordwallさん)でまさにakkaを代表する、akkaを知り尽くしたといえる超凄腕エンジニアです。Reactive Streamsをリードする一人としても活動しています(&lt;a href=&quot;https://github.com/reactive-streams/reactive-streams-jvm&quot;&gt;reactive-stream-jvm&lt;/a&gt;でも一位とほぼ同数コミットランキング二位です)。カンファレンス登壇に関しては、海外の多数の有名カンファレンスでの登壇とともにScalaMatsuriでの発表経験も豊富にあるので、彼のトークをご覧になった方も多いのではないでしょうか。今回は&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/akka/akka&quot;&gt;akka&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/akka/akka-http&quot;&gt;akka-http&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/akka/alpakka&quot;&gt;alpakka&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;の三つのプロジェクトのメンテナとして参加してくださいます。&lt;/p&gt;
+
+&lt;h3&gt;Eugene Yokota - sbt, sbt-plugin, zinc&lt;/h3&gt;
+
+&lt;p&gt;&lt;iframe src=&quot;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fgithub.com%2Feed3si9n&quot; title=&quot;eed3si9n (eugene yokota)&quot; class=&quot;embed-card embed-webcard&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;&quot;&gt;&lt;/iframe&gt;&lt;cite class=&quot;hatena-citation&quot;&gt;&lt;a href=&quot;https://github.com/eed3si9n&quot;&gt;github.com&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+
+&lt;p&gt;Lightbend社でtooling teamのテックリードとして活躍するEugeneさんも参加してくださいます。2014年以降はずっと&lt;a href=&quot;https://github.com/sbt/sbt&quot;&gt;sbt&lt;/a&gt;のコミット数一位のメンテナでありまさに世界一のsbtエキスパート。また関数型方面への造詣も深く、Eugeneさんの執筆した
+&lt;a href=&quot;http://eed3si9n.com/learning-scalaz/ja/&quot;&gt;&amp;#x72EC;&amp;#x7FD2; Scalaz &amp;mdash; &amp;#x72EC;&amp;#x7FD2; Scalaz&lt;/a&gt;や
+&lt;a href=&quot;http://eed3si9n.com/herding-cats/ja/&quot;&gt;&amp;#x732B;&amp;#x756A; &amp;mdash; &amp;#x732B;&amp;#x756A;&lt;/a&gt;といった一連の記事を参考にScalazやCatsを学んだScalaプログラマも非常に沢山いるはずです。EugeneさんはScalaMatsuriスタッフとしても、またScalaMatsuri登壇者としても精力的に活動されているので、ご存じの方も多いかと思います。今回は&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/sbt&quot;&gt;sbt&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/sbt/zinc&quot;&gt;zinc&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;および各種SBTプラグイン&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;のメンテナとして参加してくださいます。いつもお世話になっているSBTにコントリビュートして、よりSBTを使いこなせるScala人生を歩みましょう！&lt;/p&gt;
+
+&lt;h3&gt;瀬良 和弘 - ScalikeJDBC, Skinny Framework&lt;/h3&gt;
+
+&lt;p&gt;&lt;iframe src=&quot;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fgithub.com%2Fseratch&quot; title=&quot;seratch (Kaz Sera)&quot; class=&quot;embed-card embed-webcard&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;&quot;&gt;&lt;/iframe&gt;&lt;cite class=&quot;hatena-citation&quot;&gt;&lt;a href=&quot;https://github.com/seratch&quot;&gt;github.com&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+
+&lt;p&gt;日本のScala OSSのメンテナの中で最も有名なうちの一人であるスーパースター、瀬良さんもハッカソンに参加されます！SmartNewsのVP of Engineeringであり、ScalikeJDBCとSkinny Frameworkの作者です。OSS活動自体にも造詣が深く、各種カンファレンスで技術的な内容での登壇はもちろん、OSS活動を盛り上げるための方法論のトークをメンテナとしての視点からもコントリビュータの視点からも行っています。今回は&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/scalikejdbc/scalikejdbc&quot;&gt;ScalikeJDBC&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/skinny-framework/skinny-framework&quot;&gt;Skinny Framework&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;の2つのプロジェクトのメンテナとして参加してくださいます。&lt;/p&gt;
+
+&lt;h2&gt;ぜひご応募ください！！&lt;/h2&gt;
+
+&lt;p&gt;いかかでしたでしょうか？メンテナの皆さんの快い協力のおかげで本当に充実したラインナップになりました。&lt;/p&gt;
+
+&lt;p&gt;もちろん参加を考えていらっしゃる方の中には、Pull Requestを時間内にあげられるか心配で(または英語に難を感じて)ハッカソン参加をためらってしまう方もいるかもしれません。時間内にPull Requestをあげられなくても心配ありません。現実的には
+参加者全員がPull Requestをあげることは各イシューの粒度もあって非常に難しいと思いますし、もちろんハッカソンが終わってからいつでも時間のあるときに作業を継続していただくことが出来ます。前回ハッカソンでも、開催後も作業を継続し数日後にPull Requestをあげてマージされた方がいました。英語に関しては「可能な限りのサポート」とはなりますが、英語をある程度話すことが出来るスタッフを数人配置する予定です。&lt;/p&gt;
+
+&lt;p&gt;繰り返しですが、応募はこちらから！&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe src=&quot;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fdocs.google.com%2Fforms%2Fd%2Fe%2F1FAIpQLSfgbnS8PlTvfkSXngnl3qhTJmDXRHVu8Sk4v27wMplcoD2Deg%2Fviewform%3Fusp%3Dsf_link&quot; title=&quot;ScalaMatsuri 2018 OSS ハッカソン参加応募フォーム　(2月28日応募締め切り)&quot; class=&quot;embed-card embed-webcard&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;&quot;&gt;&lt;/iframe&gt;&lt;cite class=&quot;hatena-citation&quot;&gt;&lt;a href=&quot;https://docs.google.com/forms/d/e/1FAIpQLSfgbnS8PlTvfkSXngnl3qhTJmDXRHVu8Sk4v27wMplcoD2Deg/viewform?usp=sf_link&quot;&gt;docs.google.com&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+
+&lt;p&gt;以上スタッフの&lt;a href=&quot;https://github.com/richardimaoka&quot;&gt;リチャード伊真岡&lt;/a&gt;でした。&lt;/p&gt;
+</description>          <pubDate>Mon, 05 Feb 2018 13:00:33 +0900</pubDate>
+          <guid isPermalink="false">hatenablog://entry/8599973812342990043</guid>
+
+          <enclosure url="https://cdn-ak.f.st-hatena.com/images/fotolife/r/richard-imaoka/20171204/20171204004946.jpg" type="image/jpeg" length="0" />
+        </item>
+
+
+
+
+        <item>
+          <title>ScalaMatsuri 2018 Training Day チケット発売開始です</title>
+          <link>http://blog.scalamatsuri.org/entry/2018/01/18/103757</link>          <description>&lt;p&gt;いよいよScalaMatsuri 2018の本番が近づいてまいりました。今年は新しい試みとして三日連続のカンファレンスの第一日目にTraning Dayと題して初心者向けセッションを集めています。&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;注) Training Dayの全セッションは日本語でのみ実施され、同時通訳はつきません。
+&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;Training Dayと、その後2日間に渡って行われるScalaMatsuri 2018本編とは想定される参加者層が異なるため、チケットは別々になっています。チケット購入の際はお間違えの内容にお願いします。&lt;/p&gt;
+
+&lt;p&gt;Training Dayのチケット購入はこちらから。&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe src=&quot;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fscalaconfjp.doorkeeper.jp%2Fevents%2F69370&quot; title=&quot;ScalaMatsuri 2018 Training Day&quot; class=&quot;embed-card embed-webcard&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;&quot;&gt;&lt;/iframe&gt;&lt;cite class=&quot;hatena-citation&quot;&gt;&lt;a href=&quot;https://scalaconfjp.doorkeeper.jp/events/69370&quot;&gt;scalaconfjp.doorkeeper.jp&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+
+&lt;p&gt;ScalaMatsuri 2018本編のチケットはこちらから&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe src=&quot;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fscalaconfjp.doorkeeper.jp%2Fevents%2F66684&quot; title=&quot;ScalaMatsuri 2018&quot; class=&quot;embed-card embed-webcard&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;&quot;&gt;&lt;/iframe&gt;&lt;cite class=&quot;hatena-citation&quot;&gt;&lt;a href=&quot;https://scalaconfjp.doorkeeper.jp/events/66684&quot;&gt;scalaconfjp.doorkeeper.jp&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+
+&lt;h2&gt;なぜTraining Dayを設けるのか&lt;/h2&gt;
+
+&lt;p&gt;それではなぜ今年からこのTraining Dayという試みを行うのか、簡単に説明したいと思います。&lt;/p&gt;
+
+&lt;p&gt;昨年までのScalaMatsuriは、Scalaをある程度経験したことがある人々が主な参加者層であったかと思います。
+もちろん、Scalaをすでに知っている参加者に対して、よりレベルアップしてもらうためのセッションを提供することはScalaMatsuriの目指すところのひとつです。&lt;/p&gt;
+
+&lt;p&gt;一方で、Scala未経験もしくは普段Scalaを使う機会が多くない層の参加者に対しても、Scalaの魅力を知ってもらい、Scalaコミュニティの幅を広げて行くことも、ScalaMatsuriの大事な目標の一つです。そこで、去年まで2日間の開催だったカンファレンスに、1日分Training Dayを追加し、そういった層の参加者に対してのセッションを提供することにしました。&lt;/p&gt;
+
+&lt;p&gt;我々も初めての試みですし、普段のScalaMatsuriとは違った層の参加者を迎えてのトレーニングを開催できることを非常に楽しみにしています。参加者の皆さんにも役立つ、そして楽しんでいただけるセッションを揃えることが出来たのではないかと思っていますので、以下の予定されているセッションの一覧から興味のあるセッションがありましたら、是非チケットを購入の上参加してください！(タイムテーブルは&lt;a href=&quot;http://2018.scalamatsuri.org/#day0&quot;&gt;ScalaMatsuri 2018のウェブサイト&lt;/a&gt;から確認できます。)&lt;/p&gt;
+
+&lt;h2&gt;セッション一覧&lt;/h2&gt;
+
+&lt;p&gt;それでは当日予定されているセッションを紹介いたします。&lt;/p&gt;
+
+&lt;h3&gt;Scala入門ハンズオン&lt;/h3&gt;
+
+&lt;p&gt;株式会社ドワンゴ　結城清太郎さん&lt;/p&gt;
+
+&lt;p&gt;やはり、Scalaの魅力を感じていただくには実際に自分でコードを書いて動かしてみるのが一番だと思います。
+なんと今回株式会社ドワンゴで行われている新卒社員向けScala研修のコンパクト版を、ドワンゴの結城さんに行っていただくことになりました。Scala利用歴の長い同社で磨かれた研修の一端を、皆様に味わっていただくことが出来るセッションになっています。&lt;/p&gt;
+
+&lt;p&gt;ハンズオントレーニングなので、参加者の方は必ずご自分のノートPCをご持参ください。&lt;/p&gt;
+
+&lt;h3&gt;Scalaに関する神話と真実&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/kmizu&quot;&gt;水島宏太 (@kmizu)&lt;/a&gt;さん&lt;/p&gt;
+
+&lt;p&gt;本人から頂いた講演概要はこちら。&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;プログラミング言語Scalaは、言語そのものやそれを取り巻くコミュニティ、ツール等に関する「神話」が散見されます。それらの全てが間違いというわけではありませんが、誤解にもとづいていたり、間違いではないものの現在は改善されている問題もあります。この発表では、Scalaに関する「神話」を解き明かし、Scalaに関して恐れをいだくことはないということを説明したいと思います。&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;h3&gt;implicit入門&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/gakuzzzz&quot;&gt;中村学 (がくぞ @gakuzzzz)&lt;/a&gt;さん&lt;/p&gt;
+
+&lt;p&gt;implicitはScalaの中でもとっつきにくい印象を持たれることの多い機能の一つです。しかし、順を追って説明していけば、なぜこの機能があるのか、どういう使い方が想定されどんな利便性があるのか、きちんと腑に落ちる形で理解できます。中村さんの発表でこの便利なimplicitと仲良くなるきっかけを掴んでいただければと思います。&lt;/p&gt;
+
+&lt;h3&gt;Akkaで分散システム入門&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/everpeace&quot;&gt;Preferred Networks 大村伸吾 (@everpeace)&lt;/a&gt;さん&lt;/p&gt;
+
+&lt;p&gt;本人から頂いた講演概要はこちら。&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;分散システムという言葉を昨今よく聞くようになってきました。それと同時に、分散システムは難しい、という言葉もよく聞ききます。この講演では、そもそもなんのための分散システムを構築するのか？分散システムを構築する際の難しさはどこにあるのか？を確認し、akkaが提供するakka-clusterモジュールとその周辺のモジュールが、どのようにしてその難しさをうまく隠蔽し、分散システムの構築を容易にしているかを解説し、利用方法も簡単に解説します。&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;h2&gt;逆引き！Scala x ビッグデータ&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/iyunoriue&quot;&gt;株式会社サイバーエージェント 井上ゆり (@iyunoriue)&lt;/a&gt;さん&lt;/p&gt;
+
+&lt;p&gt;本人から頂いた講演概要はこちら。&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;「ビッグデータ」という言葉がバズワードになってから5〜6年が経ち、ビッグデータの活用が比較的当たり前の時代となりました。
+そこで、ビッグデータを具体的にどう処理すれば良いか、「やりたいこと」から「具体的な方法」を逆引きできたら良いなと思い、今回のセッションをお話させて頂こうと思いました。
+ビッグデータの処理プロセス「収集→変換」「統合→蓄積」→「分析→活用」の各フェーズでScalaで実現する方法を逆引き的にご紹介し、Scala以外の方法との対比を行いながらScalaを採用するメリットと採用しない場合のメリットをお話しさせて頂きたいと思います。&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;h2&gt;CTO 座談会&lt;/h2&gt;
+
+&lt;p&gt;前回好評だったCTO・採用担当者ぶっちゃけ座談会をうけ、今年も各社のCTO、開発責任者、VP of Engineeringをお呼びして座談会を企画しています。質問項目は現在準備中ですが、座談会でしか聞けない、参加者の皆さまが知りたいことを存分に話してもらう座談会にするつもりです！&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;株式会社サイバーエージェント&lt;/li&gt;
+&lt;li&gt;株式会社ファンコミュニケーションズ&lt;/li&gt;
+&lt;li&gt;株式会社エフ・コード&lt;/li&gt;
+&lt;li&gt;マーベリック株式会社&lt;/li&gt;
+&lt;li&gt;Paidy&lt;/li&gt;
+&lt;li&gt;株式会社セプテーニ・オリジナル&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;以上が予定されているセッションです。ご興味を持たれた方は是非、売り切れる前にお早めにチケットの購入をお願いします。&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe src=&quot;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fscalaconfjp.doorkeeper.jp%2Fevents%2F69370&quot; title=&quot;ScalaMatsuri 2018 Training Day&quot; class=&quot;embed-card embed-webcard&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;&quot;&gt;&lt;/iframe&gt;&lt;cite class=&quot;hatena-citation&quot;&gt;&lt;a href=&quot;https://scalaconfjp.doorkeeper.jp/events/69370&quot;&gt;scalaconfjp.doorkeeper.jp&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+
+&lt;p&gt;スタッフの&lt;a href=&quot;https://github.com/richardimaoka&quot;&gt;リチャード伊真岡&lt;/a&gt;でした。&lt;/p&gt;
+</description>          <pubDate>Thu, 18 Jan 2018 10:37:57 +0900</pubDate>
+          <guid isPermalink="false">hatenablog://entry/8599973812338093926</guid>
+
+          <enclosure url="https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png" type="image/png" length="0" />
+        </item>
+
+
+
+
+        <item>
+          <title>私、ScalaMatsuriで転職しました Vol.4 株式会社FOLIO 横田紋奈(@ihcomega)さん</title>
+          <link>http://blog.scalamatsuri.org/entry/2018/01/17/173447</link>          <description>&lt;p&gt;&lt;span itemscope itemtype=&quot;http://schema.org/Photograph&quot;&gt;&lt;img src=&quot;https://cdn-ak.f.st-hatena.com/images/fotolife/o/oe_uia/20180103/20180103184723.jpg&quot; alt=&quot;f:id:oe_uia:20180103184723j:plain&quot; title=&quot;f:id:oe_uia:20180103184723j:plain&quot; class=&quot;hatena-fotolife&quot; itemprop=&quot;image&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;ScalaMatsuri座長の&lt;a href=&quot;https://twitter.com/OE_uia/&quot;&gt;麻植(@OE_uia)&lt;/a&gt;です。&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;a href=&quot;http://2018.scalamatsuri.org/#schedule&quot;&gt;ScalaMatsuri 2018のタイムテーブル&lt;/a&gt;公開、トレーニングDAY(3/16)のチケット及びカンファレンス本編(3/17-18)の2次チケット販売の開始&lt;/b&gt;にあたりまして、特別企画として大老スポンサーの株式会社&lt;a href=&quot;https://folio-sec.com/&quot;&gt;FOLIO&lt;/a&gt;さまに就職された&lt;a href=&quot;https://twitter.com/ihcomega/&quot;&gt;横田紋奈(@ihcomega / 以下よこな)&lt;/a&gt;さんのお話をお伺いしてきました。&lt;/p&gt;
+
+&lt;h5&gt;トレーニングDAYチケット&lt;/h5&gt;
+
+&lt;p&gt;&lt;iframe src=&quot;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fscalaconfjp.doorkeeper.jp%2Fevents%2F69370&quot; title=&quot;ScalaMatsuri 2018 Training Day&quot; class=&quot;embed-card embed-webcard&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;&quot;&gt;&lt;/iframe&gt;&lt;cite class=&quot;hatena-citation&quot;&gt;&lt;a href=&quot;https://scalaconfjp.doorkeeper.jp/events/69370&quot;&gt;scalaconfjp.doorkeeper.jp&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+
+&lt;h5&gt;カンファレンス本編２次チケット&lt;/h5&gt;
+
+&lt;p&gt;&lt;iframe src=&quot;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fscalaconfjp.doorkeeper.jp%2Fevents%2F66684&quot; title=&quot;ScalaMatsuri 2018&quot; class=&quot;embed-card embed-webcard&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;&quot;&gt;&lt;/iframe&gt;&lt;cite class=&quot;hatena-citation&quot;&gt;&lt;a href=&quot;https://scalaconfjp.doorkeeper.jp/events/66684&quot;&gt;scalaconfjp.doorkeeper.jp&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+
+&lt;h4&gt;エンジニアが社外に出ていくことをサポートしてくれる風潮があります。そのエンジニア自身にとっても、会社にとっても、コミュニティにとってもプラスになるからですね。&lt;/h4&gt;
+
+&lt;p&gt;Q.それではよろしくお願いします。よこなさんの現在の社内の仕事と、OSSやコミュニティの活動について教えて下さい。&lt;/p&gt;
+
+&lt;p&gt;A.社内では、開発の仕事がメインです。
+&lt;a href=&quot;https://folio-sec.com/&quot;&gt;FOLIO&lt;/a&gt;という、個別銘柄ではなくテーマを選んで投資ができるオンライン証券サービスのbackendの開発でScalaを使っています。
+あと、FOLIOの裏側では証券口座の開設に必要な手続きなどがありまして、その処理を行う方が使う業務システムをRuby on Railsで作ってます。&lt;/p&gt;
+
+&lt;p&gt;社外では、趣味みたいな感じでJavaコミュニティ運営を色々とやっています。
+Java女子部というJavaを使う女性を応援するコミュニティの部長をやっているのと、JJUG(日本Javaユーザーグループ)の幹事を務めています。&lt;/p&gt;
+
+&lt;p&gt;登壇も時々していて、例えば最近だと、11月18日にJJUG CCCというJavaのカンファレンスでKeynoteをやりました。
+普段のKeynoteはJavaやコミュニティの歴史とか最新事情とか、割とベテランならではの話が多いのですが、今回は若手の私ならではの目線で、コミュニティ活動にはこんなメリットがあるのでおすすめです、という話をさせていただきました。実際自分も開発未経験の社会人1年目の頃からコミュニティ活動に関わっていて、そのおかげで今FOLIOみたいな会社に入れてがっつり開発できているというのがあって、コミュニティに思い入れがあるんです。&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe allowfullscreen=&quot;true&quot; allowtransparency=&quot;true&quot; frameborder=&quot;0&quot; height=&quot;596&quot; id=&quot;talk_frame_417133&quot; mozallowfullscreen=&quot;true&quot; src=&quot;//speakerdeck.com/player/81fa9108dc33466ea40c8815dca36094&quot; style=&quot;border:0; padding:0; margin:0; background:transparent;&quot; webkitallowfullscreen=&quot;true&quot; width=&quot;710&quot;&gt;&lt;/iframe&gt;&lt;cite class=&quot;hatena-citation&quot;&gt;&lt;a href=&quot;https://speakerdeck.com/ihcomega56/nian-ling-mojing-yan-moguan-xi-nai-sutetuhuatuhusurutamefalsejavakomiyuniteihuo-yong-shu&quot;&gt;speakerdeck.com&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+
+&lt;p&gt;今年はサンフランシスコで開催されたJavaOneというカンファレンスでも登壇しました。
+きっかけはJava Day Tokyoというイベントです。
+Java Day Tokyoは年に1回Oracleが開催していて、Java Championと呼ばれる人やコミュニティリーダーたちが海外からも集まってきます。
+ちょうどそこで、海外から来たゲストにまだJavaOne 2017のCfP募集してるから出してみなよと教えていただいたんです。幸い通過し、職場の理解もあり5日間参加することができました。&lt;/p&gt;
+
+&lt;p&gt;FOLIOには、エンジニアが社外に出ていくことをサポートしてくれる風潮があります。そのエンジニア自身にとっても、会社にとっても、コミュニティにとってもプラスになるからですね。&lt;/p&gt;
+
+&lt;p&gt;それもあって、FOLIOにはクリエイター(※FOLIOではエンジニアとデザイナーをまとめてクリエイターと呼んでいます)ブラディングチームがあり、社外のコミュニティ活動などを推進する仕組みづくりもしています。ちょうど最近FOLIOアドベントカレンダーの記事として、我々の取り組みについてブログを書きました。証券会社ならではのブランディングの工夫について詰め込んであるので、よかったらぜひチェックしていただきたいです！&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://ihcomega.hatenadiary.com/entry/2017/12/01/092246&quot;&gt;&amp;#x8A3C;&amp;#x5238;&amp;#x4F1A;&amp;#x793E;&amp;#x306E;&amp;#x30A8;&amp;#x30F3;&amp;#x30B8;&amp;#x30CB;&amp;#x30A2;&amp;#x30FB;&amp;#x30C7;&amp;#x30B6;&amp;#x30A4;&amp;#x30CA;&amp;#x30FC;&amp;#x304C;&amp;#x793E;&amp;#x5916;&amp;#x3067;&amp;#x3082;&amp;#x6700;&amp;#x5927;&amp;#x9650;&amp;#x6D3B;&amp;#x8E8D;&amp;#x3059;&amp;#x308B;&amp;#x305F;&amp;#x3081;&amp;#x306B;FOLIO&amp;#x3067;&amp;#x53D6;&amp;#x308A;&amp;#x7D44;&amp;#x3093;&amp;#x3067;&amp;#x3044;&amp;#x308B;&amp;#x3053;&amp;#x3068; - &amp;#x3088;&amp;#x3053;&amp;#x306A;&amp;#x306E;&amp;#x3078;&amp;#x305F;&amp;#x306E;&amp;#x3088;&amp;#x3053;&amp;#x305A;&amp;#x304D;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;ScalaMatsuriのインタビューということでScalaに関する取り組みをひとつ紹介すると、瀬良さんと一緒に「&lt;a href=&quot;https://github.com/Folio-sec/reladomo-scala&quot;&gt;reladomo-scala&lt;/a&gt;」というOSSを公開しました。&lt;/p&gt;
+
+&lt;p&gt;&lt;span itemscope itemtype=&quot;http://schema.org/Photograph&quot;&gt;&lt;img src=&quot;https://cdn-ak.f.st-hatena.com/images/fotolife/o/oe_uia/20180103/20180103184736.jpg&quot; alt=&quot;f:id:oe_uia:20180103184736j:plain&quot; title=&quot;f:id:oe_uia:20180103184736j:plain&quot; class=&quot;hatena-fotolife&quot; itemprop=&quot;image&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;h4&gt;このチャンスに乗らない手はないのでは、と思いました。&lt;/h4&gt;
+
+&lt;p&gt;Q.&lt;a href=&quot;http://2017.scalamatsuri.org/&quot;&gt;ScalaMatsuri 2017&lt;/a&gt;が、FOLIOさんとのご縁の始まりだと伺いました。&lt;/p&gt;
+
+&lt;p&gt;A.今年の頭まで京都に住んでいたんですが、ちょうど東京への転勤が決まった頃にScalaMatsuriのチケットをたまたま入手して、急遽参加しました。
+そこで、元々Javaコミュニティ繋がりの知り合いで、当時既にFOLIOへの転職が決まっていた弊社&lt;a href=&quot;https://twitter.com/itohiro73&quot;&gt;伊藤(@itohiro73)&lt;/a&gt;と久々に出会って。一緒にいたFOLIO社員とも交流し、その日にお誘いを受けました。
+FOLIOについては、当時Webサイトにもあまり情報が掲載されていなくて、正直よく分からないけど伊藤がゴールドマン・サックスをやめて転職するぐらいだから何かあるのかな？と思っていたぐらいです。
+ただ、中の人たちが軒並みすごい経歴だったし、会社に遊びに行って実際お会いしたりサービスの説明を受けたりしたらとても面白そうで、このチャンスに乗らない手はないのでは、と思いました。&lt;/p&gt;
+
+&lt;p&gt;それがきっかけで当時勤めていた会社の外に目が向かいだし、ScalaMatsuriのスポンサー一覧や、知人を頼りに3社か4社あたりました。しかしその間にFOLIOからオファーをいただいて、結局自分にはFOLIOが1番魅力的だったので決めました。&lt;/p&gt;
+
+&lt;p&gt;&lt;span itemscope itemtype=&quot;http://schema.org/Photograph&quot;&gt;&lt;img src=&quot;https://cdn-ak.f.st-hatena.com/images/fotolife/o/oe_uia/20180103/20180103184751.jpg&quot; alt=&quot;f:id:oe_uia:20180103184751j:plain&quot; title=&quot;f:id:oe_uia:20180103184751j:plain&quot; class=&quot;hatena-fotolife&quot; itemprop=&quot;image&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;h4&gt;愛とか熱意を持っているクリエイターが多くてすごいな、サービスを作るって面白いなと思いました。&lt;/h4&gt;
+
+&lt;p&gt;Q.FOLIOに決めた理由を教えて下さい。&lt;/p&gt;
+
+&lt;p&gt;A.まず人です。その他、FinTechに入ったらお金のこと分かるかな(笑)とか、スタートアップへの挑戦は早いうちにやってみたいなとか、色々と細々した動機はるものの、結局入社までにお会いした人々に魅了されたことが大きいです。
+正直、「サービスのことを考える」という経験をそれまであまりしてこなくて、人しか重視していなかったのですが、
+実際に中に入ってみると、愛とか熱意を持っているクリエイターが多くてすごいな、サービスを作るって面白いなと思いました。&lt;/p&gt;
+
+&lt;p&gt;サービス志向のエンジニアは、自分が普段よく参加する技術コミュニティにおいてはあまり多くないように感じています。
+純粋に技術が好きな方が多いからだったり、フロントから遠ざかるにつれてそのサービスの色が薄れたり、情報公開をどこまで出来るかで迷うことが多かったりするからなのかなと想像していますが、もっとサービス内容に紐付いたイベントとか開催できたら面白いんじゃないかなとも思っています。&lt;/p&gt;
+
+&lt;p&gt;Q.FOLIOでどういう人と一緒に働きたいか、教えて下さい。&lt;/p&gt;
+
+&lt;p&gt;A.各々得意な分野があって、そこにはこだわりぬく人です。常にユーザー目線に立つことを忘れず、こうだったらもっと便利だよね、とか面白いよね、とかつきつめて考えられるような。そんな人と働きたい…というか実際今一緒に働いています！&lt;/p&gt;
+
+&lt;h4&gt;まとめ&amp;amp;PR&lt;/h4&gt;
+
+&lt;p&gt;今回お話いただいた よこなさんのケースでは、ScalaMatsuriが偶然の再会の場になったところからご縁がスタートしたようです。&lt;/p&gt;
+
+&lt;p&gt;Scalaに限らない、様々なコミュニティからの参加者が集うカンファレンスならではの機会かもしれません。&lt;/p&gt;
+
+&lt;p&gt;ScalaMatsuriの裾野をさらに広げるため、今年度初の試みである&lt;a href=&quot;http://2018.scalamatsuri.org/#day0&quot;&gt;ScalaMatsuri トレーニングDAY&lt;/a&gt;では、これからScalaをはじめたい方に向けたコンテンツを用意しています。ふるってご参加ください！&lt;/p&gt;
+</description>          <pubDate>Wed, 17 Jan 2018 17:34:47 +0900</pubDate>
+          <guid isPermalink="false">hatenablog://entry/8599973812332843170</guid>
+
+          <enclosure url="https://cdn-ak.f.st-hatena.com/images/fotolife/o/oe_uia/20180103/20180103184723.jpg" type="image/jpeg" length="0" />
+        </item>
+
+
+
+
+        <item>
+          <title>投票開始のお知らせ</title>
+          <link>http://blog.scalamatsuri.org/entry/2017/12/19/005135</link>          <description>&lt;p&gt;今年も来ました ScalaMatsuri スタッフの &lt;a href=&quot;https://twitter.com/eed3si9n_ja&quot;&gt;@eed3si9n_ja&lt;/a&gt; です。主に翻訳関係のことをプログラムチームでやっています。&lt;/p&gt;
+
+&lt;h3&gt;まとめ&lt;/h3&gt;
+
+&lt;p&gt;tl;dr スタイルでまず要点を初めに書きます。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;チケット購入者、スポンサー、スタッフで「カテゴリ分け無しの投票」を行います。この投票は&lt;b&gt;12月25日23時59分JST&lt;/b&gt;をもちまして、終了いたします。&lt;/li&gt;
+&lt;li&gt;投票結果に関しては純粋に得票順ではなく、上位の人気セッションや、トレンドを推し量るための世論調査としてとらえ、SNS 拡散度、プログラムチームの主観も加味してバランス良くスケジュールを組みます。&lt;/li&gt;
+&lt;li&gt;今年も、ログイン後にセッション一覧画面から投票できるようになります。&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h3&gt;「グローバルな技術カンファレンス」と「日本のコミュニティの交流」の両立&lt;/h3&gt;
+
+&lt;p&gt;ScalaMatsuri 2018 も、カンファレンスを無理なく持続させていく感じで、&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;日本国内の Scala のコミュニティが交流したり、海外も視野に入れて発表できる場を提供する&lt;/li&gt;
+&lt;li&gt;ユニバーサルアクセスを目指して、言語、ジェンダー、民族などの壁を超えて心地よく参加できる国際的な技術カンファレンスを作る&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;という大きな目標は変わりません。この目標に向けての具体的なアクションは&lt;a href=&quot;http://blog.scalamatsuri.org/entries/2015/10/05&quot;&gt;「グローバルな技術カンファレンス」と「日本のコミュニティの交流」の両立&lt;/a&gt; でも書かれていますが、&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;行動規範 (code of conduct) の整備およびマナー動画&lt;/li&gt;
+&lt;li&gt;公開 CFP、旅費助成金、セッション案の翻訳&lt;/li&gt;
+&lt;li&gt;一般投票によるセッションの選択&lt;/li&gt;
+&lt;li&gt;発表資料への字幕およびプロによる双方向同時通訳&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;などが実施されました。これらに関する僕の所感は&lt;a href=&quot;http://eed3si9n.com/ja/scalamatsuri-as-a-lifestyle&quot;&gt;ライフスタイルとしての ScalaMatsuri&lt;/a&gt;にまとまっています。&lt;/p&gt;
+
+&lt;h3&gt;カテゴリ分け無しの投票&lt;/h3&gt;
+
+&lt;p&gt;「参加者の皆さんが当日観たいトークは何か」を調査するために ScalaMatsuri 2018 で採用するのはカテゴリ分け無しの投票です。つまり、英語/日本語、40分/15分/90分といったカテゴリを取り払って全面的に観たいものを選んでいただく投票方式です。同時通訳が今年うまくいったことで、言語の障壁についてはそこまで神経質にならなくても良くなったのもこのステップに踏み切る理由となりました。&lt;/p&gt;
+
+&lt;h3&gt;世論調査という位置付け&lt;/h3&gt;
+
+&lt;p&gt;もう一点事前に明確にしておきたいのは、本年度の投票は世論調査という位置付けであるということです。&lt;/p&gt;
+
+&lt;p&gt;一昨年何百人もの人が 22本のセッションを選ぶ過程で観測されたのは、結果が似たようなトピックのクラスタを形成したということです。投票している人は事前に打ち合わせをして「fp 入門のトークはこれにしよう」と決めているわけではないので似た内容のトークが複数選ばれるのはある意味自然な結果と言えるでしょう。&lt;/p&gt;
+
+&lt;p&gt;数学的に得票順に上から n個のトークを選ぶのではなく、トピックやトレンドを推し量る世論調査的に投票結果を解析して、ある程度プログラムチームの主観的な観点を加えた上でバランス良く講演者を選択したほうがより楽しんでもらえるカンファレンスになると思っています。&lt;/p&gt;
+
+&lt;h3&gt;SNSの拡散度合い&lt;/h3&gt;
+
+&lt;p&gt;トピックやトレンドを推し量るもう一つのデータポイントとして、通常の投票をメインとしつつ、SNSでの拡散度合いなども参考にします。 Twitter、Facebook、はてなブックマークなどでどのくらい話題になったか（シェアされたか）という指標を数値化し、事前の盛り上がり具合を採択の際の参考情報にしようと思います。&lt;/p&gt;
+
+&lt;p&gt;具体的にはScalaMatsuri公式サイトのセッション紹介ページに設置されている、Twitter、Facebook、はてなブックマークそれぞれに対して、ソーシャルボタン経由でプロポーザルがシェアされた数などを集計する予定です。&lt;/p&gt;
+
+&lt;h3&gt;投票プログラム&lt;/h3&gt;
+
+&lt;p&gt;今年も Tech to Value 社制作の投票プログラムを継続して採用します。ログイン後に、セッション一覧画面から投票できるようになりました。&lt;/p&gt;
+
+&lt;p&gt;&lt;span itemscope itemtype=&quot;http://schema.org/Photograph&quot;&gt;&lt;img src=&quot;https://cdn-ak.f.st-hatena.com/images/fotolife/m/mocolog/20161125/20161125123612.png&quot; alt=&quot;f:id:mocolog:20161125123612p:plain&quot; title=&quot;f:id:mocolog:20161125123612p:plain&quot; class=&quot;hatena-fotolife&quot; itemprop=&quot;image&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;☆のアイコンをクリックすると投票することができます。
+セッション数が多いので、まずは気になるセッションをいくつかブックマークしたいという場合はピン (画鋲) のアイコンを使ってください。&lt;/p&gt;
+
+&lt;h3&gt;投票方法について&lt;/h3&gt;
+
+&lt;p&gt;この投票はチケット購入者、スポンサー企業並びに運営スタッフによって行われます。&lt;/p&gt;
+
+&lt;p&gt;本ブログでは、主にチケット購入者を対象としてその投票方法について解説いたします。&lt;/p&gt;
+
+&lt;p&gt;1.) チケット購入時に送付されたチェックインコードを確認します。
+Doorkeeper経由で ScalaMatsuri 2018 から送られてきているメールをご確認ください。&lt;/p&gt;
+
+&lt;p&gt;&lt;span itemscope itemtype=&quot;http://schema.org/Photograph&quot;&gt;&lt;img src=&quot;https://cdn-ak.f.st-hatena.com/images/fotolife/m/mocolog/20161125/20161125123652.png&quot; alt=&quot;f:id:mocolog:20161125123652p:plain&quot; title=&quot;f:id:mocolog:20161125123652p:plain&quot; class=&quot;hatena-fotolife&quot; itemprop=&quot;image&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;そちらのチェックインコード(あなたのQRコード下の6桁の番号です。上画像参照）とsign in の際に使用するGoogle or Twitter or Githubのアカウントをユニークなキーとして、後日投票をverifyしますので、お間違えのないようお願いします。&lt;/p&gt;
+
+&lt;p&gt;投票に参加されたい方は下記からチケットをご購入いただけます。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://scalaconfjp.doorkeeper.jp/events/66684&quot;&gt;https://scalaconfjp.doorkeeper.jp/events/66684&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;2.) &lt;a href=&quot;http://2018.scalamatsuri.org/ja/candidates/&quot;&gt;応募セッション一覧ページ&lt;/a&gt;の右上にある&#39;Sign-in&#39;ボタンを押してGoogle or Twitter or GithubのアカウントでSign inしてください。
+（Authorize applicationボタンが出てきますので、押してください。）&lt;/p&gt;
+
+&lt;p&gt;Sign in時にDoorkeeperのチェックインコードを入力してください。&lt;/p&gt;
+
+&lt;p&gt;これで準備完了です。
+あなたが聞きたいセッションを選んください。
+ピン止めアイコンをクリックするとブックマークができ、☆アイコンをクリックすると投票することができます。&lt;/p&gt;
+
+&lt;p&gt;投票できるセッションの数はお一人さま10票です。
+持ち票の残数は&lt;a href=&quot;http://2018.scalamatsuri.org/ja/candidates/&quot;&gt;応募セッション一覧ページ&lt;/a&gt;の一番上に表示されています。&lt;/p&gt;
+
+&lt;p&gt;すでに投票したセッション、ピン止めでブックマークしたセッションだけを表示させることもできます。&lt;/p&gt;
+
+&lt;p&gt;&lt;span itemscope itemtype=&quot;http://schema.org/Photograph&quot;&gt;&lt;img src=&quot;https://cdn-ak.f.st-hatena.com/images/fotolife/m/mocolog/20161125/20161125123732.png&quot; alt=&quot;f:id:mocolog:20161125123732p:plain&quot; title=&quot;f:id:mocolog:20161125123732p:plain&quot; class=&quot;hatena-fotolife&quot; itemprop=&quot;image&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;この投票は&lt;b&gt;12月25日23時59分JST&lt;/b&gt;をもちまして、終了いたします。 投票完了時刻を過ぎたものは無効となりますので、余裕を持ってご参加ください。&lt;/p&gt;
+
+&lt;p&gt;3.) 投票結果の発表をワクワクしながらお待ちください。&lt;/p&gt;
+
+&lt;h3&gt;投票関連のFAQ&lt;/h3&gt;
+
+&lt;p&gt;Q.投票結果はどこで発表されるの？&lt;/p&gt;
+
+&lt;p&gt;A.ScalaMatsuri Webサイト上にて告知いたします。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/scala_jp&quot;&gt;Twitter&lt;/a&gt;や&lt;a href=&quot;https://www.facebook.com/ScalaMatsuri/&quot;&gt;Facebookページ&lt;/a&gt;上でも告知しますので、これを機に是非フォロー|いいね お願いします。&lt;/p&gt;
+
+&lt;p&gt;Q.万が一落選した場合は、他に話すチャンスはないの？&lt;/p&gt;
+
+&lt;p&gt;A.ScalaMatsuri 2018では、3日目の3/18にアンカンファレンスを開催するのに伴いまして、この当日にトークを募集いたします。 アンカンファレンスについては、以下の記事をご覧ください。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://blog.scalamatsuri.org/entry/2015/09/29/023812&quot;&gt;番外編 Scala World 2015レポート その2　アンカンファレンス編 - ScalaMatsuri運営ブログ&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;こちらでは2日目カンファレンスパートより、多くセッション枠をご用意できる見込みとなっています。 残念ながら今回の投票で落選された方は、ぜひアンカンファレンスにてお話しください。&lt;/p&gt;
+
+&lt;p&gt;では、参加者の皆さんは奮ってご投票ください。&lt;/p&gt;
+</description>          <pubDate>Tue, 19 Dec 2017 00:51:35 +0900</pubDate>
+          <guid isPermalink="false">hatenablog://entry/8599973812327678529</guid>
+
+          <enclosure url="https://cdn-ak.f.st-hatena.com/images/fotolife/m/mocolog/20161125/20161125123612.png" type="image/png" length="0" />
+        </item>
+
+
+
+
+        <item>
+          <title>「AkkaにPull Requestをあげようハッカソン」を開催しました</title>
+          <link>http://blog.scalamatsuri.org/entry/2017/12/04/102031</link>          <description>&lt;p&gt;12/2日土曜日に&lt;a href=&quot;http://2018.scalamatsuri.org&quot;&gt;ScalaMatsuri&lt;/a&gt;主催で「AkkaにPull Requestをあげようハッカソン」を開催しました。&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe src=&quot;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fjsa.connpass.com%2Fevent%2F72178%2F&quot; title=&quot;AkkaにPull Requestをあげようハッカソン (2017/12/02 18:00〜)&quot; class=&quot;embed-card embed-webcard&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;&quot;&gt;&lt;/iframe&gt;&lt;cite class=&quot;hatena-citation&quot;&gt;&lt;a href=&quot;https://jsa.connpass.com/event/72178/&quot;&gt;jsa.connpass.com&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+
+&lt;p&gt;ご参加いただいた皆様、講師役として来てくださった&lt;a href=&quot;https://twitter.com/ktosopl&quot;&gt;Konrad Malawski&lt;/a&gt;さん、誠にありがとうございました！&lt;/p&gt;
+
+&lt;p&gt;&lt;span itemscope itemtype=&quot;http://schema.org/Photograph&quot;&gt;&lt;img src=&quot;https://cdn-ak.f.st-hatena.com/images/fotolife/r/richard-imaoka/20171204/20171204004946.jpg&quot; alt=&quot;f:id:richard-imaoka:20171204004946j:plain&quot; title=&quot;f:id:richard-imaoka:20171204004946j:plain&quot; class=&quot;hatena-fotolife&quot; itemprop=&quot;image&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;4時間に渡った長丁場のハッカソンを終えて、結果は参加者数3人中2人の方にPull Requestをあげていただくことができ、もう一人の方もあと少しでPull Requestをあげていただけるであろう段階までいきました。参加者の皆様、Konradさんのお陰で大成功のうちにイベントを終えることができたと言えると思います。&lt;/p&gt;
+
+&lt;p&gt;さて今回のイベントですが、&lt;a href=&quot;http://2018.scalamatsuri.org&quot;&gt;ScalaMatsuri Training Day&lt;/a&gt;(2018年3月16日 金曜日)にて同様のハッカソンイベントを行うためのテスト開催という位置づけでした。
+そのため、今回得たフィードバックをもとに、ScalaMatsuri期間中はさらにパワーアップした形で、みなさまのOSSコントリビューションを後押しするハッカソンにしてまいります。&lt;/p&gt;
+
+&lt;p&gt;それでは今回のハッカソンの様子を写真とともに紹介していきたいと思います。
+会場提供は&lt;a href=&quot;http://blog.scalamatsuri.org/entry/2017/12/02/164542&quot;&gt;ScalaMatsuri将軍スポンサー&lt;/a&gt;でもある&lt;a href=&quot;http://www.septeni-original.co.jp/company/&quot;&gt;セプテーニ・オリジナル様&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;span itemscope itemtype=&quot;http://schema.org/Photograph&quot;&gt;&lt;img src=&quot;https://cdn-ak.f.st-hatena.com/images/fotolife/r/richard-imaoka/20171203/20171203135857.jpg&quot; alt=&quot;f:id:richard-imaoka:20171203135857j:plain&quot; title=&quot;f:id:richard-imaoka:20171203135857j:plain&quot; class=&quot;hatena-fotolife&quot; itemprop=&quot;image&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;同社から&lt;a href=&quot;https://twitter.com/kawachi&quot;&gt;kawachi&lt;/a&gt;さん&lt;a href=&quot;https://twitter.com/aoiroaoino&quot;&gt;aoiroaoino&lt;/a&gt;さんのお二人にもサポート役として参加していただきました。そしてセプテーニ・オリジナル様ではScalaエンジニアを募集中ですので興味のある方はぜひお二人に話してみてください！&lt;/p&gt;
+
+&lt;p&gt;ハッカソンが始まって、真剣にイシューに取り組む皆さんの様子です！&lt;/p&gt;
+
+&lt;p&gt;&lt;span itemscope itemtype=&quot;http://schema.org/Photograph&quot;&gt;&lt;img src=&quot;https://cdn-ak.f.st-hatena.com/images/fotolife/r/richard-imaoka/20171204/20171204082952.jpg&quot; alt=&quot;f:id:richard-imaoka:20171204082952j:plain&quot; title=&quot;f:id:richard-imaoka:20171204082952j:plain&quot; class=&quot;hatena-fotolife&quot; itemprop=&quot;image&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;途中、一時間半ほどたったところで軽食が提供されました。&lt;/p&gt;
+
+&lt;p&gt;&lt;span itemscope itemtype=&quot;http://schema.org/Photograph&quot;&gt;&lt;img src=&quot;https://cdn-ak.f.st-hatena.com/images/fotolife/r/richard-imaoka/20171204/20171204082509.jpg&quot; alt=&quot;f:id:richard-imaoka:20171204082509j:plain&quot; title=&quot;f:id:richard-imaoka:20171204082509j:plain&quot; class=&quot;hatena-fotolife&quot; itemprop=&quot;image&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;下の写真は&lt;a href=&quot;https://twitter.com/kencharos&quot;&gt;kencharos&lt;/a&gt;さん、かなりトリッキーなAkka HTTPのURLパーシングのイシューに取り組んでいらっしゃいました。&lt;/p&gt;
+
+&lt;p&gt;&lt;span itemscope itemtype=&quot;http://schema.org/Photograph&quot;&gt;&lt;img src=&quot;https://cdn-ak.f.st-hatena.com/images/fotolife/r/richard-imaoka/20171204/20171204005642.jpg&quot; alt=&quot;f:id:richard-imaoka:20171204005642j:plain&quot; title=&quot;f:id:richard-imaoka:20171204005642j:plain&quot; class=&quot;hatena-fotolife&quot; itemprop=&quot;image&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;そしてついに…開始約三時間半後最初のプルリクエストをあげたKoji Matsumiyaさん、いい笑顔です！
+&lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;ja&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;The first &lt;a href=&quot;https://twitter.com/hashtag/akka?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#akka&lt;/a&gt; Pull Request is created in &lt;a href=&quot;https://twitter.com/hashtag/ScalaMatsuri?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#ScalaMatsuri&lt;/a&gt; OSS hakka-thon!!👏👏👏 &lt;a href=&quot;https://t.co/knaFKBkvbe&quot;&gt;pic.twitter.com/knaFKBkvbe&lt;/a&gt;&lt;/p&gt;&amp;mdash; Taisuke OE (@OE_uia) &lt;a href=&quot;https://twitter.com/OE_uia/status/936934465716199425?ref_src=twsrc%5Etfw&quot;&gt;2017年12月2日&lt;/a&gt;&lt;/blockquote&gt;&lt;script async src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;こちらは2つめのpull requestをあげた&lt;a href=&quot;https://twitter.com/takashima0411&quot;&gt;takashima0411&lt;/a&gt;さんです。
+&lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;ja&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;2nd &lt;a href=&quot;https://twitter.com/hashtag/akka?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#akka&lt;/a&gt; Pull Request by &lt;a href=&quot;https://twitter.com/takashima0411?ref_src=twsrc%5Etfw&quot;&gt;@takashima0411&lt;/a&gt; ! Awesome👏&lt;a href=&quot;https://twitter.com/hashtag/ScalaMatsuri?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#ScalaMatsuri&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/scalajp?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#scalajp&lt;/a&gt; &lt;a href=&quot;https://t.co/bCrGvYjr93&quot;&gt;pic.twitter.com/bCrGvYjr93&lt;/a&gt;&lt;/p&gt;&amp;mdash; Taisuke OE (@OE_uia) &lt;a href=&quot;https://twitter.com/OE_uia/status/936947093838561280?ref_src=twsrc%5Etfw&quot;&gt;2017年12月2日&lt;/a&gt;&lt;/blockquote&gt;&lt;script async src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;あらためて、4時間でPull Requestをあげることができたのはかなりハイレベルな結果だと思います。
+私が最初にAkkaにコントリビュートした時はPull Requestを上げるまで1ヶ月近く掛かったと思います。ドキュメントを修正する単純なイシューでしたが、それでも時間がかかりました。Konradさんも最初のPull Requestは3週間ほどかかったという話をされていました。Lightbend社(当時はTypesafe社)に所属する前に最初のAkkaコントリビュートを行ったそうです。
+反対に言うと、一人で行っていたらそれくらい時間のかかる作業を、一日のうちに終えることができる非常に利用価値の高い機会になったと思います。&lt;/p&gt;
+
+&lt;p&gt;テスト開催であった今回は対象プロジェクトがAkkaのみ、参加者数3人という小規模なイベントでしたが、次回は複数のOSSプロジェクトを対象により参加者数も増やして開催するつもりです。よりたくさんの方にOSSコントリビュートしていただける機会にしていきます。それではみなさま、OSSハッカソンも行われる&lt;a href=&quot;http://2018.scalamatsuri.org&quot;&gt;ScalaMatsuri&lt;/a&gt;にてお会い出来ることを楽しみにしております！&lt;/p&gt;
+
+&lt;p&gt;ScalaMatsuriスタッフの&lt;a href=&quot;https://github.com/richardimaoka&quot;&gt;リチャード伊真岡&lt;/a&gt;でした。&lt;/p&gt;
+
+&lt;p&gt;追記: Lightbend様からもご支援のツイート頂きました！&lt;/p&gt;
+
+&lt;p&gt;&lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;ja&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;It’s great to see the “Zen of &lt;a href=&quot;https://twitter.com/hashtag/Akka?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#Akka&lt;/a&gt;” with &lt;a href=&quot;https://twitter.com/ktosopl?ref_src=twsrc%5Etfw&quot;&gt;@ktosopl&lt;/a&gt; finding &amp;lt;3 in Japan :) &lt;a href=&quot;https://t.co/rYDsnX4t6J&quot;&gt;https://t.co/rYDsnX4t6J&lt;/a&gt;&lt;/p&gt;&amp;mdash; Lightbend (@lightbend) &lt;a href=&quot;https://twitter.com/lightbend/status/938065761679167488?ref_src=twsrc%5Etfw&quot;&gt;2017年12月5日&lt;/a&gt;&lt;/blockquote&gt;&lt;script async src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;ja&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;It’s indeed a rare thing to see &lt;a href=&quot;https://twitter.com/ktosopl?ref_src=twsrc%5Etfw&quot;&gt;@ktosopl&lt;/a&gt; raising new &lt;a href=&quot;https://twitter.com/hashtag/Akka?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#Akka&lt;/a&gt; PRs in the wild… ;-)&lt;/p&gt;&amp;mdash; Oliver J. White (@TheOTown) &lt;a href=&quot;https://twitter.com/TheOTown/status/938066115238023170?ref_src=twsrc%5Etfw&quot;&gt;2017年12月5日&lt;/a&gt;&lt;/blockquote&gt;&lt;script async src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>          <pubDate>Mon, 04 Dec 2017 10:20:31 +0900</pubDate>
+          <guid isPermalink="false">hatenablog://entry/8599973812323173677</guid>
+
+          <enclosure url="https://cdn-ak.f.st-hatena.com/images/fotolife/r/richard-imaoka/20171204/20171204004946.jpg" type="image/jpeg" length="0" />
+        </item>
+
+
+
+
+        <item>
+          <title>ScalaMatsuriを支えるお奉行様たち</title>
+          <link>http://blog.scalamatsuri.org/entry/2017/12/02/164542</link>          <description>&lt;p&gt;ScalaMatsuri座長の麻植(&lt;a href=&quot;https://twitter.com/OE_uia&quot;&gt;@OE_uia&lt;/a&gt;)です。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://2018.scalamatsuri.org/&quot;&gt;ScalaMatsuri 2018&lt;/a&gt;開催まで4ヶ月を切りまして、段々と準備が本格化してきました。
+既にWebサイトの方で公開しておりますが、沢山のセッション及びスポンサーのご応募をいただいています。本当にありがとうございます！&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://2018.scalamatsuri.org/ja/cfp/&quot;&gt;ScalaMatsuri 2018 &amp;#x30BB;&amp;#x30C3;&amp;#x30B7;&amp;#x30E7;&amp;#x30F3;&amp;#x306E;&amp;#x52DF;&amp;#x96C6; - ScalaMatsuri 2018&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;『あ、そういえば、まだ申し込んでない！』という、そこのあなた。&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;ご安心ください。まだまだどちらも絶賛、大、募集中です！！！&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;ただしセッションのご応募の締め切りは&lt;b&gt;12/16 23:59JSTまで&lt;/b&gt;となっております。&lt;/p&gt;
+
+&lt;p&gt;興味があるけどセッション案がいまいち固まらない方は、公開されているセッション案から、『自分なら、こういう話をできそうだな』『こんな話は、意外と応募がないみたいだから出してみよう』みたいなヒントが得られるかもしれません。
+ぜひどうぞ。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://2018.scalamatsuri.org/ja/candidates/&quot;&gt;&amp;#x5FDC;&amp;#x52DF;&amp;#x30BB;&amp;#x30C3;&amp;#x30B7;&amp;#x30E7;&amp;#x30F3;&amp;#x4E00;&amp;#x89A7; - ScalaMatsuri 2018&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3&gt;お奉行様のご紹介&lt;/h3&gt;
+
+&lt;p&gt;さて、今回はちょっと特殊なスポンサー様のご紹介です。&lt;/p&gt;
+
+&lt;p&gt;みなさん、奉行スポンサーという枠がLanding pageにあることにお気づきでしょうか？
+奉行スポンサーとは、ScalaMatsuriの運営にサービスをご提供いただく形でご協賛いただいた会社様のことです。
+基本的には、ご協力をお願いしたい場合にScalaMatsuri準備委員会の方からお声がけしていまして、承諾いただけたときにそのご返礼のお気持ちとしてご用意しているスポンサー枠です。&lt;/p&gt;
+
+&lt;p&gt;今回の記事では、どのように運営のサポートをいただいているかご紹介させていただければと思います。&lt;/p&gt;
+
+&lt;h4&gt;WiFi奉行&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://adtech.cyberagent.io/techblog/&quot; class=&quot;http-image&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://2018.scalamatsuri.org/img/logo/adtech.png&quot; class=&quot;http-image&quot; alt=&quot;https://adtech.cyberagent.io/techblog/&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;将軍家でもある&lt;a href=&quot;https://adtech.cyberagent.io/techblog/&quot;&gt;株式会社サイバーエージェント AdTech Studio&lt;/a&gt;様より、2016年度から引き続きScalaMatsuri当日のWiFi設備とそのサポートをご提供いただきます。&lt;/p&gt;
+
+&lt;p&gt;お陰様でハンズオンセッションなど、参加者が接続できるネットワーク環境が必須となるセッションも運営することができています。当日どうぞよろしくお願いいたします！&lt;/p&gt;
+
+&lt;h4&gt;浮世絵奉行&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://cacoo.com/&quot; class=&quot;http-image&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://2018.scalamatsuri.org/img/logo/cacoo.png&quot; class=&quot;http-image&quot; alt=&quot;https://cacoo.com/&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;大名家でもある&lt;a href=&quot;https://nulab-inc.com/ja/&quot;&gt;株式会社ヌーラボ&lt;/a&gt;様より、今年度からビジュアルコラボレーションツール『Cacoo』をご提供いただいています。&lt;/p&gt;
+
+&lt;p&gt;現時点でも後述のkintone用のER図の作成などで利用していますが、今後ScalaMatsuri運営関連のドキュメンテーションで活用させていただく予定です！&lt;/p&gt;
+
+&lt;h4&gt;筋斗雲奉行&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://kintone.cybozu.com/jp/&quot; class=&quot;http-image&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://2018.scalamatsuri.org/img/logo/kintone.png&quot; class=&quot;http-image&quot; alt=&quot;https://kintone.cybozu.com/jp/&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;今年度より、&lt;a href=&quot;https://www.cybozu.com/jp/&quot;&gt;株式会社サイボウズ&lt;/a&gt;様の業務アプリ構築クラウドサービス『&lt;a href=&quot;https://kintone.cybozu.com/jp/&quot;&gt;kintone&lt;/a&gt;』及び、共有メールサービス『&lt;a href=&quot;https://mailwise.cybozu.co.jp/&quot;&gt;メールワイズ&lt;/a&gt;』をGoogle Formと連携させることにより、スポンサー業務管理システムを構築しています。&lt;/p&gt;
+
+&lt;p&gt;昨年度まではGoogle Formに紐付いた、内製の巨大なGoogle Spreadsheetをメンテしながら使用していましたが、安定性やメンテナンス性の面で難がありました。
+kintoneへ移行後は、問題も解消されスポンサー事務担当者からも大変好評です。&lt;/p&gt;
+
+&lt;h4&gt;瓦版奉行&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://hatenacorp.jp/&quot; class=&quot;http-image&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://2018.scalamatsuri.org/img/logo/hatena.png&quot; class=&quot;http-image&quot; alt=&quot;http://hatenacorp.jp/&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;2016年度より、&lt;a href=&quot;http://hatenacorp.jp/&quot;&gt;株式会社はてな&lt;/a&gt;様の『&lt;a href=&quot;http://hatenablog.com/&quot;&gt;はてなブログ&lt;/a&gt;』をご提供していただいています。&lt;/p&gt;
+
+&lt;p&gt;本ブログや&lt;a href=&quot;http://blog-en.scalamatsuri.org/&quot;&gt;英語版ブログ&lt;/a&gt; で活用している他、
+今年度の&lt;a href=&quot;http://2018.scalamatsuri.org/ja/cfp/&quot;&gt;セッション募集要項&lt;/a&gt;に記述している「SNS拡散度合い」の指標のひとつとして『はてなブックマーク』のブックマーク数を採用しています。&lt;/p&gt;
+
+&lt;p&gt;改めまして、奉行スポンサーの皆さま、ありがとうございます。
+引き続きよろしくお願いします！&lt;/p&gt;
+</description>          <pubDate>Sat, 02 Dec 2017 16:45:42 +0900</pubDate>
+          <guid isPermalink="false">hatenablog://entry/8599973812321978335</guid>
+
+          <enclosure url="http://2018.scalamatsuri.org/img/logo/adtech.png" type="image/png" length="0" />
+        </item>
+
+
+
+
+        <item>
+          <title>「AkkaにPull Requestをあげようハッカソン」を2017年12月2日(土)に開催します！</title>
+          <link>http://blog.scalamatsuri.org/entry/2017/11/15/133342</link>          <description>&lt;p&gt;はじめまして、&lt;a href=&quot;http://2018.scalamatsuri.org/&quot;&gt;ScalaMatsuri&lt;/a&gt;スタッフの&lt;a href=&quot;https://github.com/richardimaoka&quot;&gt;リチャード伊真岡&lt;/a&gt;です。&lt;/p&gt;
+
+&lt;p&gt;この度ScalaMatsuri 2018に先駆け、以下の&quot;&lt;b&gt;AkkaにPull Requestをあげようハッカソン&lt;/b&gt;&quot;を開催することになりました。
+なにより注目していただきたいのはAkkaメンテナである&lt;a href=&quot;https://github.com/ktoso&quot;&gt;Konrad Malawski&lt;/a&gt;さんをお招きしていることです！Akkaメンテナから指導を受けて、Akkaコントリビュータになる絶好のチャンスです！&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe src=&quot;https://hatenablog-parts.com/embed?url=https%3A%2F%2Fjsa.connpass.com%2Fevent%2F72178%2F&quot; title=&quot;AkkaにPull Requestをあげようハッカソン (2017/12/02 18:00〜)&quot; class=&quot;embed-card embed-webcard&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;&quot;&gt;&lt;/iframe&gt;&lt;cite class=&quot;hatena-citation&quot;&gt;&lt;a href=&quot;https://jsa.connpass.com/event/72178/&quot;&gt;jsa.connpass.com&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+
+&lt;p&gt;私達&lt;a href=&quot;http://2018.scalamatsuri.org/&quot;&gt;ScalaMatsuri&lt;/a&gt;スタッフは日本国内からもっとたくさんのScala OSSコントリビュータが生まれてほしいという願っています。そのきっかけを作れないかと考えてきたところ、海外で行われている類似のイベントにヒントを得て、今回のハッカソンを開催することになりました。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://2018.scalamatsuri.org/&quot;&gt;ScalaMatsuri&lt;/a&gt;としてはこの種のハッカソンを開催するのは初めてであり、今回はテスト開催のような形になります。
+そのため、参加を検討されている皆様は疑問に思う点があると思いましたので、このブログにてその疑問点を解決できればと思い記事にしました。&lt;/p&gt;
+
+&lt;h4&gt;当日の流れは？&lt;/h4&gt;
+
+&lt;p&gt;まず、最初5分か10分ほどAkkaについての簡単な説明を行います。
+そこから各自参加者に、後に載せているイシューリストの中から自分が作業したいイシューを選んでいただきます。
+もちろん質問やヘルプが必要であればKonradさんと私リチャードが随時受け付けています。&lt;/p&gt;
+
+&lt;h4&gt;なんで参加者が3人までなの？&lt;/h4&gt;
+
+&lt;p&gt;迅速にハッカソンのテスト開催を行い、かつ参加者の皆様を手厚くサポートするためです。&lt;/p&gt;
+
+&lt;p&gt;今回はテスト開催なので、どうしても私達&lt;a href=&quot;http://2018.scalamatsuri.org/&quot;&gt;ScalaMatsuri&lt;/a&gt;スタッフが注ぎ込めるリソースが限られています。
+参加者の皆様に有意義な時間を過ごしていただくため、質問に答える、環境構築の手伝いやトラブルシュートなど、サポートに徹するスタッフが必要です。
+そして必要なスタッフの人数も参加者が増えるにつれ多くなっていきます。&lt;/p&gt;
+
+&lt;p&gt;規模の大きなハッカソンにして準備に時間がかかり開催時期がおそくなる、あるいは開催自体されないといったことを避けるために今回の人数設定にしました。&lt;/p&gt;
+
+&lt;h4&gt;ノートPCもってないんだけど？&lt;/h4&gt;
+
+&lt;p&gt;すみません、そこだけは私達にはどうしようもありません。ご自身のノートPCをご持参ください。&lt;/p&gt;
+
+&lt;h4&gt;自分ではPull Request挙げられないかもしれない&lt;/h4&gt;
+
+&lt;p&gt;ご心配なさらないでください。&lt;/p&gt;
+
+&lt;p&gt;akkaのレポジトリには下記のリンクから辿れるように&quot;help wanted&quot;というタグが付けられたイシューがあります。このタグはakkaメンテナでなくとも、広く一般のコントリビュータが作業しやすそうなイシューについてつけられるタグです。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/akka/akka/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22&quot;&gt;Issues &amp;middot; akka/akka &amp;middot; GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/akka/akka-http/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22&quot;&gt;Issues &amp;middot; akka/akka-http &amp;middot; GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/akka/alpakka/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22&quot;&gt;Issues &amp;middot; akka/alpakka &amp;middot; GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;それから先の回答でも申し上げたとおり、参加者の皆様を手厚くサポートするため参加者数を少なくしています。&lt;/p&gt;
+
+&lt;p&gt;もちろん、それでもPull Requestを時間内に挙げられないこともあると思います。そのときは後日時間のあるときにPull Requestをあげられるよう挑戦してみてください。Akkaに関することなら私&lt;a href=&quot;https://twitter.com/richardimaoka&quot;&gt;リチャードにTwitter&lt;/a&gt;で聞いてみてもいいですし、あるいは英語で質問すればAkkaメンテナが答えてくれるかもしれません。&lt;/p&gt;
+
+&lt;h4&gt;開始時間午後6時、終了午後10時って遅くない？&lt;/h4&gt;
+
+&lt;p&gt;これはLightbend社の他のAkkaメンテナさんたちがヨーロッパにいて、彼等とハッカソンの間に連絡をとれるようにとの意図での時間設定です。Pull Requestのレビューやその他質問にも答えていただける予定です。&lt;/p&gt;
+
+&lt;h4&gt;なんで12月2日なの？ScalaMatsuri本番でやらないの？&lt;/h4&gt;
+
+&lt;p&gt;まだ確定ではありませんが、&lt;a href=&quot;http://2018.scalamatsuri.org/&quot;&gt;ScalaMatsuri 2018&lt;/a&gt;本番でも行いたいと考えています！&lt;/p&gt;
+
+&lt;p&gt;しかし、我々も初めて行うタイプのハッカソンなので、ここでテスト開催をすることになりました。その上でScalaMatsuri本番での開催の是非を検討したいと思います。
+さらに、&lt;a href=&quot;http://2018.scalamatsuri.org/&quot;&gt;ScalaMatsuri&lt;/a&gt;本番でもハッカソンが成功すれば、その後も定期的に開催するかもしれません。&lt;/p&gt;
+
+&lt;p&gt;ハッカソンを通じて、OSSコントリビュータが生まれてくれると嬉しく思います。
+一緒に国内Scala OSSコミュニティを盛り上げていきましょう！&lt;/p&gt;
+</description>          <pubDate>Wed, 15 Nov 2017 13:33:42 +0900</pubDate>
+          <guid isPermalink="false">hatenablog://entry/8599973812317944000</guid>
+
+          <enclosure url="https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png" type="image/png" length="0" />
+        </item>
+
+
+
+
+        <item>
+          <title>私、ScalaMatsuriで転職しました Vol.3 株式会社セプテーニ・オリジナル 河内崇(@kawachi)さん</title>
+          <link>http://blog.scalamatsuri.org/entry/2017/10/30/150859</link>          <description>&lt;p&gt;&lt;span itemscope itemtype=&quot;http://schema.org/Photograph&quot;&gt;&lt;img src=&quot;https://cdn-ak.f.st-hatena.com/images/fotolife/o/oe_uia/20171025/20171025190220.jpg&quot; alt=&quot;f:id:oe_uia:20171025190220j:plain&quot; title=&quot;f:id:oe_uia:20171025190220j:plain&quot; class=&quot;hatena-fotolife&quot; itemprop=&quot;image&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;ScalaMatsuri座長の&lt;a href=&quot;https://twitter.com/OE_uia/&quot;&gt;麻植(@OE_uia)&lt;/a&gt;です。&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;a href=&quot;http://2018.scalamatsuri.org/&quot;&gt;ScalaMatsuri 2018&lt;/a&gt;のスポンサーを10/31(火)15時より募集開始する&lt;/b&gt;にあたりまして、特別企画として将軍スポンサーの&lt;a href=&quot;http://www.septeni-original.co.jp/&quot;&gt;株式会社セプテーニ・オリジナル&lt;/a&gt;さまに今年就職された&lt;a href=&quot;https://twitter.com/kawachi/&quot;&gt;河内崇さん(@kawachi)&lt;/a&gt;のお話をお伺いしてきました。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://2018.scalamatsuri.org/ja/sponsors/&quot;&gt;ScalaMatsuri 2018 スポンサー募集のお知らせ&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;「私も先日スクラムマスターの資格をとりました」&lt;/h2&gt;
+
+&lt;p&gt;Q.それではよろしくお願いします。&lt;a href=&quot;https://twitter.com/kawachi/&quot;&gt;河内さん(@kawachi)&lt;/a&gt;の現在の社内の仕事と、OSSやコミュニティの活動について教えて下さい。&lt;/p&gt;
+
+&lt;p&gt;A.私の仕事は、大きく2つ有りまして、１つは社内の技術レベルを向上させることです。
+自分で社内向け勉強会を開催したり、他の方が主催する勉強会のスピーカーを調整したりしています。
+先日はCatsとScalaCheckの勉強会を社内で開催しました。また採用活動にも関わっています(後述)。&lt;/p&gt;
+
+&lt;p&gt;もう１つは、PYXIS事業のシステム開発です。
+開発というより裏方とか支援部隊的な仕事が多いですが、たまに開発の現場に出たりしています。
+例えば、弊社ではスクラム開発をしており、スクラムアライアンスの方に講師で来ていただいたり、スクラムアライアンスが主催するセミナーに参加したり出来るのですが、私も先日スクラムマスターの資格をとりました。&lt;/p&gt;
+
+&lt;p&gt;社外の活動でいいますと、&lt;a href=&quot;https://rpscala.connpass.com/&quot;&gt;rpscala&lt;/a&gt;という勉強会が本郷で隔週でありまして、そこにはよく行っています。　
+rpscalaには色んな人がいて、居心地が良いなと感じています。勉強会というより同好会みたいな感じです。
+また、&lt;a href=&quot;http://scalamatsuri.org/&quot;&gt;ScalaMatsuri&lt;/a&gt;の運営にも関わっています。ScalaMatsuriについて、詳しくはまた後で。&lt;/p&gt;
+
+&lt;p&gt;OSSは、あまり大きいプロダクトを持っているわけではないですけど、今はOSSを仕事で使わないということはないご時世なので、仕事で使うものを中心にコントリビュートしています。&lt;/p&gt;
+
+&lt;p&gt;&lt;span itemscope itemtype=&quot;http://schema.org/Photograph&quot;&gt;&lt;img src=&quot;https://cdn-ak.f.st-hatena.com/images/fotolife/o/oe_uia/20171025/20171025190303.jpg&quot; alt=&quot;f:id:oe_uia:20171025190303j:plain&quot; title=&quot;f:id:oe_uia:20171025190303j:plain&quot; class=&quot;hatena-fotolife&quot; itemprop=&quot;image&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;h2&gt;「自分で判断するためには、自分で事業を理解できる必要があると思いました」&lt;/h2&gt;
+
+&lt;p&gt;Q.転職のきっかけについて教えて下さい。&lt;/p&gt;
+
+&lt;p&gt;A.やむにやまれずというところがありまして、前職で勤めていた会社の経営的な事情で、仕事自体が今年の1月中旬になくなってしまったんです。&lt;/p&gt;
+
+&lt;p&gt;Q.それは災難でしたね。転職活動をどのように進めたか、教えていただけますか？&lt;/p&gt;
+
+&lt;p&gt;A.仕事自体がなくなるという事件後、すぐに転職を活動をはじめました。
+いい機会だったので、色々な会社を見てみよう思っていました。そんなときTwitterで「あ、就活しなきゃ」とふと呟いたら、色んな方からメンションでお誘いいただいて、大変有りがたかったです。&lt;/p&gt;
+
+&lt;p&gt;&lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;ja&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;あ、就活しなきゃ&lt;/p&gt;&amp;mdash; KAWACHI Takashi (@kawachi) &lt;a href=&quot;https://twitter.com/kawachi/status/822314966392766465?ref_src=twsrc%5Etfw&quot;&gt;2017年1月20日&lt;/a&gt;&lt;/blockquote&gt;&lt;script async src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;その上で、「色々な会社をみてみる」というのが今回の目標でしたので、
+自分の評価基準を作って、それに照らしあわせて情報を整理していました。&lt;/p&gt;
+
+&lt;p&gt;ひとつは、事業についてです。
+事業規模がどのくらいか、そしてその事業が自分に理解できるか。
+前職では経営が厳しくなったので、将来に渡って経営が安定しているところがいいなと思っていまして、それを自分で判断するためには、自分で事業を理解できる必要があると思いました。&lt;/p&gt;
+
+&lt;p&gt;二つ目は、環境についてです。
+職場のロケーションや、机や椅子が良いかなどです。給与とか福利厚生もここに含まれます。&lt;/p&gt;
+
+&lt;p&gt;三つ目は、自分にあってそうかどうかです。
+自分の技能がこの会社で伸ばしていけそうか、雰囲気が合いそうか、みたいなところです。&lt;/p&gt;
+
+&lt;h2&gt;「Scalaを使っている会社の一覧として一番使いやすいのがScalaMatsuriのスポンサーリストだと思いました」&lt;/h2&gt;
+
+&lt;p&gt;Q.ScalaMatsuriを転職活動の中でどのように使ったかについて教えて下さい。&lt;/p&gt;
+
+&lt;p&gt;A.基本的にはスポンサーのリストを活用させていただきました。
+ScalaMatsuriにスポンサーしているということはScala人材を求めている会社なので、基本的に上の方から順番に、自分にあうかも、と思った会社にあたっていきました。つてが無かった会社には、知人に紹介してもらったりもしました。&lt;/p&gt;
+
+&lt;p&gt;基本的に私は、より安全でツールなどでサポートされる開発環境がいいなと思っていまして、そういう意味においてScalaが使える環境で働きたいし、Scalaがもっと広まって欲しいと思っています。
+なので、Scalaを使っている会社の一覧として一番使いやすいのがScalaMatsuriのスポンサーリストだと思いました。&lt;/p&gt;
+
+&lt;p&gt;Q.その中で、セプテーニ・オリジナル社に決めた理由について教えて下さい。&lt;/p&gt;
+
+&lt;p&gt;A.Twitterなどでお声がけいただいたり、ScalaMatsuriのスポンサーリストから実際にコンタクトをとった会社は、合計で11社ありました。そこから最後3社ぐらいになったとき、先ほどの評価軸ではどこも高評価だったのですが、その中で、セプテーニ・オリジナル社の雰囲気が自分とマッチしそうだと思いました。最後は感覚で決めましたね。&lt;/p&gt;
+
+&lt;p&gt;入社してからの話になりますが、机が昇降できるのはとてもいいです。私は長時間座っていると腰が痛くなるので、スタンディングデスクでよく仕事していますが、快適です(笑)&lt;/p&gt;
+
+&lt;p&gt;Q.セプテーニ・オリジナル社での採用活動にも、積極的に関わってらっしゃると聞きました。&lt;/p&gt;
+
+&lt;p&gt;A.勉強会で知り合った人などで、就職先を探している人を誘って採用していきました。私自身入社してみて、環境の良さを感じているので、自信をもって勧められるのが大きいです。&lt;/p&gt;
+
+&lt;p&gt;実際に誘って入社してくれた&lt;a href=&quot;https://twitter.com/AoiroAoino&quot;&gt;青山くん(@AoiroAoino)&lt;/a&gt;も、&lt;a href=&quot;https://www.facebook.com/masatada.harisawa&quot;&gt;張沢さん&lt;/a&gt;も、&lt;a href=&quot;https://www.facebook.com/kazunari.mori.12&quot;&gt;森さん&lt;/a&gt;も、全員rpscalaでよく会うメンバーです。&lt;/p&gt;
+
+&lt;p&gt;&lt;span itemscope itemtype=&quot;http://schema.org/Photograph&quot;&gt;&lt;img src=&quot;https://cdn-ak.f.st-hatena.com/images/fotolife/o/oe_uia/20171025/20171025190301.jpg&quot; alt=&quot;f:id:oe_uia:20171025190301j:plain&quot; title=&quot;f:id:oe_uia:20171025190301j:plain&quot; class=&quot;hatena-fotolife&quot; itemprop=&quot;image&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Q.どんな方とセプテーニ・オリジナル社で一緒に働きたいですか？&lt;/p&gt;
+
+&lt;p&gt;A.まず、Scalaを書ける方とは是非一緒に働きたいです(笑)
+「Scalaを仕事でやりたいけど、今の職場では様々な理由でできない」という方は沢山いると思うんですよね。そういう方にはぜひお声がけ頂きたいです。
+また、スクラムでのチーム開発やDDDに興味がある方、広告事業やマンガアプリに興味ある方もぜひ来ていただけると嬉しいです。&lt;/p&gt;
+
+&lt;p&gt;まずはお友達から(笑)じゃないですけど、気軽にお会いしてお話しましょう。&lt;/p&gt;
+
+&lt;h2&gt;まとめ&amp;amp;PR&lt;/h2&gt;
+
+&lt;p&gt;今回お話いただいた河内さんのケースでは、ScalaMatsuriのスポンサーリストを今まさにScalaを使っている会社の一覧としてご活用いただいていたようです。&lt;/p&gt;
+
+&lt;p&gt;そんな&lt;a href=&quot;http://2018.scalamatsuri.org/ja/sponsors/&quot;&gt;ScalaMatsuri 2018 スポンサー募集&lt;/a&gt;は、10月31日15時に開始する見込みです。ぜひご検討下さい！&lt;/p&gt;
+
+&lt;p&gt;また、既に&lt;a href=&quot;http://2018.scalamatsuri.org/ja/cfp/&quot;&gt;ScalaMatsuri2018 CFP&lt;/a&gt;を開始しております。みなさまのご応募お待ちしています！&lt;/p&gt;
+</description>          <pubDate>Mon, 30 Oct 2017 15:08:59 +0900</pubDate>
+          <guid isPermalink="false">hatenablog://entry/8599973812311278128</guid>
+
+          <enclosure url="https://cdn-ak.f.st-hatena.com/images/fotolife/o/oe_uia/20171025/20171025190220.jpg" type="image/jpeg" length="0" />
+        </item>
+
+
+
+
+        <item>
+          <title>ScalaMatsuri 2018 セッション募集が始まります！</title>
+          <link>http://blog.scalamatsuri.org/entry/2018/CFP</link>          <description>&lt;p&gt;こんにちは。ScalaMatsuriスタッフの粕谷 (&lt;a href=&quot;http://blog.hatena.ne.jp/daiksy/&quot; class=&quot;hatena-id-icon&quot;&gt;&lt;img src=&quot;https://cdn1.www.st-hatena.com/users/da/daiksy/profile.gif&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;&quot; class=&quot;hatena-id-icon&quot;&gt;id:daiksy&lt;/a&gt;)です。&lt;/p&gt;
+
+&lt;p&gt;2018年3月16日 - 18日、東京国際交流会館にて開催される ScalaMatsuri 2018のセッション募集を開始します！！&lt;/p&gt;
+
+&lt;p&gt;&lt;figure class=&quot;figure-image figure-image-fotolife&quot;&gt;&lt;span itemscope itemtype=&quot;http://schema.org/Photograph&quot;&gt;&lt;img src=&quot;https://cdn-ak.f.st-hatena.com/images/fotolife/d/daiksy/20170225/20170225100008.jpg&quot; alt=&quot;f:id:daiksy:20170225100008j:plain&quot; title=&quot;f:id:daiksy:20170225100008j:plain&quot; class=&quot;hatena-fotolife&quot; itemprop=&quot;image&quot;&gt;&lt;/span&gt;&lt;figcaption&gt;昨年度投票1位の中村さん&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;募集についての概要は次のようになります。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;募集〆切 12月16日23:59 JST&lt;/li&gt;
+&lt;li&gt;「Scala の初習者もしくは Scala コミュニティが興味があると思うトピックについて」ならご自由に&lt;/li&gt;
+&lt;li&gt;セッション枠: 10分, 40分, 90分&lt;/li&gt;
+&lt;li&gt;提出可能なプロポーザルは1人最大3つまで
+
+&lt;ul&gt;
+&lt;li&gt;ただし同一提出者のセッションが複数採択された場合、どれか1つを選択していただきます&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;講演者は投票とSNSの拡散度合いなどを参考に決定します&lt;/li&gt;
+&lt;li&gt;旅費を希望する投票上位者には一定額を上限とした旅費助成金を用意しています&lt;/li&gt;
+&lt;li&gt;参加者には行動規範の遵守をお願いしています &lt;a href=&quot;http://2018.scalamatsuri.org/ja/code-of-conduct/&quot;&gt;http://2018.scalamatsuri.org/ja/code-of-conduct/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;詳しくは &lt;a href=&quot;http://2018.scalamatsuri.org/ja/cfp&quot;&gt;http://2018.scalamatsuri.org/ja/cfp&lt;/a&gt; をご確認ください&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;皆さんのご協力があってこそ、ScalaMatsuriは毎年すばらしいイベントになっています。今年もぜひ、良いセッションの数々で埋め尽くされたタイムテーブルにしましょう！よろしくお願いします！！&lt;/p&gt;
+
+&lt;p&gt;以下は各トピックについての詳しい説明です。&lt;/p&gt;
+
+&lt;h2&gt;セッション枠について&lt;/h2&gt;
+
+&lt;p&gt;セッション枠は10分, 40分, 90分の3種類用意しています。軽めのトークから、じっくり長い時間をかけた講演まで、ご自身が発表したい内容に応じて自由に選択してください。&lt;/p&gt;
+
+&lt;p&gt;特に今回は、90分という例年に無い長い時間の枠を新設しました。こちらはこれまでの40分では難しかった、ワークショップのような、講演とは異なる形式に対応するためです。これまではこういった形式のセッションはアンカンファレンスにて開講されていましたが、今年は事前にじっくり時間をかけて準備していただくこともできるようになります。&lt;/p&gt;
+
+&lt;p&gt;もちろん、講演形式で90分たっぷり話をしたいことがある、という主旨で利用していただいても構いません。これまでにない新しいプログラムとなるよう、多様なご応募をお待ちしています。&lt;/p&gt;
+
+&lt;h2&gt;SNSの拡散度合いについて&lt;/h2&gt;
+
+&lt;p&gt;今回は、セッションの採択にあたって通常の投票をメインとしつつ、SNSでの拡散度合いなども参考にしようと思います。
+Twitter、Facebook、はてなブックマークなどでどのくらい話題になったか（シェアされたか）という指標を数値化し、事前の盛り上がり具合を採択の際の参考情報にしようと思います。&lt;/p&gt;
+
+&lt;p&gt;具体的にはScalaMatsuri公式サイトのセッション紹介ページに設置されている、Twitter、Facebook、はてなブックマークそれぞれに対して、ソーシャルボタン経由でプロポーザルがシェアされた数などを集計する予定です。&lt;/p&gt;
+
+&lt;p&gt;ScalaMatsuriというイベント自体が事前に盛り上がることにも繋がりますし、発表者ご自身のセッションへの集客にも有用ではないかと思います。申し込まれたセッション内容がScalaMatsuri公式サイトに掲載された際は、ぜひいろんなメディアでシェアして、ご自身のセッションを盛り上げていってください。&lt;/p&gt;
+
+&lt;h2&gt;助成金について&lt;/h2&gt;
+
+&lt;p&gt;ScalaMatsuriでは世界中から多様なセッションを募集しており、それを支援するために旅費を希望する投票上位のスピーカーに旅費助成金を用意しています。&lt;/p&gt;
+
+&lt;p&gt;旅費助成金としてわたし達が支援できるのは、以下の用途に限っています。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;東京までの航空券、列車運賃、その他の交通手段。&lt;/li&gt;
+&lt;li&gt;ScalaMatsuri 期間中のその他の交通手段。&lt;/li&gt;
+&lt;li&gt;ScalaMatsuri 一般セッション期間中のホテル宿泊費。(3/16, 17, 18泊)&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;観光、同伴者のホテル宿泊費など、その他の費用は ScalaMatsuri では経費として取り扱うことはできませんのでご注意ください。講演者のホテル宿泊費は自費もしくは助成金で賄うことを想定しています。ScalaMatsuriとして用意することはありませんので、ホテルや航空券の手配などはご自身でお願いします。&lt;/p&gt;
+
+&lt;p&gt;旅費助成金の最大値は出発地によって決まります。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;国内 800ドル&lt;/li&gt;
+&lt;li&gt;東アジア・東南アジア (中国、韓国、フィリピンなど) 900ドル&lt;/li&gt;
+&lt;li&gt;その他のアジア (インド、トルコ、イスラエルなど) 1500ドル&lt;/li&gt;
+&lt;li&gt;オセアニア 1300ドル&lt;/li&gt;
+&lt;li&gt;ヨーロッパ 1500ドル&lt;/li&gt;
+&lt;li&gt;アフリカ 2000ドル&lt;/li&gt;
+&lt;li&gt;北アメリカ 1500ドル&lt;/li&gt;
+&lt;li&gt;南アメリカ 2000ドル&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;旅費助成金として支給する額は、実際の経費申請額を超えることはありません。 例えばヨーロッパから出発して旅費が $1000 かかった場合には、上限額は$1500ですが、ScalaMatsuri が後日払い戻すのは $1000 までです。&lt;/p&gt;
+
+&lt;p&gt;申請には航空会社やホテルからのメールの転送、もしくは領収書のスキャン/写真を必要とします。&lt;/p&gt;
+
+&lt;p&gt;詳しくは &lt;a href=&quot;http://2018.scalamatsuri.org/ja/cfp/#旅費助成金&quot;&gt;http://2018.scalamatsuri.org/ja/cfp/#旅費助成金&lt;/a&gt; をご確認ください。&lt;/p&gt;
+</description>          <pubDate>Sat, 21 Oct 2017 12:00:00 +0900</pubDate>
+          <guid isPermalink="false">hatenablog://entry/8599973812309112175</guid>
+
+          <enclosure url="https://cdn-ak.f.st-hatena.com/images/fotolife/d/daiksy/20170225/20170225100008.jpg" type="image/jpeg" length="0" />
+        </item>
+
+
+
+
+        <item>
+          <title>私、ScalaMatsuriで就職しました Vol.2 株式会社エフ・コード　中村学(@gakuzzzz)さん</title>
+          <link>http://blog.scalamatsuri.org/entry/2017/10/20/175103</link>          <description>&lt;p&gt;&lt;span itemscope itemtype=&quot;http://schema.org/Photograph&quot;&gt;&lt;img src=&quot;https://cdn-ak.f.st-hatena.com/images/fotolife/o/oe_uia/20171020/20171020173209.jpg&quot; alt=&quot;f:id:oe_uia:20171020173209j:plain&quot; title=&quot;f:id:oe_uia:20171020173209j:plain&quot; class=&quot;hatena-fotolife&quot; itemprop=&quot;image&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;ScalaMatsuri座長の麻植(&lt;a href=&quot;https://twitter.com/OE_uia&quot;&gt;@OE_uia&lt;/a&gt;)です。&lt;/p&gt;
+
+&lt;p&gt;今回&lt;a href=&quot;http://2018.scalamatsuri.org/&quot;&gt;ScalaMatsuri2018 Webサイト&lt;/a&gt;公開&amp;amp;スポンサー募集開始直前の特別企画として、ScalaMatsuri 2017がきっかけとなり、実際に将軍スポンサーの&lt;a href=&quot;https://f-code.co.jp/&quot;&gt;株式会社エフ・コード&lt;/a&gt;さまに2017年9月に入社され、10月1日付でCTOに就任された中村学(&lt;a href=&quot;https://twitter.com/gakuzzzz&quot;&gt;@gakuzzzz&lt;/a&gt;)さんに、詳しくお話をお伺いしました。中村さんは、株式会社&lt;a href=&quot;http://www.t2v.jp/&quot;&gt;Tech To Value&lt;/a&gt;(以下t2v)代表取締役でもあり、システム開発やコンサルティング、コードレビューサービスなどを提供してらっしゃいます。&lt;/p&gt;
+
+&lt;p&gt;先日の&lt;a href=&quot;https://codezine.jp/article/detail/10415&quot;&gt;エフ・コード社のプレスリリース&lt;/a&gt;の舞台裏の話というだけでなく、スポンサーをご検討されている企業のみなさんにとっては「ScalaMatsuri参加者」が抱くスポンサー企業に関するイメージについて、ご参考になれば幸いです。&lt;/p&gt;
+
+&lt;h1&gt;どういう価値観を大事にするか、評価基準として何がプラスで何がマイナスか、といった文化作りですね。&lt;/h1&gt;
+
+&lt;p&gt;Q.それではよろしくお願いします。まずは入社されたエフ・コード社内のお仕事を含め、どのような活動をなさっているか教えて下さい。&lt;/p&gt;
+
+&lt;p&gt;A.エフ・コードでは、CTOとして２つのことに取り組んでいます。
+１つは、開発です。
+現在、エフ・コードの開発機能を4つに分けて進めており、そのコア部分の開発のリード、及び全体統括をしています。
+もう１つは、エンジニア組織作りです。どういう価値観を大事にするか、評価基準として何がプラスで何がマイナスか、といった文化作りですね。&lt;/p&gt;
+
+&lt;p&gt;エフ・コードの外でいえば、Japan Scala Associationという組織でScalaMatsuriの運営をしたりしています。
+また、scalikejdbcのコミッタや、最近あまり(Playのアップデートに)追従できてないですが、t2v名義でplay2-authのリードコミッタをそれぞれおよそ4年以上続けていたり、また日本の休日・祝日計算のライブラリを作ったりしています。&lt;/p&gt;
+
+&lt;p&gt;また、t2v名義ですが、引き続きOpt Technologiesさんで技術顧問をやってます。
+Scalaに関するものやJVM周りで質問があったら答えたり調べたり、Opt Technologiesさんが作っているライブラリのコードレビューをしたりしています。&lt;/p&gt;
+
+&lt;h1&gt;win-winの関係を築いて、お互いの顧客にとってよりよい価値を提供できるようになるイメージが強く湧きました&lt;/h1&gt;
+
+&lt;p&gt;Q.エフ・コード社へのjoinをどのようにして決めたかを教えて下さい。就職活動のようなものはしていたのでしょうか？&lt;/p&gt;
+
+&lt;p&gt;A.t2v名義で自分で事業を興しているので、就職活動は特にしていませんでした。&lt;/p&gt;
+
+&lt;p&gt;ただエフ・コードさんから、t2v社とエフ・コード社の双方のメリットが噛み合う形でのオファーをいただいたことがきっかけになりました。
+t2vも事業をやってはいましたが、組織構築のノウハウがなく、スケールしないなどの問題をちょうど抱えていました。&lt;/p&gt;
+
+&lt;p&gt;そこでエフ・コードさんが、t2vにとっては組織構築のノウハウを一緒にチャレンジしながら学べる機会を提供する代わりに、エフ・コードには自分の技術ノウハウを提供して欲しい、というオファーをしてくれたんです。&lt;/p&gt;
+
+&lt;p&gt;前々から他の会社さんからのオファーも幾つかいただいてはいたのですが、エフ・コードさんが唯一そういう明確なメリットを提示してくださったのが大きかったですね。
+win-winの関係を築いて、お互いの顧客にとってよりよい価値を提供できるようになるイメージが強く湧きました。&lt;/p&gt;
+
+&lt;p&gt;&lt;span itemscope itemtype=&quot;http://schema.org/Photograph&quot;&gt;&lt;img src=&quot;https://cdn-ak.f.st-hatena.com/images/fotolife/o/oe_uia/20171020/20171020173228.jpg&quot; alt=&quot;f:id:oe_uia:20171020173228j:plain&quot; title=&quot;f:id:oe_uia:20171020173228j:plain&quot; class=&quot;hatena-fotolife&quot; itemprop=&quot;image&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;h1&gt;技術に対して投資をするというのは、僕が関わる会社を選ぶ上では、重要なポイントでした&lt;/h1&gt;
+
+&lt;p&gt;Q.ScalaMatsuriが、ファーストコンタクトのきっかけになったと聞きました。&lt;/p&gt;
+
+&lt;p&gt;A.&lt;a href=&quot;http://2017.scalamatsuri.org/&quot;&gt;ScalaMatsuri&lt;/a&gt;(※2017/2月下旬開催)の後、4,5月ぐらいに「ScalaMatsuriでご挨拶させていただいた門田です」という風にお声がけいただいて、t2vのコードレビューサービスの話や、エンジニア組織作りの話を聞かせて欲しい、ということで、実際にエフコードさんと直接面談をしました。
+その時点ではエフ・コードの印象は、ScalaMatsuriでMacを配っていた会社(※)、という記憶が強かったですね(笑)&lt;/p&gt;
+
+&lt;p&gt;(※ScalaMatsuri2017にて、このような企画がありました)&lt;/p&gt;
+
+&lt;p&gt;&lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;ja&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;クロスワードに答えて応募していただくと、抽選で新型MacBookProが当たります!!ヒントは「創業10年目にしてScale  with Scalaで成長を目指す企業名」です!! &lt;a href=&quot;https://twitter.com/hashtag/ScalaMatsuri?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#ScalaMatsuri&lt;/a&gt; &lt;a href=&quot;https://t.co/Qpecko6EPV&quot;&gt;pic.twitter.com/Qpecko6EPV&lt;/a&gt;&lt;/p&gt;&amp;mdash; fcode_engineer (@fcode_engineer) &lt;a href=&quot;https://twitter.com/fcode_engineer/status/835308726605115392?ref_src=twsrc%5Etfw&quot;&gt;2017年2月25日&lt;/a&gt;&lt;/blockquote&gt;&lt;script async src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;ただScalaMatsuriのスポンサーしてくれていたので、既にお客さん感はありました。
+僕が何かを話すことで、今後も気持ちよく協賛してくれるなら、話そうかなって気になります。
+それに、もしt2vの顧客になってくれれば良いな、という営業をするつもりでした。&lt;/p&gt;
+
+&lt;p&gt;そもそも、技術カンファレンスにスポンサーするということは、技術に対して投資をする会社だ、ということになります。
+技術に対して投資をするというのは、僕が関わる会社を選ぶ上では、重要なポイントでした。&lt;/p&gt;
+
+&lt;p&gt;そして、今後どのような関わり方ができるか、という話を続けていく上で、先方からコードレビューだけじゃなくてマネジメント含めて関わってもらえないか、という風に話が進展していきました。&lt;/p&gt;
+
+&lt;p&gt;&lt;span itemscope itemtype=&quot;http://schema.org/Photograph&quot;&gt;&lt;img src=&quot;https://cdn-ak.f.st-hatena.com/images/fotolife/o/oe_uia/20171020/20171020173249.jpg&quot; alt=&quot;f:id:oe_uia:20171020173249j:plain&quot; title=&quot;f:id:oe_uia:20171020173249j:plain&quot; class=&quot;hatena-fotolife&quot; itemprop=&quot;image&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;h1&gt;僕は0-&gt;1というより、1-&gt;10が得意な人間なんですよ&lt;/h1&gt;
+
+&lt;p&gt;Q.その他、エフ・コードに魅力を感じた理由を教えて下さい。&lt;/p&gt;
+
+&lt;p&gt;A.取締役の門田さんの安定感ですね。
+社長の工藤さんにもお会いしましたし、役員の皆さんが非常に安心できる方たちだと感じていました。
+行きあたりばったりで会社を興している方ではない、戦略をもって事業を行っている、という意味の安心感です。&lt;/p&gt;
+
+&lt;p&gt;また、ゼロベースでこれからエンジニア組織を作ろう、というフェーズであるのも大きかったです。
+僕は0-&gt;1というより、1-&gt;10が得意な人間なんですよ。
+なので自分一人でt2vで0-&gt;1をするのに大変さを感じていました。だからこそエフ・コードで0-&gt;1の試行錯誤ができるので、お互いのメリットが噛みあったというのがあります。&lt;/p&gt;
+
+&lt;p&gt;Q.最後に、どのような人と一緒に働きたいか教えて下さい。&lt;/p&gt;
+
+&lt;p&gt;A.エフ・コードのエンジニア組織はこれから作っていくので、自分の価値観を組織に反映させやすい状況です。
+だからこそ、こだわりの強いエンジニアにとっては、今が面白いと思います。
+そういう気持ちを持ったエンジニアに声をかけてもらえると嬉しいです。&lt;/p&gt;
+
+&lt;h1&gt;まとめ&lt;/h1&gt;
+
+&lt;p&gt;今回お話いただいた中村さんのケースでは、ScalaMatsuriは以下のような形で役立っていたことが分かりました。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;技術に投資する会社というフィルタリング&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Scala企業であるというブランディング&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Scalaプログラマとの接点作り&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h1&gt;PR&lt;/h1&gt;
+
+&lt;p&gt;Scalaに関する知見をお持ちの企業も個人の方も、&lt;a href=&quot;http://2018.scalamatsuri.org/ja/cfp&quot;&gt;ScalaMatsuri2018 CFP&lt;/a&gt;を開始しましたので、ぜひご応募してお話を聞かせてください。&lt;/p&gt;
+
+&lt;p&gt;また、&lt;a href=&quot;http://2018.scalamatsuri.org/&quot;&gt;ScalaMatsuri2018&lt;/a&gt;のスポンサー募集は、10月末頃に開始する見込みです。ぜひご検討下さい！&lt;/p&gt;
+</description>          <pubDate>Fri, 20 Oct 2017 17:51:03 +0900</pubDate>
+          <guid isPermalink="false">hatenablog://entry/8599973812306432118</guid>
+
+          <enclosure url="https://cdn-ak.f.st-hatena.com/images/fotolife/o/oe_uia/20171009/20171009234005.jpg" type="image/jpeg" length="0" />
+        </item>
+
+
+
+
+        <item>
+          <title>次回チケット割引き！ScalaMatsuri2017のブログを書こう！キャンペーンのお知らせです</title>
+          <link>http://blog.scalamatsuri.org/entry/2017/02/23/113824</link>          <description>&lt;p&gt;こんにちは。ScalaMatsuriスタッフの高橋です。&lt;/p&gt;
+
+&lt;p&gt;ScalaMatsuri2017の開催が、ついに今週末2017年2月25日(土)・26日(日)に迫ってまいりました。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://2017.scalamatsuri.org/&quot;&gt;http://2017.scalamatsuri.org/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;例年、国内外から幅広いテーマのセッションをご応募いただき、国際的なカンファレンスとしてScalaについて様々なトレンドが集まる場となっている ScalaMatsuri。&lt;br/&gt;
+すでに、来場者数は前回を超え、質・量ともに前回以上の規模で開催する運びとなっております。&lt;/p&gt;
+
+&lt;p&gt;さてさて今回のブログは、お得なキャンペーンのお知らせです。&lt;/p&gt;
+
+&lt;p&gt;みなさん個人のブログにScalaMatsuri2017の記事を書いていただくと、次回開催時のチケットが割引になるキャンペーンを行います！&lt;br/&gt;
+一般チケットは3000円引き、学生チケットは2000円引きとなります！&lt;/p&gt;
+
+&lt;p&gt;参加方法は簡単。ブログを書いたら&lt;a href=&quot;https://goo.gl/forms/sxWGfdMmlZT0GC0z1&quot;&gt;こちらのフォーム&lt;/a&gt;へ必要事項をご入力するだけで参加完了です。&lt;/p&gt;
+
+&lt;p&gt;[追記] キャンペーン期間はScalaMatsuri終了後2週間（3/12(日)23:59に締切）です。&lt;/p&gt;
+
+&lt;p&gt;この機会にぜひキャンペーンへ、そして次回のScalaMatsuriへご参加ください。&lt;/p&gt;
+
+&lt;p&gt;下記、タイムスケジュールのおさらいです。&lt;br/&gt;
+ブログ案を考えながらMatsuri当日をお待ちください。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://2017.scalamatsuri.org/#schedule&quot;&gt;http://2017.scalamatsuri.org/#schedule&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;また、残りわずかではございますが、チケットを販売中でございます。&lt;br/&gt;
+お誘い合わせの上、奮ってご参加ください。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://2017.scalamatsuri.org/#tickets&quot;&gt;http://2017.scalamatsuri.org/#tickets&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;みなさまと会場でお会いできる事をスタッフ一同楽しみにお待ちしております。&lt;/p&gt;
+</description>          <pubDate>Thu, 23 Feb 2017 11:38:24 +0900</pubDate>
+          <guid isPermalink="false">hatenablog://entry/10328749687220263222</guid>
+
+          <enclosure url="https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png" type="image/png" length="0" />
+        </item>
+
+
+
+
+        <item>
+          <title>ScalaMatsuri 2017年度 カンファレンス当日の動画配信と、サテライト会場募集のお知らせです</title>
+          <link>http://blog.scalamatsuri.org/entry/2017/02/08/183416</link>          <description>&lt;p&gt;こんにちは。ScalaMatsuriスタッフの高橋です。
+(@tototoshi さんではありません）&lt;/p&gt;
+
+&lt;p&gt;いよいよScalaMatsuriの開催まで1ヶ月を切りました。
+みなさんScalaMatsuriは楽しみですか？&lt;/p&gt;
+
+&lt;p&gt;・・・・・&lt;/p&gt;
+
+&lt;p&gt;ふむふむ。楽しみな方が多いようで安心しました。&lt;/p&gt;
+
+&lt;p&gt;ここ最近、&lt;a href=&quot;https://twitter.com/scala_jp&quot;&gt;Twitter&lt;/a&gt;で登壇者の紹介なんかもやっていますので、
+そちらも読んでいただきつつ開催当日をお待ちください。
+登壇者紹介ツイートは&lt;a href=&quot;https://twitter.com/i/moments/824102829123964928&quot;&gt;モーメンツ&lt;/a&gt;にまとまっています。&lt;/p&gt;
+
+&lt;p&gt;さて、本日は大切なお知らせが2つあります。&lt;/p&gt;
+
+&lt;h1&gt;今年もやります、生動画配信！&lt;/h1&gt;
+
+&lt;p&gt;今年は&lt;a href=&quot;https://freshlive.tv/tech-conference&quot;&gt;FRESH!&lt;/a&gt;さんにてカンファレンスの生動画配信をやります。
+配信ページは下記の通りです。&lt;/p&gt;
+
+&lt;p&gt;▼1日目&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://freshlive.tv/tech-conference/83829&quot;&gt;RoomA/国際交流会議場&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;https://freshlive.tv/tech-conference/83831&quot;&gt;RoomB/メディアホール&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;https://freshlive.tv/tech-conference/83835&quot;&gt;RoomC/会議室1&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;▼2日目&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://freshlive.tv/tech-conference/83839&quot;&gt;RoomA/国際交流会議場&lt;/a&gt;&lt;br/&gt;
+&lt;a href=&quot;https://freshlive.tv/tech-conference/83840&quot;&gt;RoomB/メディアホール&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;配信するのは&lt;a href=&quot;http://2017.scalamatsuri.org/#schedule&quot;&gt;プログラム&lt;/a&gt;のうち、
+1日目2/25(土)の国際交流会議場(RoomA),メディアホール(RoomB),会議室1(RoomC)と&lt;br/&gt;
+2日目2/26(日)の国際交流会議場(RoomA),メディアホール(RoomB)です。&lt;/p&gt;
+
+&lt;p&gt;基本的には講演のある全会場配信があります！&lt;/p&gt;
+
+&lt;p&gt;2日目のプログラムの中でTBDとなっているスロットはアンカンファレンスの枠で、当日に内容が決定します。&lt;br/&gt;
+こちらも国際交流会議場(RoomA),メディアホール(RoomB)で行われるものについては配信予定ですのでライブ感をお楽しみ頂けると思います！&lt;/p&gt;
+
+&lt;p&gt;ただし、講演者の希望により配信しない講演もいくつかあります。&lt;/p&gt;
+
+&lt;p&gt;【配信しない講演】&lt;/p&gt;
+
+&lt;p&gt;2月25日 (土)&lt;/p&gt;
+
+&lt;p&gt;Room A&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;17:30 - 18:10 加藤 潤一    チャットワーク社 Scala導入の失敗と成功の歴史&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;Room C&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;11:00 - 11:40 Yoshimasa Niwa    新サービスをゼロから開発してローンチするのに大切だった3つのこと&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;13:30 - 14:10 Hiromichi Kishi    ゲームサーバのためのScala/Play&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;2月26日 (日)&lt;/p&gt;
+
+&lt;p&gt;Room B&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;11:00 - 11:15 中山裕貴    ”私、ScalaMatsuriで転職しました”を振り返る&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;上記講演を聞きたい方は本会場へお越しください。&lt;br/&gt;
+チケットは&lt;a href=&quot;https://scalaconfjp.doorkeeper.jp/events/53530&quot;&gt;こちら&lt;/a&gt;から。残り枚数が少なくなってきているので、ご来場をお悩みの方はお早めに！&lt;/p&gt;
+
+&lt;p&gt;また、今年は試験的にインタラクティブQ&amp;amp;Aシステム&lt;a href=&quot;https://app.sli.do/event/hjpnbeoe&quot;&gt;sli.do&lt;/a&gt;を導入します。&lt;/p&gt;
+
+&lt;p&gt;こちらは配信を見ながらでも会場内でも使って頂ける、登壇者への質問を書き込める仕組みです。&lt;br/&gt;
+質問を書き込むことと、他の人が書き込んだ質問に対して投票をすることができます。投票と書くと大げさな感じもしますが、FacebookやTwitterなどの&#39;いいね&#39;の感覚に近いと思います。&lt;br/&gt;
+sli.doからは、司会者が投票数の多い質問をピックアップして採用します。&lt;/p&gt;
+
+&lt;p&gt;配信を見ていて疑問がわいた方、会場内で手を挙げて質問するのには少し勇気が出ない方、色んな方に使ってみて頂きたいなと思っています。&lt;/p&gt;
+
+&lt;p&gt;そしてぜひ、フィードバックをもらえると嬉しいです。&lt;/p&gt;
+
+&lt;h1&gt;サテライト会場をゆるく募集します&lt;/h1&gt;
+
+&lt;p&gt;「ScalaMatsuriの生配信を大きな画面に投影して、みんなで集まってわいわい見る会」を企画・運営してくれる方々募集ということです。&lt;/p&gt;
+
+&lt;p&gt;サテライト会場の場所は日本全国どこでもOK。&lt;br/&gt;
+会場探しや当日の運営はサテライトをされる方々にお任せして、
+ScalaMatsuri準備委員会でPRをお手伝いするというスキームを考えています。&lt;/p&gt;
+
+&lt;p&gt;こちらは初の試みなので、やってみたい方は info@scalamatsuri.org　へご連絡ください。&lt;/p&gt;
+
+&lt;p&gt;ScalaMatsuriが気にはなるけど現地に行くには何かしらのハードルを感じているみなさん。&lt;br/&gt;
+ご連絡お待ちしております。&lt;/p&gt;
+</description>          <pubDate>Wed, 08 Feb 2017 18:34:16 +0900</pubDate>
+          <guid isPermalink="false">hatenablog://entry/10328749687214815934</guid>
+
+          <enclosure url="https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png" type="image/png" length="0" />
+        </item>
+
+
+
+
+        <item>
+          <title>ScalaMatsuri 2017年度タイムテーブルの公開と、将軍スポンサー1枠の最後の募集のお知らせ</title>
+          <link>http://blog.scalamatsuri.org/entry/2016/12/14/140239</link>          <description>&lt;p&gt;&lt;span itemscope itemtype=&quot;http://schema.org/Photograph&quot;&gt;&lt;img src=&quot;https://cdn-ak.f.st-hatena.com/images/fotolife/o/oe_uia/20161214/20161214045052.jpg&quot; alt=&quot;f:id:oe_uia:20161214045052j:plain&quot; title=&quot;f:id:oe_uia:20161214045052j:plain&quot; class=&quot;hatena-fotolife&quot; itemprop=&quot;image&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;ScalaMatsuri座長の麻植 @OE_uia です。&lt;/p&gt;
+
+&lt;p&gt;CFPへのご応募、並びに投票ありがとうございました。&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;総勢111件のセッション応募&lt;/b&gt; をいただき、CFP投票制＋旅費サポートという一大ニュースを引っさげて超高倍率になった昨年度に比肩するだけの応募数となりました。大変有り難いことです。&lt;/p&gt;
+
+&lt;p&gt;なお、今回の&lt;a href=&quot;http://2017.scalamatsuri.org/#schedule&quot;&gt;タイムテーブル&lt;/a&gt;は投票結果を出来るだけ参考にしつつも、トレンドの尊重とカテゴリのカバー率を加味して選考しています。&lt;/p&gt;
+
+&lt;p&gt;選考委員としてスタッフ有志、及びスタッフ外から &lt;a href=&quot;https://twitter.com/xuwei_k&quot;&gt;@xuwei_k&lt;/a&gt; さんをお迎えしました。
+ご協力、誠にありがとうございました。&lt;/p&gt;
+
+&lt;p&gt;まだ最終的なスピーカーの予定確認中ですので幾つかTBA(To be announced)になっているスロットがありますが、当日までには公開する予定です。
+お楽しみに。&lt;/p&gt;
+
+&lt;p&gt;今回の記事では、今年度の豪華な1・2日目のカンファレンス枠についてご紹介したいと思います。
+なお、2日目のメインパートは昨年度同様、アンカンファレンスとなります。また1日目にホワイトボードを設ける予定ですので、セッションのアイディアをお待ちしています！&lt;/p&gt;
+
+&lt;p&gt;(またこの記事は、&lt;a href=&quot;http://www.adventar.org/calendars/1492&quot;&gt;Scala Advent Calendar 2016&lt;/a&gt;の14日目の記事でもあります。)&lt;/p&gt;
+
+&lt;p&gt;このタイムテーブルを見てScalaMatsuriに参加したくなったけど1次チケットを買い逃した皆さん、&lt;b&gt;2次チケットを今月中に販売開始します&lt;/b&gt;のでご安心下さい。&lt;/p&gt;
+
+&lt;p&gt;また、全てのスポンサープランには招待枠として入場チケットが含まれていますので、&lt;b&gt;ご所属されている企業・組織単位でスポンサーのお申し込みをいただく&lt;/b&gt;という手もあります。ぜひ職場でご相談くださればと思います！
+(なお、お申し込み詳細は本記事末尾にあります）&lt;/p&gt;
+
+&lt;h1&gt;カンファンレス・タイムテーブル(12/13時点)&lt;/h1&gt;
+
+&lt;h2&gt;得票数1位は昨年度に引き続き @gakuzzzz さんのV2!&lt;/h2&gt;
+
+&lt;p&gt;今年度も投票最上位者にはA-1の枠を割り当てさせていただきました。
+それがなんと、&lt;u&gt;&lt;b&gt;昨年度ScalaMatsuri 2016に引き続き、 @gakuzzzz さんのV2！&lt;/b&gt;&lt;/u&gt;誠におめでとうございます。&lt;/p&gt;
+
+&lt;p&gt;今回のトークは「Readable Scala」です。&lt;/p&gt;
+
+&lt;p&gt;ここからは、得票数順不同です。&lt;/p&gt;
+
+&lt;h2&gt;今年のトレンドはストリーム処理&lt;/h2&gt;
+
+&lt;p&gt;昨年度はリファクタリング、及びFunctional Programmingが人気を博していましたが、
+&lt;b&gt;今年度はAkka Streamsをはじめとしたストリーム処理関連のトークの応募が目立ち、かつ得票数も多めの傾向&lt;/b&gt;に有りました。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;木村宗太郎さんによる「ストリームデータ処理入門」&lt;/li&gt;
+&lt;li&gt;角本幸生さん、西村政輝さんによる「DMMのAPI GatewayをAkka StreamsとAkka HTTPで作り込んでみた」&lt;/li&gt;
+&lt;li&gt;Krzysztof Ciesielskiさんによる「Akka Streams による Kafka の Reactive 化」&lt;/li&gt;
+&lt;li&gt;Konrad Malawskiさんによる「ストリーミング・ワールドのためのサバイバル・ガイド」
+になります。&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;入門から実例紹介、そして&lt;b&gt;Reactive Kafkaの作者&lt;/b&gt;や&lt;b&gt;Akkaコミッタ&lt;/b&gt;のトークまで揃う豪華でカバレッジの広いラインナップと成りました。&lt;/p&gt;
+
+&lt;h2&gt;次世代のScala&lt;/h2&gt;
+
+&lt;p&gt;もうひとつのトレンドは、&lt;b&gt;次世代のScalaとでも言うべき、新コンパイラ、及び新しい実行環境のトークが人気を博しました&lt;/b&gt;。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Sébastien Doeraeneさんによる「Scala.js 1.0.0 への道」&lt;/li&gt;
+&lt;li&gt;竹添 直樹さんによる「Scala WarriorにおけるScala.jsとタイプセーフなWeb開発」&lt;/li&gt;
+&lt;li&gt;Guillaume Martresさんによる「次世代Scalaコンパイラー Dottyの今」&lt;/li&gt;
+&lt;li&gt;Felix Mulderさんによる「Dotty と新しい Scala 開発エクスペリエンス」&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;&lt;b&gt;&lt;a href=&quot;https://www.scala-js.org/&quot;&gt;Scala.js&lt;/a&gt;作者のSébastienさん&lt;/b&gt;及び、Scalaの著名なOSSプロダクトである&lt;b&gt;GitBucket作者の竹添さん&lt;/b&gt;によるScala.jsのトークです。
+Scala.js作者による歴史的なマイルストーンやロードマップについての話から、実際にScala.jsを使用したプロダクトを交えたScala.jsの使い方の紹介と、対照的なトークを連続して配置しました。&lt;/p&gt;
+
+&lt;p&gt;Sébastienさんについては、実はScala Days NY 2016でお会いしたときに誘って応募してもらったという個人的な経緯もありまして、とても楽しみです。&lt;/p&gt;
+
+&lt;p&gt;Guillaumeさん及びFelixさんはお二人共&lt;b&gt;EPFLでOdersky教授とともに次世代ScalaコンパイラDottyを開発している方&lt;/b&gt;です。
+お二人のトークの人気ぶりと、日本でも話題に登ることの多いDottyの話を日本で(しかも直接開発者から)聞ける機会は他にほぼありえないということを鑑みて、トピックの重複は気にせず２つともタイムテーブルに配置しました。&lt;/p&gt;
+
+&lt;h2&gt;国内外のScala企業の動向&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;加藤 潤一さんによる「ChatWorkのScala採用プロダクト “Falcon” リリースまでの失敗と成功の歴史」&lt;/li&gt;
+&lt;li&gt;角本幸生さん、西村政輝さんによる「DMMのAPI GatewayをAkka StreamsとAkka HTTPで作り込んでみた」&lt;/li&gt;
+&lt;li&gt;Yoshimasa Niwaさんによる「新サービスをゼロから開発してローンチするのに大切だった3つのこと」&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;&lt;b&gt;日本のScalaエンジニアの関心が高いであろうChatWork社の最新事情&lt;/b&gt;について、かとじゅんさんからご紹介いただきます。
+またストリーム関連でもご紹介したDMM社のお二方のトークや、Twitter社のNiwaさんによるトークなど、豊富なラインナップでお送りします。&lt;/p&gt;
+
+&lt;p&gt;その他にもLagom, Finch、DeepLearning4jなど著名なOSSプロダクトのトークなど、すでに公開されているが紹介しきれないものや、まだ公開されていない興味深いトークが多数あります。
+また折を見て紹介できればと思います。&lt;/p&gt;
+
+&lt;h1&gt;将軍スポンサーの募集締め切り(12/22)のお知らせ&lt;/h1&gt;
+
+&lt;p&gt;こういった非常に豪華なラインナップを今回実現できたのも、協賛くださる企業・個人の皆様のお陰です。誠にありがとうございます。
+12/13現在において&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;将軍スポンサー 3社&lt;/li&gt;
+&lt;li&gt;大名スポンサー 8社&lt;/li&gt;
+&lt;li&gt;旗本スポンサー 5社&lt;/li&gt;
+&lt;li&gt;侍スポンサー 8社&lt;/li&gt;
+&lt;li&gt;忍者スポンサー 2名&lt;/li&gt;
+&lt;li&gt;常設ブース7枠(完売)&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;にご協賛いただいております。
+特に将軍家の&lt;a href=&quot;http://www.septeni-original.co.jp/&quot;&gt;株式会社セプテーニ・オリジナル&lt;/a&gt;様、&lt;a href=&quot;https://www.mvrck.co.jp/&quot;&gt;マーベリック株式会社&lt;/a&gt;様、&lt;a href=&quot;https://www.cyberagent.co.jp/&quot;&gt;株式会社サイバーエージェント&lt;/a&gt;様、誠にありがとうございます。&lt;/p&gt;
+
+&lt;p&gt;さて。
+そんな&lt;span style=&quot;color: #d32f2f&quot;&gt;&lt;b&gt;&lt;u&gt;将軍家にまだ１枠だけ空きがある&lt;/u&gt;&lt;/b&gt;&lt;/span&gt;ことにお気づきでしょうか？&lt;/p&gt;
+
+&lt;p&gt;将軍スポンサーには&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Webページのfirst viewにロゴ配置&lt;/li&gt;
+&lt;li&gt;1分間動画を複数回流せるCM枠&lt;/li&gt;
+&lt;li&gt;常設ブース付き&lt;/li&gt;
+&lt;li&gt;ノベルティグッズへのロゴ掲載&lt;/li&gt;
+&lt;li&gt;Web求人情報掲載&lt;/li&gt;
+&lt;li&gt;貴社ノベルティをトートバッグへ封入&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;などの全部のせの特典に加えまして&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;A会場の講演台付近のバックパネルへのロゴ配置&lt;/b&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;館内装飾用の提灯への社名記載&lt;/b&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Tシャツへのロゴ記載(&lt;span style=&quot;color: #d32f2f&quot;&gt;NEW!&lt;/span&gt;)&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;などの将軍のみの特別な特典をご用意しております。(各特典の詳細については&lt;a href=&quot;http://2017.scalamatsuri.org/ja/sponsors/sponsorship.pdf&quot;&gt;こちらの資料&lt;/a&gt;をご覧ください)&lt;/p&gt;
+
+&lt;p&gt;会場内でロゴ・社名を見かける回数という意味において、確実に&lt;u&gt;&lt;b&gt;過去最大のブランディング効果&lt;/b&gt;&lt;/u&gt;があるスポンサー特典です。
+（なお、トップの写真の提灯は昨年度作成した「すからまつり」銘の提灯です。細部は異なる可能性がありますが、ご参考まで）&lt;/p&gt;
+
+&lt;p&gt;そんな将軍スポンサーですが、将軍だけの特典の発注期限の関係で、&lt;u&gt;&lt;b&gt;&lt;span style=&quot;color: #d32f2f&quot;&gt;12/22(木)23:59 JST&lt;/span&gt;をもって募集を締め切らせていただくことになりました。&lt;/b&gt;&lt;/u&gt;&lt;/p&gt;
+
+&lt;p&gt;この機会にぜひご検討下さい。なお、既に他のプランでお申し込みいただいている方からのグレードアップも承っておりますので、 その場合は&lt;b&gt;&lt;u&gt;sponsor2017 [at] scalamatsuri.org&lt;/u&gt;&lt;/b&gt; へご連絡下さい。
+なお12/22以降も、他のプランの募集は継続します。&lt;/p&gt;
+
+&lt;p&gt;お申し込みはこちらからお願いします。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://docs.google.com/forms/d/e/1FAIpQLSc3sw0jjz1E2TovYCW1lHhboO2LoGAQLpeZeNRvKC-kljEWKg/viewform&quot;&gt;申し込みフォーム&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;それでは続報にご期待下さい！&lt;/p&gt;
+</description>          <pubDate>Wed, 14 Dec 2016 14:02:39 +0900</pubDate>
+          <guid isPermalink="false">hatenablog://entry/10328749687198902756</guid>
+
+          <enclosure url="https://cdn-ak.f.st-hatena.com/images/fotolife/o/oe_uia/20161214/20161214045052.jpg" type="image/jpeg" length="0" />
+        </item>
+
+
+
+
+        <item>
+          <title>投票開始のお知らせとカテゴリ分け無しの投票について</title>
+          <link>http://blog.scalamatsuri.org/entry/2016/11/25/124148</link>          <description>&lt;p&gt;ScalaMatsuri スタッフの &lt;a href=&quot;https://twitter.com/eed3si9n_ja&quot;&gt;@eed3si9n_ja&lt;/a&gt; です。翻訳チームということになっていますが、プログラムやメディアなどサブで何でもやってます。&lt;/p&gt;
+
+&lt;h3&gt;まとめ&lt;/h3&gt;
+
+&lt;p&gt;tl;dr スタイルでまず要点を初めに書きます。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;現在のセッション応募状況を顧みて、カテゴリ枠を取り払った「カテゴリ分け無しの投票」に変更します。この投票は&lt;b&gt;12月1日23時59分JST&lt;/b&gt;をもちまして、終了いたします。&lt;/li&gt;
+&lt;li&gt;投票結果に関しては純粋に得票順ではなく、上位の人気セッションや、トレンドを推し量るための世論調査としてとらえ、プログラムチームの主観も加味してバランス良くスケジュールを組む。&lt;/li&gt;
+&lt;li&gt;今年は、ログイン後にセッション一覧画面から投票できるようになります。&lt;/li&gt;
+&lt;li&gt;既にセッション案を提出した方で、枠の変更の申し出がある場合は数日中に cfp2017@scalamatsuri.org にご連絡ください。&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h3&gt;「グローバルな技術カンファレンス」と「日本のコミュニティの交流」の両立&lt;/h3&gt;
+
+&lt;p&gt;ScalaMatsuri 2017 は、2016年度で大きく進化したカンファレンスを無理なく持続させていく感じで、&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;日本国内の Scala のコミュニティが交流したり、海外も視野に入れて発表できる場を提供する&lt;/li&gt;
+&lt;li&gt;ユニバーサルアクセスを目指して、言語、ジェンダー、民族などの壁を超えて心地よく参加できる国際的な技術カンファレンスを作る&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;という大きな目標は変わりません。この目標に向けての具体的なアクションは&lt;a href=&quot;http://blog.scalamatsuri.org/entries/2015/10/05&quot;&gt;「グローバルな技術カンファレンス」と「日本のコミュニティの交流」の両立&lt;/a&gt; でも書かれていますが、&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;行動規範 (code of conduct) の整備およびマナー動画&lt;/li&gt;
+&lt;li&gt;公開 CFP、旅費サポート、セッション案の翻訳&lt;/li&gt;
+&lt;li&gt;一般投票によるセッションの選択&lt;/li&gt;
+&lt;li&gt;発表資料への字幕およびプロによる双方向同時通訳&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;などが実施されました。これらに関する僕の所感は&lt;a href=&quot;http://eed3si9n.com/ja/scalamatsuri-as-a-lifestyle&quot;&gt;ライフスタイルとしての ScalaMatsuri&lt;/a&gt;にまとまっています。&lt;/p&gt;
+
+&lt;h3&gt;一般投票制の見直し&lt;/h3&gt;
+
+&lt;p&gt;公開 CFP と投票というアイディアそのものは、nescala から影響を受けて ScalaMatsuri も採用したものでしたが、ScalaMatsuri は複数トラックでセッション数も多く、純粋な投票制とういうのはベストな結果を得られないのではないかと思い始めています。&lt;/p&gt;
+
+&lt;p&gt;去年は投票の初の試みということで、日本語枠と英語枠、15分枠、40分枠のカテゴリそれぞれの枠数を事前に固定して、カテゴリごとに投票してもらいました。言語によって 15分枠と 40分枠の偏りがあったため、日本語率と英語率を 1:1 することに気を取られて、人気だった日本語の 15分のトークを取り逃すことになったと思います。&lt;/p&gt;
+
+&lt;p&gt;現在執筆時点では 2017年のセッション案は英語40分枠が 43本、日本語40分枠が 16本、英語15分枠が 9本、日本語15分枠が 13本という内訳になっています。これを去年のルールどおりに各言語とも 40分枠は 8つのセッション、15分枠は 3つのセッションと選択するのは最善なのかというのは疑問に思っています。&lt;/p&gt;
+
+&lt;p&gt;予め枠数をカテゴリごとに決めてしまうのでは無く、例えば、日本語のセッションでは 40分枠と 15分枠が同じぐらいの応募が来ていることを勘案して、40分枠 6つ、15分枠 8つという構成にすることが可能かもしれません。ここで、判断基準となるのは「参加者の皆さんが当日観たいトークは何か」ではないでしょうか。&lt;/p&gt;
+
+&lt;h3&gt;カテゴリ分け無しの投票&lt;/h3&gt;
+
+&lt;p&gt;「参加者の皆さんが当日観たいトークは何か」を調査するために ScalaMatsuri 2017 で採用するのはカテゴリ分け無しの投票です。つまり、英語/日本語、40分/15分といったカテゴリを取り払って全面的に観たいものを選んでいただく投票方式です。同時通訳が今年うまくいったことで、言語の障壁についてはそこまで神経質にならなくても良くなったのもこのステップに踏み切る理由となりました。&lt;/p&gt;
+
+&lt;p&gt;セッション一覧を前年度より流用したために、「投票は以下のカテゴリ別で行われます」と書かれた「投票について」というセクションからルールを変更することになるので、既にセッション案を提出した方で、枠の変更などの申し出がある場合は数日中に cfp2017@scalamatsuri.org にご連絡ください。&lt;/p&gt;
+
+&lt;h3&gt;世論調査という位置付け&lt;/h3&gt;
+
+&lt;p&gt;もう一点事前に明確にしておきたいのは、本年度の投票は世論調査という位置付けであるということです。&lt;/p&gt;
+
+&lt;p&gt;去年何百人もの人が 22本のセッションを選ぶ過程で観測されたのは、結果が似たようなトピックのクラスタを形成したということです。投票している人は事前に打ち合わせをして「fp 入門のトークはこれにしよう」と決めているわけではないので似た内容のトークが複数選ばれるのはある意味自然な結果と言えるでしょう。&lt;/p&gt;
+
+&lt;p&gt;もう一つ結果を見て気付いたのは、6本か 8本ぐらい他よりも明らかに多くの票を得たセッションがあったけど、あとは 1, 2票の差で緩やかな曲線を描いていることです。&lt;/p&gt;
+
+&lt;p&gt;&lt;span itemscope itemtype=&quot;http://schema.org/Photograph&quot;&gt;&lt;img src=&quot;https://cdn-ak.f.st-hatena.com/images/fotolife/m/mocolog/20161125/20161125123336.png&quot; alt=&quot;f:id:mocolog:20161125123336p:plain&quot; title=&quot;f:id:mocolog:20161125123336p:plain&quot; class=&quot;hatena-fotolife&quot; itemprop=&quot;image&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;つまり、明らかな「これは皆が観たいと思っている」という上位クラスタのセッションが少数あって、残りはそれぞれバラけた結果となりました。これらを総合して考えると、数学的に得票順に上から n個のトークを選ぶのではなく、トピックやトレンドを推し量る世論調査的に投票結果を解析して、ある程度プログラムチームの主観的な観点を加えた上でバランス良く講演者を選択したほうがより楽しんでもらえるカンファレンスになると思っています。&lt;/p&gt;
+
+&lt;h3&gt;投票プログラム&lt;/h3&gt;
+
+&lt;p&gt;去年は時間が無くてできなかったことの一つに投票プログラムを独自で作成するということがありました。今年は Tech to Value 社に投票プログラムを作成していただきました。ログイン後に、セッション一覧画面から投票できるようになりました。&lt;/p&gt;
+
+&lt;p&gt;&lt;span itemscope itemtype=&quot;http://schema.org/Photograph&quot;&gt;&lt;img src=&quot;https://cdn-ak.f.st-hatena.com/images/fotolife/m/mocolog/20161125/20161125123612.png&quot; alt=&quot;f:id:mocolog:20161125123612p:plain&quot; title=&quot;f:id:mocolog:20161125123612p:plain&quot; class=&quot;hatena-fotolife&quot; itemprop=&quot;image&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;☆のアイコンをクリックすると投票することができます。
+セッション数が多いので、まずは気になるセッションをいくつかブックマークしたいという場合はピン (画鋲) のアイコンを使ってください。&lt;/p&gt;
+
+&lt;h3&gt;投票方法について&lt;/h3&gt;
+
+&lt;p&gt;この投票はチケット購入者、スポンサー企業並びに運営スタッフによって行われます。&lt;/p&gt;
+
+&lt;p&gt;本ブログでは、主にチケット購入者を対象としてその投票方法について解説いたします。&lt;/p&gt;
+
+&lt;p&gt;1.) チケット購入時に送付されたチェックインコードを確認します。
+Doorkeeper経由でScalaMatsuri 2017から送られてきているメールをご確認ください。&lt;/p&gt;
+
+&lt;p&gt;&lt;span itemscope itemtype=&quot;http://schema.org/Photograph&quot;&gt;&lt;img src=&quot;https://cdn-ak.f.st-hatena.com/images/fotolife/m/mocolog/20161125/20161125123652.png&quot; alt=&quot;f:id:mocolog:20161125123652p:plain&quot; title=&quot;f:id:mocolog:20161125123652p:plain&quot; class=&quot;hatena-fotolife&quot; itemprop=&quot;image&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;そちらのチェックインコード(あなたのQRコード下の6桁の番号です。上画像参照）とsign in
+の際に使用するGoogle or Twitter or Githubのアカウントをユニークなキーとして、後日投票をverifyしますので、お間違えのないようお願いします。&lt;/p&gt;
+
+&lt;p&gt;投票に参加されたい方は下記からチケットをご購入いただけます。
+一般チケット残りわずかです。
+&lt;a href=&quot;https://scalaconfjp.doorkeeper.jp/events/53530&quot;&gt;https://scalaconfjp.doorkeeper.jp/events/53530&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;2.) &lt;a href=&quot;http://2017.scalamatsuri.org/ja/candidates/&quot;&gt;応募セッション一覧ページ&lt;/a&gt;の右上にある&#39;Sign-in&#39;ボタンを押してGoogle or Twitter or GithubのアカウントでSign inしてください。
+（Authorize applicationボタンが出てきますので、押してください。）&lt;/p&gt;
+
+&lt;p&gt;Sign in時にDoorkeeperのチェックインコードを入力してください。&lt;/p&gt;
+
+&lt;p&gt;これで準備完了です。
+あなたが聞きたいセッションを選んください。
+ピン止めアイコンをクリックするとブックマークができ、☆アイコンをクリックすると投票することができます。&lt;/p&gt;
+
+&lt;p&gt;投票できるセッションの数はお一人さま10票です。
+持ち票の残数は&lt;a href=&quot;http://2017.scalamatsuri.org/ja/candidates/&quot;&gt;応募セッション一覧ページ&lt;/a&gt;の一番上に表示されています。&lt;/p&gt;
+
+&lt;p&gt;すでに投票したセッション、ピン止めでブックマークしたセッションだけを表示させることもできます。&lt;/p&gt;
+
+&lt;p&gt;&lt;span itemscope itemtype=&quot;http://schema.org/Photograph&quot;&gt;&lt;img src=&quot;https://cdn-ak.f.st-hatena.com/images/fotolife/m/mocolog/20161125/20161125123732.png&quot; alt=&quot;f:id:mocolog:20161125123732p:plain&quot; title=&quot;f:id:mocolog:20161125123732p:plain&quot; class=&quot;hatena-fotolife&quot; itemprop=&quot;image&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;この投票は&lt;b&gt;12月1日23時59分JST&lt;/b&gt;をもちまして、終了いたします。 投票完了時刻を過ぎたものは無効となりますので、余裕を持ってご参加ください。&lt;/p&gt;
+
+&lt;p&gt;3.) 投票結果の発表をワクワクしながらお待ちください。&lt;/p&gt;
+
+&lt;h3&gt;投票関連のFAQ&lt;/h3&gt;
+
+&lt;p&gt;Q.投票結果はどこで発表されるの？&lt;/p&gt;
+
+&lt;p&gt;A.ScalaMatsuri Webサイト上にて告知いたします。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/scala_jp&quot;&gt;Twitter&lt;/a&gt;や&lt;a href=&quot;https://www.facebook.com/ScalaMatsuri/&quot;&gt;Facebookページ&lt;/a&gt;上でも告知しますので、これを機に是非フォロー|いいね お願いします。&lt;/p&gt;
+
+&lt;p&gt;Q.万が一落選した場合は、他に話すチャンスはないの？&lt;/p&gt;
+
+&lt;p&gt;A.ScalaMatsuri 2017では、２日目の2/26にアンカンファレンスを開催するのに伴いまして、この当日にトークを募集いたします。 アンカンファレンスについては、以下の記事をご覧ください。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://blog.scalamatsuri.org/entry/2015/09/29/023812&quot;&gt;番外編 Scala World 2015レポート その2　アンカンファレンス編 - ScalaMatsuri運営ブログ&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;こちらでは１日目カンファレンスパートより、多くセッション枠をご用意できる見込みとなっています。 残念ながら今回の投票で落選された方は、ぜひアンカンファレンスにてお話しください。&lt;/p&gt;
+
+&lt;p&gt;では、参加者の皆さんは奮ってご投票ください。&lt;/p&gt;
+</description>          <pubDate>Fri, 25 Nov 2016 12:41:48 +0900</pubDate>
+          <guid isPermalink="false">hatenablog://entry/10328749687195875681</guid>
+
+          <enclosure url="https://cdn-ak.f.st-hatena.com/images/fotolife/m/mocolog/20161125/20161125123336.png" type="image/png" length="0" />
+        </item>
+
+
+
+
+        <item>
+          <title>ScalaMatsuri で、最近賢くなったというウワサの Google 翻訳を使ってみた</title>
+          <link>http://blog.scalamatsuri.org/entry/2016/11/16/073412</link>          <description>&lt;p&gt;こんにちは。ScalaMatsuri スタッフの岡本 (&lt;a href=&quot;https://twitter.com/okapies&quot;&gt;@okapies&lt;/a&gt;) です。今年の ScalaMatsuri 2016 に参加して下さった皆さん、ありがとうございました。皆さんのご協力のおかげで、様々な分野から数々の興味深いセッションをホストできただけなく、国内外の Scala ファン同士の活発な交流を実現できたと思います。&lt;/p&gt;
+
+&lt;p&gt;そして今、ScalaMatsuri 準備委員会は、次回となる&lt;b&gt;来年2月25～26日の &lt;a href=&quot;http://2017.scalamatsuri.org/&quot;&gt;ScalaMatsuri 2017&lt;/a&gt;&lt;/b&gt; の開催に向けて準備を進めているところです。現在、ScalaMatsuri では参加者とセッションの募集を行っています！&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;参加者募集&lt;/b&gt;: Doorkeeper で&lt;a href=&quot;https://scalaconfjp.doorkeeper.jp/events/53530&quot;&gt;参加チケット&lt;/a&gt;の購入が行えます。申し込みの締め切り日は&lt;b&gt;12月7日&lt;/b&gt;まで（学生チケットは12月21日まで）ですが、予定の枠数が埋まり次第締め切りとなりますので、この機会をお見逃しなく！&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;セッション募集&lt;/b&gt;: 日本各地や国内外から数多くの Scala ファンが集まる ScalaMatsuri であなたの話を聞かせてくれませんか？ すでに多数の&lt;a href=&quot;http://2017.scalamatsuri.org/ja/candidates/&quot;&gt;セッションの応募&lt;/a&gt;を頂いていますが、日本語セッション枠の応募がまだ少ないため、当選のチャンスも高いです。また、必ずしも直接 Scala を取り上げた内容でなくても構いません。応募は&lt;a href=&quot;http://2017.scalamatsuri.org/ja/cfp/&quot;&gt;こちら&lt;/a&gt;から。締め切りは &lt;b&gt;11月20日24:00 JST&lt;/b&gt; までなのでお急ぎを！&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h2&gt;翻訳の人手が足りない！&lt;/h2&gt;
+
+&lt;p&gt;さて、私は準備委員会で&lt;b&gt;翻訳チーム&lt;/b&gt;のリーダーを仰せつかっています。翻訳チームは、国際カンファレンスを目指す ScalaMatsuri において、日本語話者と非日本語話者のコミュニケーションを円滑に進めることを目的として、ウェブサイトやアナウンス、発表資料の翻訳、当日の同時通訳体制の手配、来日した参加者のサポートなどを担っています。&lt;/p&gt;
+
+&lt;p&gt;お気付きの方も多いと思いますが、&lt;a href=&quot;http://2017.scalamatsuri.org/ja/candidates/&quot;&gt;応募されたセッションの概要&lt;/a&gt;はすべて&lt;b&gt;日英双方に翻訳&lt;/b&gt;した上で掲載しています。これは、セッション応募終了後に行われる投票の際に、参加者の皆さんに言語の垣根なく純粋に興味のあるセッションに投票して頂けるようにするためです。セッションの同時通訳も、同様の趣旨で行っています。&lt;/p&gt;
+
+&lt;p&gt;しかし、これがなかなか大変な作業です。準備委員会では、英語ができるメンバーを中心に GitHub 上で&lt;a href=&quot;https://github.com/scalajp/2017.scalamatsuri.org/pulls?q=is%3Apr&quot;&gt;翻訳作業を分担して進め&lt;/a&gt;ていますが、時期によっては純粋に人手を要する場面も多く、より多くのメンバーに手を貸してもらえる体制を作ることが課題になっています。&lt;/p&gt;
+
+&lt;h2&gt;救世主 Google 先生？&lt;/h2&gt;
+
+&lt;p&gt;そんなこんなで苦慮していたところ、&lt;a href=&quot;http://d.hatena.ne.jp/shi3z/20161112/1478897441&quot;&gt;Google 先生の翻訳精度が劇的に向上&lt;/a&gt;したというニュースが飛び込んできたわけです。ひらめく、私。&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size: 150%&quot;&gt;これ、使えるんじゃね？&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;どういうことか。&lt;/p&gt;
+
+&lt;p&gt;前述の通り、翻訳作業ができる人手を増やすのはチームの重要課題です。しかし、私を含めてそこまで英語が流暢でない人間にとっては、まず文章全体の内容を把握したり、一通り翻訳文を仕上げるところまで持っていくのが一苦労なわけです。結果、目の前の翻訳タスクを取るのに少なからず気合と勇気を要するのが常であり、なかなか新たなメンバーに参加してもらえる体制を作れずにいました。&lt;/p&gt;
+
+&lt;p&gt;もし、機械翻訳がある程度のところまで訳してくれるなら、そうした精神的なハードルを下げられるのではないかと思ったわけです。&lt;/p&gt;
+
+&lt;p&gt;というわけでチーム内で提案したところ、さっそく試してもらえました。&lt;/p&gt;
+
+&lt;p&gt;&lt;span itemscope itemtype=&quot;http://schema.org/Photograph&quot;&gt;&lt;a href=&quot;http://f.hatena.ne.jp/okapies/20161114015215&quot; class=&quot;hatena-fotolife&quot; itemprop=&quot;url&quot;&gt;&lt;img src=&quot;https://cdn-ak.f.st-hatena.com/images/fotolife/o/okapies/20161114/20161114015215.png&quot; alt=&quot;f:id:okapies:20161114015215p:image:w600&quot; title=&quot;f:id:okapies:20161114015215p:image:w600&quot; class=&quot;hatena-fotolife&quot; style=&quot;width:600px&quot; itemprop=&quot;image&quot;&gt;&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;今回、翻訳したのは、Silvia Pina さんの &lt;a href=&quot;http://2017.scalamatsuri.org/en/candidates/SilviaPina_1/&quot;&gt;&quot;Beauty and/or elegance in Functional Programming&quot;&lt;/a&gt; です。&lt;/p&gt;
+
+&lt;h5&gt;原文&lt;/h5&gt;
+
+&lt;blockquote&gt;&lt;p&gt;Beauty is a combination of pleasing traits, and is not exclusive to art, as it applies to disciplines like mathematics. Debates about beauty / code elegance may be implicit but are at the heart of many concerns of modern software development, and contribute positively to quality metrics. Functional programming, coupled with Category Theory, can represent a plethora of well-defined patterns used to cut through the boilerplate and emphasize the purpose of code. We will explore how we use functional programming to achieve beauty in code, and how that translates to high quality software projects.&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;h5&gt;Google 先生&lt;/h5&gt;
+
+&lt;blockquote&gt;&lt;p&gt;美は数学のような学問分野に適用されるので、喜ばしい特性の組み合わせであり、芸術に独占的ではありません。 美しさ/コードの優雅さに関する議論は、暗黙的であるかもしれないが、現代のソフトウェア開発の多くの心配であり、品質測定基準に積極的に貢献する。 カテゴリ理論と相まって、関数型プログラミングは、定型文を切り抜き、コードの目的を強調するために使用される明確に定義された多数のパターンを表現することができます。 我々は、コードの美しさを達成するために関数型プログラミングをどのように使うのか、それが高品質のソフトウェアプロジェクトにどのように変換するのかを探る。&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;さて、皆さんはどう思われたでしょうか？&lt;/p&gt;
+
+&lt;p&gt;まず、&lt;b&gt;文意を素早く把握するのに十分&lt;/b&gt;なレベルの出力は得られているという印象です。英語が流暢でないメンバーでも作業に参加しやすい環境を作りたい、という目的には役立ちそうです。&lt;/p&gt;
+
+&lt;p&gt;とはいえ、訳文の自然さや、特に&lt;b&gt;難しい文の翻訳の品質&lt;/b&gt;にはまだ課題があります。例えば、この訳文をレビューした米国生活の長いメンバーからは「一文目の &quot;pleasing&quot; や &quot;as&quot; の意味がうまく取れていない」という意見が出ました。よく見ると、「何となく文意は取れるけど微妙に何を言っているのか分からない」文章になってしまっています。&lt;/p&gt;
+
+&lt;p&gt;アブストラクトの翻訳は、この後のセッション投票の成否を左右する重要な要素なので、このレベルの品質だとレビューを通さずそのまま掲載するのは難しそうです。ちなみに、実際にウェブサイトに掲載した翻訳文は以下の通りです。さきほどの機械翻訳と比較してみてください:&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;美しさとは感性に訴えかける特性の組み合わせであり、芸術に限らず数学のような分野にも適用できる。日常的に行われる美しさやコードの手際の良さに関する議論は、モダンなソフトウェア開発における多くの懸念事項に関わってくる課題であり、それはコード品質の客観的評価基準にもつながってくるトピックだ。関数型プログラミングと圏論を組み合わせることで、多くの正確に定義されたパターンを表現することができ、紋切型の文を取り除いて、実際のコードの目的を強調することができる。このセッションでは、関数型プログラミングを用いてコードをいかに美しくできるか、そしてそれがどう高品質なソフトウェアプロジェクトにつながってくるのかをみていく。&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;h2&gt;日英翻訳の使い方&lt;/h2&gt;
+
+&lt;p&gt;もう一つ、今度は日英翻訳を試してみましょう。今度のお題は、中村学さんの &lt;a href=&quot;http://2017.scalamatsuri.org/ja/candidates/ManabuNakamura_1/&quot;&gt;&quot;Readable Scala&quot;&lt;/a&gt; です。&lt;/p&gt;
+
+&lt;h5&gt;原文&lt;/h5&gt;
+
+&lt;blockquote&gt;&lt;p&gt;しばしば Scala のコードは読みにくいと言われることがあります。多くの場合、言語機能を意図とは異なった形で使用しているためであったり、行き過ぎた抽象化によってコードの目的が直接表現されていない事に起因しているように見受けられます。Scala の言語機能は、コードを読みにくくするためではなく、読みやすくするために熟慮されたものです。言語機能の動機を正しく理解し、より読みやすい Scala コードを記述するための指針を示します。&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;h5&gt;Google 先生&lt;/h5&gt;
+
+&lt;blockquote&gt;&lt;p&gt;Occasionally it is said that Scala&#39;s code is hard to read. In many cases, it seems that it is due to the fact that the language function is used in a form different from the intention, or because the purpose of the code is not expressed directly by excessive abstraction. The language function of Scala is not intended to make the code difficult to read, but it was contemplated to make it easier to read. I understand the motivation of the language function correctly and show the guidelines for describing the Scala code which is easier to read.&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;そこそこ意味が取れる文は出力できています。しかし、これでは自然な英文とは言い難く、大幅な手直しが必要でしょう。以下が、実際に掲載した翻訳文です:&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;It&#39;s often said that Scala code is difficult to read. In many cases, this is caused by irregular use of language features beyond their original intent or by excessive abstraction that no longer expresses the purpose of the code. The language features of Scala were well thought out to make the code more readable, not less. In this session, we will first solidify our understanding of the motives behind the language features, then propose guidelines to write more readable Scala code.&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;ただ、いろいろと実験してみたところ、語順を入れ替えたり省略している主語を明確にするなど、いわゆる「翻訳調」の文章に修正することで品質を改善できるかもしれません。この辺りは、まだ研究の余地がありそうです。&lt;/p&gt;
+
+&lt;h5&gt;書き直した原文&lt;/h5&gt;
+
+&lt;blockquote&gt;&lt;p&gt;Scala のコードは、しばしば読みにくいと言われることがあります。それは、多くの場合、Scala 言語の機能を元の意図とは異なった形で使っていることや、行き過ぎた抽象化によってコードの目的を直接表現できていないことに起因しています。Scala 言語の機能は、コードを読みにくくするためではなく、読みやすくするために熟慮して設計されています。このセッションでは、言語機能の動機を正しく理解し、より読みやすい Scala コードを記述するための指針を示します。&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;h5&gt;Google 先生&lt;/h5&gt;
+
+&lt;blockquote&gt;&lt;p&gt;Scala&#39;s code is often said to be hard to read. In many cases, it is caused by using Scala language functions differently from the original intention, and not being able to express the purpose of the code directly by excessive abstraction. The function of the Scala language is carefully designed to make it easier to read, not to make the code less readable. In this session, we will give you guidelines to correctly understand the motivation of the language function and describe the more readable Scala code.&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;h2&gt;新しい Google 翻訳は「使える」か？&lt;/h2&gt;
+
+&lt;p&gt;翻訳する内容や用途にもよると思いますが、少なくとも ScalaMatsuri で必要とされるような正式なドキュメントでそのままの形で使うには、まだ品質に課題があると感じます。しかし、例えば多少の英語スキルがある人が、読み書きの補助として使う用途では十分に可能性があるのではないでしょうか。&lt;/p&gt;
+
+&lt;p&gt;また、我々のような翻訳業務以外でも、例えば英語学習者にとってもメリットがありそうです。初学者にとって、英語に取り組むことはまとまった集中力を必要とするタスクであり、そのせいで数をこなせずなかなか上達しない…という悪循環はありがちです。うまく使えば、数をこなす上でのハードルを下げることができるのではないでしょうか。&lt;/p&gt;
+
+&lt;p&gt;ただ、これまでと違い、たとえ Google 先生が文の意味を取り損なっていてもそこそこ「読める」翻訳が出力されるので、読み手が誤った読み方に誘導される危険性はありそうです。使う際には、原文と照らし合わせながら読むのが安全でしょう。そのあたりは、今後の翻訳品質の改善を待つ必要がありそうです。&lt;/p&gt;
+
+&lt;p&gt;ScalaMatsuri では、これまで Scala コミュニティの中の言語の垣根を取り払うことを目標として、人的にも金銭的にも少なからぬコストを投じてきました。もし、技術の進歩によってそのような壁を消し去ることができれば、コミュニティの成熟にきっと新たな展開が訪れるだろうと思います。機械翻訳技術のさらなるイノベーションに期待したいですね。&lt;/p&gt;
+</description>          <pubDate>Wed, 16 Nov 2016 07:34:12 +0900</pubDate>
+          <guid isPermalink="false">hatenablog://entry/10328749687194271902</guid>
+
+          <enclosure url="https://cdn-ak.f.st-hatena.com/images/fotolife/o/okapies/20161114/20161114015215.png" type="image/png" length="0" />
+        </item>
+
+
+
+
+        <item>
+          <title>セッションが決定しました！</title>
+          <link>http://blog.scalamatsuri.org/entry/2015/11/17/230215</link>          <description>&lt;p&gt;こんにちは。ScalaMatsuri スタッフの河内です。&lt;/p&gt;
+
+&lt;p&gt;ScalaMatsuri 投票に参加していただきありがとうございました。
+皆様の投票結果を参考にしてセッションが決定しました&lt;a href=&quot;#f-db16f5ad&quot; name=&quot;fn-db16f5ad&quot; title=&quot;一部はまだ講演者との調整中です&quot;&gt;*1&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;span itemscope itemtype=&quot;http://schema.org/Photograph&quot;&gt;&lt;img src=&quot;http://cdn-ak.f.st-hatena.com/images/fotolife/t/tkawachi/20151117/20151117230101.png&quot; alt=&quot;f:id:tkawachi:20151117230101p:plain&quot; title=&quot;f:id:tkawachi:20151117230101p:plain&quot; class=&quot;hatena-fotolife&quot; itemprop=&quot;image&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;今回の ScalaMatsuri は基調講演は設けていません。
+そのため、得票数が一番多いセッションを一番良い場所においてタイムスケジュールを作りました。
+栄えある得票数一位に輝いたのは…
+&lt;a href=&quot;http://scalamatsuri.org/ja/candidates/ManabuNakamura_1/&quot;&gt;中村 学 (がくぞ) さんによる Refactoring in Scala&lt;/a&gt; でした！&lt;/p&gt;
+
+&lt;p&gt;全てのセッションのタイムスケジュールはScalaMatsuri のサイト上で公開していますのでご確認下さい。
+15分セッションはランチの後にまとめて配置しました。
+また今回非常に多くのご応募をいただきましたので、2日目の一部にセッション枠を拡大しました。&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe src=&quot;//hatenablog-parts.com/embed?url=http%3A%2F%2Fscalamatsuri.org%23schedule&quot; title=&quot;ScalaMatsuri 2016｜日本最大級の Scala カンファレンス&quot; class=&quot;embed-card embed-webcard&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;&quot;&gt;&lt;/iframe&gt;&lt;cite class=&quot;hatena-citation&quot;&gt;&lt;a href=&quot;http://scalamatsuri.org#schedule&quot;&gt;scalamatsuri.org&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+
+&lt;p&gt;あなたの投票したセッションは入っていましたか？
+当日が待ち遠しいですね！&lt;/p&gt;
+
+&lt;p&gt;前回と比較すると英語セッションの割合を増やしています。
+公募時に予定していた通り、日本語と英語が全体を通じて1:1の割合となっています。
+3会場ありますが、最も席数の多いメインの会場（国際交流会議場 400席）も日本語と英語が3セッションずつです。
+メディアホール（100席）は全セッション英語、会議室1 （100席）は全セッション日本語となっています。&lt;/p&gt;
+
+&lt;p&gt;え、英語セッション？聞き取れるか不安だなあ…と思った方はご安心ください。
+英語セッションが行われる会場では同時通訳が付きます。&lt;/p&gt;
+
+&lt;p&gt;ここでひとつ大事なお願いがあります。
+同時通訳の会場では耳につける形のレシーバをお渡しするのですが、紛失すると結構高いんです。
+回収させていただきますので、間違って持って帰らないようにご注意ください。&lt;/p&gt;
+
+&lt;h4&gt;2日目にアンカンファレンス&lt;/h4&gt;
+
+&lt;p&gt;2日目（1月31日）にアンカンファレンス (unconference) を開催します。
+ScalaMatsuri では昨年に続き2回目の開催ですが、日本ではまだマイナーだと思いますので、少し説明します。&lt;/p&gt;
+
+&lt;p&gt;アンカンファレンスは「参加者が創っていく」スタイルのカンファレンスです。
+当日に話したいアイデアを募集し、その場でテーマを決めます。
+その後、興味のあるテーマごとに自由に分かれて、少人数のグループでセッションを進めていきます。
+積極的に参加することで本当に興味のあるテーマに巡り会えるのがアンカンファレンスの魅力です。&lt;/p&gt;
+
+&lt;p&gt;セッションの形式は特に定められていません。
+参考までに、昨年のアンカンファレンスでは次のような形式がありました。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;講演 （グループの中で話せる人が講演者になって話す）&lt;/li&gt;
+&lt;li&gt;座談会 （テーマに沿って数人でトークする）&lt;/li&gt;
+&lt;li&gt;QA/Feedback （ライブラリ作者などが質問やフィードバックを受ける）&lt;/li&gt;
+&lt;li&gt;ライブコーディング （その場でコーディングする）&lt;/li&gt;
+&lt;li&gt;コードクリニック （参加者の書いたプログラムを識者がライブでレビューする）&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;どの形式のセッションも盛り上がりましたが、中でもコードクリニックは Martin Odersky 先生にレビューしていただいたこともあり、大変な盛り上がりでした。
+ノートパソコンを持っていたほうが楽しめる形式もありますので、お持ちの方はご持参ください。&lt;/p&gt;
+
+&lt;p&gt;テーマはScalaに関係する内容であればなんでもOKです。
+投票で惜しくも当選を逃したテーマも是非アンカンファレンスに応募していただければ幸いです。
+当日までに聞きたいテーマや話したいテーマについて思いを巡らせておくと、より楽しめると思います。&lt;/p&gt;
+
+&lt;p&gt;当日朝にセッションを決めますので、2日目は全員朝からご参加していただければと思います。
+その代わり、というわけではありませんが、朝食を用意する予定です。&lt;/p&gt;
+
+&lt;p&gt;今年は昨年より会場の部屋数が増えたので、より多くのセッションを開催することができます。
+つまり、より一人ひとりにマッチしたセッションを開きやすくなっていると言えます。
+気軽にアイデア出しに参加していただければ思っています。&lt;/p&gt;
+
+&lt;p&gt;アンカンファレンスを楽しむ秘訣は積極的に参加することです。
+聞きたいテーマを表明する、話したいテーマを表明する、セッション内で発言する、参加中のセッションが合わないと思ったら部屋を移動する、などの積極的な行動を心がけていただき、お楽しみいただければ幸いです。&lt;/p&gt;
+&lt;div class=&quot;footnote&quot;&gt;
+&lt;p class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn-db16f5ad&quot; name=&quot;f-db16f5ad&quot; class=&quot;footnote-number&quot;&gt;*1&lt;/a&gt;&lt;span class=&quot;footnote-delimiter&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;footnote-text&quot;&gt;一部はまだ講演者との調整中です&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;</description>          <pubDate>Tue, 17 Nov 2015 23:02:15 +0900</pubDate>
+          <guid isPermalink="false">hatenablog://entry/9247541947915457856</guid>
+
+          <enclosure url="http://cdn-ak.f.st-hatena.com/images/fotolife/t/tkawachi/20151117/20151117230101.png" type="image/png" length="0" />
+        </item>
+
+
+
+
+        <item>
+          <title>セッション募集終了と、投票開始のお知らせ</title>
+          <link>http://blog.scalamatsuri.org/entry/2015/10/18/215338</link>          <description>&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/73835037@N00/292239798&quot;&gt;&lt;img src=&quot;http://farm1.staticflickr.com/99/292239798_b7b2c78bfe.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/73835037@N00/292239798&quot;&gt;photo by Just Us 3&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;こんにちは、スタッフの&lt;a href=&quot;https://twitter.com/oe_uia&quot;&gt;@OE_uia&lt;/a&gt;です。&lt;/p&gt;
+
+&lt;p&gt;10/14をもちましてセッション募集が終了しまして、最終的に合計&lt;u&gt;&lt;b&gt;117&lt;/b&gt;&lt;/u&gt;候補と&lt;u&gt;&lt;b&gt;ScalaMatsuri史上最高数&lt;/b&gt;&lt;/u&gt;のご応募をいただきました。本当にありがとうございます！&lt;/p&gt;
+
+&lt;p&gt;どれも魅力的なセッションで全部聞きたいのですが、前回の記事でご説明した通り ScalaMatsuri 2016では参加者の投票により、ご応募の中からスピーカーを決定いたします。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://blog.scalamatsuri.org/entry/2015/10/05/144608&quot;&gt;「グローバルな技術カンファレンス」と「日本のコミュニティの交流」の両立 - ScalaMatsuri運営ブログ&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;この投票で&lt;b&gt;ScalaMatsuri 2016のカンファレンス（１日目）の全セッションが決まります&lt;/b&gt;。すなわち、この投票でカンファレンスがあなたにとって充実した楽しい一日目になるか、ちょっと期待していたのと違ったものになるかも決まります。&lt;/p&gt;
+
+&lt;p&gt;ぜひ&lt;a href=&quot;http://scalamatsuri.org/ja/candidates/&quot;&gt;応募セッション一覧&lt;/a&gt;を一つ一つ見てみてください。興味のあるタグでフィルタリングすると見やすくなるかもしれません。&lt;/p&gt;
+
+&lt;p&gt;TwitterやGitHubアカウントのリンクも、応募者について知るために活用してください。ときには&lt;a href=&quot;https://gitter.im/scalamatsuri/scalamatsuri-ja&quot;&gt;公式Gitterチャンネル&lt;/a&gt;やTwitter上で他の参加者と議論すると、思わぬ発見があるかもしれません。&lt;/p&gt;
+
+&lt;p&gt;あなたが本当に聞きたいセッションを選んでくださることを期待しています。その方がずっとScalaMatsuriを楽しんでいただけることと思います。&lt;/p&gt;
+
+&lt;h1&gt;セッション候補の投票について&lt;/h1&gt;
+
+&lt;p&gt;この投票はチケット購入者、スポンサー企業並びに運営スタッフによって行われます。&lt;/p&gt;
+
+&lt;p&gt;本ブログでは、主にチケット購入者を対象としてその投票方法について解説いたします。&lt;/p&gt;
+
+&lt;p&gt;1.) チケット購入時に使用した名前、メールアドレスと、送付されたチケットのチェックインコードを確認します。&lt;/p&gt;
+
+&lt;p&gt;Doorkeeper経由でScalaMatsuri 2016から送られてきているメールをご確認ください。&lt;/p&gt;
+
+&lt;p&gt;&lt;span itemscope itemtype=&quot;http://schema.org/Photograph&quot;&gt;&lt;img src=&quot;http://cdn-ak.f.st-hatena.com/images/fotolife/o/oe_uia/20151018/20151018214926.png&quot; alt=&quot;f:id:oe_uia:20151018214926p:plain&quot; title=&quot;f:id:oe_uia:20151018214926p:plain&quot; class=&quot;hatena-fotolife&quot; itemprop=&quot;image&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;そちらの&lt;b&gt;チェックインコード(&lt;u&gt;あなたの&lt;/u&gt;QRコード下の6桁の番号です。上画像参照）と名前、メールアドレス&lt;/b&gt;をユニークなキーとして、後日投票をverifyしますので、お間違えのないようお願いします。&lt;/p&gt;
+
+&lt;p&gt;余談ですが、もしまだ購入してなかったけど投票に参加したい！という方は、忍者スポンサーになるという方法もあります。&lt;/p&gt;
+
+&lt;p&gt;少し一般チケットよりお値段はお高めですが、Webサイトにロゴが掲載されたり、忍者を名乗れるメリットがあったりしますので、もしよろしければ是非。&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe src=&quot;//hatenablog-parts.com/embed?url=http%3A%2F%2Fscalamatsuri.org%2Fja%2Fsponsors%2F&quot; title=&quot;スポンサー募集 - ScalaMatsuri 2016&quot; class=&quot;embed-card embed-webcard&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;&quot;&gt;&lt;/iframe&gt;&lt;cite class=&quot;hatena-citation&quot;&gt;&lt;a href=&quot;http://scalamatsuri.org/ja/sponsors/&quot;&gt;scalamatsuri.org&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+
+&lt;p&gt;2.) こちらのフォームにチケット購入時に使用したメールアドレスをご入力の上、あなたが聞きたいセッションを選んでください。&lt;/p&gt;
+
+&lt;p&gt;なお、各トークの末尾にある+は難易度を表記しており、+:初心者向け、++:中級者向け、+++:上級者向け にそれぞれ対応しています。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://docs.google.com/forms/d/1Y1fM2KUg0scOAx4m56y3ci4Rs-sj6guCttuPEsL5OUs/viewform&quot;&gt;ScalaMatsuri 2016 セッション投票&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;各セッション候補の概要はこちらです。各トークにつけられているタグを利用して、フィルターしてみることもできます。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://scalamatsuri.org/ja/candidates/&quot;&gt;応募セッション一覧 - ScalaMatsuri 2016&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;なお投票できるセッションの数は、カテゴリごとに異なります。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;日本語40分枠 ... 27候補中から、7セッション&lt;/li&gt;
+&lt;li&gt;日本語15分枠 ... 30候補中から、8セッション&lt;/li&gt;
+&lt;li&gt;英語40分枠 ... 48候補中から、12セッション&lt;/li&gt;
+&lt;li&gt;英語15分枠 ... 12候補中から3セッション&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;この投票は10月30日23時59分JSTをもちまして、終了いたします。
+投票完了時刻を過ぎたものは無効となりますので、余裕を持ってご参加ください。&lt;/p&gt;
+
+&lt;p&gt;3.) 投票期間終了をワクワクしながらお待ちください。&lt;/p&gt;
+
+&lt;h1&gt;投票関連のFAQ&lt;/h1&gt;
+
+&lt;h5&gt;Q.投票結果はどこで発表されるの？&lt;/h5&gt;
+
+&lt;p&gt;A.ScalaMatsuri Webサイト上にて告知いたします。&lt;/p&gt;
+
+&lt;p&gt;Twitter(&lt;a href=&quot;https://twitter.com/scala_jp&quot;&gt;@scala_jp&lt;/a&gt;)やFacebookページ(&lt;a href=&quot;https://www.facebook.com/ScalaMatsuri/&quot;&gt;ScalaMatsuri&lt;/a&gt;)上でも告知しますので、これを機に是非フォロー|いいね お願いします。&lt;/p&gt;
+
+&lt;h5&gt;Q.なんで投票できるセッション数が言語ごとに違うの？&lt;/h5&gt;
+
+&lt;p&gt;A.セッションの各会場への割り当てを決めるために、日英セッション間で人気度の比較をしやすくするためです。&lt;/p&gt;
+
+&lt;p&gt;人気があるセッションは当然大入りが予想されますので、大きな会場を優先的に割り当てる必要が有りますが、日英で投票枠が異なるため簡単には比較できません。&lt;/p&gt;
+
+&lt;p&gt;そこで一票の格差をできるだけ小さくし、純粋に獲得票数で比較しやすくするため、各投票枠ごとの競争倍率に合わせて投票可能数を変えています。&lt;/p&gt;
+
+&lt;p&gt;なお最終的な当選数は、日英がほぼ同数となるように選出する予定です。&lt;/p&gt;
+
+&lt;h5&gt;Q.万が一落選した場合は、他に話すチャンスはないの？&lt;/h5&gt;
+
+&lt;p&gt;A.ScalaMatsuri 2016では、２日目の1/31にアンカンファレンスを開催するのに伴いまして、この当日にトークを募集いたします。
+アンカンファレンスについては、以下の記事をご覧ください。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://blog.scalamatsuri.org/entry/2015/09/29/023812&quot;&gt;番外編 Scala World 2015レポート その2　アンカンファレンス編 - ScalaMatsuri運営ブログ&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;こちらでは１日目カンファレンスパートより、多くセッション枠をご用意できる見込みとなっています。
+残念ながら今回の投票で落選された方は、ぜひアンカンファレンスにてお話しください。&lt;/p&gt;
+
+&lt;h1&gt;Gitterチャネルの開設&lt;/h1&gt;
+
+&lt;p&gt;また投票開始に合わせまして、Gitterチャネルを開設しました！&lt;/p&gt;
+
+&lt;p&gt;直近では投票に関する質問や相談に、開催が近づいてきましたらイベント前後の飲み会などの連絡など、参加者同士の交流にぜひ活用してください。&lt;/p&gt;
+
+&lt;p&gt;ちなみにこちらの取り組みは、本ブログでも取り上げた&lt;a href=&quot;https://scala.world/&quot;&gt;Scala World&lt;/a&gt;インスパイヤです。&lt;/p&gt;
+
+&lt;p&gt;日本語チャネル　&lt;a href=&quot;https://gitter.im/scalamatsuri/scalamatsuri-ja&quot;&gt;scalamatsuri/scalamatsuri-ja&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;英語チャネル　&lt;a href=&quot;https://gitter.im/scalamatsuri/scalamatsuri-en&quot;&gt;scalamatsuri/scalamatsuri-en&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;投票にも楽しんで参加していただけたら嬉しく思います。
+それでは。&lt;/p&gt;
+</description>          <pubDate>Sun, 18 Oct 2015 21:53:38 +0900</pubDate>
+          <guid isPermalink="false">hatenablog://entry/6653458415124481894</guid>
+
+          <enclosure url="http://farm1.staticflickr.com/99/292239798_b7b2c78bfe.jpg" type="image/jpeg" length="0" />
+        </item>
+
+
+
+
+        <item>
+          <title>「グローバルな技術カンファレンス」と「日本のコミュニティの交流」の両立</title>
+          <link>http://blog.scalamatsuri.org/entry/2015/10/05/144608</link>          <description>&lt;p&gt;ScalaMatsuri スタッフの &lt;a href=&quot;https://twitter.com/eed3si9n_ja&quot;&gt;@eed3si9n_ja&lt;/a&gt; です。翻訳チームということになっていますが、企画やノベルティなどサブで何でもやってます。&lt;/p&gt;
+
+&lt;p&gt;ScalaMatsuri 2016 の大きな目標として&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;日本国内の Scala のコミュニティが交流したり、海外も視野に入れて発表できる場を提供する&lt;/li&gt;
+&lt;li&gt;ユニバーサルアクセスを目指して、言語、ジェンダー、民族などの壁を超えて心地よく参加できる国際的な技術カンファレンスを作る&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;という 2つがあると思います。スタッフがあれこれ考えながら楽しむという側面もありますが。この 2つの目標をどう達成するのかを僕なりに考えてみたのが去年のカンファレンスの後に書いた&lt;a href=&quot;http://eed3si9n.com/ja/towards-universal-access-at-a-conference&quot;&gt;カンファレンスでのユニバーサル・アクセスへ向けて&lt;/a&gt;というブログ記事です。&lt;/p&gt;
+
+&lt;p&gt;今回は、日本のコミュニティの交流とグローバル化の両立というテーマで、「ユニバーサル・アクセスへ向けて」で中で出てきた、行動規範、公開 CFP 、投票制など背景を紹介します。アイディアそのものは前から出ていましたが、いざ実現するとなると、実際に参加する人が楽しめるカンファレンスにする、日本の独自色を出すこと、カンファレンスをより技術的に高いものにして近隣諸国を含む海外からの参加者を増やす、などさまざまなパラメータから議論を重ねる必要がありました。&lt;/p&gt;
+
+&lt;h3&gt;ハラスメントとは?&lt;/h3&gt;
+
+&lt;p&gt;誰もが自分は常識人だとある程度は思っているのではないでしょうか。言ってみればそれは何かあれば例外を投げればいいと思ってるメソッドに似てて、実は他人に迷惑をかけているかもしれないタイプです。例えば、「男性|女性のくせに・・・」、「〇〇人は・・・だ」はステレオタイプ化と言って立派な差別です。&lt;/p&gt;
+
+&lt;p&gt;ScalaMatsuri では&lt;a href=&quot;http://scalamatsuri.org/ja/code-of-conduct/&quot;&gt;行動規範 (code of conduct)&lt;/a&gt;を前回から採用していますが、今回特に明記したのはナンパ行為 (容姿に関する発言、恋愛・性的興味を目的とした発言) の禁止です。「そんな事する人いない」と思われるかもしれませんが、Scala 関連を含め、近年のカンファレンスでのハラスメント事例は定期的に報告されています。日本そのものの文化に不慣れだったり、普段コミュニティと関わりが少ない人、特に国内外の女性のハッカーに安心して参加してもらえるようにするには、「安全な空間」を作るための型を早急に明確にするべきだと思いました。&lt;/p&gt;
+
+&lt;p&gt;お互い、ハッカーとして敬意を持って接して下さい。ご協力お願いします。&lt;/p&gt;
+
+&lt;h3&gt;公開 CFP&lt;/h3&gt;
+
+&lt;p&gt;過去2回の開催では運営側が招待講演者を選定して、初回は Typesafe社から 4人の参加、第2回は Martin Odersky 先生にも登壇していただきました。さらにセッションの技術的なレベルを上げる方法として今回から長期の公開 CFP、最大 $2000 の旅費サポートを提供することに踏み切りました。&lt;/p&gt;
+
+&lt;p&gt;特に、40分英語のセッションには現在のべ 32本の案が集まっています。従来の運営側を通しての方法では不可能だった競争率となっています。幸いなことに今年はスポンサー各社に恵まれたため、予定通りの旅費予算が確保できることになりました。ありがとうございます。&lt;/p&gt;
+
+&lt;p&gt;集まってきているセッション案は両言語とも幅と深みを持った数々で、どれが選ばれても面白いカンファレンスになりそうです。また、プロの同時通訳を 2会場に採用して英和、和英双方向とも同時通訳が行われるため、より理解が深まることを期待しています。&lt;/p&gt;
+
+&lt;h3&gt;投票制&lt;/h3&gt;
+
+&lt;p&gt;カンファレンスの参加者の意見を反映させる仕組みとして、nescala の影響を受けて採用したのが第一次チケット購入者・スポンサー各社・スタッフの 3者によるセッションの投票制です。限られている旅費予算をフェアに分配することも目的としています。&lt;/p&gt;
+
+&lt;p&gt;セッションの投票は、CFP 締め切りの翌日 &lt;strong&gt;10月16日&lt;/strong&gt;から開始され、&lt;strong&gt;10月30日23:59 JST&lt;/strong&gt; に終了します。&lt;/p&gt;
+
+&lt;p&gt;投票のルールは&lt;a href=&quot;http://scalamatsuri.org/ja/cfp/&quot;&gt;CFP ページでも公開&lt;/a&gt;されていますが、&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;投票は以下のカテゴリ別で行われます: 40分英語セッション、40分日本語セッション、15分英語セッション、15分日本語セッション。&lt;/li&gt;
+&lt;li&gt;投票の結果、両言語とも8つの40分セッションそして3つ の 15分セッションを選出することを目標とします。ただし、数は旅費予算によって変わる可能性があります。&lt;/li&gt;
+&lt;li&gt;40分日本語セッションにのみ初心者向けの固定枠を2つ設けます。英語のセッションにはそのような固定枠は設けません。&lt;/li&gt;
+&lt;li&gt;1人あたり 1つのセッションのみ当選できることとします。&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;上のルールでは運営側で操作した変数もいくつかあって、そのうちの一つは当選されるセッションの言語比率を 1:1 にしたことです。現在圧倒的に英語の応募者の方が多いですが、旅費予算の関係や、日本国内からの参加者が大多数となるであろうこと、地域色を出したいことなどを勘案して 1:1、つまり 40分セッション各 8枠、15分セッション各 3枠、という配分にしました。&lt;/p&gt;
+
+&lt;p&gt;今回の CFP 応募の段階で、セッションの意図する聴衆 (初心者、中級者、上級者向け) を聞くようにしました。海外からの参加者はスピーカも参加者も中級以上に偏ることが想像されますが、国内の参加者は最近 Scala を始めた人もいると思います。事前の知識が無くても楽しめる日本語でのセッションが一定数あるべきだと思ったので、日本語の 40分セッションには初心者向けの固定枠を 2つ設けました。&lt;/p&gt;
+
+&lt;p&gt;投票終了後に、得票順にセッションが暫定採用されますが、上位より旅費サポートが割り当てられるため、得票順や、言語別の割り合いがどうなるかは結果を見るまで分からないところがあります。&lt;/p&gt;
+
+&lt;h3&gt;CFP 翻訳&lt;/h3&gt;
+
+&lt;p&gt;英語と日本語のセッションを英語話者および日本語話者が投票するということで、発生しているイベントが CFP 翻訳という作業です。現在ある 58本の応募を翻訳チームがタイトルと概要を両方、原文が英語なら日本語に、原文が日本語なら英語に翻訳しています。&lt;/p&gt;
+
+&lt;p&gt;特に英語圏のカンファレンスのトークや計算機科学関連は、「食事する哲学者」や「scrap your boilerplate」など言語のセンスが豊かでキャッチーでタイトルのものが多いので、翻訳チームでも真剣なトピックでも固くなり過ぎないように遊び心を入れた訳をしています。&lt;/p&gt;
+
+&lt;h3&gt;ScalaMatsuri を盛り上げるネタ&lt;/h3&gt;
+
+&lt;p&gt;ScalaMatsuri のメインコンテンツは、皆さんの発表です。「こういうカンファレンスに行きたい」「こういうトークが聞きたい」というアイディアがある人は twitter などで、&lt;a href=&quot;https://twitter.com/search?q=%23scalamatsuri&quot;&gt;#scalamatsuri&lt;/a&gt; 付きでつぶやいてみるか、&lt;strong&gt;10月15日00:00 JST&lt;/strong&gt; まで募集している CFP に奮ってご応募下さい。&lt;/p&gt;
+
+&lt;p&gt;今回も 2日目はアンカンファレンスをやります。その場で決めたトピックで座談会するも良し、今からコツコツとプログラムをハックしてアッと言わせるデモをやるも良し。今回の会場は部屋が色々あるみたいなので、ちょっとマニアックじゃないかなというネタでも 2日目はいけると思うので、色々考えてみてください。&lt;/p&gt;
+</description>          <pubDate>Mon, 05 Oct 2015 14:46:08 +0900</pubDate>
+          <guid isPermalink="false">hatenablog://entry/6653458415123582015</guid>
+
+          <enclosure url="https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png" type="image/png" length="0" />
+        </item>
+
+
+
+
+        <item>
+          <title>今年のチケット価格の理由</title>
+          <link>http://blog.scalamatsuri.org/entry/2015/10/01/113215</link>          <description>&lt;p&gt;ScalaMatsuri 2016の一般チケットの販売が開始されました。&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe src=&quot;//hatenablog-parts.com/embed?url=https%3A%2F%2Fwww.atpress.ne.jp%2Fnews%2F75923&quot; title=&quot;アジア最大級のScalaカンファレンス「ScalaMatsuri 2016」セッション投票権付きチケットを10月1日に販売開始！&quot; class=&quot;embed-card embed-webcard&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;&quot;&gt;&lt;/iframe&gt;&lt;cite class=&quot;hatena-citation&quot;&gt;&lt;a href=&quot;https://www.atpress.ne.jp/news/75923&quot;&gt;www.atpress.ne.jp&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+
+&lt;p&gt;前回、ScalaMatsuri 2014とくらべて、チケット価格が値上がりしていることに戸惑われている方もいらっしゃるのではないでしょうか。
+そこで、今年からのチケット価格値上げの理由について書いておこうと思います。&lt;/p&gt;
+
+&lt;p&gt;ScalaMatsuriのように定期的に開催しているイベントは、前回の反省点や、参加いただいた皆さんからのフィードバックを受け止めて、開催の度になんらかの改善を行います。
+また、Scalaという技術そのものが、年々導入事例を増やしており、参加希望者が開催ごとに増加している（裾野が広がっている）、ということもあります。&lt;/p&gt;
+
+&lt;p&gt;そこで、今回のScalaMatsuriでは、以下の大きな改善を行うこととしました。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;会場をより広く&lt;/li&gt;
+&lt;li&gt;海外スピーカーのトークに同時通訳を導入&lt;/li&gt;
+&lt;li&gt;講演者の旅費サポートによる品質の高い講演の確保&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h2&gt;会場をより広く&lt;/h2&gt;
+
+&lt;p&gt;参加者の増加が理由なのはもちろんなのですがもう一つ意図があります。こういった大きなイベントは参加者同士の交流や、コミュニティの促進、スポンサー企業との求人やサービスのマッチング、
+など様々な機能を有しています。そういった場を作るためには、単に講演会場がいくつかある、というだけでなく、参加者が講演の場以外でも過ごせるようなスペースなども
+必要だと思います。そういった事情から、今回から会場をより広く、スポンサーブースなど講演会場以外の場所もいくつかご用意する予定です。&lt;/p&gt;
+
+&lt;h2&gt;海外スピーカーのトークに同時通訳を導入&lt;/h2&gt;
+
+&lt;p&gt;前回のアンケートで最も多かったのがこのご意見。前回も、スライドの字幕や、チャットを使ったボランティアによる通訳を行っていましたが、
+やはり貴重な海外スピーカーのトークをきちんと理解するには、質の高い同時通訳を導入するのが最も効果的です。
+同時通訳は他の技術系カンファレンスでもいくつか導入がされており、それらの知見を取り入れつつ今回からScalaMatsuriでも採用することになりました。&lt;/p&gt;
+
+&lt;h2&gt;講演者の旅費サポートによる品質の高い講演の確保&lt;/h2&gt;
+
+&lt;p&gt;国内だけにとどまらず、ScalaMatsuriでは積極的に海外のエンジニアにも呼びかけて、世界的なトレンドを感じ取れるカンファレンスを構築することをひとつのテーマとしています。
+これらの遠方のハイレベルなエンジニアに対して旅費をサポートすることで、イベントの品質を高いレベルに保ちたいという意図があります。&lt;/p&gt;
+
+&lt;p&gt;その他としては、1日目の昼食・懇親会。2日目の朝食と昼食、といった形で、期間中の食事のご用意などもあります。&lt;/p&gt;
+
+&lt;p&gt;ScalaMatsuriは注目度も高く、Scalaのイベントとしては大変規模の大きなイベントです。そしてこの勢いは、ここしばらくは増加傾向にあると思います。
+そういった傾向を踏まえて、より参加者にとって実りが大きくなるような運営を持続させるために、
+チケット価格を規模の拡大に対して持続可能なラインで設定し、数年間安定したイベントが開催できるような水準とさせてもらいました。&lt;/p&gt;
+
+&lt;p&gt;何卒ご理解いただきたく思います。&lt;/p&gt;
+</description>          <pubDate>Thu, 01 Oct 2015 11:32:15 +0900</pubDate>
+          <guid isPermalink="false">hatenablog://entry/6653458415123149657</guid>
+
+          <enclosure url="https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png" type="image/png" length="0" />
+        </item>
+
+
+
+
+        <item>
+          <title>番外編 Scala World 2015レポート その2　アンカンファレンス編</title>
+          <link>http://blog.scalamatsuri.org/entry/2015/09/29/023812</link>          <description>&lt;p&gt;&lt;span itemscope itemtype=&quot;http://schema.org/Photograph&quot;&gt;&lt;img src=&quot;http://cdn-ak.f.st-hatena.com/images/fotolife/o/oe_uia/20150927/20150927202628.jpg&quot; alt=&quot;f:id:oe_uia:20150927202628j:plain&quot; title=&quot;f:id:oe_uia:20150927202628j:plain&quot; class=&quot;hatena-fotolife&quot; itemprop=&quot;image&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;こんにちは、ScalaMatsuriスタッフの&lt;a href=&quot;https://twitter.com/OE_uia&quot;&gt;@OE_uia&lt;/a&gt;です。&lt;/p&gt;
+
+&lt;p&gt;今回も番外編として2015年9月19日〜23日にイギリス湖水地方で開催されたカンファレンス、&lt;a href=&quot;https://scala.world/&quot;&gt;Scala World 2015&lt;/a&gt;の模様についてお送りします。前回のScala World 2015ハイキング編のレポートはこちら。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://blog.scalamatsuri.org/entry/2015/09/26/233859&quot;&gt;番外編 Scala World 2015レポート その１　ハイキング編&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;会場の入り口。ジュラシックパークみたいだね、ってTwitter上で突っ込んでいる人もいましたが、まさにそんな感じです。
+&lt;span itemscope itemtype=&quot;http://schema.org/Photograph&quot;&gt;&lt;img src=&quot;http://cdn-ak.f.st-hatena.com/images/fotolife/o/oe_uia/20150927/20150927202621.jpg&quot; alt=&quot;f:id:oe_uia:20150927202621j:plain&quot; title=&quot;f:id:oe_uia:20150927202621j:plain&quot; class=&quot;hatena-fotolife&quot; itemprop=&quot;image&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;h4&gt;9/20 &lt;a href=&quot;http://d.hatena.ne.jp/keyword/%A5%A2%A5%F3%A5%AB%A5%F3%A5%D5%A5%A1%A5%EC%A5%F3%A5%B9&quot;&gt;アンカンファレンス&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;この日は昼頃までハイキング（自分は不参加）と、午後３時からアンカンファレンスを行いました。
+古くは&lt;a href=&quot;http://www.nescala.org/&quot;&gt;NE Scala&lt;/a&gt;がアンカンファレンスを行っていましたが、最近では&lt;a href=&quot;http://event.scaladays.org/scaladays-sanfran-2015&quot;&gt;Scala Days 2015 San Francisco&lt;/a&gt; や&lt;a href=&quot;http://2014.scalamatsuri.org/ja/unconference/&quot;&gt;Scala Matsuri 2014&lt;/a&gt;など、アンカンファレンスを取り入れるScalaカンファレンスが増えてきました。&lt;/p&gt;
+
+&lt;h5&gt;アンカンファレンスとは？&lt;/h5&gt;
+
+&lt;p&gt;それでは、アンカンファレンスとは一体どんなイベントでしょうか？&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;講演内容や発表者が当日まで決まっておらず、来場者が自分の話したい内容を発表する、参加者が全員でつくりあげるカンファレンス。発表者したい人は当日受付で申し込みを行う。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://d.hatena.ne.jp/keyword/%A5%A2%A5%F3%A5%AB%A5%F3%A5%D5%A5%A1%A5%EC%A5%F3%A5%B9&quot;&gt;Hatena Keyword&lt;/a&gt;より&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;付け加えると&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;アンカンファレンス冒頭の30分〜1時間で、参加者によるセッションの提案、採用可否の決定、タイムテーブル作成を行う。「朝会」などとも呼ばれる。&lt;/li&gt;
+&lt;li&gt;イベントによっては、事前に応募だけ受け付けることもある&lt;/li&gt;
+&lt;li&gt;トーク以外に、ワークショップやパネルディスカッションなど、様々な形式でセッションを行われやすい&lt;/li&gt;
+&lt;li&gt;本セッションの CFP で落選した人など、最初っから応募してなくてもネタを事前に仕込んで来ている&lt;/li&gt;
+&lt;li&gt;とりあえず当日はラップトップ・電源・プロジェクタのコネクタを持ってきている&lt;/li&gt;
+&lt;li&gt;何を話してもいいので多少マニアックな内容でも ok&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;といった特徴があります。&lt;/p&gt;
+
+&lt;p&gt;今回のScala World 2015では、事前にGitHub上で&lt;a href=&quot;https://github.com/propensive/scalaworld&quot;&gt;propensive/scalaworld&lt;/a&gt;に概要を記載したmarkdownをPull Requestで送ることで事前応募可能でした。事前に応募するとWebサイトの&lt;a href=&quot;https://scala.world/unconference&quot;&gt;アンカンファレンス&lt;/a&gt;欄に表示されます。&lt;/p&gt;
+
+&lt;p&gt;筆者(&lt;a href=&quot;https://twitter.com/OE_uia&quot;&gt;@OE_uia&lt;/a&gt;)も事前に応募していましたが、概要が公開されていたことで、スピーカーのChris Birchall(&lt;a href=&quot;https://twitter.com/cbirchall&quot;&gt;@cbirchall&lt;/a&gt;)氏にお声がけいただき、ロンドンの&lt;a href=&quot;http://www.theguardian.com/international&quot;&gt;Guardian, Inc.&lt;/a&gt;本社で発表する機会をいただきました。事前に積極的に応募しておくと、思わぬ機会につながることもあると学びました。(Chrisさん、ありがとうございました！)&lt;/p&gt;
+
+&lt;h5&gt;アンカンファレンスのPlanningセッション&lt;/h5&gt;
+
+&lt;p&gt;Scala World 2015主催者のJon Pretty(&lt;a href=&quot;https://twitter.com/propensive&quot;&gt;@propensive&lt;/a&gt;)氏の仕切りでプラニングセッションがスタート。&lt;/p&gt;
+
+&lt;p&gt;「このセッション30分にして欲しい」「離れてる会場でもいい」などとその場で調整しながら埋めていきました。&lt;/p&gt;
+
+&lt;p&gt;&lt;span itemscope itemtype=&quot;http://schema.org/Photograph&quot;&gt;&lt;img src=&quot;http://cdn-ak.f.st-hatena.com/images/fotolife/o/oe_uia/20150927/20150927201814.jpg&quot; alt=&quot;f:id:oe_uia:20150927201814j:plain&quot; title=&quot;f:id:oe_uia:20150927201814j:plain&quot; class=&quot;hatena-fotolife&quot; itemprop=&quot;image&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Google Docs上にリストアップしたセッション候補に対し、カーソルを当てた人数で採用可否を決定する、というユニークな方法で投票していました。&lt;/p&gt;
+
+&lt;p&gt;筆者のトーク「Neural Network as a function」も幸いにも採択。ただ時間の都合上デモができなかったので、あまりScala成分ありません。&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe src=&quot;https://www.slideshare.net/slideshow/embed_code/key/1a2zWXQY3WOLuO&quot; width=&quot;427&quot; height=&quot;356&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; style=&quot;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&quot; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&quot;margin-bottom:5px&quot;&gt; &lt;strong&gt; &lt;a href=&quot;https://www.slideshare.net/oeuia/neural-network-as-a-function&quot; title=&quot;Neural Network as a function&quot; target=&quot;_blank&quot;&gt;Neural Network as a function&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&quot;http://www.slideshare.net/oeuia&quot; target=&quot;_blank&quot;&gt;Taisuke Oe&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;cite class=&quot;hatena-citation&quot;&gt;&lt;a href=&quot;http://www.slideshare.net/oeuia/neural-network-as-a-function&quot;&gt;www.slideshare.net&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+
+&lt;h5&gt;Beyond Scala Lenses&lt;/h5&gt;
+
+&lt;p&gt;&lt;span itemscope itemtype=&quot;http://schema.org/Photograph&quot;&gt;&lt;img src=&quot;http://cdn-ak.f.st-hatena.com/images/fotolife/o/oe_uia/20150927/20150927201829.jpg&quot; alt=&quot;f:id:oe_uia:20150927201829j:plain&quot; title=&quot;f:id:oe_uia:20150927201829j:plain&quot; class=&quot;hatena-fotolife&quot; itemprop=&quot;image&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/julien-truffaut/Monocle&quot;&gt;Monocle&lt;/a&gt;の作者Julien Truffaut(&lt;a href=&quot;https://twitter.com/JulienTruffaut&quot;&gt;@JulienTruffaut&lt;/a&gt;)氏のトーク。&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe src=&quot;https://www.slideshare.net/slideshow/embed_code/key/ebySdJ4TtPEPWe&quot; width=&quot;427&quot; height=&quot;356&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; style=&quot;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&quot; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&quot;margin-bottom:5px&quot;&gt; &lt;strong&gt; &lt;a href=&quot;https://www.slideshare.net/JulienTruffaut/beyond-scala-lens&quot; title=&quot;Beyond Scala Lens&quot; target=&quot;_blank&quot;&gt;Beyond Scala Lens&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&quot;http://www.slideshare.net/JulienTruffaut&quot; target=&quot;_blank&quot;&gt;Julien Truffaut&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;cite class=&quot;hatena-citation&quot;&gt;&lt;a href=&quot;http://www.slideshare.net/JulienTruffaut/beyond-scala-lens&quot;&gt;www.slideshare.net&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+
+&lt;p&gt;Iso, Prism, Lens, Optionalといった、Optics関連の概念をScalaのコードを使って解説するセッションです。
+途中クイズ形式だったり、かなりインタラクティブに進行していました。&lt;/p&gt;
+
+&lt;p&gt;「Prism相当のものはScala標準ライブラリに含まれているけど、なんだか分かるかな？」&lt;/p&gt;
+
+&lt;p&gt;「apply &amp;amp; unapply」&lt;/p&gt;
+
+&lt;p&gt;「正解！」&lt;/p&gt;
+
+&lt;p&gt;などと、前方で次々に即答している人をよく見たら、&lt;a href=&quot;https://github.com/non/spire&quot;&gt;Spire&lt;/a&gt;や&lt;a href=&quot;https://github.com/non/cats&quot;&gt;Cats&lt;/a&gt;のリポジトリオーナーでスピーカーのErik Osheim(&lt;a href=&quot;https://twitter.com/d6&quot;&gt;@d6&lt;/a&gt;)氏でした。流石。&lt;/p&gt;
+
+&lt;h5&gt;-Yno-lub&lt;/h5&gt;
+
+&lt;p&gt;sbtチームのEugene Yokota(&lt;a href=&quot;https://twitter.com/eed3si9n&quot;&gt;@eed3si9n&lt;/a&gt;)氏による、型推論を弱くするフラグの提言。現在はsbtプラグインとして&lt;a href=&quot;https://github.com/sbt/sbt-ynolub&quot;&gt;公開されています&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;自分は聞けませんでしたが、人だかりができていました。&lt;/p&gt;
+
+&lt;h5&gt;Strict equality and cooperative equality in spire&lt;/h5&gt;
+
+&lt;p&gt;SpireメンテナのRüdiger Klaehn(&lt;a href=&quot;https://twitter.com/klaehnr&quot;&gt;@klaehnr&lt;/a&gt;)氏による、Equalityを表す型クラスに関するトーク。&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe src=&quot;//hatenablog-parts.com/embed?url=https%3A%2F%2Fdocs.google.com%2Fpresentation%2Fd%2F1YQlHsER6kG7AHXN3b5wWxA3QIYL3iczkiTKFChQnd1A%2Fpub%3Fslide%3Did.ge06db29f2_0_72&quot; title=&quot;strict and cooperative equality&quot; class=&quot;embed-card embed-webcard&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;&quot;&gt;&lt;/iframe&gt;&lt;cite class=&quot;hatena-citation&quot;&gt;&lt;a href=&quot;https://docs.google.com/presentation/d/1YQlHsER6kG7AHXN3b5wWxA3QIYL3iczkiTKFChQnd1A/pub?slide=id.ge06db29f2_0_72&quot;&gt;docs.google.com&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Equalityを表す型クラスインスタンスが、ライブラリによって実は全然挙動が違ってつらい&lt;/li&gt;
+&lt;li&gt;EqualityをStrict EqualityとCooperative Equalityに分けて、カスタマイズはCooperative Equalityの型クラスだけでやらないか、という提案&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;Equalityを表す型クラスが整理されていて、リファンレンスとしても便利と思います。&lt;/p&gt;
+
+&lt;h4&gt;7/20夜　アンカンファレンス後の飲み会&lt;/h4&gt;
+
+&lt;p&gt;&lt;span itemscope itemtype=&quot;http://schema.org/Photograph&quot;&gt;&lt;img src=&quot;http://cdn-ak.f.st-hatena.com/images/fotolife/o/oe_uia/20150927/20150927202608.jpg&quot; alt=&quot;f:id:oe_uia:20150927202608j:plain&quot; title=&quot;f:id:oe_uia:20150927202608j:plain&quot; class=&quot;hatena-fotolife&quot; itemprop=&quot;image&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Julien氏も来ていたので、Lensについての話題が中心でした。&lt;/p&gt;
+
+&lt;p&gt;「Lensでネストされたデータ構造の値を取り出す話、Haskellだと嬉しいのはわかるけど、フィールドアクセスをドットでチェーンできるScalaだと何が嬉しいんだろう？」&lt;/p&gt;
+
+&lt;p&gt;「いや、case classだとcopyのネストが嫌じゃない？」&lt;/p&gt;
+
+&lt;p&gt;「Lensを使った場合のパフォーマンスはどうなんだ？」&lt;/p&gt;
+
+&lt;p&gt;「Lensを使うと関数合成のたびにインスタンスが生成されるからその分だけ遅くなるけど、６重にネストされた程度のオブジェクトなら定数の範囲で収まるよ」&lt;/p&gt;
+
+&lt;p&gt;などなど。&lt;/p&gt;
+
+&lt;p&gt;その一方で、マインクラフトでプログラミングなど今まで見た変態言語の話題になったので、日本が誇る？&lt;a href=&quot;http://d.hatena.ne.jp/gongoZ/20110514/1305372647&quot;&gt;肉体言語Tython&lt;/a&gt;の紹介をしたところウケるなど、こちらも楽しく参加していました。&lt;/p&gt;
+
+&lt;h5&gt;ぷち宣伝&lt;/h5&gt;
+
+&lt;p&gt;2016年1月30日、31日に開催する&lt;a href=&quot;http://scalamatsuri.org/&quot;&gt;Scala Matsuri 2016&lt;/a&gt;では、2日目にアンカンファレンスを開催することを決定しました！
+続報をお楽しみに。&lt;/p&gt;
+
+&lt;p&gt;カンファレンスはその３へと続きます！&lt;/p&gt;
+</description>          <pubDate>Tue, 29 Sep 2015 02:38:12 +0900</pubDate>
+          <guid isPermalink="false">hatenablog://entry/6653458415122798959</guid>
+
+          <enclosure url="http://cdn-ak.f.st-hatena.com/images/fotolife/o/oe_uia/20150927/20150927202628.jpg" type="image/jpeg" length="0" />
+        </item>
+
+
+
+
+        <item>
+          <title>番外編 Scala World 2015レポート その１</title>
+          <link>http://blog.scalamatsuri.org/entry/2015/09/26/233859</link>          <description>&lt;p&gt;&lt;span itemscope itemtype=&quot;http://schema.org/Photograph&quot;&gt;&lt;img src=&quot;http://cdn-ak.f.st-hatena.com/images/fotolife/o/oe_uia/20150926/20150926030918.jpg&quot; alt=&quot;f:id:oe_uia:20150926030918j:plain&quot; title=&quot;f:id:oe_uia:20150926030918j:plain&quot; class=&quot;hatena-fotolife&quot; itemprop=&quot;image&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;こんにちは、ScalaMatsuriスタッフの&lt;a href=&quot;https://twitter.com/OE_uia&quot;&gt;@OE_uia&lt;/a&gt;です。&lt;/p&gt;
+
+&lt;p&gt;今回は番外編として、2015年9月19日〜23日にイギリス湖水地方で開催されたカンファレンス、&lt;a href=&quot;https://scala.world/&quot;&gt;Scala World 2015&lt;/a&gt;に参加してきましたので、その模様についてお送りします。Scala Matsuri以外のカンファレンスは一体どういう感じなのか、雰囲気を楽しんでもらえたら嬉しいです。&lt;/p&gt;
+
+&lt;h3&gt;&lt;a href=&quot;https://scala.world/&quot;&gt;Scala World&lt;/a&gt;とは？&lt;/h3&gt;
+
+&lt;p&gt;今回が第一回目となるScalaの国際カンファレンスで、主催者は&lt;a href=&quot;http://2014.scalamatsuri.org/ja/program/index.html&quot;&gt;Scala Matsuri 2014&lt;/a&gt;にも登壇された&lt;a href=&quot;https://twitter.com/propensive&quot;&gt;Jon Pretty(@propensive)&lt;/a&gt;氏です。&lt;/p&gt;
+
+&lt;p&gt;9/21-22のカンファレンスにおけるスピーカーはすべてJon Pretty氏による招待者のみとなっており、「consistent, coherent and curated」であることが特徴とのこと。9/20のアンカンファレンスのみ一般公募していました。&lt;/p&gt;
+
+&lt;h3&gt;開催場所&lt;/h3&gt;
+
+&lt;p&gt;イギリス湖水地方(Lake District)の都市Penrithに程近い、Rheged Centreが会場でした。&lt;/p&gt;
+
+&lt;p&gt;会場入口の様子
+&lt;span itemscope itemtype=&quot;http://schema.org/Photograph&quot;&gt;&lt;img src=&quot;http://cdn-ak.f.st-hatena.com/images/fotolife/o/oe_uia/20150926/20150926030847.jpg&quot; alt=&quot;f:id:oe_uia:20150926030847j:plain&quot; title=&quot;f:id:oe_uia:20150926030847j:plain&quot; class=&quot;hatena-fotolife&quot; itemprop=&quot;image&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;会場までの道中
+&lt;span itemscope itemtype=&quot;http://schema.org/Photograph&quot;&gt;&lt;img src=&quot;http://cdn-ak.f.st-hatena.com/images/fotolife/o/oe_uia/20150926/20150926031407.jpg&quot; alt=&quot;f:id:oe_uia:20150926031407j:plain&quot; title=&quot;f:id:oe_uia:20150926031407j:plain&quot; class=&quot;hatena-fotolife&quot; itemprop=&quot;image&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;会場の隣が羊牧場という、とても牧歌的な街
+&lt;span itemscope itemtype=&quot;http://schema.org/Photograph&quot;&gt;&lt;img src=&quot;http://cdn-ak.f.st-hatena.com/images/fotolife/o/oe_uia/20150926/20150926051259.jpg&quot; alt=&quot;f:id:oe_uia:20150926051259j:plain&quot; title=&quot;f:id:oe_uia:20150926051259j:plain&quot; class=&quot;hatena-fotolife&quot; itemprop=&quot;image&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;h3&gt;開催スケジュール&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;9/18 夜：有志による飲み会&lt;/li&gt;
+&lt;li&gt;9/19 日中：ハイキング　夜：有志による飲み会&lt;/li&gt;
+&lt;li&gt;9/20 午前：ハイキング、午後：アンカンファレンス　夜：Speaker Dinnerないしは、有志による飲み会&lt;/li&gt;
+&lt;li&gt;9/21 日中：カンファレンス１日目　夜：パーティ&lt;/li&gt;
+&lt;li&gt;9/22 日中：カンファレンス２日目&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h3&gt;特徴&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;参加者は200人強。イギリス国内２割、ヨーロッパ４割、それ以外４割程度(挙手による概算）&lt;/li&gt;
+&lt;li&gt;上級者向けセッション中心で、初心者向けのセッションがほぼ皆無&lt;/li&gt;
+&lt;li&gt;実験的なライブラリ・取り組みの発表が目立つ&lt;/li&gt;
+&lt;li&gt;Workshopと銘打った1時間半程度のデモセッションも複数&lt;/li&gt;
+&lt;li&gt;犬も歩けば有名ライブラリ作者に当たるほどの密度の高さ&lt;/li&gt;
+&lt;li&gt;基調講演者が&lt;a href=&quot;https://twitter.com/runarorama&quot;&gt;Rúnar(@runarorama)&lt;/a&gt;氏(&lt;a href=&quot;http://www.amazon.co.jp/dp/4844337769/&quot;&gt;Scala関数型プログラミング＆デザイン&lt;/a&gt;の原著者の一人)、&lt;a href=&quot;https://twitter.com/djspiewak&quot;&gt;Daniel Spiewak(@djspiewak)&lt;/a&gt;氏(&lt;a href=&quot;https://github.com/scalaz/scalaz-stream&quot;&gt;scalaz-stream&lt;/a&gt;メンテナ)の他、登壇者に&lt;a href=&quot;http://typelevel.org/&quot;&gt;Typelevel&lt;/a&gt;コミュニティの人が多数登壇しており、関数型寄りの人が多め&lt;/li&gt;
+&lt;li&gt;参加者連絡用の&lt;a href=&quot;https://gitter.im/propensive/scalaworld&quot;&gt;gitterチャンネル&lt;/a&gt;及び&lt;a href=&quot;https://github.com/propensive/scalaworld/wiki&quot;&gt;GitHub wiki&lt;/a&gt;があり、ご飯・飲み会の待ち合わせや、車の同乗者募集などの融通に活用されていた&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h3&gt;レポート&lt;/h3&gt;
+
+&lt;h4&gt;開催前日まで&lt;/h4&gt;
+
+&lt;p&gt;今回の会場はイギリス湖水地方です。アクセスとしてはおよそ成田からLondon Heathrow Airportまで13時間程度のフライトをした後、London Euston駅からVirgin Trainで3時間強かけてやっと最寄り駅のPenrith駅に到着と、とても遠い。なお駅から会場までも車で15分程度かかります。カンファレンス会期中は、会場から徒歩１０分程度と近く、比較的安めなTravelodgeを利用しました。&lt;/p&gt;
+
+&lt;p&gt;gitter上では、現地のSIMは何がいいか、空港から駅までのタクシーの相乗り募集や、飲み会のお誘いなど、さまざまなやりとりがされていました。&lt;/p&gt;
+
+&lt;h4&gt;9/18 有志による飲み会&lt;/h4&gt;
+
+&lt;p&gt;Wikiに飲み会をやるよ〜というJon氏の書き込みが合ったので、若干ドキドキしながら参加してみたところ、Akka Tech Leadの&lt;a href=&quot;https://twitter.com/rolandkuhn&quot;&gt;Roland Kuhn(@rolandkuhn)&lt;/a&gt;氏、以前日本のMeetupにも登壇されたAkka Teamの&lt;a href=&quot;https://twitter.com/ktosopl&quot;&gt;Konrad Malwski(@ktosopl)&lt;/a&gt;氏、&lt;a href=&quot;http://www.idris-lang.org/&quot;&gt;Idris&lt;/a&gt;作者でスピーカーのEdwin Brandy氏、&lt;a href=&quot;https://github.com/non/spire&quot;&gt;Spire&lt;/a&gt;や&lt;a href=&quot;https://github.com/non/cats&quot;&gt;Cats&lt;/a&gt;のリポジトリオーナーでスピーカーの&lt;a href=&quot;https://twitter.com/d6&quot;&gt;Erik Osheim(@d6)&lt;/a&gt;氏を含めた濃ゆいメンバー１０人ほどで飲んでいました。&lt;/p&gt;
+
+&lt;p&gt;ハイキングやアンカンファレンスなどのScalaWorldの話題中心で結構盛り上がりつつ、明日のハイキング結局バスを予約し損ねたから行けないんだよね、という話をしたら「いや、来いよ！車出してやるから」というオランダのUser&#39;s GroupオーガナイザーのJoost氏熱烈なお誘いにあい、急遽参加することに（注:初対面です）。&lt;/p&gt;
+
+&lt;h4&gt;9/19 ハイキング&lt;/h4&gt;
+
+&lt;p&gt;&lt;span itemscope itemtype=&quot;http://schema.org/Photograph&quot;&gt;&lt;img src=&quot;http://cdn-ak.f.st-hatena.com/images/fotolife/o/oe_uia/20150926/20150926030638.jpg&quot; alt=&quot;f:id:oe_uia:20150926030638j:plain&quot; title=&quot;f:id:oe_uia:20150926030638j:plain&quot; class=&quot;hatena-fotolife&quot; itemprop=&quot;image&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;朝9時半ごろにバス（自分の場合はJoost氏の車）で出発した後、１時間ほどで目的地に到着。&lt;/p&gt;
+
+&lt;p&gt;難易度別にグループが別れており、自分は一番簡単なコースにしてみました。&lt;/p&gt;
+
+&lt;p&gt;Idris作者のEdwin氏、VerizonアーキテクチャチームでスピーカーのPaul氏、sbtチームの&lt;a href=&quot;https://twitter.com/eed3si9n&quot;&gt;Eugene Yokota(@eed3si9n)&lt;/a&gt;氏およびMartin氏、その他Goldman SachsのAlex氏など、総勢7名のグループで参加していました。道中、PaulさんにVerizon社内の話を色々とお伺いし、とても勉強になりました。Paulさん、なんと息子さんもScalaエンジニアだそう！&lt;/p&gt;
+
+&lt;p&gt;&lt;span itemscope itemtype=&quot;http://schema.org/Photograph&quot;&gt;&lt;img src=&quot;http://cdn-ak.f.st-hatena.com/images/fotolife/o/oe_uia/20150926/20150926030718.jpg&quot; alt=&quot;f:id:oe_uia:20150926030718j:plain&quot; title=&quot;f:id:oe_uia:20150926030718j:plain&quot; class=&quot;hatena-fotolife&quot; itemprop=&quot;image&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;片道２時間ほどのハイク。全体的に斜度はさほどでもありませんでしたが、ところどころ険しいところも。&lt;/p&gt;
+
+&lt;p&gt;&lt;span itemscope itemtype=&quot;http://schema.org/Photograph&quot;&gt;&lt;img src=&quot;http://cdn-ak.f.st-hatena.com/images/fotolife/o/oe_uia/20150926/20150926051447.jpg&quot; alt=&quot;f:id:oe_uia:20150926051447j:plain&quot; title=&quot;f:id:oe_uia:20150926051447j:plain&quot; class=&quot;hatena-fotolife&quot; itemprop=&quot;image&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;目指していた丘の頂上に到着。&lt;/p&gt;
+
+&lt;p&gt;&lt;span itemscope itemtype=&quot;http://schema.org/Photograph&quot;&gt;&lt;img src=&quot;http://cdn-ak.f.st-hatena.com/images/fotolife/o/oe_uia/20150926/20150926034734.jpg&quot; alt=&quot;f:id:oe_uia:20150926034734j:plain&quot; title=&quot;f:id:oe_uia:20150926034734j:plain&quot; class=&quot;hatena-fotolife&quot; itemprop=&quot;image&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;無駄に法被を着てみました。&lt;/p&gt;
+
+&lt;p&gt;&lt;span itemscope itemtype=&quot;http://schema.org/Photograph&quot;&gt;&lt;img src=&quot;http://cdn-ak.f.st-hatena.com/images/fotolife/o/oe_uia/20150926/20150926030734.jpg&quot; alt=&quot;f:id:oe_uia:20150926030734j:plain&quot; title=&quot;f:id:oe_uia:20150926030734j:plain&quot; class=&quot;hatena-fotolife&quot; itemprop=&quot;image&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;集合時間まで2時間ほど余裕ができたので、お茶を飲みながらEdwinさんにIdrisが依存型をどういう仕組みで実現しているかについて、チラ聞きするなどして過ごしていました。&lt;/p&gt;
+
+&lt;h4&gt;9/19夜 有志による飲み会&lt;/h4&gt;
+
+&lt;p&gt;ハイキングを終えた全参加者の中でまだ体力のある人だけで飲み会。&lt;/p&gt;
+
+&lt;p&gt;Yokotaさんが折角イギリス来たしフィッシュ＆チップス食べよう！という提案をして、僕が賛同してYelpでお店を調べていたら、Erikさん含め周囲の人がそれに乗っかってぞろぞろ買いに行き、野外でみんなで食べる、というおもしろい一幕がありました。&lt;/p&gt;
+
+&lt;p&gt;&lt;span itemscope itemtype=&quot;http://schema.org/Photograph&quot;&gt;&lt;img src=&quot;http://cdn-ak.f.st-hatena.com/images/fotolife/o/oe_uia/20150926/20150926030820.jpg&quot; alt=&quot;f:id:oe_uia:20150926030820j:plain&quot; title=&quot;f:id:oe_uia:20150926030820j:plain&quot; class=&quot;hatena-fotolife&quot; itemprop=&quot;image&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;特にErikさんとは「(お店の価格表記が)Standarizeしていないね。ポンドとペンスのseparatorが・(ドット)と-(ハイフン)の２パターンあるから、これvariableなんだね」みたいなしょうもない話をしてゲラゲラ笑ったり、真面目な話をしたり、楽しく過ごしていたら、あとで一杯奢ってくれました。Erikさんありがとう！&lt;/p&gt;
+
+&lt;p&gt;&lt;span itemscope itemtype=&quot;http://schema.org/Photograph&quot;&gt;&lt;img src=&quot;http://cdn-ak.f.st-hatena.com/images/fotolife/o/oe_uia/20150926/20150926030831.jpg&quot; alt=&quot;f:id:oe_uia:20150926030831j:plain&quot; title=&quot;f:id:oe_uia:20150926030831j:plain&quot; class=&quot;hatena-fotolife&quot; itemprop=&quot;image&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;ここまでで興味深かったのが、有名人が色々とそろっていたにもかかわらず、誰も「一緒に写真を撮ろう」と言い出さなかったこと。実は写真を一緒に撮ってもらう行為は「selfie」と言って、あまり推奨されない、度を越すとマナー違反の行為だと考えられているようです。以前、他のカンファレンスで自分もやってしまったことがあるので、これは反省でした。&lt;/p&gt;
+
+&lt;p&gt;アンカンファレンス以後の様子は、その２へ続きます！&lt;/p&gt;
+</description>          <pubDate>Sat, 26 Sep 2015 23:38:59 +0900</pubDate>
+          <guid isPermalink="false">hatenablog://entry/6653458415122624750</guid>
+
+          <enclosure url="http://cdn-ak.f.st-hatena.com/images/fotolife/o/oe_uia/20150926/20150926030918.jpg" type="image/jpeg" length="0" />
+        </item>
+
+
+
+
+        <item>
+          <title>ScalaMatsuri2016 スポンサープラン名の裏話 - ショーグン、ダイミョー... ニンジャ！ -</title>
+          <link>http://blog.scalamatsuri.org/entry/2015/08/20/124545</link>          <description>&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/22715327@N06/3485138671&quot;&gt;&lt;img src=&quot;http://farm4.staticflickr.com/3647/3485138671_cf4ac7ca8d.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/22715327@N06/3485138671&quot;&gt;photo by Funky64 (www.lucarossato.com)&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;こんにちは。ScalaMatsuri スタッフの &lt;a href=&quot;https://twitter.com/daiksy&quot;&gt;@daiksy&lt;/a&gt; です。&lt;/p&gt;
+
+&lt;p&gt;2016年1月30日、31日に東京国際交流館で開催される ScalaMatsuri 2016。
+8月19日より、当イベントをご支援いただけるスポンサーの募集を開始しました。&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe src=&quot;//hatenablog-parts.com/embed?url=http%3A%2F%2Fscalamatsuri.org%2Fja%2Fsponsors%2F&quot; title=&quot;スポンサー募集 - ScalaMatsuri 2016&quot; class=&quot;embed-card embed-webcard&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;&quot;&gt;&lt;a href=&quot;http://scalamatsuri.org/ja/sponsors/&quot;&gt;スポンサー募集 - ScalaMatsuri 2016&lt;/a&gt;&lt;/iframe&gt;&lt;cite class=&quot;hatena-citation&quot;&gt;&lt;a href=&quot;http://scalamatsuri.org/ja/sponsors/&quot;&gt;scalamatsuri.org&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+
+&lt;p&gt;スポンサー募集サイトをご覧になった皆さんは、少し驚かれたのではないでしょうか？
+そこで今回は、この特徴的でユニークなスポンサープラン名について書いてみようと思います。&lt;/p&gt;
+
+&lt;p&gt;前回、ScalaMatsuri2014 では、スポンサープラン名は次のような比較的よくあるタイプのものでした。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Diamond&lt;/li&gt;
+&lt;li&gt;Platinum&lt;/li&gt;
+&lt;li&gt;Gold&lt;/li&gt;
+&lt;li&gt;Silver&lt;/li&gt;
+&lt;li&gt;Patron&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;今回の2016でも、概ね同様のプラン数を用意することはかねてから決まっていました。とはいえ、会場の変更や前回の振り返りなどを受けて、スポンサープランのそれぞれの特典内容は新しく変更されることになりました。そのため前回お申込みいただいた皆さんが混乱しないように、同じランクでも特典内容は異なっている、ということを明確化するために、スポンサープラン名を再考することになりました。&lt;/p&gt;
+
+&lt;p&gt;新しいスポンサー名は次のように決定されています。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;将軍(ショーグン)&lt;/li&gt;
+&lt;li&gt;大名(ダイミョー)&lt;/li&gt;
+&lt;li&gt;旗本(ハタモト)&lt;/li&gt;
+&lt;li&gt;侍(サムライ)&lt;/li&gt;
+&lt;li&gt;忍者(ニンジャ)&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;スポンサー名の決定には様々な点が考慮されるわけですが、主な検討事項をいくつかご紹介します。&lt;/p&gt;
+
+&lt;p&gt;まず、イベントタイトルが &quot;ScalaMatsuri(すから祭)&quot; ということで、スポンサープラン名にも和のテイストを含めてもよいのではないか。
+海外に向けても発信することになるが、&quot;ニンジャスレイヤー&quot;、&quot;ネオサイタマ&quot;的な海外でよく知られている日本語を加工したネーミングだと、和テイストを備えつつ英訳もしやすいのではないか。&lt;/p&gt;
+
+&lt;p&gt;といったことが検討され、海外にも知られている日本語リスト、などピックアップされたりもしまいした。&lt;/p&gt;
+
+&lt;h6&gt;当時検討された日本語リスト&lt;/h6&gt;
+
+&lt;pre class=&quot;code&quot; data-lang=&quot;&quot; data-unlink&gt;富士山（フジサン）
+芸者（ゲイシャ）
+寿司（スシ）
+天ぷら（テンプラ）
+豆腐（トーフ）
+味噌（ミソ）
+カラオケ
+切腹（ハラキリ）
+空手（カラテ）
+盆栽（ボンサイ）
+浮世絵（ウキヨエ）
+俳句（ハイク）
+改善（カイゼン）
+残業（ザンギョー）
+過労死（カローシ）&lt;/pre&gt;
+
+
+&lt;p&gt;そのうえで、スポンサープランでご支援いただく金額によって、ある程度の順位付けが必要であることなどから、中世の武家における階級をベースに検討がはじまり、今に至ったのです。&lt;/p&gt;
+
+&lt;p&gt;個人的なおすすめプランは&quot;忍者&quot;です。&lt;/p&gt;
+
+&lt;p&gt;もともとこれはPatronと呼ばれていた枠で、組織ではなくどちらかというと個人でご支援いただく場合を想定した枠になっています。
+そこで、個人的な要素が強くてかっこいい&quot;忍者&quot;のネーミングが採用されました。&lt;/p&gt;
+
+&lt;p&gt;「わたしはScalaMatsuriで忍者です！」と名乗れるの、かっこよくないですか？&lt;/p&gt;
+
+&lt;p&gt;皆さまからのご応募をお待ちしておりますので、よろしくお願いします！&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe src=&quot;//hatenablog-parts.com/embed?url=http%3A%2F%2Fscalamatsuri.org%2Fja%2Fsponsors%2F&quot; title=&quot;スポンサー募集 - ScalaMatsuri 2016&quot; class=&quot;embed-card embed-webcard&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;display: block; width: 100%; height: 155px; max-width: 500px; margin: 10px 0px;&quot;&gt;&lt;a href=&quot;http://scalamatsuri.org/ja/sponsors/&quot;&gt;スポンサー募集 - ScalaMatsuri 2016&lt;/a&gt;&lt;/iframe&gt;&lt;cite class=&quot;hatena-citation&quot;&gt;&lt;a href=&quot;http://scalamatsuri.org/ja/sponsors/&quot;&gt;scalamatsuri.org&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+</description>          <pubDate>Thu, 20 Aug 2015 12:45:45 +0900</pubDate>
+          <guid isPermalink="false">hatenablog://entry/8454420450106258367</guid>
+
+          <enclosure url="http://farm4.staticflickr.com/3647/3485138671_cf4ac7ca8d.jpg" type="image/jpeg" length="0" />
+        </item>
+
+
+
+
+        <item>
+          <title>私、ScalaMatsuriで転職しました</title>
+          <link>http://blog.scalamatsuri.org/entry/2015/08/19/123046</link>          <description>&lt;p&gt;&lt;span itemscope itemtype=&quot;http://schema.org/Photograph&quot;&gt;&lt;img src=&quot;http://cdn-ak.f.st-hatena.com/images/fotolife/o/oe_uia/20150819/20150819123154.jpg&quot; alt=&quot;f:id:oe_uia:20150819123154j:plain&quot; title=&quot;f:id:oe_uia:20150819123154j:plain&quot; class=&quot;hatena-fotolife&quot; itemprop=&quot;image&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;今回&lt;a href=&quot;http://scalamatsuri.org/&quot;&gt;ScalaMatsuri 2016&lt;/a&gt;の&lt;a href=&quot;http://scalamatsuri.org/ja/sponsors/&quot;&gt;スポンサー企業を募集&lt;/a&gt;するにあたり、特別企画として ScalaMatsuri 2014を転職活動に活用され、実際に株式会社ドワンゴさまに2014年末に入社された中山裕貴(&lt;a href=&quot;https://twitter.com/pocketberserker&quot;&gt;@pocketberserker&lt;/a&gt;)さんに、ScalaMatsuriを利用した転職活動について詳しくお話をお伺いしました。&lt;/p&gt;
+
+&lt;p&gt;スポンサーをご検討されている企業のみなさんにとっては「ScalaMatsuri参加者はどんなところを見ているのか？」について、
+転職を検討している参加者にとっては「どんな風に転職に活用できるのか？」について、ご参考になれば幸いです。&lt;/p&gt;
+
+&lt;h2&gt;普段、関数プログラミングに偏らせたScalaの勉強会を開催したりしています(笑)&lt;/h2&gt;
+
+&lt;p&gt;Q.それではよろしくお願いします。
+まずはドワンゴ社内でのお仕事を含め、どのような活動をなさっているか、教えていただけますか？&lt;/p&gt;
+
+&lt;p&gt;A.仕事では、サーバーサイドのコードを書いています。&lt;/p&gt;
+
+&lt;p&gt;仕事以外だと、F#とかScalaの関数プログラミングに関するソースコードやドキュメントを読んだり、触ったり、PullReqしたりしています。最近一番触っているのは、Property Based Testingに関するものです。Haskellの&lt;a href=&quot;https://hackage.haskell.org/package/QuickCheck&quot;&gt;QuickCheck&lt;/a&gt;や、それの他言語への移植版のコードを読んだり、&lt;a href=&quot;https://www.scalacheck.org/&quot;&gt;ScalaCheck&lt;/a&gt;をF#に移植したり。&lt;a href=&quot;https://www.scalacheck.org/&quot;&gt;ScalaCheck&lt;/a&gt;, &lt;a href=&quot;https://github.com/scalaprops/scalaprops&quot;&gt;scalaprops&lt;/a&gt;もその流れでcontributeしています。&lt;a href=&quot;https://www.scalacheck.org/&quot;&gt;ScalaCheck&lt;/a&gt;にはPullReq送ったり、&lt;a href=&quot;https://github.com/scalaprops/scalaprops&quot;&gt;scalaprops&lt;/a&gt;にはサンプルコードを用意したり。&lt;/p&gt;
+
+&lt;p&gt;あとは関数プログラミングに偏らせたScalaの勉強会を開催したりしています(笑)
+5月には&lt;a href=&quot;http://connpass.com/event/13929/&quot;&gt;Lens &amp;amp; Prism勉強会&lt;/a&gt;と、7月の&lt;a href=&quot;http://connpass.com/event/16052/&quot;&gt;関数型Scalaの集い&lt;/a&gt;を主催しました。9月には&lt;a href=&quot;http://connpass.com/event/16193/&quot;&gt;関数プログラミング交流会&lt;/a&gt;を開催します。&lt;/p&gt;
+
+&lt;p&gt;&lt;span itemscope itemtype=&quot;http://schema.org/Photograph&quot;&gt;&lt;img src=&quot;http://cdn-ak.f.st-hatena.com/images/fotolife/o/oe_uia/20150819/20150819123208.jpg&quot; alt=&quot;f:id:oe_uia:20150819123208j:plain&quot; title=&quot;f:id:oe_uia:20150819123208j:plain&quot; class=&quot;hatena-fotolife&quot; itemprop=&quot;image&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;h2&gt;転職するとき、ふとScalaMatsuriを思い出しました&lt;/h2&gt;
+
+&lt;p&gt;Q.転職しようと思ったときのことについて教えて下さい。&lt;/p&gt;
+
+&lt;p&gt;A.前職は愛知県でC#やF#を使ってクラウドサービス開発をしていたのですが、東京の勉強会にも新幹線でよく参加していたんです。
+愛知県に引っ越したばっかりの頃は、新幹線で駅３つ乗れば東京というのが近く感じていたんですけど、だんだん泊まる場所の手配などを毎回するのがつらいなと感じるようになってきて(笑)転職を考え始めました。&lt;/p&gt;
+
+&lt;p&gt;なので、転職先を探す条件としては、場所は東京重視で、その中で働く場所を選ぼうと思っていました。技術志向の会社で、それと今回は人づての転職ではなく、自分の力試しのためにWeb経由でやってみようと。その上で、できればその会社の人と色々話した上で決めたい。&lt;/p&gt;
+
+&lt;p&gt;そういう条件で転職しようと思ったときに、パッと思いついたのが数カ月前に参加したScalaMatsuri 2014だったんです。&lt;/p&gt;
+
+&lt;h2&gt;スポンサーは、技術に対する本気度のフィルタリング&lt;/h2&gt;
+
+&lt;p&gt;Q.なぜScalaMatsuriのことを思い出したんですか？&lt;/p&gt;
+
+&lt;p&gt;A.ScalaMatsuri 2014に参加した当時は転職とか全く考えてなくて、面白そうだからという理由で参加した、という位でした。&lt;/p&gt;
+
+&lt;p&gt;でも転職したくなったときにScalaMatsuri 2014面白かったな、と、ふと思い出しました。なかなか会うチャンスのないようなスポンサー企業の人たちとも懇親会で話せていたから最低限の情報を持っていたし、ScalaMatsuriに対してスポンサーしているということが、その技術に対してどのぐらい本気で取り組んでいるか、という一種のフィルタリングとして作用すると思うんですよね。&lt;/p&gt;
+
+&lt;p&gt;自分は極度のめんどくさがり屋なので他の転職サイトは使いませんでした。登録がまずめんどくさいし、会社のフィルタリングを自分でやるのも大変。その会社の人に会って話を聞きたくても、その前に色んな人と会わないといけませんしね。&lt;/p&gt;
+
+&lt;h2&gt;技術情報の発信も重要でした&lt;/h2&gt;
+
+&lt;p&gt;Q.転職先を絞り込むにあたって、どんな情報を特に参考にしましたか？&lt;/p&gt;
+
+&lt;p&gt;A.ScalaMatsuriの求人情報欄にWebサイトのURLがあるかどうかと、調べたときに、その会社の中の人の技術情報が引っかかるかどうかも重要でした。そういう意味では、Scala Matsuriのセッションでこんな話をしている、みたいなリンクはあってよかったかも。
+その他で見ていたのは、その会社がどういう技術を求めているのか、あとは休日・休暇・勤務時間・勤務地・福利厚生などですね。（求人情報の分量は多いけど）会社の色が出ているような求人欄だと、面白いので最後まで読んでしまいますね。&lt;/p&gt;
+
+&lt;p&gt;その中で受ける順番を決めたわけですが、ドワンゴを１位にした理由は、まず色んな言語を使っていることと、どんな言語をどんなサービスでどのような形で使っているかについて、もともとメリット、デメリット含めて情報発信していたことからです。そしてそのまま受かったので、入社しました。&lt;/p&gt;
+
+&lt;h2&gt;まとめ&lt;/h2&gt;
+
+&lt;p&gt;今回お話いただいた中山さんは、ScalaMatsuriを以下のような場所としてご活用いただいていたことが分かりました。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;技術に対する本気度でフィルタリングされた企業が集まっている&lt;/li&gt;
+&lt;li&gt;社員に実際に会って、社内の話を聞ける&lt;/li&gt;
+&lt;li&gt;社内の技術情報を聞ける&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;ScalaMatsuriはScalaのカンファレンスというだけでなく、技術志向の強い企業と参加者のマッチングの場所にもなっているようですね。&lt;/p&gt;
+
+&lt;h2&gt;PR&lt;/h2&gt;
+
+&lt;p&gt;最後にご案内です。&lt;/p&gt;
+
+&lt;p&gt;技術に対する本気度をアピールされたい方、社内の雰囲気を伝えるブースをご要望の方はこちらよりお申込みください。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://scalamatsuri.org/ja/sponsors/&quot;&gt;ScalaMatsuri 2016 スポンサーの募集&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;社内の具体的な技術情報について発表されたい方は、こちらよりお申込みください。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://scalamatsuri.org/ja/cfp/&quot;&gt;ScalaMatsuri 2016 セッションの募集&lt;/a&gt;&lt;/p&gt;
+</description>          <pubDate>Wed, 19 Aug 2015 12:30:46 +0900</pubDate>
+          <guid isPermalink="false">hatenablog://entry/8454420450106152465</guid>
+
+          <enclosure url="http://cdn-ak.f.st-hatena.com/images/fotolife/o/oe_uia/20150819/20150819123154.jpg" type="image/jpeg" length="0" />
+        </item>
+
+
+  </channel>
+</rss>

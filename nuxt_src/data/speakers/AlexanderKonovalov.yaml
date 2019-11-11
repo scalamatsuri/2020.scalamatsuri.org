@@ -1,0 +1,23 @@
+id: 'AlexanderKonovalov'
+ja:
+  name: Alexander Konovalov
+  twitter: alexknvl
+  github: alexknvl
+  icon: https://pbs.twimg.com/profile_images/797920728859480065/sCOPNuwF_400x400.jpg
+  organization: Compellon, Analytics Engineer
+  contributes:
+    - Scalazのコントリビュータであり、チームメンバーでもあります。
+  speaker_experience:
+    - WWW2017において学術論文の発表をしています。 <a href='https://www.slideshare.net/AlexanderKonovalov13/learning-event-extractors-from-knowledge-base-revisions'>https://www.slideshare.net/AlexanderKonovalov13/learning-event-extractors-from-knowledge-base-revisions</a>
+    - Lambdaconf 2018でも発表しましたが、Scalaz summitの合間で非公式に設定されたものだっため、十分な準備の時間を取れませんでした。 <a href='https://alexknvl.com/docs/scalaz_summit_presentation.pdf'>https://alexknvl.com/docs/scalaz_summit_presentation.pdf</a>
+en:
+  name: Alexander Konovalov
+  twitter: alexknvl
+  github: alexknvl
+  icon: https://pbs.twimg.com/profile_images/797920728859480065/sCOPNuwF_400x400.jpg
+  organization: Compellon, Analytics Engineer
+  contributes:
+    - I am a contributor and a team member of Scalaz.
+  speaker_experience:
+    - I have presented an academic paper at WWW2017, <a href='https://www.slideshare.net/AlexanderKonovalov13/learning-event-extractors-from-knowledge-base-revisions'>https://www.slideshare.net/AlexanderKonovalov13/learning-event-extractors-from-knowledge-base-revisions</a> and presented <a href='https://alexknvl.com/docs/scalaz_summit_presentation.pdf'>https://alexknvl.com/docs/scalaz_summit_presentation.pdf</a> at Lambdaconf 2018 but in an informal setting during scalaz summit and without much preparation.
+  

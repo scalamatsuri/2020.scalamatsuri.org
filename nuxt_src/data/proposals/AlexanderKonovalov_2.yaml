@@ -1,0 +1,29 @@
+id: 'AlexanderKonovalov_2'
+speakers:
+  - 'AlexanderKonovalov'
+ja:
+  title: "型の住人を数える"
+  length: 90
+  audience: Intermediate
+  language: English
+  tags:
+    - Functional Programming
+  suggestions:
+    - 型理論、Yoneda / Coyoneda の補題、表現可能な関手、Theorems for free などをしっかりと理解したい人
+  detail: |
+    いっぱしの関数型プログラマなら ∀ a. a → a は 1つの住人しか持たないことを知っていますが、それはどうしてでしょうか?
+    本セッションでは、型代数、パラメトリック性、Yoneda / Coyoneda の補題、表現可能な関手、コンテナ関手を駆使して System F の項を厳密に数える方法を解説します。
+    これにより、Theorems for Free 同様の新しい強力な推論ツールを手に入れることができます。
+en:
+  title: "Counting type inhabitants"
+  length: 90
+  audience: Intermediate
+  language: English
+  tags:
+    - Functional Programming
+  suggestions:
+    - People who want to get a deeper understanding of type theory, Yoneda / Coyoneda lemmas, representable functors, theorems for free.
+  detail: |
+    FP developers know that ∀ a. a → a has only one inhabitant, but how?
+    In this talk you will learn how to rigorously count System F terms using type algebra, parametricity, Yoneda & Coyoneda lemmas, representable & container functors.
+    We will discover that this gives us a new and powerful reasoning tool akin to Theorems for Free.

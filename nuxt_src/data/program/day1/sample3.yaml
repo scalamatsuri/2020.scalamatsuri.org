@@ -1,0 +1,55 @@
+---
+id: '0-0-2' # day-room-登壇順とかかな？
+time:
+  started_at: '14:00'
+  ended_at: '14:40'
+room: 'A'
+star: false
+ja:
+  speaker:
+    id: '@kmizu'
+    name: '水島宏太'
+    twitter: '@kmizu'
+    github: '@kmizu'
+    icon: '/img/dummy/icon-user2.jpg'
+    organization: '株式会社ドワンゴ'
+    contributes:
+      -
+    speaker_experience:
+      -
+  program:
+    title: 'Scalaに関する神話と真実0-0-2'
+    length: 40
+    lang: '日本語'
+    audience: Beginner
+    detail: |
+      プログラミング言語Scalaは、言語そのものやそれを取り巻くコミュニティ、ツール等に関する「神話」が散見されます。
+      それらの全てが間違いというわけではありませんが、誤解にもとづいていたり、間違いではないものの現在は改善されている問題もあります。
+      この発表では、Scalaに関する「神話」を解き明かし、Scalaに関して恐れをいだくことはないということを説明したいと思います。
+    links:
+      - '<a href="https://www.youtube.com/watch?v=dDn04KCpdR0" target="_blank" class="schedule_icon schedule_icon-yt js-anc"><img src="/img/common/icon-yt.svg" alt="YouTube">YouTube</a>'
+      - '<a href="#" target="_blank" class="schedule_icon schedule_icon-gs js-anc"><img src="/img/common/icon-gs.svg" alt="Google Slide">Google Slide</a>'
+en:
+  speaker:
+    id: '@kmizu'
+    name: '水島宏太'
+    twitter: '@kmizu'
+    github: '@kmizu'
+    icon: '/img/dummy/icon-user2.jpg'
+    organization: '株式会社ドワンゴ'
+    contributes:
+      -
+    speaker_experience:
+      -
+  program:
+    title: 'Scalaに関する神話と真実'
+    length: 40
+    lang: '日本語'
+    audience: Beginner
+    detail: |
+      プログラミング言語Scalaは、言語そのものやそれを取り巻くコミュニティ、ツール等に関する「神話」が散見されます。
+      それらの全てが間違いというわけではありませんが、誤解にもとづいていたり、間違いではないものの現在は改善されている問題もあります。
+      この発表では、Scalaに関する「神話」を解き明かし、Scalaに関して恐れをいだくことはないということを説明したいと思います。
+    links:
+      - '<a href="https://www.youtube.com/watch?v=dDn04KCpdR0" target="_blank" class="schedule_icon schedule_icon-yt js-anc"><img src="/img/common/icon-yt.svg" alt="YouTube">YouTube</a>'
+      - '<a href="#" target="_blank" class="schedule_icon schedule_icon-gs js-anc"><img src="/img/common/icon-gs.svg" alt="Google Slide">Google Slide</a>'
