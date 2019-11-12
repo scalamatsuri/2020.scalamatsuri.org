@@ -1,5 +1,16 @@
 steps:
   - id: "Install npm modules"
-    name: "node:"
+    name: "node:11.15-slim"
+    args:
+      - yarn
+      - install
   - id: "Build app"
-  - id: "Deploy app"
+    name: "node:11.15-slim"
+    args:
+      - yarn
+      - build_hosting
+  # - id: "Deploy app"
+  #   name: "node:11.15-slim"
+  #   args:
+  #     - yarn
+  #     - deploy_hosting
