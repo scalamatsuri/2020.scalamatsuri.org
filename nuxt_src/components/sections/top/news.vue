@@ -5,7 +5,7 @@
         News
       </h2>
       <ul class="news_list">
-        <li v-for="(post, idx) in posts" :key="idx" class="news_item" :class="{ 'news_item-show': currentIdx === idx, 'news_item-hide': currentIdx === (idx + 1 % posts.length) }">
+        <li v-for="(post, idx) in posts" :key="idx" class="news_item" :class="{ 'news_item-show': currentIdx === idx, 'news_item-hide': posts.length > 1 ? currentIdx === (idx + 1 % posts.length) : false }">
           <a :href="post.link._text" target="_blank" rel="noopener">{{ post.title._text }}</a>
         </li>
       </ul>
@@ -30,10 +30,9 @@ export default {
     }
   },
   mounted: function () {
-    this.intervalId = setInterval(
-      () => { if (this.posts && this.posts.length > 0) this.currentIdx = (this.currentIdx + 1) % this.posts.length },
-      5000
-    )
+    if (this.posts && this.posts.length > 0) {
+      this.intervalId = setInterval(() => { this.currentIdx = (this.currentIdx + 1) % this.posts.length }, 5000)
+    }
   },
   beforeDestroy: function () {
     if (this.intervalId) clearInterval(this.intervalId)
