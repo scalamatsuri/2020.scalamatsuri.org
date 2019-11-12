@@ -1,11 +1,11 @@
 steps:
   - id: "Install npm modules"
-    name: "node:lts-buster-slim"
+    name: "node:lts-buster"
     args:
       - yarn
       - install
   - id: "Build app"
-    name: "node:lts-buster-slim"
+    name: "node:lts-buster"
     args:
       - yarn
       - build_hosting
