@@ -17,12 +17,14 @@
     defaultSiteSubTitle: The largest international Scala conference in Asia
     defaultDescription: The largest international Scala conference in Asia.
     defaultUrl: https://scalamatsuri.org/
+    opengraphUri: /img/favicon/opengraph_en.png
     twitterAccountId: '@scala_jp'
   ja:
     defaultSiteName: ScalaMatsuri 2020
     defaultSiteSubTitle: 日本最大級の Scala のカンファレンス
     defaultDescription: Scala をテーマに日本最大級のカンファレンスが開催されます。
     defaultUrl: https://scalamatsuri.org/
+    opengraphUri: /img/favicon/opengraph_ja.png
     twitterAccountId: '@scala_jp'
 </i18n>
 
@@ -51,7 +53,7 @@ export default {
         { property: 'og:title', content: `${$t('defaultSiteName')} | ${$t('defaultSiteSubTitle')}` },
         { property: 'og:site_name', content: $t('defaultSiteName') },
         { property: 'og:description', content: `${$t('defaultDescription')}` },
-        { property: 'og:image', content: '/img/favicons/img_main_txt.png' },
+        { property: 'og:image', content: $t('opengraphUri') },
         { property: 'og:image:width', content: '1200' },
         { property: 'og:image:height', content: '630' },
         { name: 'twitter:card', content: 'summary_large_image' },
@@ -60,8 +62,8 @@ export default {
         { name: 'twitter:url', content: 'https://twitter.com/scala_jp' },
         { name: 'twitter:title', content: `${$t('defaultSiteName')} | ${$t('defaultSiteSubTitle')}` },
         { name: 'twitter:description', content: $t('defaultDescription') },
-        { name: 'twitter:image', content: '/img/favicons/img_main_txt.png' },
-        { name: 'og:image:secure_url', content: '/img/favicons/img_main_txt.png', hid: 'og:image:secure_url' },
+        { name: 'twitter:image', content: $t('opengraphUri') },
+        { name: 'og:image:secure_url', content: $t('opengraphUri'), hid: 'og:image:secure_url' },
         { name: 'application-name', content: 'ScalaMatsuri 2020' },
         { name: 'apple-mobile-web-app-title', content: 'ScalaMatsuri 2020' },
         { name: 'theme-color', content: '#2d88ef' },
