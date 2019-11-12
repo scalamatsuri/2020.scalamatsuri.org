@@ -13,7 +13,7 @@ export const actions = {
       const { data: postsXmlStr } = await this.$axios.get(requestUrl)
 
       // with 'compact: true' option, rss.channel.item contains array of recent posts.
-      const posts = xmlConverter.xml2js(postsXmlStr, { compact: true }).rss.channel.item
+      const posts = [].concat(xmlConverter.xml2js(postsXmlStr, { compact: true }).rss.channel.item) || []
       commit(mTypes.SET_BLOG_POSTS, posts)
     } catch (error) {
       return Promise.reject(error)
