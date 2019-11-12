@@ -1,0 +1,5 @@
+steps:
+  - id: "Install npm modules"
+    name: "node:"
+  - id: "Build app"
+  - id: "Deploy app"
