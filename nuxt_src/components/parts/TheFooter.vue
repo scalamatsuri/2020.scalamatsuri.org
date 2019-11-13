@@ -28,7 +28,7 @@ ja:
   <footer class="footer">
     <div class="footer_inner">
       <p class="footerlogo">
-        <a href="/"><img v-lazy="require('~/assets/img/common/logo.svg')" alt="ScalaMatsuri 2020" width="68" height="53"></a>
+        <a :href="localePath('index')"><img v-lazy="require('~/assets/img/common/logo.svg')" alt="ScalaMatsuri 2020" width="68" height="53"></a>
       </p>
       <div class="footerNav">
         <dl class="footerNav_list">
