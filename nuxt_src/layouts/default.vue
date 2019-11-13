@@ -5,7 +5,7 @@
     <lazy-component @show="hasShown">
       <sns v-if="snsFooterHasShown" />
     </lazy-component>
-    <flow-sns v-if="$mq === 'lg'" />
+    <flow-sns v-show="$mq === 'lg'" />
     <the-footer />
   </div>
 </template>
@@ -19,6 +19,7 @@
     defaultUrl: https://scalamatsuri.org/
     opengraphUri: /img/favicons/opengraph_en.png
     twitterAccountId: '@scala_jp'
+    locale_full_code: "en_US"
   ja:
     defaultSiteName: ScalaMatsuri 2020
     defaultSiteSubTitle: 日本最大級の Scala のカンファレンス
@@ -26,6 +27,7 @@
     defaultUrl: https://scalamatsuri.org/
     opengraphUri: /img/favicons/opengraph_ja.png
     twitterAccountId: '@scala_jp'
+    locale_full_code: "ja_JP"
 </i18n>
 
 <script>
