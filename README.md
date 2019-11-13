@@ -2,6 +2,8 @@
 
 > 2020.scalamatsuri.org Nuxt.js project
 
+[![Build Status](https://travis-ci.org/scalamatsuri/2020.scalamatsuri.org.svg?branch=master)](https://travis-ci.org/scalamatsuri/2020.scalamatsuri.org)
+
 ## Build Setup
 
 ### Install nodenv
