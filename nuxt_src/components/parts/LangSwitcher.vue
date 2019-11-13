@@ -9,7 +9,7 @@
       <div
         class="selectArea_label"
         :class="{ active: active }"
-        @click="active = true"
+        @click="onClickSelectedLocaleLink"
       >
         {{ selectedLocaleName }}
       </div>
@@ -48,6 +48,10 @@ export default {
     onClickedLocaleLink(url) {
       this.active = false
       location.href = url
+    },
+
+    onClickSelectedLocaleLink() {
+      this.active = !this.active
     }
   }
 }
