@@ -14,9 +14,13 @@ jobs:
         node-version: 11
 
     - name: Install npm modules
-      run: 
+      run:
         yarn install
 
+    - name: Verify app
+      run:
+        yarn lint
+
     - name: Build app
-      run: 
+      run:
         yarn generate
