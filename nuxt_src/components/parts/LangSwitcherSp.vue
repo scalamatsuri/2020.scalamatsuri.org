@@ -1,6 +1,11 @@
 <template>
   <ul class="choose_langage">
-    <li v-for="locale in availableLocales" :key="locale.name" class="langage_item active" @click="$parent.toggleMenu()">
+    <li
+      v-for="locale in availableLocales"
+      :key="locale.name"
+      class="langage_item active"
+      @click="$emit('on-option-click')"
+    >
       <nuxt-link :to="switchLocalePath(locale.code)">
         {{ locale.name }}
       </nuxt-link>

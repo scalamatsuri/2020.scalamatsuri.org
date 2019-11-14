@@ -175,7 +175,7 @@
             </div> -->
             <!--  ログイン後 ここまで -->
             </div>
-            <LangSwitcherSp />
+            <LangSwitcherSp @on-option-click="toggleMenu()" />
             <a class="menuCloseBtn is_sp" @click="toggleMenu()">閉じる</a>
           </div>
         </transition>
