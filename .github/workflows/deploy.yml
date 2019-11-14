@@ -1,0 +1,29 @@
+on:
+  push:
+    branches:
+      - master
+
+name: deploy app
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+
+    - uses: actions/setup-node@v1
+      with:
+        node-version: 11
+
+    - name: Install npm modules
+      run:
+        yarn install
+
+    - name: Build app
+      run:
+        yarn predeploy
+
+    - name: Deploy hosting
+      run: |
+        ./node_modules/.bin/firebase deploy --only hosting --token=${{ secrets.FIREBASE_TOKEN }}
