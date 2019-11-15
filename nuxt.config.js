@@ -34,7 +34,8 @@ module.exports = {
   */
   plugins: [
     { src: '~/plugins/vue2-google-maps', ssr: false },
-    { src: '~/plugins/lazyload', ssr: false }
+    { src: '~/plugins/lazyload', ssr: false },
+    { src: '~/plugins/i18n', ssr: false }
   ],
 
   /*
@@ -68,7 +69,15 @@ module.exports = {
       rootRedirect: 'en',
       vueI18nLoader: true,
       vueI18n: {
-        fallbackLocale: 'en'
+        fallbackLocale: 'en',
+        messages: {
+          'en': {
+            'locale_iso': 'en_US'
+          },
+          'ja': {
+            'locale_iso': 'ja_JP'
+          }
+        }
       }
     }],
     ['nuxt-mq', {

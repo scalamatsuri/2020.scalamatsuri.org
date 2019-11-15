@@ -3,10 +3,11 @@
     <the-header />
     <nuxt />
     <lazy-component @show="hasShown">
-      <sns v-if="snsFooterHasShown" />
+      <sns v-show="snsFooterHasShown" />
     </lazy-component>
     <flow-sns v-show="$mq === 'lg'" />
     <the-footer />
+    <script type="text/javascript" :src="`https://connect.facebook.net/${$t('locale_iso')}/sdk.js#xfbml=1&version=v3.0`" defer />
   </div>
 </template>
 
@@ -19,7 +20,6 @@
     defaultUrl: https://scalamatsuri.org/
     opengraphUri: /img/favicons/opengraph_en.png
     twitterAccountId: '@scala_jp'
-    locale_full_code: "en_US"
   ja:
     defaultSiteName: ScalaMatsuri 2020
     defaultSiteSubTitle: 日本最大級の Scala のカンファレンス
@@ -27,7 +27,6 @@
     defaultUrl: https://scalamatsuri.org/
     opengraphUri: /img/favicons/opengraph_ja.png
     twitterAccountId: '@scala_jp'
-    locale_full_code: "ja_JP"
 </i18n>
 
 <script>

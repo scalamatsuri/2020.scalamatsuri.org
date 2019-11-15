@@ -29,7 +29,6 @@
       style="border: none;"
     ></a>
     <script type="text/javascript" src="https://platform.twitter.com/widgets.js" defer />
-    <script type="text/javascript" :src="`https://connect.facebook.net/${ $t('locale_full_code') }/sdk.js#xfbml=1&version=v3.2`" defer />
     <script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" defer />
   </section>
 </template>
