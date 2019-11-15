@@ -47,7 +47,7 @@ export default {
   methods: {
     onClickedLocaleLink(url) {
       this.active = false
-      location.href = url
+      this.$router.push(url)
     },
 
     onClickSelectedLocaleLink() {
