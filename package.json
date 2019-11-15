@@ -12,10 +12,12 @@
     "generate": "nuxt generate",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore --ignore-path .eslintignore .",
     "fix": "eslint --fix --ext .js,.vue --ignore-path .gitignore --ignore-path .eslintignore .",
-    "precommit": "npm run lint",
+    "precommit": "run-s lint",
     "test": "jest",
-    "deploy_hosting": "npm run lint && npm run build && npm run generate && firebase deploy --only hosting",
-    "deploy_functions": "firebase deploy --only functions"
+    "clean": "rimraf dist",
+    "predeploy": "run-s lint build generate",
+    "deploy:hosting": "firebase deploy --only hosting",
+    "deploy:functions": "firebase deploy --only functions"
   },
   "dependencies": {
     "@bazzite/nuxt-optimized-images": "^0.2.1",
@@ -58,6 +60,8 @@
     "jest": "^23.6.0",
     "node-sass": "^4.11.0",
     "nodemon": "^1.18.9",
+    "npm-run-all": "^4.1.5",
+    "rimraf": "^3.0.0",
     "sass-loader": "^7.1.0",
     "vue-jest": "^3.0.2",
     "yaml-loader": "^0.5.0"

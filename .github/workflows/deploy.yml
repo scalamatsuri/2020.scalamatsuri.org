@@ -1,6 +1,9 @@
-name: Node CI
+on:
+  push:
+    branches:
+      - master
 
-on: [push, pull_request]
+name: deploy app
 
 jobs:
   build:
@@ -17,10 +20,10 @@ jobs:
       run:
         yarn install
 
-    - name: Verify app
-      run:
-        yarn lint
-
     - name: Build app
       run:
-        yarn generate
+        yarn predeploy
+
+    - name: Deploy hosting
+      run: |
+        ./node_modules/.bin/firebase deploy --only hosting --token=${{ secrets.FIREBASE_TOKEN }}
