@@ -2,6 +2,9 @@
 
 > 2020.scalamatsuri.org Nuxt.js project
 
+![](https://github.com/scalamatsuri/2020.scalamatsuri.org/workflows/deploy/badge.svg)
+![](https://github.com/scalamatsuri/2020.scalamatsuri.org/workflows/verify/badge.svg)
+
 ## Build Setup
 
 ### Install nodenv
