@@ -12,7 +12,6 @@ TODO
 
 ## デプロイの自動化
 
-- travis or circle ci
 - firebaseでの本番とステージング環境の分離
 
 ## 残タスク
