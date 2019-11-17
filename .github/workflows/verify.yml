@@ -5,13 +5,22 @@ on: [push, pull_request]
 jobs:
   build:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node:
+          - '11'
+          - '12'
+          - '13'
+
+    name: Verify on node ${{ matrix.node }}
 
     steps:
     - uses: actions/checkout@v1
 
-    - uses: actions/setup-node@v1
+    - name: Setup node
+      uses: actions/setup-node@v1
       with:
-        node-version: 11
+        node-version: ${{ matrix.node }}
 
     - name: Install npm modules
       run:

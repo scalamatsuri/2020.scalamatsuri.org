@@ -4,6 +4,9 @@
   "description": "The largest international Scala conference in Asia",
   "author": "scalamatsuri.org",
   "private": true,
+  "engines": {
+    "node": ">= 11.15.0"
+  },
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
