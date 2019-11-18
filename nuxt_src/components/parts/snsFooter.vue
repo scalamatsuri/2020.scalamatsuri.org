@@ -12,7 +12,7 @@
   <section class="sns">
     <a class="twitter-share-button sns_item" href="https://twitter.com/intent/tweet">Tweet</a>
     <div class="fb-share-button sns_item" data-layout="button_count" data-size="small" data-mobile-iframe="true">
-      <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore" rel="noopener">Share</a>
+      <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore" rel="noopener">シェア</a>
     </div>
     <a
       href="http://b.hatena.ne.jp/entry/"
