@@ -3,11 +3,9 @@
   en:
     share_with_friends: "Share it with your friends!"
     add_hatena_bookmark: "Add this entry to Hatena bookmark"
-    locale_full_code: "en_US"
   ja:
     share_with_friends: "是非あなたの友達にもシェアしてください！"
     add_hatena_bookmark: "このエントリーをはてなブックマークに追加"
-    locale_full_code: "ja_JP"
 </i18n>
 
 <template>

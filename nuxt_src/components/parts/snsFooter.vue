@@ -2,10 +2,8 @@
 ## language=yaml
   en:
     add_hatena_bookmark: "Add this entry to Hatena bookmark"
-    locale_full_code: "en_US"
   ja:
     add_hatena_bookmark: "このエントリーをはてなブックマークに追加"
-    locale_full_code: "ja_JP"
 </i18n>
 
 <template>
