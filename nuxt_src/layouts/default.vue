@@ -3,9 +3,9 @@
     <the-header />
     <nuxt />
     <lazy-component @show="hasShown">
-      <sns v-show="snsFooterHasShown" />
+      <sns v-if="snsFooterHasShown" />
     </lazy-component>
-    <flow-sns v-show="$mq === 'lg'" />
+    <flow-sns v-if="$mq === 'lg'" />
     <the-footer />
     <script id="facebook-jssdk" type="text/javascript" :src="`https://connect.facebook.net/${$t('locale_iso')}/sdk.js#xfbml=1&version=v3.0`" />
   </div>
