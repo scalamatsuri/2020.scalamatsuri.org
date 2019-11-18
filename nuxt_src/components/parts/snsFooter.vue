@@ -35,8 +35,10 @@
 
 <script>
 export default {
-  onLanguageSwitched(oldLocale, newLocale) {
-    debugger
+  mounted() {
+    if (window.FB) {
+      window.FB.XFBML.parse()
+    }
   }
 }
 </script>

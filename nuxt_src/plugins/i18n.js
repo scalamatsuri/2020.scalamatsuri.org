@@ -15,7 +15,6 @@ export default ({ app }) => {
     facebookJsSdkEl = document.createElement('script')
     facebookJsSdkEl.id = 'facebook-jssdk'
     facebookJsSdkEl.src = `https://connect.facebook.net/${localeIso}/sdk.js#xfbml=1&version=v3.0`
-    facebookJsSdkEl.crossorigin = 'anonymous'
     rootNuxtAppEl.parentNode.insertBefore(facebookJsSdkEl, rootNuxtAppEl)
     if (window.FB) {
       window.FB.XFBML.parse()

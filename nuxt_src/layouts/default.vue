@@ -7,7 +7,7 @@
     </lazy-component>
     <flow-sns v-show="$mq === 'lg'" />
     <the-footer />
-    <script type="text/javascript" :src="`https://connect.facebook.net/${$t('locale_iso')}/sdk.js#xfbml=1&version=v3.0`" defer />
+    <script id="facebook-jssdk" type="text/javascript" :src="`https://connect.facebook.net/${$t('locale_iso')}/sdk.js#xfbml=1&version=v3.0`" />
   </div>
 </template>
 
