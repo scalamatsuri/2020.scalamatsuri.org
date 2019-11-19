@@ -41,11 +41,13 @@
 </template>
 
 <script>
+import { loadFacebookShareButton } from '@/utils/socialMediaUtils'
+
 export default {
   mounted() {
-    if (window.FB) {
-      window.FB.XFBML.parse()
-    }
+    window.FB
+      ? window.FB.XFBML.parse()
+      : loadFacebookShareButton(this.$i18n.locale)
   }
 }
 </script>

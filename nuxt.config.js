@@ -69,15 +69,7 @@ module.exports = {
       rootRedirect: 'en',
       vueI18nLoader: true,
       vueI18n: {
-        fallbackLocale: 'en',
-        messages: {
-          'en': {
-            'locale_iso': 'en_US'
-          },
-          'ja': {
-            'locale_iso': 'ja_JP'
-          }
-        }
+        fallbackLocale: 'en'
       }
     }],
     ['nuxt-mq', {
