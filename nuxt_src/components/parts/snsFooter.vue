@@ -1,3 +1,11 @@
+<i18n>
+## language=yaml
+  en:
+    add_hatena_bookmark: "Add this entry to Hatena bookmark"
+  ja:
+    add_hatena_bookmark: "このエントリーをはてなブックマークに追加"
+</i18n>
+
 <template>
   <section class="sns">
     <a class="twitter-share-button sns_item" href="https://twitter.com/intent/tweet">Tweet</a>
@@ -10,16 +18,27 @@
       data-hatena-bookmark-layout="touch"
       data-hatena-bookmark-width="20"
       data-hatena-bookmark-height="20"
-      title="このエントリーをはてなブックマークに追加"
+      :title="$t('add_hatena_bookmark')"
     ><img
       src="https://b.st-hatena.com/images/entry-button/button-only.png"
-      alt="このエントリーをはてなブックマークに追加"
+      :alt="$t('add_hatena_bookmark')"
       width="20"
       height="20"
       style="border: none;"
     ></a>
     <script type="text/javascript" src="https://platform.twitter.com/widgets.js" defer />
-    <script type="text/javascript" src="https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v3.2" defer />
     <script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" defer />
   </section>
 </template>
+
+<script>
+import { loadFacebookShareButton } from '@/utils/socialMediaUtils'
+
+export default {
+  mounted() {
+    window.FB
+      ? window.FB.XFBML.parse()
+      : loadFacebookShareButton(this.$i18n.locale)
+  }
+}
+</script>
