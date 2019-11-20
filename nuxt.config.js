@@ -34,8 +34,7 @@ module.exports = {
   */
   plugins: [
     { src: '~/plugins/vue2-google-maps', ssr: false },
-    { src: '~/plugins/lazyload', ssr: false },
-    { src: '~/plugins/i18n', ssr: false }
+    { src: '~/plugins/lazyload', ssr: false }
   ],
 
   /*
