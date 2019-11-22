@@ -27,3 +27,16 @@ jobs:
     - name: Deploy hosting
       run: |
         ./node_modules/.bin/firebase deploy --only hosting --token=${{ secrets.FIREBASE_TOKEN }}
+
+    - name: Slack Notification
+      uses: homoluctus/slatify@master
+      if: always()
+      with:
+        type: ${{ job.status }}
+        job_name: '*Deploy Site*'
+        mention: 'here'
+        mention_if: 'failure'
+        channel: '#github_website'
+        url: ${{ secrets.SLACK_WEBHOOK }}
+        commit: true
+        token: ${{ secrets.GITHUB_TOKEN }}
