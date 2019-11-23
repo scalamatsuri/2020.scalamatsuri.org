@@ -6,7 +6,7 @@
     facebook_button_width: "82.8"
   ja:
     add_hatena_bookmark: "このエントリーをはてなブックマークに追加"
-    facebook_locale: "en_US"
+    facebook_locale: "ja_JP"
     facebook_button_width: "84.8"
 </i18n>
 
