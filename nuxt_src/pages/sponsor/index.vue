@@ -1,7 +1,7 @@
 <i18n>
 ## language=yaml
 en:
-  title: "Sponssors"
+  title: "Sponsors"
   sponsorType:
     syogun: Shogun Sponsor
     tairou: Tairo Sponsor
