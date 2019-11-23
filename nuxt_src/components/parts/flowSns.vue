@@ -3,9 +3,13 @@
   en:
     share_with_friends: "Share it with your friends!"
     add_hatena_bookmark: "Add this entry to Hatena bookmark"
+    facebook_locale: "en_US"
+    facebook_button_width: "82.8"
   ja:
     share_with_friends: "是非あなたの友達にもシェアしてください！"
     add_hatena_bookmark: "このエントリーをはてなブックマークに追加"
+    facebook_locale: "ja_JP"
+    facebook_button_width: "84.8"
 </i18n>
 
 <template>
@@ -16,9 +20,17 @@
           {{ $t('share_with_friends') }}
         </h2>
         <a class="twitter-share-button sns_item" href="https://twitter.com/intent/tweet">Tweet</a>
-        <div class="fb-share-button sns_item" data-layout="button_count" data-size="small" data-mobile-iframe="true">
-          <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore" rel="noopener">シェア</a>
-        </div>
+        <iframe
+          :src="`https://www.facebook.com/plugins/share_button.php?locale=${$t('facebook_locale')}&href=https%3A%2F%2Fscalamatsuri.org%2F&width=97&layout=button_count&action=like&size=small&show_faces=true&share=false&height=21&appId`"
+          :width="$t('facebook_button_width')"
+          height="20"
+          style="border:none;overflow:hidden"
+          scrolling="no"
+          frameborder="0"
+          allowTransparency="true"
+          allow="encrypted-media"
+        />
+
         <a
           href="http://b.hatena.ne.jp/entry/"
           class="hatena-bookmark-button sns_item"
@@ -39,15 +51,3 @@
     </section>
   </div>
 </template>
-
-<script>
-import { loadFacebookShareButton } from '@/utils/socialMediaUtils'
-
-export default {
-  mounted() {
-    window.FB
-      ? window.FB.XFBML.parse()
-      : loadFacebookShareButton(this.$i18n.locale)
-  }
-}
-</script>
