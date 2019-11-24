@@ -288,10 +288,7 @@
 </template>
 
 <script>
-import Page404NotFoundMixin from '@/mixins/page/Page404NotFound.js'
 export default {
-  // TODO: スポンサーが決定し次第、404表示を解除する
-  mixins: [Page404NotFoundMixin],
   head() {
     return {
       title: 'スポンサー募集',
