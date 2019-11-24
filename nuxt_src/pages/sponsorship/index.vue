@@ -20,7 +20,7 @@
         <a href="https://docs.google.com/forms/d/e/1FAIpQLSeR6XIcQ-2Y1-blyFEy3wzCf0HngrbxY79UDcO7bI1AoU_gbQ/viewform" class="sponsorship_btn sponsorship_btn-form">お申込みフォーム</a>
       </div>
       <p class="sponsorship_note">
-        年末年始は、2018年12月27日(木)から2019年1月6日(日)までスポンサー窓口はお休みです。<br>2018年12月25日(火)23:59JSTまでにスポンサーのお申し込みいただいた場合は、請求書を年内にご送付 いたします。
+        年末年始は、2019年12月28日(土)から2020年1月5日(日)までスポンサー窓口はお休みです。<br>2019年12月25日(火)23:59JSTまでにスポンサーのお申し込みいただいた場合は、請求書を年内にご送付いたします。
       </p>
     </div>
     <!-- sponsorship ここまで -->
@@ -33,21 +33,11 @@
         ScalaMatsuriを実際に活用され、就職または転職された方々のインタビューを記事にしました。ご参考になれば幸いです。
       </p>
       <ul class="recruit_recruit">
-        <li>
-          <img v-lazy="'/img/sponsorship/img-recruit1.jpg'" alt="" class="recruit_recruit_img">
+        <li v-for="r in recruit_recruits" :key="r.url">
+          <img :src="r.image" :alt="r.title" class="recruit_recruit_img">
           <p class="recruit_recruit_title">
-            <a href="https://blog.scalamatsuri.org/entry/2017/10/20/175103"> 株式会社エフ・コードさまへ就職された中村学さん（@gakuzzzz）</a>
+            <a :href="r.url">{{ r.title }}</a>
           </p>
-        </li>
-        <li>
-          <img v-lazy="'/img/sponsorship/img-recruit2.jpg'" alt="" class="recruit_recruit_img">
-          <p class="recruit_recruit_title">
-            <a href="https://blog.scalamatsuri.org/entry/2017/10/30/150859">株式会社セプテーニ・オリジナルさまへ就職された河内崇さん（@kawachi）</a>
-          </p>
-        </li>
-        <li>
-          <img v-lazy="'/img/sponsorship/img-recruit3.jpg'" alt="" class="recruit_recruit_img">
-          <span class="section_title_inner"><p class="recruit_recruit_title"><a href="https://blog.scalamatsuri.org/entry/2018/01/17/173447">株式会社FOLIOさまへ就職された横田紋奈さん（@ihcomega）</a></p></span>
         </li>
       </ul>
     </section>
@@ -256,7 +246,7 @@
       <h2 class="section_title">
         <span class="section_title_inner">各特典のスケジュール</span>
       </h2>
-      <a href="/img/sponsorship/img-schedule.png" target="_blank" rel="noopener"><img v-lazy="'/img/sponsorship/img-schedule.png'" alt="" class="section_img"></a>
+      <a :href="require('~/assets/img/sponsorship/img-schedule.png')" target="_blank" rel="noopener"><img v-lazy="require('~/assets/img/sponsorship/img-schedule.png')" alt="各特典のスケジュール" class="section_img"></a>
     </section>
     <!-- booth ここまで -->
     <!-- sponsorship ここから -->
@@ -272,7 +262,7 @@
         <a href="https://docs.google.com/forms/d/e/1FAIpQLSeR6XIcQ-2Y1-blyFEy3wzCf0HngrbxY79UDcO7bI1AoU_gbQ/viewform" class="sponsorship_btn sponsorship_btn-form">お申込みフォーム</a>
       </div>
       <p class="sponsorship_note">
-        年末年始は、2018年12月27日(木)から2019年1月6日(日)までスポンサー窓口はお休みです。<br>2018年12月25日(火)23:59JSTまでにスポンサーのお申し込みいただいた場合は、請求書を年内にご送付 いたします。
+        年末年始は、2019年12月28日(土)から2020年1月5日(日)までスポンサー窓口はお休みです。<br>2019年12月25日(火)23:59JSTまでにスポンサーのお申し込みいただいた場合は、請求書を年内にご送付いたします。
       </p>
     </div>
     <!-- sponsorship ここまで -->
@@ -292,6 +282,27 @@ import Page404NotFoundMixin from '@/mixins/page/Page404NotFound.js'
 export default {
   // TODO: スポンサーが決定し次第、404表示を解除する
   mixins: [Page404NotFoundMixin],
+  data() {
+    return {
+      recruit_recruits: [
+        {
+          image: require('~/assets/img/sponsorship/img-recruit1.jpg'),
+          url: 'https://blog.scalamatsuri.org/entry/2017/10/20/175103',
+          title: '株式会社エフ・コードさまへ就職された中村学さん（@gakuzzzz）'
+        },
+        {
+          image: require('~/assets/img/sponsorship/img-recruit2.jpg'),
+          url: 'https://blog.scalamatsuri.org/entry/2017/10/30/150859',
+          title: '株式会社セプテーニ・オリジナルさまへ就職された河内崇さん（@kawachi）'
+        },
+        {
+          image: require('~/assets/img/sponsorship/img-recruit3.jpg'),
+          url: 'https://blog.scalamatsuri.org/entry/2018/01/17/173447',
+          title: '株式会社FOLIOさまへ就職された横田紋奈さん（@ihcomega）'
+        }
+      ]
+    }
+  },
   head() {
     return {
       title: 'スポンサー募集',
