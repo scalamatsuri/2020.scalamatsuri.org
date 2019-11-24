@@ -26,7 +26,7 @@ jobs:
 
     - name: Deploy hosting
       run: |
-        ./node_modules/.bin/firebase deploy --only hosting --token=${{ secrets.FIREBASE_TOKEN_STAGING }}
+        ./node_modules/.bin/firebase deploy -P staging --only hosting --token=${{ secrets.FIREBASE_TOKEN_STAGING }}
 
     - name: Slack Notification
       uses: homoluctus/slatify@master
