@@ -45,6 +45,9 @@ module.exports = {
     '@nuxtjs/axios',
     '@nuxtjs/pwa',
     '@bazzite/nuxt-optimized-images',
+    ['@nuxtjs/google-analytics', {
+      id: 'UA-51559416-6'
+    }],
     ['nuxt-i18n', {
       baseUrl: 'http://2020.scalamatsuri.org',
       locales: [
