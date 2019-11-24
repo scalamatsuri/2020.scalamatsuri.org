@@ -1,0 +1,42 @@
+name: deploy
+
+on:
+  push:
+    branches:
+      - develop
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+
+    - uses: actions/setup-node@v1
+      with:
+        node-version: 12
+
+    - name: Install npm modules
+      run:
+        yarn install
+
+    - name: Build app
+      run:
+        yarn predeploy
+
+    - name: Deploy hosting
+      run: |
+        ./node_modules/.bin/firebase deploy --only hosting --token=${{ secrets.FIREBASE_TOKEN_STAGING }}
+
+    - name: Slack Notification
+      uses: homoluctus/slatify@master
+      if: always()
+      with:
+        type: ${{ job.status }}
+        job_name: '*[Staging] Deploy Site*'
+        mention: 'here'
+        mention_if: 'failure'
+        channel: '#github_website'
+        url: ${{ secrets.SLACK_WEBHOOK }}
+        commit: true
+        token: ${{ secrets.GITHUB_TOKEN }}
