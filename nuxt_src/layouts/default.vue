@@ -21,8 +21,8 @@
     twitterAccountId: '@scala_jp'
   ja:
     defaultSiteName: ScalaMatsuri 2020
-    defaultSiteSubTitle: 日本最大級の Scala のカンファレンス
-    defaultDescription: Scala をテーマに日本最大級のカンファレンスが開催されます。
+    defaultSiteSubTitle: アジア最大級の Scala のカンファレンス
+    defaultDescription: Scala をテーマにアジア最大級のカンファレンスが開催されます。
     defaultUrl: https://scalamatsuri.org/
     opengraphUri: https://scalamatsuri.org/img/favicons/opengraph_ja.png
     twitterAccountId: '@scala_jp'
