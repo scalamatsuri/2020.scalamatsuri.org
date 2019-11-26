@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "coherent-span-230012"
+    "default": "coherent-span-230012",
+    "staging": "scalamatsuri-web-staging"
   }
 }
