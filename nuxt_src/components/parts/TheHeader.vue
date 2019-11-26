@@ -177,7 +177,7 @@
               </div>
               <!--  ログイン前 ここまで -->
               <!--  ログイン後 ここから -->
-              <div v-if="isLoggedOut" class="function_item-userIcon">
+              <div v-if="isLoggedIn" class="function_item-userIcon">
                 <div class="userMenu">
                   <div class="function_userInfo js-accordion" @click="toggleUserMenu()">
                     <div class="function_userIcon" :style="`background-image: url(${auth.profile.photoURL})`" />
