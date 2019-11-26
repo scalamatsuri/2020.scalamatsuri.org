@@ -44,7 +44,10 @@ export const mutations = {
   setUser(state, user) {
     state.status = 'loggedIn'
     const { providerId, uid, displayName, email, photoURL } = user.providerData[0]
-    state.profile = { providerId, uid, displayName, email, photoURL }
+
+    const url = photoURL || encodeURI(`https://ui-avatars.com/api/?name=${displayName || ''}`)
+
+    state.profile = { providerId, uid, displayName, email, photoURL: url }
   },
   /**
    * @param {state} state
