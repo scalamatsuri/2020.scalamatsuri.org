@@ -1,10 +1,24 @@
-<template>
-  <div>
-    <div v-if="isUnknown">
-      Loading...
-    </div>
+<i18n>
+  en:
+    login: "Sign in to ScalaMatsuri2020"
+  ja:
+    login: "ScalaMatsuri2020にログイン"
+</i18n>
 
-    <div v-show="isLoggedOut" id="firebaseui-container" />
+<template>
+  <div class="login">
+    <div v-if="isLoggedOut" class="login__container">
+      <div class="login__logo">
+        <img v-if="$mq === 'lg'" class="logo--pc" :src="require(`~/assets/img/login/img-main_logo-pc.png?resize&size=200`)" alt="ScalaMatsuri2020">
+        <img v-if="$mq === 'sm'" class="logo--sp" :src="require(`~/assets/img/login/img-main_logo-sp.png?resize&size=314`)" alt="ScalaMatsuri2020">
+      </div>
+      <div class="login__text">
+        {{ $t('login') }}
+      </div>
+      <div class="login__firebase-container">
+        <div v-show="isLoggedOut" id="firebaseui-container" />
+      </div>
+    </div>
 
     <div v-if="isLoggedIn">
       <img v-if="auth.profile.photoURL" :src="auth.profile.photoURL" class="photo">
@@ -79,8 +93,34 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-.photo {
-    width: 200px;
-    height: 200px;
+.login {
+  background-color: #F4F4F4;
+  border-top: 1px solid #E5E5E5;
+  border-bottom: 1px solid #E5E5E5;
+}
+.login__container {
+  padding: 60px 0 20px;
+}
+.login__logo {
+  text-align: center;
+
+  & > img {
+    width: 120px;
+    max-width: 80vw;
+  }
+}
+
+.login__text {
+  font-size: 24px;
+  padding: 20px 0 10px;
+  text-align: center;
+}
+
+.login__firebase-container {
+    padding: 35px 40px 40px 40px;
+    background: white;
+    border-radius: 5px;
+    margin: 20px auto 40px;
+    max-width: 400px;
 }
 </style>
