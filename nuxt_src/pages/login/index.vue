@@ -111,16 +111,17 @@ export default {
 }
 
 .login__text {
-  font-size: 24px;
+  font-size: 21px;
   padding: 20px 0 10px;
   text-align: center;
 }
 
 .login__firebase-container {
-    padding: 35px 40px 40px 40px;
+    padding: 20px 0;
     background: white;
     border-radius: 5px;
     margin: 20px auto 40px;
-    max-width: 400px;
+    width: 400px;
+    max-width: 90vw;
 }
 </style>
