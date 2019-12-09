@@ -7,7 +7,7 @@
 
 <template>
   <div class="login">
-    <div v-if="isLoggedOut" class="login__container">
+    <div v-show="isLoggedOut || isUnknown" class="login__container">
       <div class="login__logo">
         <img v-if="$mq === 'lg'" class="logo--pc" :src="require(`~/assets/img/login/img-main_logo-pc.png?resize&size=200`)" alt="ScalaMatsuri2020">
         <img v-if="$mq === 'sm'" class="logo--sp" :src="require(`~/assets/img/login/img-main_logo-sp.png?resize&size=314`)" alt="ScalaMatsuri2020">
@@ -20,17 +20,14 @@
       </div>
     </div>
 
-    <div v-if="isLoggedIn">
-      <img v-if="auth.profile.photoURL" :src="auth.profile.photoURL" class="photo">
+    <div v-if="isLoggedIn" class="userinfo">
+      <img v-if="auth.profile.photoURL" class="userinfo__avater" :src="auth.profile.photoURL">
       <ul>
-        <li v-if="auth.profile.displayName">
+        <li v-if="auth.profile.displayName" class="userinfo__name">
           {{ auth.profile.displayName }}
         </li>
-        <li v-if="auth.profile.email">
-          {{ auth.profile.email }}
-        </li>
       </ul>
-      <button @click="logout">
+      <button class="userinfo__button" @click="logout">
         Logout
       </button>
     </div>
@@ -123,5 +120,37 @@ export default {
     margin: 20px auto 40px;
     width: 400px;
     max-width: 90vw;
+}
+
+.userinfo {
+  padding: 60px 0 20px;
+}
+.userinfo__avater {
+  display: block;
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 5px auto;
+  border-radius: 50%;
+}
+.userinfo__name {
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  color: #444;
+  text-align: center;
+}
+.userinfo__button {
+  display: block;
+    height: 44px;
+    width: 106px;
+    margin: 10px auto 0;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: normal;
+    color: #444;
 }
 </style>
