@@ -41,6 +41,16 @@ import { auth } from '~/plugins/firebase'
 
 export default {
   name: 'FirebaseAuth',
+  data() {
+    return {
+      prevRoute: null
+    }
+  },
+  beforeRouteEnter(to, from, next) {
+    next((vm) => {
+      vm.prevRoute = from
+    })
+  },
   computed: {
     ...mapState({
       auth: state => state.auth
@@ -77,7 +87,8 @@ export default {
             firebase.auth.GithubAuthProvider.PROVIDER_ID
           ],
           callbacks: {
-            signInSuccessWithAuthResult: function (authResult, redirectUrl) {
+            signInSuccessWithAuthResult: (authResult, redirectUrl) => {
+              this.prevRoute ? this.$router.push(this.prevRoute.fullPath) : this.$router.push('/')
               return false
             }
           },
