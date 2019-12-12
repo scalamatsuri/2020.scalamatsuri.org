@@ -64,6 +64,7 @@ export default {
   mounted() {
     this.$nextTick(function () {
       this.renderFirebaseUI()
+      this.$toast('Let me give a toast to you all.')
     })
   },
   updated() {
