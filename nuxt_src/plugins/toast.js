@@ -1,3 +1,7 @@
+/**
+ * This file is: https://github.com/noru/vue-easy-toast/blob/master/src/index.js
+ */
+
 import Vue from 'vue'
 import Toast from './Toast.vue'
 
@@ -12,7 +16,7 @@ const toastPlugin = {
       const toast = CACHE[options.id] || (CACHE[options.id] = new CONSTRUCTOR())
       if (!toast.$el) {
         const vm = toast.$mount()
-        document.querySelector(options.parent || 'body').appendChild(vm.$el)
+        document.querySelector('body').appendChild(vm.$el)
       }
       toast.queue.push(options)
     }

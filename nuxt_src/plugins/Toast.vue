@@ -1,13 +1,13 @@
 <template>
   <transition name="top" appear>
-    <div v-if="showing" class="toast">
+    <div v-if="showing" class="toast" @click.prevent="mergedOption.closeOnTap ? close() : null">
       <span class="check-icon" />
       <span class="text">
-        ログインしました
+        {{ mergedOption.message }}
       </span>
-      <div class="circle" :style="{ 'animation-duration': `${mergedOption.duration -100}ms` }" @click="close">
+      <div class="circle" :style="{ 'animation-duration': `${mergedOption.duration -80}ms` }" @click="close">
         <div class="circle-inner">
-          ☓
+          <div class="remove icon" />
         </div>
       </div>
     </div>
@@ -16,15 +16,9 @@
 
 <script>
 const DEFAULT_OPT = {
-  id: 'easy-toast-default',
-  className: '',
-  horizontalPosition: 'right',
-  verticalPosition: 'top',
-  parent: 'body',
-  transition: 'fade',
   duration: 5000,
   message: '',
-  closeable: false
+  closeOnTap: false
 }
 
 export default {
@@ -39,53 +33,20 @@ export default {
   computed: {
     mergedOption: function () {
       return Object.assign({}, DEFAULT_OPT, this.option)
-    },
-    clazz: function () {
-      let clazz = []
-      const className = this.option.className
-      const horizontalPosition = this.mergedOption.horizontalPosition
-      const verticalPosition = this.mergedOption.verticalPosition
-      const closeable = this.mergedOption.closeable
-      if (className) {
-        if (typeof className === 'string') {
-          clazz.push(className)
-        }
-        if (Array.isArray(className)) {
-          clazz = clazz.concat(className)
-        }
-      }
-      if (horizontalPosition) {
-        clazz.push(`et-${horizontalPosition}`)
-      }
-      if (closeable) {
-        clazz.push('et-closeable')
-      }
-      if (verticalPosition) {
-        clazz.push(`et-${verticalPosition}`)
-      }
-      return clazz.join(' ')
     }
   },
   watch: {
     queue: function () {
       const pending = this.queue.length
-      if (pending === 0) {
-        return
-      }
+      if (pending === 0) return
+
       this.showing = true
       this.option = this.queue[0]
-      if ((!this.option.mode || this.option.mode === 'override') && pending > 1) {
-        clearTimeout(this.timeoutId)
+      this.timeoutId = setTimeout(() => {
         this.showing = false
         this.timeoutId = null
-        this.timeoutId = setTimeout(() => this.queue.shift())
-      } else {
-        this.timeoutId = setTimeout(() => {
-          this.showing = false
-          this.timeoutId = null
-          setTimeout(() => this.queue.shift())
-        }, this.mergedOption.duration)
-      }
+        setTimeout(() => this.queue.shift())
+      }, this.mergedOption.duration)
     }
   },
   methods: {
@@ -179,6 +140,33 @@ export default {
     100% { transform: rotate(180deg); }
 }
 
+.remove.icon {
+  color: #C8C8C8;
+  position: absolute;
+  top: 46%;
+  left: 24%;
+}
+
+.remove.icon:before {
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 2px;
+  background-color: currentColor;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.remove.icon:after {
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 2px;
+  background-color: currentColor;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
   .top-enter-active, .top-leave-active {
     transform: translateY(0);
     transition: transform .3s cubic-bezier(0.360, 0.100, 0.160, 1.000);
@@ -193,8 +181,8 @@ export default {
     position: fixed;
     top: 20px;
     right: 20px;
-    width: 230px;
-    height: 60px;
+    min-width: 230px;
+    min-height: 60px;
     max-width: 90vw;
     background-color: white;
     border-radius: 4px;
@@ -245,7 +233,7 @@ export default {
   }
   .text {
     flex: 1 0 auto;
-    padding-left: .5em;
+    padding-left: 12px;
 
   }
 </style>
