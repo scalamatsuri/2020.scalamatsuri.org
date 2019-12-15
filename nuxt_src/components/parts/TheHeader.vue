@@ -6,20 +6,22 @@
     code-of-conduct: "Code of Conduct"
     program: "Program"
     outline: "Outline"
-    login: "Login"
+    login: "Sign In"
     ticket: "Ticket"
     cfp: "CFP"
-    logout: "Logout"
+    logout: "Sign Out"
+    logout_successful: "Signed out successfully."
   ja:
     sponsor: "スポンサー"
     access: "アクセス"
     code-of-conduct: "行動規範"
     program: "プログラム"
     outline: "開催概要"
-    login: "Login"
+    login: "ログイン"
     ticket: "チケット購入"
     cfp: "CFP"
-    logout: "Logout"
+    logout: "ログアウト"
+    logout_successful: "ログアウトしました."
 </i18n>
 
 <template>
@@ -269,6 +271,8 @@ export default {
     logout() {
       this.userMenuActive = false
       this.$store.dispatch('auth/logout')
+      this.$toast('ログアウトしました', { closeOnTap: true })
+      this.toggleMenu()
     },
     /**
      * Determin the header css class assignment by scroll position.

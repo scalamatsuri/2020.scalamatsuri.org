@@ -90,7 +90,7 @@ export default {
           ],
           callbacks: {
             signInSuccessWithAuthResult: (authResult, redirectUrl) => {
-              this.$toast(this.$t('login_successful'))
+              this.$toast(this.$t('login_successful'), { closeOnTap: true })
               this.prevRoute ? this.$router.push(this.prevRoute.fullPath) : this.$router.push('/')
               return false
             }
