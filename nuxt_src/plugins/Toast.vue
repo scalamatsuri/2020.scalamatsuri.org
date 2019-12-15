@@ -234,6 +234,7 @@ export default {
   .text {
     flex: 1 0 auto;
     padding-left: 12px;
+    padding-right: 6px;
 
   }
 </style>

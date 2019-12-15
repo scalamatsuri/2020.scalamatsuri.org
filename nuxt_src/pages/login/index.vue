@@ -1,8 +1,10 @@
 <i18n>
   en:
     login: "Sign in to ScalaMatsuri2020"
+    login_successful: "Signed in successfully."
   ja:
     login: "ScalaMatsuri2020にログイン"
+    login_successful: "ログインしました."
 </i18n>
 
 <template>
@@ -64,7 +66,6 @@ export default {
   mounted() {
     this.$nextTick(function () {
       this.renderFirebaseUI()
-      this.$toast('Let me give a toast to you all.')
     })
   },
   updated() {
@@ -89,6 +90,7 @@ export default {
           ],
           callbacks: {
             signInSuccessWithAuthResult: (authResult, redirectUrl) => {
+              this.$toast(this.$t('login_successful'))
               this.prevRoute ? this.$router.push(this.prevRoute.fullPath) : this.$router.push('/')
               return false
             }
