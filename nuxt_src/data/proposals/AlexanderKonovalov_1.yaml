@@ -8,6 +8,10 @@ ja:
   language: English
   tags:
     - Functional Programming
+  keywords:
+    - 関数型プログラミング
+    - ベストプラクティス
+    - ソフトウェアデザインとアーキテクチャ
   suggestions:
     - Recursion Schemes(再帰スキーム)やfinally taglessエンコーディング、より汎用的な型理論について理解を深めたい人
     - Scalaにおける関数型プログラミングについて中ぐらいの理解ができており、より高度なトピックについて学びたい人
@@ -24,6 +28,10 @@ en:
   language: English
   tags:
     - Functional Programming
+  keywords:
+    - Functional Programming
+    - Best Practices
+    - Software Design and Architecture
   suggestions:
     - People who want a deeper understanding of recursion schemes, finally tagless encoding, and type theory in general.
     - People who have achieved intermediate understanding of functional programming in Scala, and want to learn more advanced topics.
