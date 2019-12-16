@@ -1,7 +1,7 @@
 <i18n>
   en:
-    login: "Sign in to ScalaMatsuri2020"
-    login_successful: "Signed in successfully."
+    login: "Log in to ScalaMatsuri2020"
+    login_successful: "Logged in successfully."
   ja:
     login: "ScalaMatsuri2020にログイン"
     login_successful: "ログインしました."
