@@ -1,5 +1,6 @@
 /**
  * This file is: https://github.com/noru/vue-easy-toast/blob/master/src/index.js
+ * see also: http://opensource.org/licenses/mit-license.php
  */
 
 import Vue from 'vue'
