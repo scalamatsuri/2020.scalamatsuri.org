@@ -47,11 +47,11 @@
                 <span>{{ $t('code-of-conduct') }}</span>
               </nuxt-link>
             </li>
-            <!--            <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/sponsor') }">-->
-            <!--              <nuxt-link :to="localePath('sponsor')">-->
-            <!--                <span>{{ $t('sponsor') }}</span>-->
-            <!--              </nuxt-link>-->
-            <!--            </li>-->
+            <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/sponsor') }">
+              <nuxt-link :to="localePath('sponsor')">
+                <span>{{ $t('sponsor') }}</span>
+              </nuxt-link>
+            </li>
             <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/#access') }">
               <nuxt-link :to="locale_access_link()">
                 <span>{{ $t('access') }}</span>
@@ -132,11 +132,11 @@
                   <span>{{ $t('code-of-conduct') }}</span>
                 </nuxt-link>
               </li>
-              <!--              <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/sponsor') }" @click="toggleMenu()">-->
-              <!--                <nuxt-link :to="localePath('sponsor')">-->
-              <!--                  <span>{{ $t('sponsor') }}</span>-->
-              <!--                </nuxt-link>-->
-              <!--              </li>-->
+              <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/sponsor') }" @click="toggleMenu()">
+                <nuxt-link :to="localePath('sponsor')">
+                  <span>{{ $t('sponsor') }}</span>
+                </nuxt-link>
+              </li>
               <li class="gnav_item" :class="{ 'gnav_item-current': current_path('#access') }" @click="toggleMenu()">
                 <nuxt-link :to="locale_access_link()">
                   <span>{{ $t('access') }}</span>
