@@ -271,7 +271,7 @@ export default {
     logout() {
       this.userMenuActive = false
       this.$store.dispatch('auth/logout')
-      this.$toast('ログアウトしました', { closeOnTap: true })
+      this.$toast(this.$t('logout_successful'), { closeOnTap: true })
       this.toggleMenu()
     },
     /**
