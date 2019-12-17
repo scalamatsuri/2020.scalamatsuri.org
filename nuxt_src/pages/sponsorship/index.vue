@@ -10,14 +10,14 @@
     <!-- sponsorship ここから -->
     <div class="sponsorship">
       <h2 class="sponsorship_title">
-        ScalaMatsuriをご支援していただける<br class="is_pc">スポンサー様を募集しています。
+        Scalaコミュニティ 日本最大のイベント<br class="is_pc">ScalaMatsuriのスポンサーを募集しています。
       </h2>
       <p class="sponsorship_text">
-        以下の資料を参照の上、ご検討いただければ幸いです。
+        様々な特典をご用意しています。詳細は以下の資料を参照してください。
       </p>
       <div class="sponsorship_btnArea">
-        <a href="http://2019.scalamatsuri.org/ja/sponsors/sponsorship.pdf" class="sponsorship_btn sponsorship_btn-pdf">スポンサーシップのご案内</a>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeR6XIcQ-2Y1-blyFEy3wzCf0HngrbxY79UDcO7bI1AoU_gbQ/viewform" class="sponsorship_btn sponsorship_btn-form">お申込みフォーム</a>
+        <a href="/pdf/sponsorship.pdf" class="sponsorship_btn sponsorship_btn-pdf">スポンサーシップのご案内</a>
+        <a href="https://forms.gle/jz29vPswF52yUnZB8" class="sponsorship_btn sponsorship_btn-form">お申込みフォーム</a>
       </div>
       <p class="sponsorship_note">
         年末年始は、2019年12月28日(土)から2020年1月5日(日)までスポンサー窓口はお休みです。<br>2019年12月26日(木)23:59JSTまでにスポンサーのお申し込みいただいた場合は、請求書を年内にご送付いたします。
@@ -30,7 +30,7 @@
         <span class="section_title_inner">特別企画 - 私、ScalaMatsuriで転職しました -</span>
       </h2>
       <p class="section_text">
-        ScalaMatsuriを実際に活用され、就職または転職された方々のインタビューを記事にしました。ご参考になれば幸いです。
+        ScalaMatsuriがきっかけで、ScalaMatsuri協賛企業に就職または転職された方々のインタビュー記事です。
       </p>
       <ul class="recruit_recruit">
         <li v-for="r in recruit_recruits" :key="r.url">
@@ -51,7 +51,7 @@
         <table class="section_table2 section_table2-wide">
           <thead>
             <tr>
-              <th colspan="2" />
+              <th colspan="3" />
               <th>
                 <p class="color color_shogun">
                   将軍<span>ショーグン</span>
@@ -76,7 +76,7 @@
           </thead>
           <tbody>
             <tr>
-              <th colspan="2">
+              <th colspan="3">
                 金額
               </th>
               <td>¥1,250,000</td>
@@ -85,7 +85,7 @@
               <td>¥100,000</td>
             </tr>
             <tr>
-              <th colspan="2">
+              <th colspan="3">
                 招待枠
               </th>
               <td>10名様</td>
@@ -98,6 +98,7 @@
                 Webサイト掲載
               </th>
               <th>ロゴ画像</th>
+              <th />
               <td>◎<br>ファーストビュー</td>
               <td>○</td>
               <td>○</td>
@@ -105,6 +106,7 @@
             </tr>
             <tr>
               <th>広告ページ</th>
+              <th><span>サービス紹介や<br>リクルーティング</span></th>
               <td>○</td>
               <td>○</td>
               <td>○</td>
@@ -115,6 +117,7 @@
                 印刷物ロゴ掲載
               </th>
               <th>スピーカーバックパネル</th>
+              <th>登壇者<br>写真スポット</th>
               <td>A会場</td>
               <td>B会場</td>
               <td>─</td>
@@ -122,6 +125,7 @@
             </tr>
             <tr>
               <th>日除けのれん</th>
+              <th>来場者<br>写真スポット</th>
               <td>○</td>
               <td>○</td>
               <td>─</td>
@@ -129,6 +133,7 @@
             </tr>
             <tr>
               <th>Tシャツ</th>
+              <th>来場者<br>プレゼント</th>
               <td>○</td>
               <td>○</td>
               <td>─</td>
@@ -139,6 +144,7 @@
                 スライド掲載
               </th>
               <th>会場内ディスプレイ</th>
+              <th>休憩時間向け<br>ブース誘導にも◎</th>
               <td>1ページ</td>
               <td>1ページ</td>
               <td>1/2ページ</td>
@@ -146,15 +152,15 @@
             </tr>
             <tr>
               <th>オープニング</th>
+              <th>注目が集まる場面</th>
               <td>ロゴ掲載・<br>読み上げ</td>
               <td>ロゴ掲載・<br>読み上げ</td>
               <td>ロゴ掲載</td>
               <td>─</td>
             </tr>
             <tr>
-              <th colspan="2">
-                常設ブース(別売)<br>
-                申し込み可能数
+              <th colspan="3">
+                常設ブース(別売) 申し込み可能数
               </th>
               <td>最大2枠</td>
               <td>最大1枠</td>
@@ -192,14 +198,14 @@
     <!-- sponsorship ここから -->
     <div class="sponsorship">
       <h2 class="sponsorship_title">
-        ScalaMatsuriをご支援していただける<br class="is_pc">スポンサー様を募集しています。
+        Scalaコミュニティ 日本最大のイベント<br class="is_pc">ScalaMatsuriのスポンサーを募集しています。
       </h2>
       <p class="sponsorship_text">
-        以下の資料を参照の上、ご検討いただければ幸いです。
+        様々な特典をご用意しています。詳細は以下の資料を参照してください。
       </p>
       <div class="sponsorship_btnArea">
-        <a href="http://2019.scalamatsuri.org/ja/sponsors/sponsorship.pdf" class="sponsorship_btn sponsorship_btn-pdf">スポンサーシップのご案内</a>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeR6XIcQ-2Y1-blyFEy3wzCf0HngrbxY79UDcO7bI1AoU_gbQ/viewform" class="sponsorship_btn sponsorship_btn-form">お申込みフォーム</a>
+        <a href="/pdf/sponsorship.pdf" class="sponsorship_btn sponsorship_btn-pdf">スポンサーシップのご案内</a>
+        <a href="https://forms.gle/jz29vPswF52yUnZB8" class="sponsorship_btn sponsorship_btn-form">お申込みフォーム</a>
       </div>
       <p class="sponsorship_note">
         年末年始は、2019年12月28日(土)から2020年1月5日(日)までスポンサー窓口はお休みです。<br>2019年12月26日(木)23:59JSTまでにスポンサーのお申し込みいただいた場合は、請求書を年内にご送付いたします。
@@ -228,18 +234,18 @@ export default {
       recruit_recruits: [
         {
           image: require('~/assets/img/sponsorship/img-recruit1.jpg'),
-          url: 'https://blog.scalamatsuri.org/entry/2017/10/20/175103',
-          title: '株式会社エフ・コードさまへ就職された中村学さん（@gakuzzzz）'
-        },
-        {
-          image: require('~/assets/img/sponsorship/img-recruit2.jpg'),
-          url: 'https://blog.scalamatsuri.org/entry/2017/10/30/150859',
-          title: '株式会社セプテーニ・オリジナルさまへ就職された河内崇さん（@kawachi）'
+          url: 'https://blog.scalamatsuri.org/entry/2019/12/18/TODO',
+          title: 'マーベリック株式会社さまへ転職された リチャード伊真岡さん(@RichardImaokaJP)'
         },
         {
           image: require('~/assets/img/sponsorship/img-recruit3.jpg'),
           url: 'https://blog.scalamatsuri.org/entry/2018/01/17/173447',
-          title: '株式会社FOLIOさまへ就職された横田紋奈さん（@ihcomega）'
+          title: '株式会社FOLIOさまへ転職された 横田紋奈さん（@ihcomega）'
+        },
+        {
+          image: require('~/assets/img/sponsorship/img-recruit2.jpg'),
+          url: 'https://blog.scalamatsuri.org/entry/2017/10/30/150859',
+          title: '株式会社セプテーニ・オリジナルさまへ転職された 河内崇さん（@kawachi）'
         }
       ]
     }
