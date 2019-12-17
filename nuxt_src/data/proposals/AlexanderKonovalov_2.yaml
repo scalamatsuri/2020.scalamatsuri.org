@@ -8,6 +8,10 @@ ja:
   language: English
   tags:
     - Functional Programming
+  keywords:
+    - 関数型プログラミング
+    - ベストプラクティス
+    - ソフトウェアデザインとアーキテクチャ
   suggestions:
     - 型理論、Yoneda / Coyoneda の補題、表現可能な関手、Theorems for free などをしっかりと理解したい人
   detail: |
@@ -21,6 +25,10 @@ en:
   language: English
   tags:
     - Functional Programming
+  keywords:
+    - Functional Programming
+    - Best Practices
+    - Software Design and Architecture
   suggestions:
     - People who want to get a deeper understanding of type theory, Yoneda / Coyoneda lemmas, representable functors, theorems for free.
   detail: |

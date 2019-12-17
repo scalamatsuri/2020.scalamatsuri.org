@@ -14,6 +14,10 @@ ja:
     - "ストリーミング解析や Fast Data に興味のある人"
     - "ストリーム処理の基礎に興味がある人"
     - "ストリーム処理への様々な方法に興味がある人"
+  keywords:
+    - 関数型プログラミング
+    - ベストプラクティス
+    - ソフトウェアデザインとアーキテクチャ
   detail: |
     近年 Fast Data 処理界隈では分散ストリーム処理システム (DSPS) がデファクトスタンダードとなりつつあります。
     この比較研究ではストリーム処理の基礎を見ていきます。
@@ -30,6 +34,10 @@ en:
     - Big Data / Fast Data
     - Data Science / Machine Learning
     - DevOps
+  keywords:
+    - Functional Programming
+    - Best Practices
+    - Software Design and Architecture
   suggestions:
     - "Anyone who is interested in:"
     - Streaming Analytics and Fast Data capabilities.

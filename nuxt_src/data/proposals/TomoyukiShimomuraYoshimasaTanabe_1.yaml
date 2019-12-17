@@ -9,7 +9,11 @@ ja:
   language: Japanese
   tags:
     - Best Practices
-    - Software Design and Architecture 
+    - Software Design and Architecture
+  keywords:
+    - 関数型プログラミング
+    - ベストプラクティス
+    - ソフトウェアデザインとアーキテクチャ
   suggestions:
     - チーム開発に取り組んでるいて、開発手法に課題を感じる
     - チームとしての品質を担保したい人
@@ -30,6 +34,10 @@ en:
   tags:
     - Best Practices
     - Software Design and Architecture 
+  keywords:
+    - Functional Programming
+    - Best Practices
+    - Software Design and Architecture
   suggestions:
     - Those who are working in a team and feel their development methodology needs improvement
     - Those who want to guarantee quality as a team
