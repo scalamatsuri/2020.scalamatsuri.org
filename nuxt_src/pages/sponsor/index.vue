@@ -44,13 +44,13 @@ ja:
       <h2 class="sponsor_subtitle">
         {{ $t('sponsorType.tairou') }}
       </h2>
-      <div class="sposor_list">
+      <div class="sponsor_list">
         ここに大老Sponsor一覧
       </div>
       <h2 class="sponsor_subtitle">
         {{ $t('sponsorType.daimyo') }}
       </h2>
-      <div class="sposor_list">
+      <div class="sponsor_list">
         ここに大名Sponsor一覧
       </div>
       <section class="inquiry">
@@ -60,7 +60,6 @@ ja:
         <p class="inquiry_text">
           {{ $t('inquiry.text1') }} <br><br>
           {{ $t('inquiry.text2') }} <br>
-          <a href="mailto:sponsor@scalaconf.jp">sponsor@scalaconf.jp</a>
         </p>
       </section>
     </div>

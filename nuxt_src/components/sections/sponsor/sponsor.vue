@@ -11,13 +11,13 @@
         <a :href="sponsor.url" target="_blank" rel="noopener">{{ sponsor.url }}</a>
       </p>
       <div class="sponsor_text">
-        <p>{{ sponsor.text_1 }}</p>
+        <p><span v-html="sponsor.text_1" /></p>
         <ul>
           <li v-for="link in sponsor.links" :key="link.url">
             <a :href="link.url" target="_blank" rel="noopener">{{ link.url }}</a>
           </li>
         </ul>
-        <p>{{ sponsor.text_2 }}</p>
+        <p><span v-html="sponsor.text_2" /></p>
       </div>
       <a :href="sponsor.recruit_link" class="sponsor_btn" target="_blank" rel="noopener">エンジニア採用ページ</a>
     </section>

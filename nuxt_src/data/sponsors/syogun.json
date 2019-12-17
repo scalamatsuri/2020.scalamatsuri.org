@@ -8,67 +8,7 @@
       { "url": "https://example.com/link2" }
     ],
     "recruit_link": "https://example.com/recruit",
-    "text_1": "（合計で250文字ほど）こことこの下の部分で250文字ほどまでならなんでも記載が可能です。このサンプルではこの部分に100文字ほど入れています。上部で100文字ほど入れた場合残りの150文字ほどが下に記載されます。",
-    "text_2": "上部と下部の間で2つリンクを入れていますが、こちらのリンクもOptionalで2つまで指定可能です。(当然指定しなくても問題ありません)またこの下の「エンジニア採用ページ」のボタンにも指定したリンクを追加することが可能です。ボタン文言は「エンジニア採用ページ」固定の予定ですが、変更されることもあります。"
-  },
-  {
-    "company_name": "株式会社サイバーエージェント",
-    "logo": "/img/dummy/bnr-sponsor.jpg",
-    "url": "https://www.cyberagent.co.jp/",
-    "links" : [
-      { "url": "https://www.cyberagent.co.jp/" },
-      { "url": "https://www.cyberagent.co.jp/" }
-    ],
-    "recruit_link": "https://www.cyberagent.co.jp/careers/",
-    "text_1": "（仮250文字程度）株式会社ドワンゴは、ゲームや音楽をはじめとするエンタテインメント分野において、次世代ネットワークコミュニケーションの創出を目指す、ネットワーク・エンタテインメント・カンパニーです。",
-    "text_2": "3,900万人を超える登録ユーザー数を誇る国内最大級の動画サイト「niconico（ニコニコ動画）」の運営をじめ、モバイル向け音楽配信、ゲームソフト及びオンラインゲームの企画・開発・販売などを行っています。 高度なネットワーク技術と独創的な発想を強みに、良質なコンテンツを様々なプラットフォームに提供しています。"
-  },
-  {
-    "company_name": "株式会社サイバーエージェント",
-    "logo": "/img/dummy/bnr-sponsor.jpg",
-    "url": "https://www.cyberagent.co.jp/",
-    "links" : [
-      { "url": "https://www.cyberagent.co.jp/" },
-      { "url": "https://www.cyberagent.co.jp/" }
-    ],
-    "recruit_link": "https://www.cyberagent.co.jp/careers/",
-    "text_1": "（仮250文字程度）株式会社ドワンゴは、ゲームや音楽をはじめとするエンタテインメント分野において、次世代ネットワークコミュニケーションの創出を目指す、ネットワーク・エンタテインメント・カンパニーです。",
-    "text_2": "3,900万人を超える登録ユーザー数を誇る国内最大級の動画サイト「niconico（ニコニコ動画）」の運営をじめ、モバイル向け音楽配信、ゲームソフト及びオンラインゲームの企画・開発・販売などを行っています。 高度なネットワーク技術と独創的な発想を強みに、良質なコンテンツを様々なプラットフォームに提供しています。"
-  },
-  {
-    "company_name": "株式会社サイバーエージェント",
-    "logo": "/img/dummy/bnr-sponsor.jpg",
-    "url": "https://www.cyberagent.co.jp/",
-    "links" : [
-      { "url": "https://www.cyberagent.co.jp/" },
-      { "url": "https://www.cyberagent.co.jp/" }
-    ],
-    "recruit_link": "https://www.cyberagent.co.jp/careers/",
-    "text_1": "（仮250文字程度）株式会社ドワンゴは、ゲームや音楽をはじめとするエンタテインメント分野において、次世代ネットワークコミュニケーションの創出を目指す、ネットワーク・エンタテインメント・カンパニーです。",
-    "text_2": "3,900万人を超える登録ユーザー数を誇る国内最大級の動画サイト「niconico（ニコニコ動画）」の運営をじめ、モバイル向け音楽配信、ゲームソフト及びオンラインゲームの企画・開発・販売などを行っています。 高度なネットワーク技術と独創的な発想を強みに、良質なコンテンツを様々なプラットフォームに提供しています。"
-  },
-  {
-    "company_name": "株式会社サイバーエージェント",
-    "logo": "/img/dummy/bnr-sponsor.jpg",
-    "url": "https://www.cyberagent.co.jp/",
-    "links" : [
-      { "url": "https://www.cyberagent.co.jp/" },
-      { "url": "https://www.cyberagent.co.jp/" }
-    ],
-    "recruit_link": "https://www.cyberagent.co.jp/careers/",
-    "text_1": "（仮250文字程度）株式会社ドワンゴは、ゲームや音楽をはじめとするエンタテインメント分野において、次世代ネットワークコミュニケーションの創出を目指す、ネットワーク・エンタテインメント・カンパニーです。",
-    "text_2": "3,900万人を超える登録ユーザー数を誇る国内最大級の動画サイト「niconico（ニコニコ動画）」の運営をじめ、モバイル向け音楽配信、ゲームソフト及びオンラインゲームの企画・開発・販売などを行っています。 高度なネットワーク技術と独創的な発想を強みに、良質なコンテンツを様々なプラットフォームに提供しています。"
-  },
-  {
-    "company_name": "株式会社サイバーエージェント",
-    "logo": "/img/dummy/bnr-sponsor.jpg",
-    "url": "https://www.cyberagent.co.jp/",
-    "links" : [
-      { "url": "https://www.cyberagent.co.jp/" },
-      { "url": "https://www.cyberagent.co.jp/" }
-    ],
-    "recruit_link": "https://www.cyberagent.co.jp/careers/",
-    "text_1": "（仮250文字程度）株式会社ドワンゴは、ゲームや音楽をはじめとするエンタテインメント分野において、次世代ネットワークコミュニケーションの創出を目指す、ネットワーク・エンタテインメント・カンパニーです。",
-    "text_2": "3,900万人を超える登録ユーザー数を誇る国内最大級の動画サイト「niconico（ニコニコ動画）」の運営をじめ、モバイル向け音楽配信、ゲームソフト及びオンラインゲームの企画・開発・販売などを行っています。 高度なネットワーク技術と独創的な発想を強みに、良質なコンテンツを様々なプラットフォームに提供しています。"
+    "text_1": "<div style=\"left: 0; width: 100%; height: 0; position: relative; padding-bottom: 74.9296%;\"><iframe src=\"https://speakerdeck.com/player/8fbedebe1c6b475b8ed7a8552bd9c6a3\" style=\"border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;\" allowfullscreen scrolling=\"no\" allow=\"encrypted-media\"></iframe></div>",
+    "text_2": "<b>強調</b>できているのか。<br/><iframe src=\"//www.slideshare.net/slideshow/embed_code/key/HqnCYMxQKwLdgC\" width=\"595\" height=\"485\" frameborder=\"0\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" style=\"border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;\" allowfullscreen> </iframe> <div style=\"margin-bottom:5px\"> <strong> <a href=\"//www.slideshare.net/TaisukeOe/what-dotty-fixes-scala\" title=\"What Dotty fixes @ Scala関西サミット\" target=\"_blank\">What Dotty fixes @ Scala関西サミット</a> </strong> from <strong><a href=\"https://www.slideshare.net/TaisukeOe\" target=\"_blank\">Taisuke Oe</a></strong> </div>"
   }
 ]
