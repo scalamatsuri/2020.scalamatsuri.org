@@ -6,10 +6,9 @@ en:
     syogun: Shogun Sponsor
     tairou: Tairo Sponsor
     daimyo: Daimyo Sponsor
-    samurai: Samurai Sponsor
   inquiry:
     title: Inquiry about Sponsorship
-    text1: Posting of job postings on this page is provided to sponsor companies over certain sponsors.
+    text1: Posting of job postings on this page is provided to sponsor companies over Daimyo sponsors.
     text2: ScalaMatsuri management
 ja:
   title: スポンサー
@@ -17,11 +16,10 @@ ja:
     syogun: 将軍スポンサー
     tairou: 大老スポンサー
     daimyo: 大名スポンサー
-    samurai: 侍スポンサー
   inquiry:
     title: 掲載に関するお問い合わせ
-    text1: このページでの求人情報の掲載は侍スポンサー以上のスポンサー企業様に提供させていただいております。
-    text2: ScalaMatsuri 事務局 スポンサー担当
+    text1: このページでの求人情報の掲載は大名スポンサー以上のスポンサー企業様に提供させていただいております。
+    text2: ScalaMatsuri 準備委員会 スポンサー担当
 </i18n>
 
 <template>
@@ -55,12 +53,6 @@ ja:
       <div class="sposor_list">
         ここに大名Sponsor一覧
       </div>
-      <h2 class="sponsor_subtitle">
-        {{ $t('sponsorType.samurai') }}
-      </h2>
-      <div class="sposor_list">
-        ここに侍Sponsor一覧
-      </div>
       <section class="inquiry">
         <h3 class="inquiry_title">
           {{ $t('inquiry.title') }}
@@ -80,14 +72,14 @@ ja:
 import Sponsor from '@/components/sections/sponsor/sponsor.vue'
 import syoguns from '@/data/sponsors/syogun'
 
-import Page404NotFoundMixin from '@/mixins/page/Page404NotFound.js'
+// import Page404NotFoundMixin from '@/mixins/page/Page404NotFound.js'
 
 export default {
   components: {
     Sponsor
   },
   // TODO: スポンサーが決定し次第、404表示を解除する
-  mixins: [Page404NotFoundMixin],
+  // mixins: [Page404NotFoundMixin],
   data() {
     return {
       syogun_sponsors: []
