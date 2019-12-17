@@ -1,25 +1,18 @@
 <template>
   <section class="sponsor_item">
     <div class="sponsor_logo">
-      <img :src="sponsor.logo" :alt="sponsor.company_name">
+      <a :href="sponsor.url" target="_blank" rel="noopener"><img :src="sponsor.logo" :alt="sponsor.company_name"></a>
     </div>
     <section class="sponsor_content">
       <h3 class="sponsor_name">
         {{ sponsor.company_name }}
       </h3>
-      <p class="sponsor_url">
-        <a :href="sponsor.url" target="_blank" rel="noopener">{{ sponsor.url }}</a>
-      </p>
       <div class="sponsor_text">
-        <p><span v-html="sponsor.text_1" /></p>
-        <ul>
-          <li v-for="link in sponsor.links" :key="link.url">
-            <a :href="link.url" target="_blank" rel="noopener">{{ link.url }}</a>
-          </li>
-        </ul>
-        <p><span v-html="sponsor.text_2" /></p>
+        <span v-html="sponsor.text_html" />
       </div>
-      <a :href="sponsor.recruit_link" class="sponsor_btn" target="_blank" rel="noopener">エンジニア採用ページ</a>
+      <div class="sponsor_url">
+        <span v-html="sponsor.slide_html" />
+      </div>
     </section>
   </section>
 </template>

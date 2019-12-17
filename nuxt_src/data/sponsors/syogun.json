@@ -1,14 +1,9 @@
 [
   {
-    "company_name": "Sponsor様社名がここに記載されます",
-    "logo": "/img/dummy/bnr-sponsor.jpg",
-    "url": "https://example.com",
-    "links" : [
-      { "url": "https://example.com/link1" },
-      { "url": "https://example.com/link2" }
-    ],
-    "recruit_link": "https://example.com/recruit",
-    "text_1": "<div style=\"left: 0; width: 100%; height: 0; position: relative; padding-bottom: 74.9296%;\"><iframe src=\"https://speakerdeck.com/player/8fbedebe1c6b475b8ed7a8552bd9c6a3\" style=\"border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;\" allowfullscreen scrolling=\"no\" allow=\"encrypted-media\"></iframe></div>",
-    "text_2": "<b>強調</b>できているのか。<br/><iframe src=\"//www.slideshare.net/slideshow/embed_code/key/HqnCYMxQKwLdgC\" width=\"595\" height=\"485\" frameborder=\"0\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" style=\"border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;\" allowfullscreen> </iframe> <div style=\"margin-bottom:5px\"> <strong> <a href=\"//www.slideshare.net/TaisukeOe/what-dotty-fixes-scala\" title=\"What Dotty fixes @ Scala関西サミット\" target=\"_blank\">What Dotty fixes @ Scala関西サミット</a> </strong> from <strong><a href=\"https://www.slideshare.net/TaisukeOe\" target=\"_blank\">Taisuke Oe</a></strong> </div>"
+    "company_name": "rpscala (スポンサー広告サンプル)",
+    "logo": "/img/dummy/bnr-sponsor.png",
+    "url": "https://rpscala.connpass.com/",
+    "text_html": "<p><a href=\"https://rpscala.connpass.com/\" target=\"_blank\" rel=\"noopener\">rpscala</a>は隔週火曜日に西新宿で開催している、<em>プログラミング言語Scalaの勉強会</em>です。</p><p>Scalaに関する事なら何でもあり、気合い入ってません。堅苦しい事抜きに、ワイワイ楽しくやってる感じです。 これからScalaを始めたい人も、Scalaをより深く知りたいベテランさんも、皆さんご参加ください。</p><p><em>以下はスライド埋め込みサンプルです。rpscalaと直接の関係はありません。</em></p>",
+    "slide_html": "<div style=\"left: 0; width: 100%; height: 0; position: relative; padding-bottom: 74.9296%;\"><iframe src=\"https://speakerdeck.com/player/8fbedebe1c6b475b8ed7a8552bd9c6a3\" style=\"border: 0; top: 0; left: 0; width: 80%; height: 80%; position: absolute;\" allowfullscreen scrolling=\"no\" allow=\"encrypted-media\"></iframe></div>"
   }
 ]
