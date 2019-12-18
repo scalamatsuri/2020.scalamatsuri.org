@@ -93,7 +93,9 @@ ja:
         </dl>
       </div>
     </div>
-    <!-- <a href="" class="pullrequestBtn"><img v-lazy="'/img/common/icon-octcat.svg'" alt="">Send a pull request</a> -->
+    <a href="https://github.com/scalamatsuri/2020.scalamatsuri.org" class="pullrequestBtn" target="_blank" rel="noopener">
+      <img v-lazy="require('~/assets/img/common/icon-octcat.svg')">Send a pull request
+    </a>
     <p class="copyright">
       <small>&copy; ScalaMatsuri Organization | Japan Scala Association</small>
     </p>
