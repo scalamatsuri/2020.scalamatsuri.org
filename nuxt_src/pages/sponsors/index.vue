@@ -39,25 +39,27 @@ ja:
           <sponsor :sponsor="sponsor" />
         </div>
       </div>
-<!--      <h2 class="sponsor_title">-->
-<!--        {{ $t('sponsorType.tairou') }}-->
-<!--      </h2>-->
-<!--      <div class="sponsor_list">-->
-<!--        <div v-for="sponsor in tairo_sponsors" :key="sponsor.url">-->
-<!--          <sponsor :sponsor="sponsor" />-->
-<!--        </div>-->
-<!--      </div>-->
-<!--      <h2 class="sponsor_title">-->
-<!--        {{ $t('sponsorType.daimyo') }}-->
-<!--      </h2>-->
-<!--      <div class="sponsor_list">-->
-<!--        <div v-for="sponsor in daimyo_sponsors" :key="sponsor.url">-->
-<!--          <sponsor :sponsor="sponsor" />-->
-<!--        </div>-->
-<!--      </div>-->
+      <!--      <h2 class="sponsor_title">-->
+      <!--        {{ $t('sponsorType.tairou') }}-->
+      <!--      </h2>-->
+      <!--      <div class="sponsor_list">-->
+      <!--        <div v-for="sponsor in tairo_sponsors" :key="sponsor.url">-->
+      <!--          <sponsor :sponsor="sponsor" />-->
+      <!--        </div>-->
+      <!--      </div>-->
+      <!--      <h2 class="sponsor_title">-->
+      <!--        {{ $t('sponsorType.daimyo') }}-->
+      <!--      </h2>-->
+      <!--      <div class="sponsor_list">-->
+      <!--        <div v-for="sponsor in daimyo_sponsors" :key="sponsor.url">-->
+      <!--          <sponsor :sponsor="sponsor" />-->
+      <!--        </div>-->
+      <!--      </div>-->
       <section class="inquiry">
         <h3 class="inquiry_title">
-          <nuxt-link :to="localePath('sponsorship')">{{ $t('inquiry.title') }}</nuxt-link>
+          <nuxt-link :to="localePath('sponsorship')">
+            {{ $t('inquiry.title') }}
+          </nuxt-link>
         </h3>
         <p class="inquiry_text">
           {{ $t('inquiry.text1') }}
