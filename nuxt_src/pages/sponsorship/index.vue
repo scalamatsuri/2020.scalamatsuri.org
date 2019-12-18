@@ -234,7 +234,7 @@ export default {
       recruit_recruits: [
         {
           image: require('~/assets/img/sponsorship/img-recruit1.jpg'),
-          url: 'https://blog.scalamatsuri.org/entry/2019/12/18/TODO',
+          url: 'https://blog.scalamatsuri.org/entry/2019/12/18/141705',
           title: 'マーベリック株式会社さまへ転職された リチャード伊真岡さん(@RichardImaokaJP)'
         },
         {
