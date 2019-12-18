@@ -1,7 +1,7 @@
 <i18n>
 ## language=yaml
 en:
-  sponsorship: "Sponsorship"
+  sponsorship: "Sponsorship(ja)"
   cfp: "Call for proposals"
 ja:
   sponsorship: "スポンサー募集"

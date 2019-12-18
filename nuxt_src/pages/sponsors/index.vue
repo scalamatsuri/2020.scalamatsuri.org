@@ -6,22 +6,18 @@ en:
     syogun: Shogun Sponsor
     tairou: Tairo Sponsor
     daimyo: Daimyo Sponsor
-    samurai: Samurai Sponsor
   inquiry:
     title: Inquiry about Sponsorship
-    text1: Posting of job postings on this page is provided to sponsor companies over certain sponsors.
-    text2: ScalaMatsuri management
+    text1: Posting of job postings on this page is provided to sponsor companies over Daimyo sponsors.
 ja:
   title: スポンサー
   sponsorType:
     syogun: 将軍スポンサー
     tairou: 大老スポンサー
     daimyo: 大名スポンサー
-    samurai: 侍スポンサー
   inquiry:
-    title: 掲載に関するお問い合わせ
-    text1: このページでの求人情報の掲載は侍スポンサー以上のスポンサー企業様に提供させていただいております。
-    text2: ScalaMatsuri 事務局 スポンサー担当
+    title: スポンサー申し込みはこちら
+    text1: このページでの広告情報の掲載は大名スポンサー以上のスポンサー様に提供させていただいております。
 </i18n>
 
 <template>
@@ -43,32 +39,30 @@ ja:
           <sponsor :sponsor="sponsor" />
         </div>
       </div>
-      <h2 class="sponsor_subtitle">
-        {{ $t('sponsorType.tairou') }}
-      </h2>
-      <div class="sposor_list">
-        ここに大老Sponsor一覧
-      </div>
-      <h2 class="sponsor_subtitle">
-        {{ $t('sponsorType.daimyo') }}
-      </h2>
-      <div class="sposor_list">
-        ここに大名Sponsor一覧
-      </div>
-      <h2 class="sponsor_subtitle">
-        {{ $t('sponsorType.samurai') }}
-      </h2>
-      <div class="sposor_list">
-        ここに侍Sponsor一覧
-      </div>
+      <!--      <h2 class="sponsor_title">-->
+      <!--        {{ $t('sponsorType.tairou') }}-->
+      <!--      </h2>-->
+      <!--      <div class="sponsor_list">-->
+      <!--        <div v-for="sponsor in tairo_sponsors" :key="sponsor.url">-->
+      <!--          <sponsor :sponsor="sponsor" />-->
+      <!--        </div>-->
+      <!--      </div>-->
+      <!--      <h2 class="sponsor_title">-->
+      <!--        {{ $t('sponsorType.daimyo') }}-->
+      <!--      </h2>-->
+      <!--      <div class="sponsor_list">-->
+      <!--        <div v-for="sponsor in daimyo_sponsors" :key="sponsor.url">-->
+      <!--          <sponsor :sponsor="sponsor" />-->
+      <!--        </div>-->
+      <!--      </div>-->
       <section class="inquiry">
         <h3 class="inquiry_title">
-          {{ $t('inquiry.title') }}
+          <nuxt-link :to="localePath('sponsorship')">
+            {{ $t('inquiry.title') }}
+          </nuxt-link>
         </h3>
         <p class="inquiry_text">
-          {{ $t('inquiry.text1') }} <br><br>
-          {{ $t('inquiry.text2') }} <br>
-          <a href="mailto:sponsor@scalaconf.jp">sponsor@scalaconf.jp</a>
+          {{ $t('inquiry.text1') }}
         </p>
       </section>
     </div>
@@ -79,22 +73,26 @@ ja:
 <script>
 import Sponsor from '@/components/sections/sponsor/sponsor.vue'
 import syoguns from '@/data/sponsors/syogun'
+import tairos from '@/data/sponsors/tairo'
+import daimyos from '@/data/sponsors/daimyo'
 
-import Page404NotFoundMixin from '@/mixins/page/Page404NotFound.js'
+// import Page404NotFoundMixin from '@/mixins/page/Page404NotFound.js'
 
 export default {
   components: {
     Sponsor
   },
-  // TODO: スポンサーが決定し次第、404表示を解除する
-  mixins: [Page404NotFoundMixin],
   data() {
     return {
-      syogun_sponsors: []
+      syogun_sponsors: [],
+      tairo_sponsors: [],
+      daimyo_sponsors: []
     }
   },
   mounted() {
     this.syogun_sponsors = syoguns
+    this.tairo_sponsors = tairos
+    this.daimyo_sponsors = daimyos
   },
   head() {
     const $t = this.$t.bind(this)
