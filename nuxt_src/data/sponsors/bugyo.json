@@ -1,7 +1,17 @@
 [
   {
-    "name": "",
-    "logo": "",
-    "url": ""
+    "name": "kintone",
+    "logo": "/img/sponsors/kintone.png",
+    "url": "https://kintone.cybozu.com/jp/"
+  },
+  {
+    "name": "cacoo",
+    "logo": "/img/sponsors/cacoo.png",
+    "url": "https://cacoo.com/"
+  },
+  {
+    "name": "hatena",
+    "logo": "/img/sponsors/hatena.svg",
+    "url": "http://hatenacorp.jp/"
   }
 ]
