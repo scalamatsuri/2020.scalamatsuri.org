@@ -9,6 +9,9 @@ en:
   daimyo: "Daimyo Sponsor"
   samurai: "Samurai Sponsor"
   bugyo: "Bugyo Sponsor"
+  bugyo_kintone: "Kintone Bugyo"
+  bugyo_cacoo: "Ukiyo-e Bugyo"
+  bugyo_hatena: "Kawara-ban Bugyo"
 ja:
   sponsor_overview: |
     アジア最大級の国際Scalaカンファレンスである、ScalaMatsuriに協賛いただけるスポンサー様を募集しています。<br>
@@ -18,6 +21,9 @@ ja:
   daimyo: "大名スポンサー"
   samurai: "侍スポンサー"
   bugyo: "奉行スポンサー"
+  bugyo_kintone: "筋斗雲奉行"
+  bugyo_cacoo: "浮世絵奉行"
+  bugyo_hatena: "瓦版奉行"
 </i18n>
 <template>
   <section class="sponsors">
@@ -71,6 +77,7 @@ ja:
       <ul v-for="sponsor in bugyos" :key="sponsor.logo" class="sponsors_list sponsors_list-bugyo">
         <li v-if="sponsor.logo" class="sponsors_item">
           <a :href="sponsor.url"><img v-lazy="sponsor.logo" :alt="sponsor.name"></a>
+          <p> {{ sponsor.display_name }} </p>
         </li>
       </ul>
     </div>
@@ -82,7 +89,6 @@ import syoguns from '@/data/sponsors/syogun'
 import tairos from '@/data/sponsors/tairo'
 import daimyos from '@/data/sponsors/daimyo'
 import samurais from '@/data/sponsors/samurai'
-import bugyos from '@/data/sponsors/bugyo'
 
 export default {
   data() {
@@ -91,7 +97,26 @@ export default {
       tairos: [],
       daimyos: [],
       samurais: [],
-      bugyos: []
+      bugyos: [
+        {
+          'name': 'kintone',
+          'logo': '/img/sponsors/kintone.png',
+          'url': 'https://kintone.cybozu.com/jp/',
+          'display_name': this.$i18n.t('bugyo_kintone')
+        },
+        {
+          'name': 'cacoo',
+          'logo': '/img/sponsors/cacoo.png',
+          'url': 'https://cacoo.com/',
+          'display_name': this.$i18n.t('bugyo_cacoo')
+        },
+        {
+          'name': 'hatena',
+          'logo': '/img/sponsors/hatena.svg',
+          'url': 'http://hatenacorp.jp/',
+          'display_name': this.$i18n.t('bugyo_hatena')
+        }
+      ]
     }
   },
   mounted() {
@@ -99,7 +124,6 @@ export default {
     this.tairos = tairos
     this.daimyos = daimyos
     this.samurais = samurais
-    this.bugyos = bugyos
   }
 }
 </script>
