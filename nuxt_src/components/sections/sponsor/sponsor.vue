@@ -1,11 +1,11 @@
 <template>
   <section class="sponsor_item">
     <div class="sponsor_logo">
-      <a :href="sponsor.url" target="_blank" rel="noopener"><img :src="sponsor.logo" :alt="sponsor.company_name"></a>
+      <a :href="sponsor.url" target="_blank" rel="noopener"><img :src="sponsor.logo" :alt="sponsor.name"></a>
     </div>
     <section class="sponsor_content">
       <h3 class="sponsor_name">
-        {{ sponsor.company_name }}
+        {{ sponsor.name }}
       </h3>
       <div class="sponsor_text">
         <span v-html="sponsor.text_html" />
