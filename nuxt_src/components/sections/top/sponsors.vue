@@ -3,7 +3,7 @@
 en:
   sponsor_overview: |
     We are looking for sponsors who can support ScalaMatsuri, Asia's largest international Scala conference.<br>
-    For details, please see the <a href="%{suponsor_link}">sponsor recruitment page</a>.
+    For details, please see the <a href="%{sponsor_link}">sponsor recruitment page</a>.
   syogun: "Syogun Sponsor"
   tairou: "Tairo Sponsor"
   daimyo: "Daimyo Sponsor"
@@ -28,26 +28,26 @@ ja:
         Sponsors
       </h2>
       <p class="content_text">
-        <span v-html="$t('sponsor_overview', { suponsor_link: localePath('sponsorship') } )" />
+        <span v-html="$t('sponsor_overview', { sponsor_link: localePath('sponsorship') } )" />
       </p>
       <h3 class="sponsors_subtitle sponsors_subtitle-em">
         {{ $t('syogun') }}
       </h3>
       <ul class="sponsors_list">
         <li class="sponsors_item">
-          <a href="/"><img v-lazy="'/img/dummy/bnr-sponsor.jpg'" alt=""></a>
+          <a href="/"><img v-lazy="'/img/dummy/bnr-sponsor.png'" alt=""></a>
         </li>
         <li class="sponsors_item">
-          <a href="/"><img v-lazy="'/img/dummy/bnr-sponsor.jpg'" alt=""></a>
+          <a href="/"><img v-lazy="'/img/dummy/bnr-sponsor.png'" alt=""></a>
         </li>
         <li class="sponsors_item">
-          <a href="/"><img v-lazy="'/img/dummy/bnr-sponsor.jpg'" alt=""></a>
+          <a href="/"><img v-lazy="'/img/dummy/bnr-sponsor.png'" alt=""></a>
         </li>
         <li class="sponsors_item">
-          <a href="/"><img v-lazy="'/img/dummy/bnr-sponsor.jpg'" alt=""></a>
+          <a href="/"><img v-lazy="'/img/dummy/bnr-sponsor.png'" alt=""></a>
         </li>
         <li class="sponsors_item">
-          <a href="/"><img v-lazy="'/img/dummy/bnr-sponsor.jpg'" alt=""></a>
+          <a href="/"><img v-lazy="'/img/dummy/bnr-sponsor.png'" alt=""></a>
         </li>
       </ul>
       <h3 class="sponsors_subtitle">
@@ -55,16 +55,16 @@ ja:
       </h3>
       <ul class="sponsors_list">
         <li class="sponsors_item">
-          <a href="/"><img v-lazy="'/img/dummy/bnr-sponsor.jpg'" alt=""></a>
+          <a href="/"><img v-lazy="'/img/dummy/bnr-sponsor.png'" alt=""></a>
         </li>
         <li class="sponsors_item">
-          <a href="/"><img v-lazy="'/img/dummy/bnr-sponsor.jpg'" alt=""></a>
+          <a href="/"><img v-lazy="'/img/dummy/bnr-sponsor.png'" alt=""></a>
         </li>
         <li class="sponsors_item">
-          <a href="/"><img v-lazy="'/img/dummy/bnr-sponsor.jpg'" alt=""></a>
+          <a href="/"><img v-lazy="'/img/dummy/bnr-sponsor.png'" alt=""></a>
         </li>
         <li class="sponsors_item">
-          <a href="/"><img v-lazy="'/img/dummy/bnr-sponsor.jpg'" alt=""></a>
+          <a href="/"><img v-lazy="'/img/dummy/bnr-sponsor.png'" alt=""></a>
         </li>
       </ul>
       <h3 class="sponsors_subtitle">
@@ -72,13 +72,13 @@ ja:
       </h3>
       <ul class="sponsors_list">
         <li class="sponsors_item">
-          <a href="/"><img v-lazy="'/img/dummy/bnr-sponsor.jpg'" alt=""></a>
+          <a href="/"><img v-lazy="'/img/dummy/bnr-sponsor.png'" alt=""></a>
         </li>
         <li class="sponsors_item">
-          <a href="/"><img v-lazy="'/img/dummy/bnr-sponsor.jpg'" alt=""></a>
+          <a href="/"><img v-lazy="'/img/dummy/bnr-sponsor.png'" alt=""></a>
         </li>
         <li class="sponsors_item">
-          <a href="/"><img v-lazy="'/img/dummy/bnr-sponsor.jpg'" alt=""></a>
+          <a href="/"><img v-lazy="'/img/dummy/bnr-sponsor.png'" alt=""></a>
         </li>
       </ul>
       <h3 class="sponsors_subtitle">
@@ -86,22 +86,22 @@ ja:
       </h3>
       <ul class="sponsors_list">
         <li class="sponsors_item">
-          <a href="/"><img v-lazy="'/img/dummy/bnr-sponsor.jpg'" alt=""></a>
+          <a href="/"><img v-lazy="'/img/dummy/bnr-sponsor.png'" alt=""></a>
         </li>
         <li class="sponsors_item">
-          <a href="/"><img v-lazy="'/img/dummy/bnr-sponsor.jpg'" alt=""></a>
+          <a href="/"><img v-lazy="'/img/dummy/bnr-sponsor.png'" alt=""></a>
         </li>
         <li class="sponsors_item">
-          <a href="/"><img v-lazy="'/img/dummy/bnr-sponsor.jpg'" alt=""></a>
+          <a href="/"><img v-lazy="'/img/dummy/bnr-sponsor.png'" alt=""></a>
         </li>
         <li class="sponsors_item">
-          <a href="/"><img v-lazy="'/img/dummy/bnr-sponsor.jpg'" alt=""></a>
+          <a href="/"><img v-lazy="'/img/dummy/bnr-sponsor.png'" alt=""></a>
         </li>
         <li class="sponsors_item">
-          <a href="/"><img v-lazy="'/img/dummy/bnr-sponsor.jpg'" alt=""></a>
+          <a href="/"><img v-lazy="'/img/dummy/bnr-sponsor.png'" alt=""></a>
         </li>
         <li class="sponsors_item">
-          <a href="/"><img v-lazy="'/img/dummy/bnr-sponsor.jpg'" alt=""></a>
+          <a href="/"><img v-lazy="'/img/dummy/bnr-sponsor.png'" alt=""></a>
         </li>
       </ul>
       <h3 class="sponsors_subtitle">
@@ -109,22 +109,22 @@ ja:
       </h3>
       <ul class="sponsors_list">
         <li class="sponsors_item">
-          <a href="/"><img v-lazy="'/img/dummy/bnr-sponsor.jpg'" alt=""></a>
+          <a href="/"><img v-lazy="'/img/dummy/bnr-sponsor.png'" alt=""></a>
         </li>
         <li class="sponsors_item">
-          <a href="/"><img v-lazy="'/img/dummy/bnr-sponsor.jpg'" alt=""></a>
+          <a href="/"><img v-lazy="'/img/dummy/bnr-sponsor.png'" alt=""></a>
         </li>
         <li class="sponsors_item">
-          <a href="/"><img v-lazy="'/img/dummy/bnr-sponsor.jpg'" alt=""></a>
+          <a href="/"><img v-lazy="'/img/dummy/bnr-sponsor.png'" alt=""></a>
         </li>
         <li class="sponsors_item">
-          <a href="/"><img v-lazy="'/img/dummy/bnr-sponsor.jpg'" alt=""></a>
+          <a href="/"><img v-lazy="'/img/dummy/bnr-sponsor.png'" alt=""></a>
         </li>
         <li class="sponsors_item">
-          <a href="/"><img v-lazy="'/img/dummy/bnr-sponsor.jpg'" alt=""></a>
+          <a href="/"><img v-lazy="'/img/dummy/bnr-sponsor.png'" alt=""></a>
         </li>
         <li class="sponsors_item">
-          <a href="/"><img v-lazy="'/img/dummy/bnr-sponsor.jpg'" alt=""></a>
+          <a href="/"><img v-lazy="'/img/dummy/bnr-sponsor.png'" alt=""></a>
         </li>
       </ul>
       <h3 class="sponsors_subtitle">
@@ -132,22 +132,22 @@ ja:
       </h3>
       <ul class="sponsors_list sponsors_list-houkou">
         <li class="sponsors_item">
-          <a href="/"><img v-lazy="'/img/dummy/bnr-sponsor.jpg'" alt=""></a>
+          <a href="/"><img v-lazy="'/img/dummy/bnr-sponsor.png'" alt=""></a>
         </li>
         <li class="sponsors_item">
-          <a href="/"><img v-lazy="'/img/dummy/bnr-sponsor.jpg'" alt=""></a>
+          <a href="/"><img v-lazy="'/img/dummy/bnr-sponsor.png'" alt=""></a>
         </li>
         <li class="sponsors_item">
-          <a href="/"><img v-lazy="'/img/dummy/bnr-sponsor.jpg'" alt=""></a>
+          <a href="/"><img v-lazy="'/img/dummy/bnr-sponsor.png'" alt=""></a>
         </li>
         <li class="sponsors_item">
-          <a href="/"><img v-lazy="'/img/dummy/bnr-sponsor.jpg'" alt=""></a>
+          <a href="/"><img v-lazy="'/img/dummy/bnr-sponsor.png'" alt=""></a>
         </li>
         <li class="sponsors_item">
-          <a href="/"><img v-lazy="'/img/dummy/bnr-sponsor.jpg'" alt=""></a>
+          <a href="/"><img v-lazy="'/img/dummy/bnr-sponsor.png'" alt=""></a>
         </li>
         <li class="sponsors_item">
-          <a href="/"><img v-lazy="'/img/dummy/bnr-sponsor.jpg'" alt=""></a>
+          <a href="/"><img v-lazy="'/img/dummy/bnr-sponsor.png'" alt=""></a>
         </li>
       </ul>
     </div>
