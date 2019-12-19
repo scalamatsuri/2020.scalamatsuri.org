@@ -20,9 +20,9 @@ ja:
         </h1>
       </div>
       <div class="main_sponsor">
-        <ul class="main_sponsor_inner">
-          <li v-for="syogun in syogun_sponsors" :key="syogun.id" class="main_sponsor_item">
-            <a :href="syogun.url"><img :src="syogun.logo" :alt="syogun.company_name"></a>
+        <ul v-for="sponsor in syoguns" :key="sponsor.logo" class="main_sponsor_inner">
+          <li v-if="sponsor.logo && !sponsor.logo.includes('dummy')" class="main_sponsor_item">
+            <a :href="sponsor.url"><img :src="sponsor.logo" :alt="sponsor.company_name"></a>
           </li>
         </ul>
       </div>
@@ -31,15 +31,15 @@ ja:
 </template>
 
 <script>
-import sponsers from '~/data/sponsors/syogun'
+import syoguns from '~/data/sponsors/syogun'
 export default {
   data() {
     return {
-      syogun_sponsors: []
+      syoguns: []
     }
   },
   mounted() {
-    this.syogun_sponsors = sponsers
+    this.syoguns = syoguns
   }
 }
 </script>
