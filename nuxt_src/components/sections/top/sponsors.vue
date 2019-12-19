@@ -37,46 +37,46 @@ ja:
       <h3 class="sponsors_subtitle sponsors_subtitle-em">
         {{ $t('syogun') }}
       </h3>
-      <ul v-for="sponsor in syoguns" :key="sponsor.logo" class="sponsors_list">
-        <li v-if="sponsor.logo && !sponsor.logo.includes('dummy')" class="sponsors_item">
-          <a :href="sponsor.url"><img v-lazy="sponsor.logo" :alt="sponsor.name"></a>
+      <ul class="sponsors_list">
+        <li v-for="sponsor in syoguns" :key="sponsor.logo" class="sponsors_item">
+          <a v-if="sponsor.logo && !sponsor.logo.includes('dummy')" :href="sponsor.url"><img v-lazy="sponsor.logo" :alt="sponsor.name"></a>
         </li>
       </ul>
       <h3 class="sponsors_subtitle">
         {{ $t('tairou') }}
       </h3>
-      <ul v-for="sponsor in tairos" :key="sponsor.logo" class="sponsors_list">
-        <li v-if="sponsor.logo" class="sponsors_item">
-          <a :href="sponsor.url"><img v-lazy="sponsor.logo" :alt="sponsor.name"></a>
+      <ul class="sponsors_list">
+        <li v-for="sponsor in tairos" :key="sponsor.logo" class="sponsors_item">
+          <a v-if="sponsor.logo" :href="sponsor.url"><img v-lazy="sponsor.logo" :alt="sponsor.name"></a>
         </li>
       </ul>
       <h3 class="sponsors_subtitle">
         {{ $t('daimyo') }}
       </h3>
-      <ul v-for="sponsor in daimyos" :key="sponsor.logo" class="sponsors_list">
-        <li v-if="sponsor.logo" class="sponsors_item">
-          <a :href="sponsor.url"><img v-lazy="sponsor.logo" :alt="sponsor.name"></a>
+      <ul class="sponsors_list">
+        <li v-for="sponsor in daimyos" :key="sponsor.logo" class="sponsors_item">
+          <a v-if="sponsor.logo" :href="sponsor.url"><img v-lazy="sponsor.logo" :alt="sponsor.name"></a>
         </li>
       </ul>
       <h3 class="sponsors_subtitle">
         {{ $t('samurai') }}
       </h3>
-      <ul v-for="sponsor in samurais" :key="sponsor.logo" class="sponsors_list">
-        <li v-if="sponsor.logo" class="sponsors_item">
-          <a :href="sponsor.url"><img v-lazy="sponsor.logo" :alt="sponsor.name"></a>
+      <ul class="sponsors_list">
+        <li v-for="sponsor in samurais" :key="sponsor.logo" class="sponsors_item">
+          <a v-if="sponsor.logo" :href="sponsor.url"><img v-lazy="sponsor.logo" :alt="sponsor.name"></a>
         </li>
       </ul>
-      <ul v-for="sponsor in tairos" :key="sponsor.logo" class="sponsors_list">
-        <li v-if="sponsor.logo" class="sponsors_item">
-          <a :href="sponsor.url"><img v-lazy="sponsor.logo" :alt="sponsor.name"></a>
+      <ul class="sponsors_list">
+        <li v-for="sponsor in tairos" :key="sponsor.logo" class="sponsors_item">
+          <a v-if="sponsor.logo" :href="sponsor.url"><img v-lazy="sponsor.logo" :alt="sponsor.name"></a>
         </li>
       </ul>
       <h3 class="sponsors_subtitle">
         {{ $t('bugyo') }}
       </h3>
-      <ul v-for="sponsor in bugyos" :key="sponsor.logo" class="sponsors_list sponsors_list-bugyo">
-        <li v-if="sponsor.logo" class="sponsors_item">
-          <a :href="sponsor.url"><img v-lazy="sponsor.logo" :alt="sponsor.name"></a>
+      <ul class="sponsors_list sponsors_list-bugyo">
+        <li v-for="sponsor in bugyos" :key="sponsor.logo" class="sponsors_item">
+          <a v-if="sponsor.logo" :href="sponsor.url"><img v-lazy="sponsor.logo" :alt="sponsor.name"></a>
           <p> {{ sponsor.display_name }} </p>
         </li>
       </ul>
