@@ -22,7 +22,7 @@ ja:
       <div class="main_sponsor">
         <ul v-for="sponsor in syoguns" :key="sponsor.logo" class="main_sponsor_inner">
           <li v-if="sponsor.logo && !sponsor.logo.includes('dummy')" class="main_sponsor_item">
-            <a :href="sponsor.url"><img :src="sponsor.logo" :alt="sponsor.company_name"></a>
+            <a :href="sponsor.url"><img :src="sponsor.logo" :alt="sponsor.name"></a>
           </li>
         </ul>
       </div>
