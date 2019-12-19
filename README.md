@@ -77,7 +77,7 @@ For detailed explanation on how things work, checkout [Nuxt.js docs](https://nux
 
 6. merge後、[production環境のWebサイト](https://scalamatsuri.org/ja/)に反映されていることを確認する。
 
-## スポンサーロゴの更新(How to put sponsor logos)
+## スポンサー広告ページの更新(How to put sponsor ads)
 
 1. [nuxt_src/data/sponsors/](./nuxt_src/data/sponsors/)の該当スポンサーのjsonに, 以下のように `text_html`と`slide_html` を追記する。
 
