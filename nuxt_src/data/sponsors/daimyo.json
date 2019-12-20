@@ -5,5 +5,25 @@
     "url": "http://hatenacorp.jp/",
     "text_html": "",
     "slide_html": ""
+  },
+  {
+    "name": "chatwork",
+    "logo": "/img/sponsors/chatwork.png",
+    "url": "https://corp.chatwork.com/ja/"
+  },
+  {
+    "name": "nextbeat",
+    "logo": "/img/sponsors/nextbeat.jpg",
+    "url": "https://www.nextbeat.co.jp/"
+  },
+  {
+    "name": "wamazing",
+    "logo": "/img/sponsors/wamazing.png",
+    "url": "https://hrmos.co/pages/wamazing/jobs/0000007"
+  },
+  {
+    "name": "bizreach",
+    "logo": "/img/sponsors/bizreach.jpg",
+    "url": "https://www.bizreach.co.jp/recruit/"
   }
 ]
