@@ -39,7 +39,7 @@ ja:
       </h3>
       <ul class="sponsors_list">
         <li v-for="sponsor in syoguns" :key="sponsor.logo" class="sponsors_item">
-          <a v-if="sponsor.logo && !sponsor.logo.includes('dummy')" :href="sponsor.url"><img v-lazy="sponsor.logo" :alt="sponsor.name"></a>
+          <a :href="sponsor.url"><img v-lazy="sponsor.logo" :alt="sponsor.name"></a>
         </li>
       </ul>
       <h3 class="sponsors_subtitle">
@@ -47,7 +47,7 @@ ja:
       </h3>
       <ul class="sponsors_list">
         <li v-for="sponsor in tairos" :key="sponsor.logo" class="sponsors_item">
-          <a v-if="sponsor.logo" :href="sponsor.url"><img v-lazy="sponsor.logo" :alt="sponsor.name"></a>
+          <a :href="sponsor.url"><img v-lazy="sponsor.logo" :alt="sponsor.name"></a>
         </li>
       </ul>
       <h3 class="sponsors_subtitle">
@@ -55,7 +55,7 @@ ja:
       </h3>
       <ul class="sponsors_list">
         <li v-for="sponsor in daimyos" :key="sponsor.logo" class="sponsors_item">
-          <a v-if="sponsor.logo" :href="sponsor.url"><img v-lazy="sponsor.logo" :alt="sponsor.name"></a>
+          <a :href="sponsor.url"><img v-lazy="sponsor.logo" :alt="sponsor.name"></a>
         </li>
       </ul>
       <h3 class="sponsors_subtitle">
@@ -63,12 +63,12 @@ ja:
       </h3>
       <ul class="sponsors_list">
         <li v-for="sponsor in samurais" :key="sponsor.logo" class="sponsors_item">
-          <a v-if="sponsor.logo" :href="sponsor.url"><img v-lazy="sponsor.logo" :alt="sponsor.name"></a>
+          <a :href="sponsor.url"><img v-lazy="sponsor.logo" :alt="sponsor.name"></a>
         </li>
       </ul>
       <ul class="sponsors_list">
         <li v-for="sponsor in tairos" :key="sponsor.logo" class="sponsors_item">
-          <a v-if="sponsor.logo" :href="sponsor.url"><img v-lazy="sponsor.logo" :alt="sponsor.name"></a>
+          <a :href="sponsor.url"><img v-lazy="sponsor.logo" :alt="sponsor.name"></a>
         </li>
       </ul>
       <h3 class="sponsors_subtitle">
@@ -76,7 +76,7 @@ ja:
       </h3>
       <ul class="sponsors_list sponsors_list-bugyo">
         <li v-for="sponsor in bugyos" :key="sponsor.logo" class="sponsors_item">
-          <a v-if="sponsor.logo" :href="sponsor.url"><img v-lazy="sponsor.logo" :alt="sponsor.name"></a>
+          <a :href="sponsor.url"><img v-lazy="sponsor.logo" :alt="sponsor.name"></a>
           <p> {{ sponsor.display_name }} </p>
         </li>
       </ul>
@@ -120,10 +120,13 @@ export default {
     }
   },
   mounted() {
-    this.syoguns = syoguns
-    this.tairos = tairos
-    this.daimyos = daimyos
-    this.samurais = samurais
+    function notDummy(sponsor) {
+      return sponsor.logo && !sponsor.logo.includes('dummy')
+    }
+    this.syoguns = syoguns.filter(s => notDummy(s))
+    this.tairos = tairos.filter(s => notDummy(s))
+    this.daimyos = daimyos.filter(s => notDummy(s))
+    this.samurais = samurais.filter(s => notDummy(s))
   }
 }
 </script>
