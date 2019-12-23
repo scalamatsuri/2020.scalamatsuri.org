@@ -15,7 +15,7 @@ en:
 ja:
   sponsor_overview: |
     アジア最大級の国際Scalaカンファレンスである、ScalaMatsuriに協賛いただけるスポンサー様を募集しています。<br>
-    詳細は<a href="%{suponsor_link}">スポンサー募集ページ</a> をご覧ください。
+    詳細は<a href="%{sponsor_link}">スポンサー募集ページ</a> をご覧ください。
   syogun: "将軍スポンサー"
   tairou: "大老スポンサー"
   daimyo: "大名スポンサー"
