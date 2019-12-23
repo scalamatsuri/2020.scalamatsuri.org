@@ -50,3 +50,51 @@ For detailed explanation on how things work, checkout [Nuxt.js docs](https://nux
 ## source directory
 
 [nuxt_src/](./nuxt_src/)
+
+## スポンサーロゴの更新(How to put sponsor logos)
+
+1. [nuxt_src/data/sponsors/](./nuxt_src/data/sponsors/)の該当jsonファイルの末尾 `]`の前に, 以下を追記する。
+
+```json
+,{
+ "name": "",
+ "logo": "",
+ "url": ""
+}
+```
+
+2. 1で追記したjsonの以下のフィールドを編集する
+
+- `name`: スポンサー名。
+- `logo`: ロゴファイルのパス。 ファイルは[/nuxt_src/static/img/sponsors](./nuxt_src/static/img/sponsors)に入れて、このフィールドへの記入は `/img/sponsors/XXX.svg` としてください。
+- `url`: ロゴのリンク先。
+
+3. develop branchに向けて、PullRequestを送る
+
+4. merge後、staging環境で表示を確認する。
+
+5. 問題なければ、developからmaster branchに向けてPullRequestを送る。
+
+6. merge後、[production環境のWebサイト](https://scalamatsuri.org/ja/)に反映されていることを確認する。
+
+## スポンサー広告ページの更新(How to put sponsor ads)
+
+1. [nuxt_src/data/sponsors/](./nuxt_src/data/sponsors/)の該当スポンサーのjsonに, 以下のように `text_html`と`slide_html` を追記する。
+
+```json
+{
+ "name": "すごいScalaの会社",
+ "logo": "/img/sponsors/sugoi-scala.svg",
+ "url": "http://sugoiscala.example.com/",
+ "text_html": "すごいScalaの会社です！",
+ "slide_html": "<div style=\"left: 0; width: 100%; height: 0; position: relative; padding-bottom: 74.9296%;\"><iframe src=\"https://speakerdeck.com/player/8fbedebe1c6b475b8ed7a8552bd9c6a3\" style=\"border: 0; top: 0; left: 0; width: 80%; height: 80%; position: absolute;\" allowfullscreen scrolling=\"no\" allow=\"encrypted-media\"></iframe></div>"
+}
+```
+
+3. develop branchに向けて、PullRequestを送る
+
+4. merge後、staging環境のスポンサーページで表示を確認する。
+
+5. 問題なければ、developからmaster branchに向けてPullRequestを送る。
+
+6. merge後、[production環境のWebサイト](https://scalamatsuri.org/ja/sponsors/)に反映されていることを確認する。

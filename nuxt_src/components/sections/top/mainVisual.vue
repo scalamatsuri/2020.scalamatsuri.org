@@ -19,29 +19,32 @@ ja:
           <img v-if="$mq === 'sm'" class="title--sp" :src="require(`~/assets/img/top/${$i18n.locale}/img-main_title-sp.png?resize&size=314`)" :alt="`${$t('alt')}`">
         </h1>
       </div>
-      <!-- <div class="main_sponsor">
+      <div class="main_sponsor">
         <ul class="main_sponsor_inner">
-          <li v-for="syogun in syogun_sponsors" :key="syogun.id" class="main_sponsor_item">
-            <a :href="syogun.url"><img :src="syogun.logo" :alt="syogun.company_name"></a>
+          <li v-for="sponsor in syoguns" :key="sponsor.logo" class="main_sponsor_item">
+            <a :href="sponsor.url"><img :src="sponsor.logo" :alt="sponsor.name"></a>
           </li>
         </ul>
-      </div> -->
+      </div>
     </div>
   </main>
 </template>
 
 <script>
-// import sponsers from '~/data/sponsors/syogun'
-// export default {
-//   data() {
-//     return {
-//       syogun_sponsors: []
-//     }
-//   },
-//   mounted() {
-//     this.syogun_sponsors = sponsers
-//   }
-// }
+import syoguns from '~/data/sponsors/syogun'
+export default {
+  data() {
+    return {
+      syoguns: []
+    }
+  },
+  mounted() {
+    function notDummy(sponsor) {
+      return sponsor.logo && !sponsor.logo.includes('dummy')
+    }
+    this.syoguns = syoguns.filter(s => notDummy(s))
+  }
+}
 </script>
 
 <style lang="scss" scoped>

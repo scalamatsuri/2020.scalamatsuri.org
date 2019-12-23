@@ -1,9 +1,19 @@
 [
   {
-    "company_name": "rpscala (スポンサー広告サンプル)",
+    "name": "rpscala (スポンサー広告サンプル)",
     "logo": "/img/dummy/bnr-sponsor.png",
     "url": "https://rpscala.connpass.com/",
     "text_html": "<p><a href=\"https://rpscala.connpass.com/\" target=\"_blank\" rel=\"noopener\">rpscala</a>は隔週火曜日に西新宿で開催している、<em>プログラミング言語Scalaの勉強会</em>です。</p><p>Scalaに関する事なら何でもあり、気合い入ってません。堅苦しい事抜きに、ワイワイ楽しくやってる感じです。 これからScalaを始めたい人も、Scalaをより深く知りたいベテランさんも、皆さんご参加ください。</p><p><em>以下はスライド埋め込みサンプルです。rpscalaと直接の関係はありません。</em></p>",
     "slide_html": "<div style=\"left: 0; width: 100%; height: 0; position: relative; padding-bottom: 74.9296%;\"><iframe src=\"https://speakerdeck.com/player/8fbedebe1c6b475b8ed7a8552bd9c6a3\" style=\"border: 0; top: 0; left: 0; width: 80%; height: 80%; position: absolute;\" allowfullscreen scrolling=\"no\" allow=\"encrypted-media\"></iframe></div>"
+  },
+  {
+    "name": "maverick",
+    "logo": "/img/sponsors/maverick.svg",
+    "url": "https://www.mvrck.co.jp/"
+  },
+  {
+    "name": "septeni-original",
+    "logo": "/img/sponsors/septeni-original.svg",
+    "url": "https://www.septeni-original.co.jp/"
   }
 ]

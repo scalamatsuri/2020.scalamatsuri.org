@@ -54,6 +54,10 @@
 }
 .sponsors_list {
   padding: 0;
+
+  img {
+    background: white;
+  }
 }
 .sponsors_item {
   width: 50%;
@@ -61,8 +65,12 @@
   margin-top: 20px;
 }
 
-.sponsors_list-houkou .sponsors_item {
+.sponsors_list-bugyo .sponsors_item {
   width: 50%;
+
+  img {
+    background: white;
+  }
 }
 .banner {
   margin-top: 20px;

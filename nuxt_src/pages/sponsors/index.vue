@@ -35,8 +35,8 @@ ja:
         {{ $t('sponsorType.syogun') }}
       </h2>
       <div class="sponsor_list">
-        <div v-for="sponsor in syogun_sponsors" :key="sponsor.url">
-          <sponsor :sponsor="sponsor" />
+        <div v-for="sponsor in syogun_sponsors" :key="sponsor.logo">
+          <sponsor v-if="sponsor.text_html" :sponsor="sponsor" />
         </div>
       </div>
       <!--      <h2 class="sponsor_title">-->

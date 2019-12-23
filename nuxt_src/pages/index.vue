@@ -8,6 +8,7 @@
     <lazy-component>
       <info />
     </lazy-component>
+    <topSponsors />
   </div>
 </template>
 
@@ -19,6 +20,7 @@ import banner from '@/components/sections/top/banner'
 import events from '@/components/sections/top/events'
 import access from '@/components/sections/top/access'
 import info from '@/components/sections/top/info'
+import topSponsors from '@/components/sections/top/sponsors'
 
 export default {
   components: {
@@ -27,7 +29,8 @@ export default {
     banner,
     events,
     access,
-    info
+    info,
+    topSponsors
   },
   computed: {
     ...mapState({

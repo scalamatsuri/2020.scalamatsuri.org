@@ -380,9 +380,10 @@
 
   img {
     width: 100%;
+    background: white;
   }
 }
-.sponsors_list-houkou {
+.sponsors_list-bugyo {
   max-width: 1028px;
   .sponsors_item {
     padding: 0 10px;
@@ -391,6 +392,7 @@
 
     img {
       max-width: 100%;
+      background: white;
     }
   }
 }
@@ -484,10 +486,11 @@
   }
   .main_sponsor_item {
     padding: 0 12px;
-    width: 45%;
+    width: 33%;
     margin-bottom: 24px;
     img {
-      max-width: 100%;
+      width: 100%;
+      background: white;
     }
   }
 }
@@ -558,11 +561,11 @@
   }
   .main_sponsor_item {
     padding: 0 12px;
-    max-width: 350px;
-    width: 33.3%;
+    width: 30%;
     margin-bottom: 24px;
     img {
-      max-width: 100%;
+      width: 100%;
+      background: white;
     }
   }
 }
