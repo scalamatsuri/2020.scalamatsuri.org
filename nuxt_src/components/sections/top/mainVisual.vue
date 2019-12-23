@@ -22,7 +22,7 @@ ja:
       <div class="main_sponsor">
         <ul class="main_sponsor_inner">
           <li v-for="sponsor in syoguns" :key="sponsor.logo" class="main_sponsor_item">
-            <a v-if="sponsor.logo && !sponsor.logo.includes('dummy')" :href="sponsor.url"><img :src="sponsor.logo" :alt="sponsor.name"></a>
+            <a :href="sponsor.url"><img :src="sponsor.logo" :alt="sponsor.name"></a>
           </li>
         </ul>
       </div>
@@ -39,7 +39,10 @@ export default {
     }
   },
   mounted() {
-    this.syoguns = syoguns
+    function notDummy(sponsor) {
+      return sponsor.logo && !sponsor.logo.includes('dummy')
+    }
+    this.syoguns = syoguns.filter(s => notDummy(s))
   }
 }
 </script>
