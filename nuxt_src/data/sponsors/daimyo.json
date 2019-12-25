@@ -25,5 +25,10 @@
     "name": "bizreach",
     "logo": "/img/sponsors/bizreach.jpg",
     "url": "https://www.bizreach.co.jp/recruit/"
-  }
+  },
+  {
+    "name": "mercari",
+    "logo": "/img/sponsors/mercari.svg",
+    "url": "https://about.mercari.com/about/"
+  }  
 ]
