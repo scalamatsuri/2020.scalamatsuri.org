@@ -30,5 +30,10 @@
     "name": "mercari",
     "logo": "/img/sponsors/mercari.svg",
     "url": "https://about.mercari.com/about/"
-  }  
+  },
+  {
+    "name": "fancs",
+    "logo": "/img/sponsors/fancs.jpg",
+    "url": "https://www.fancs.com/"
+   }    
 ]
