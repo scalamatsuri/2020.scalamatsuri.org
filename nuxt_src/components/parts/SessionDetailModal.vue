@@ -13,24 +13,23 @@
 </i18n>
 
 <template>
-  <div v-if="program && program[$i18n.locale]" ref="modalKeyListener" class="modal_inner" tabindex="0" @keyup.escape="$emit('close')">
+  <div ref="modalKeyListener" class="modal_inner" tabindex="0" @keyup.escape="$emit('close')">
     <h2 class="modal_title">
       {{ program[$i18n.locale].title }}
     </h2>
-    <div class="modal_speakers">
-      <div class="modal_speaker">
-        <div class="modal_speaker_icon" :style="{ backgroundImage: 'url(' + program[$i18n.locale] + ')' }" />
+    <ul v-for="speaker in program.speakers" :key="speaker.id" class="modal_speakers">
+      <li class="modal_speaker">
+        <div class="modal_speaker_icon" :style="{ backgroundImage: 'url(' + speaker[$i18n.locale].icon + ')' }" />
         <p class="modal_speaker_name">
-          {{ program[$i18n.locale].detail }}
+          {{ speaker[$i18n.locale].name }}
         </p>
         <p class="modal_speaker_id">
           <!--TODO twitterとgithub-->
           <a href="">{{ program[$i18n.locale].twitter }}</a>
         </p>
-      </div>
-    </div>
+      </li>
+    </ul>
     <div class="modal_text">
-      <!--TODO 調整-->
       <p v-text="program[$i18n.locale].detail" />
     </div>
     <div class="modal_scopeArea">
@@ -42,13 +41,12 @@
         <dt>{{ $t('audience_level') }}</dt>
         <dd>{{ program[$i18n.locale].audience }}</dd>
       </dl>
-      <!--TODO きれいな形にしたい-->
       <dl v-for="suggestion in program[$i18n.locale].suggestions" :key="suggestion" class="modal_scope">
         <dt>{{ $t('suggestion') }}</dt>
         <dd>{{ suggestion }}</dd>
       </dl>
-      <!-- TODO 複数形に対応する -->
-      <!-- <dl v-for="contribute in program.candidate.contributes" :key="contribute" class="modal_scope">
+      <!-- TODO: Design dose not considered for multiple speakers. -->
+      <!-- <dl v-for="contribute in program.speakers[0].contributes" :key="contribute" class="modal_scope">
         <dt>{{ $t('contribute') }}</dt>
         <dd v-html="contribute" />
       </dl> -->
@@ -70,7 +68,6 @@ export default {
   mounted: function () {
     // For closing modal by pushing ESC key.
     console.log(this.program)
-    console.log(this.program[this.$i18n.locale])
     this.$nextTick(this.$refs.modalKeyListener.focus())
   }
 }
