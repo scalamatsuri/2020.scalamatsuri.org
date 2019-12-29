@@ -110,15 +110,11 @@ import { mapActions, mapGetters } from 'vuex'
 import TableRow from '@/components/sections/candidates/tableRow'
 import Modal from '@/components/parts/SessionDetailModal.vue'
 
-import Page404NotFoundMixin from '@/mixins/page/Page404NotFound.js'
-
 export default {
   components: {
     Modal,
     TableRow
   },
-  // TODO: プロポーザルが決定し次第、404表示を解除する
-  mixins: [Page404NotFoundMixin],
   data() {
     return {
       selectProgram: null,
