@@ -1,7 +1,8 @@
 import * as mTypes from './mutation-types'
 
 export const state = () => ({
-  list: []
+  list: [],
+  isLoading: false
 })
 
 export const actions = {
@@ -11,6 +12,7 @@ export const actions = {
    * But basically, calling other action from anothor action is NOT recommended.
    */
   async fetch({ dispatch, commit, rootState }) {
+    commit(mTypes.SET_IS_LOADING, true)
     try {
       // fetch proposals and speakers from API
       const [ { data: proposals }, { data: speakers } ] = await Promise.all([
@@ -22,19 +24,24 @@ export const actions = {
     } catch (error) {
       return Promise.reject(error)
     }
+    commit(mTypes.SET_IS_LOADING, false)
   }
 }
 
 export const mutations = {
   [mTypes.SET_PROPOSALS](state, proposals) {
     state.list = proposals
+  },
+  [mTypes.SET_IS_LOADING](state, bool) {
+    state.isLoading = bool
   }
 }
 
 export const getters = {
   filterByLengthAndLang: state => (len, lang) => {
     return state.list.filter(proposal => proposal[lang] && proposal[lang].length === len)
-  }
+  },
+  isLoading: state => () => state.isLoading
 }
 
 // --[ Private Functions ]-----------------------------------------------------
