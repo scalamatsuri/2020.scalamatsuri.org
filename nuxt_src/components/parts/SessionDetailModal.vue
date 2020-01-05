@@ -17,15 +17,20 @@
     <h2 class="modal_title">
       {{ program[$i18n.locale].title }}
     </h2>
-    <ul v-for="speaker in program.speakers" :key="speaker.id" class="modal_speakers">
-      <li class="modal_speaker">
+    <ul class="modal_speakers">
+      <li v-for="speaker in program.speakers" :key="speaker.id" class="modal_speaker">
         <div class="modal_speaker_icon" :style="{ backgroundImage: 'url(' + speaker[$i18n.locale].icon + ')' }" />
         <p class="modal_speaker_name">
           {{ speaker[$i18n.locale].name }}
         </p>
         <p class="modal_speaker_id">
-          <!--TODO twitterとgithub-->
-          <a href="">{{ program[$i18n.locale].twitter }}</a>
+          <a v-if="speaker[$i18n.locale].twitter" class="modal_speaker_sns" :href="`https://twitter.com/${speaker[$i18n.locale].twitter}`">
+            <img v-lazy="require('~/assets/img/common/icon-sns-tw.svg')">
+            {{ speaker[$i18n.locale].twitter }}
+          </a>
+          <a v-if="speaker[$i18n.locale].github" class="modal_speaker_sns" :href="`https://github.com/${speaker[$i18n.locale].github}`">
+            <img v-lazy="require('~/assets/img/common/icon-sns-git.svg')">{{ speaker[$i18n.locale].github }}
+          </a>
         </p>
       </li>
     </ul>
