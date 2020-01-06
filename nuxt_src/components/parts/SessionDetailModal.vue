@@ -72,7 +72,6 @@ export default {
   },
   mounted: function () {
     // For closing modal by pushing ESC key.
-    console.log(this.program)
     this.$nextTick(this.$refs.modalKeyListener.focus())
   }
 }
