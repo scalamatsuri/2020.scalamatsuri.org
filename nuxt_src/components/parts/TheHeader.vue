@@ -5,6 +5,7 @@
     access: "Access"
     code-of-conduct: "Code of Conduct"
     program: "Program"
+    proposals: "Proposals"
     outline: "Outline"
     login: "Login"
     ticket: "Ticket"
@@ -14,6 +15,7 @@
     access: "アクセス"
     code-of-conduct: "行動規範"
     program: "プログラム"
+    proposals: "セッション候補"
     outline: "開催概要"
     login: "Login"
     ticket: "チケット購入"
@@ -45,6 +47,11 @@
             <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/code-of-conduct') }">
               <nuxt-link :to="localePath('code-of-conduct')">
                 <span>{{ $t('code-of-conduct') }}</span>
+              </nuxt-link>
+            </li>
+            <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/proposals') }">
+              <nuxt-link :to="localePath('proposals')">
+                <span>{{ $t('proposals') }}</span>
               </nuxt-link>
             </li>
             <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/sponsors') }">
