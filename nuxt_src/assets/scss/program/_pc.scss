@@ -171,6 +171,17 @@
   letter-spacing: 0.1em;
   > a {
     color: #00A4DE;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 100px;
+    display: block;
+  }
+  > a > img {
+    width: 16px;
+    height: 16px;
+    margin-top: .24em;
+    margin-right: 4px;
   }
 }
 .schedule_title {

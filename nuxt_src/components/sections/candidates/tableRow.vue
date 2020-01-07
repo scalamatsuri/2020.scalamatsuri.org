@@ -24,7 +24,13 @@
         </p>
         <!--TODO githubとtwitter -->
         <p class="schedule_speaker_id">
-          <a href="" class=" js-anc" target="_blank" rel="noopener">{{ speaker[locale].twitter }}</a>
+          <a v-if="speaker[$i18n.locale].twitter" class="modal_speaker_sns" :href="`https://twitter.com/${speaker[$i18n.locale].twitter}`">
+            <img v-lazy="require('~/assets/img/common/icon-sns-tw.svg')">
+            {{ speaker[$i18n.locale].twitter }}
+          </a>
+          <a v-if="speaker[$i18n.locale].github" class="modal_speaker_sns" :href="`https://github.com/${speaker[$i18n.locale].github}`">
+            <img v-lazy="require('~/assets/img/common/icon-sns-git.svg')">{{ speaker[$i18n.locale].github }}
+          </a>
         </p>
       </div>
     </div>

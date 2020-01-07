@@ -35,5 +35,10 @@
     "name": "fancs",
     "logo": "/img/sponsors/fancs.jpg",
     "url": "https://www.fancs.com/"
-   }    
+  },
+  {
+    "name": "alp",
+    "logo": "/img/sponsors/alpinc.png",
+    "url": "https://thealp.co.jp/"
+  }   
 ]
