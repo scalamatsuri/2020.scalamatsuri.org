@@ -2,15 +2,15 @@
 ## language=yaml
   en:
     title: "Proposals"
-    en_90: "90-minute sessions in English"
+    en_100: "100-minute sessions in English"
     en_40: "40-minute sessions in English"
-    ja_90: "90-minute sessions in Japanese"
+    ja_100: "100-minute sessions in Japanese"
     ja_40: "40-minute sessions in Japanese"
   ja:
     title: "応募セッション一覧"
-    en_90: "90分英語"
+    en_100: "100分英語"
     en_40: "40分英語"
-    ja_90: "90分日本語"
+    ja_100: "100分日本語"
     ja_40: "40分日本語"
 </i18n>
 <template>
@@ -24,10 +24,10 @@
     </div>
     <ul class="js-tags tagIndex" />
 
-    <!-- 90分英語 ここから -->
+    <!-- 100分英語 ここから -->
     <div class="program">
       <h2 class="program_title">
-        {{ $t('en_90') }}
+        {{ $t('en_100') }}
       </h2>
       <div class="schedule schedule-thin">
         <!-- schedule 1コマ ここから -->
@@ -41,12 +41,12 @@
         </div>
       </div>
     </div>
-    <!-- 90分英語 ここまで -->
+    <!-- 100分英語 ここまで -->
 
-    <!-- 90分日本語 ここから -->
+    <!-- 100分日本語 ここから -->
     <div class="program">
       <h2 class="program_title">
-        {{ $t('ja_90') }}
+        {{ $t('ja_100') }}
       </h2>
       <div class="schedule schedule-thin">
         <!-- schedule 1コマ ここから -->

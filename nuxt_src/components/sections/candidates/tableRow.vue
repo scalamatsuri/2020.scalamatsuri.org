@@ -5,9 +5,9 @@
       <p class="schedule_title">
         {{ program[locale].title }}
       </p>
-      <p class="schedule_division">
-        {{ program[locale].audience }}
-      </p>
+      <!--      <p class="schedule_division">-->
+      <!--        {{ program[locale].audience }}-->
+      <!--      </p>-->
       <div class="schedule_tags">
         <div v-for="tag in program[locale].tags" :key="tag" class="js-tag schedule_tag" data-tag="tag">
           <span>{{ tag }}</span>

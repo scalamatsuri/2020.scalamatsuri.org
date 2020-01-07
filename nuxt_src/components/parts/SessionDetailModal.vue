@@ -2,14 +2,10 @@
 ## language=yaml
   en:
     lang: "Language of the"
-    audience_level: "Audience level"
     contribute: "Contribute"
-    suggestion: "Target audience"
   ja:
     lang: "発表言語"
-    audience_level: "難易度"
-    contribute: "貢献度"
-    suggestion: "こんな人におすすめ"
+    contribute: "貢献"
 </i18n>
 
 <template>
@@ -42,14 +38,14 @@
         <dt>{{ $t('lang') }}</dt>
         <dd>{{ program[$i18n.locale].language }}</dd>
       </dl>
-      <dl class="modal_scope">
-        <dt>{{ $t('audience_level') }}</dt>
-        <dd>{{ program[$i18n.locale].audience }}</dd>
-      </dl>
-      <dl v-for="suggestion in program[$i18n.locale].suggestions" :key="suggestion" class="modal_scope">
-        <dt>{{ $t('suggestion') }}</dt>
-        <dd>{{ suggestion }}</dd>
-      </dl>
+      <!--      <dl class="modal_scope">-->
+      <!--        <dt>{{ $t('audience_level') }}</dt>-->
+      <!--        <dd>{{ program[$i18n.locale].audience }}</dd>-->
+      <!--      </dl>-->
+      <!--      <dl v-for="suggestion in program[$i18n.locale].suggestions" :key="suggestion" class="modal_scope">-->
+      <!--        <dt>{{ $t('suggestion') }}</dt>-->
+      <!--        <dd>{{ suggestion }}</dd>-->
+      <!--      </dl>-->
       <!-- TODO: Design dose not considered for multiple speakers. -->
       <!-- <dl v-for="contribute in program.speakers[0].contributes" :key="contribute" class="modal_scope">
         <dt>{{ $t('contribute') }}</dt>
