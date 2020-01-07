@@ -33,6 +33,7 @@
         <!-- schedule 1コマ ここから -->
         <div class="schedule_content">
           <div class="schedule_events">
+            <ProposalSkelton v-if="isLoading()" />
             <div v-for="program in filterProposalsByIdAndLang(90, 'en')" :key="program.id" @click="openModal(program)">
               <table-row :program="program" :locale="$i18n.locale" />
             </div>
@@ -51,6 +52,7 @@
         <!-- schedule 1コマ ここから -->
         <div class="schedule_content">
           <div class="schedule_events">
+            <ProposalSkelton v-if="isLoading()" />
             <div v-for="program in filterProposalsByIdAndLang(90, 'ja')" :key="program.id" @click="openModal(program)">
               <table-row :program="program" :locale="$i18n.locale" />
             </div>
@@ -69,6 +71,7 @@
         <!-- schedule 1コマ ここから -->
         <div class="schedule_content">
           <div class="schedule_events">
+            <ProposalSkelton v-if="isLoading()" />
             <div v-for="program in filterProposalsByIdAndLang(40, 'en')" :key="program.id" @click="openModal(program)">
               <table-row :program="program" :locale="$i18n.locale" />
             </div>
@@ -87,6 +90,7 @@
         <!-- schedule 1コマ ここから -->
         <div class="schedule_content">
           <div class="schedule_events">
+            <ProposalSkelton v-if="isLoading()" />
             <div v-for="program in filterProposalsByIdAndLang(40, 'ja')" :key="program.id" @click="openModal(program)">
               <table-row :program="program" :locale="$i18n.locale" />
             </div>
@@ -106,19 +110,18 @@
 </template>
 
 <script>
-import { mapActions, mapGetters } from 'vuex'
+import { mapActions, mapGetters, mapMutations } from 'vuex'
 import TableRow from '@/components/sections/candidates/tableRow'
 import Modal from '@/components/parts/SessionDetailModal.vue'
-
-import Page404NotFoundMixin from '@/mixins/page/Page404NotFound.js'
+import ProposalSkelton from '@/components/parts/ProposalSkelton.vue'
+import * as mTypes from '@/store/mutation-types'
 
 export default {
   components: {
     Modal,
-    TableRow
+    TableRow,
+    ProposalSkelton
   },
-  // TODO: プロポーザルが決定し次第、404表示を解除する
-  mixins: [Page404NotFoundMixin],
   data() {
     return {
       selectProgram: null,
@@ -127,16 +130,20 @@ export default {
   },
   computed: {
     ...mapGetters({
-      filterProposalsByIdAndLang: 'proposals/filterByLengthAndLang'
+      filterProposalsByIdAndLang: 'proposals/filterByLengthAndLang',
+      isLoading: 'proposals/isLoading'
     })
   },
-  mounted() {
+  created() {
     this.fetchProposals()
   },
   methods: {
     ...mapActions({
       fetchProposals: 'proposals/fetch'
     }),
+    ...mapMutations(
+      { setIsLoading: mTypes.SET_IS_LOADING }
+    ),
     openModal(item) {
       this.selectProgram = item
       this.showModal = true
@@ -158,6 +165,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+// animations
 .fade-enter-active, .fade-leave-active {
   transition: opacity .2s;
 }

@@ -76,8 +76,6 @@ import syoguns from '@/data/sponsors/syogun'
 import tairos from '@/data/sponsors/tairo'
 import daimyos from '@/data/sponsors/daimyo'
 
-// import Page404NotFoundMixin from '@/mixins/page/Page404NotFound.js'
-
 export default {
   components: {
     Sponsor

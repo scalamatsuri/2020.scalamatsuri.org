@@ -172,6 +172,12 @@
   > a {
     color: #00A4DE;
   }
+  > a > img {
+    width: 16px;
+    height: 16px;
+    margin-top: .24em;
+    margin-right: 4px;
+  }
 }
 .schedule_title {
   font-weight: bold;
