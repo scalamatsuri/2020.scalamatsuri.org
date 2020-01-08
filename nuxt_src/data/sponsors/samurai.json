@@ -3,5 +3,15 @@
     "name": "livesense",
     "logo": "/img/sponsors/livesense.png",
     "url": "https://job-draft.jp/"
+  },
+  {
+    "name": "sugar",
+    "logo": "/img/sponsors/sugar.png",
+    "url": "https://sugarcorp.jp/"
+  },
+  {
+    "name": "jetbrains",
+    "logo": "/img/sponsors/jetbrains.svg",
+    "url": "https://www.jetbrains.com/idea/"
   }
 ]
