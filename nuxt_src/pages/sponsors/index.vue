@@ -39,14 +39,14 @@ ja:
           <sponsor :sponsor="sponsor" />
         </div>
       </div>
-      <!--      <h2 class="sponsor_title">-->
-      <!--        {{ $t('sponsorType.tairou') }}-->
-      <!--      </h2>-->
-      <!--      <div class="sponsor_list">-->
-      <!--        <div v-for="sponsor in tairo_sponsors" :key="sponsor.url">-->
-      <!--          <sponsor :sponsor="sponsor" />-->
-      <!--        </div>-->
-      <!--      </div>-->
+      <h2 v-if="tairo_sponsors.length" class="sponsor_title">
+        {{ $t('sponsorType.tairo') }}
+      </h2>
+      <div v-if="tairo_sponsors.length" class="sponsor_list">
+        <div v-for="sponsor in tairo_sponsors" :key="sponsor.logo">
+          <sponsor :sponsor="sponsor" />
+        </div>
+      </div>
       <h2 class="sponsor_title">
         {{ $t('sponsorType.daimyo') }}
       </h2>
