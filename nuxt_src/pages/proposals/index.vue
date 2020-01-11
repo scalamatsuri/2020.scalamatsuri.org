@@ -113,8 +113,6 @@
 import { mapActions, mapGetters, mapMutations } from 'vuex'
 import TableRow from '@/components/sections/candidates/tableRow'
 import Modal from '@/components/parts/SessionDetailModal.vue'
-import ProposalSkelton from '@/components/parts/ProposalSkelton.vue'
-import * as mTypes from '@/store/mutation-types'
 
 export default {
   components: {
