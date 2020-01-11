@@ -18,7 +18,7 @@
     <!-- 登壇者 ここから -->
     <div v-for="speaker in program.speakers" :key="speaker.id" class="schedule_speakers">
       <div class="schedule_speaker">
-        <div class="schedule_speaker_icon" style="background-image: url('/img/dummy/icon-user2.jpg')" />
+        <div class="schedule_speaker_icon" :style="{ backgroundImage: 'url(' + speaker[$i18n.locale].icon + ')' }" />
         <p class="schedule_speaker_name">
           {{ speaker[locale].name }}
         </p>

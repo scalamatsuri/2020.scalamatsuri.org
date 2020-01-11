@@ -22,6 +22,9 @@
         </h1>
       </div>
     </div>
+
+    <VotedSessions :sessions="filterProposalsByIdAndLang(90, 'en')" />
+
     <ul class="js-tags tagIndex" />
 
     <!-- 90分英語 ここから -->
@@ -116,11 +119,14 @@ import Modal from '@/components/parts/SessionDetailModal.vue'
 import ProposalSkelton from '@/components/parts/ProposalSkelton.vue'
 import * as mTypes from '@/store/mutation-types'
 
+import VotedSessions from '@/components/sections/proposals/VotedSessions.vue'
+
 export default {
   components: {
     Modal,
     TableRow,
-    ProposalSkelton
+    ProposalSkelton,
+    VotedSessions
   },
   data() {
     return {
