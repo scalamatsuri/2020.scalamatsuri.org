@@ -15,42 +15,46 @@
 <template>
   <div ref="modalKeyListener" class="modal_inner" tabindex="0" @keyup.escape="$emit('close')">
     <h2 class="modal_title">
-      {{ program.program.title }}
+      {{ program[$i18n.locale].title }}
     </h2>
-    <div class="modal_speakers">
-      <div class="modal_speaker">
-        <div class="modal_speaker_icon" :style="{ backgroundImage: 'url(' + program.candidate.icon + ')' }" />
+    <ul class="modal_speakers">
+      <li v-for="speaker in program.speakers" :key="speaker.id" class="modal_speaker">
+        <div class="modal_speaker_icon" :style="{ backgroundImage: 'url(' + speaker[$i18n.locale].icon + ')' }" />
         <p class="modal_speaker_name">
-          {{ program.candidate.name }}
+          {{ speaker[$i18n.locale].name }}
         </p>
         <p class="modal_speaker_id">
-          <!--TODO twitterとgithub-->
-          <a href="">{{ program.candidate.twitter }}</a>
+          <a v-if="speaker[$i18n.locale].twitter" class="modal_speaker_sns" :href="`https://twitter.com/${speaker[$i18n.locale].twitter}`">
+            <img v-lazy="require('~/assets/img/common/icon-sns-tw.svg')">
+            {{ speaker[$i18n.locale].twitter }}
+          </a>
+          <a v-if="speaker[$i18n.locale].github" class="modal_speaker_sns" :href="`https://github.com/${speaker[$i18n.locale].github}`">
+            <img v-lazy="require('~/assets/img/common/icon-sns-git.svg')">{{ speaker[$i18n.locale].github }}
+          </a>
         </p>
-      </div>
-    </div>
+      </li>
+    </ul>
     <div class="modal_text">
-      <!--TODO 調整-->
-      <p v-text="program.program.detail" />
+      <p v-text="program[$i18n.locale].detail" />
     </div>
     <div class="modal_scopeArea">
       <dl class="modal_scope">
         <dt>{{ $t('lang') }}</dt>
-        <dd>{{ program.program.language }}</dd>
+        <dd>{{ program[$i18n.locale].language }}</dd>
       </dl>
       <dl class="modal_scope">
         <dt>{{ $t('audience_level') }}</dt>
-        <dd>{{ program.program.audience }}</dd>
+        <dd>{{ program[$i18n.locale].audience }}</dd>
       </dl>
-      <!--TODO きれいな形にしたい-->
-      <dl v-for="suggestion in program.program.suggestions" :key="suggestion" class="modal_scope">
+      <dl v-for="suggestion in program[$i18n.locale].suggestions" :key="suggestion" class="modal_scope">
         <dt>{{ $t('suggestion') }}</dt>
         <dd>{{ suggestion }}</dd>
       </dl>
-      <dl v-for="contribute in program.candidate.contributes" :key="contribute" class="modal_scope">
+      <!-- TODO: Design dose not considered for multiple speakers. -->
+      <!-- <dl v-for="contribute in program.speakers[0].contributes" :key="contribute" class="modal_scope">
         <dt>{{ $t('contribute') }}</dt>
         <dd v-html="contribute" />
-      </dl>
+      </dl> -->
     </div>
     <div class="modal_close" @click="$emit('close')">
       閉じる
@@ -62,12 +66,8 @@
 export default {
   props: {
     program: {
-      // Object{}である
       type: Object,
-      // 必須である
-      required: true,
-      // デフォルト値
-      default: () => { return {} }
+      required: true
     }
   },
   mounted: function () {

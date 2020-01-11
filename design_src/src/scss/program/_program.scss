@@ -31,10 +31,10 @@ line-height: 39px;
 font-size: 24px;
 letter-spacing: 0.1em;
 }
-.modal_speakers {
-}
 .modal_speaker {
+  display: inline-block;
   margin-top: 10px;
+  margin-right: 18px;
 }
 .modal_speaker_icon {
   width: 40px;
@@ -59,6 +59,13 @@ letter-spacing: 0.1em;
   margin-left: 50px;
   >a {
     color: #00A4DE;
+  }
+
+  > a > img {
+    width: 16px;
+    height: 16px;
+    margin-top: .24em;
+    margin-right: 4px;
   }
 }
 .modal_text {
