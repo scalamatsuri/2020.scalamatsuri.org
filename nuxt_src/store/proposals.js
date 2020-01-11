@@ -1,4 +1,5 @@
 import * as mTypes from './mutation-types'
+import { auth, database } from '~/plugins/firebase'
 
 export const state = () => ({
   list: [],
@@ -26,10 +27,16 @@ export const actions = {
       return Promise.reject(error)
     }
     commit(mTypes.SET_IS_LOADING, false)
-  }
+  },
 
-  async setVotes({ dispatch, commit, rootState }) {
+  setVotes({ dispatch, commit, rootState }) {
     try {
+      // TODO: これはテストなので後で書き換える
+      database.collection('users').doc(auth().currentUser.uid).set({
+        name: 'test'
+      })
+    } catch (error) {
+      return Promise.reject(error)
     }
   }
 }

@@ -23,7 +23,7 @@
       </div>
     </div>
 
-    <VotedSessions :sessions="filterProposalsByIdAndLang(90, 'en')" />
+    <VotedSessions :programs="filterProposalsByIdAndLang(90, 'en')" />
 
     <ul class="js-tags tagIndex" />
 
