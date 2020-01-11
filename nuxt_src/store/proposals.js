@@ -2,7 +2,8 @@ import * as mTypes from './mutation-types'
 
 export const state = () => ({
   list: [],
-  isLoading: false
+  isLoading: false,
+  votes: []
 })
 
 export const actions = {
@@ -26,6 +27,11 @@ export const actions = {
     }
     commit(mTypes.SET_IS_LOADING, false)
   }
+
+  async setVotes({ dispatch, commit, rootState }) {
+    try {
+    }
+  }
 }
 
 export const mutations = {
@@ -34,6 +40,9 @@ export const mutations = {
   },
   [mTypes.SET_IS_LOADING](state, bool) {
     state.isLoading = bool
+  },
+  [mTypes.SET_USER_VOTES](state, programs) {
+    state.votes = programs
   }
 }
 
@@ -41,7 +50,15 @@ export const getters = {
   filterByLengthAndLang: state => (len, lang) => {
     return state.list.filter(proposal => proposal[lang] && proposal[lang].length === len)
   },
-  isLoading: state => () => state.isLoading
+  isLoading: state => () => state.isLoading,
+  /**
+   * resolve sessions that user voted.
+   */
+  userVotes: state => state.votes.sort(function (a, b) {
+    if (a < b) return -1
+    if (a > b) return 1
+    return 0
+  })
 }
 
 // --[ Private Functions ]-----------------------------------------------------

@@ -76,13 +76,12 @@ export default {
         background-repeat: repeat;      }
     }
     .list__title {
-      flex: 1 0 calc(100% - 40px - 200px);
+      flex: 1 1 calc(100% - 40px - 200px);
       max-width: 100%;
       font-weight: bold;
       text-align: left;
       word-break: break-all;
       padding: 6px;
-      padding-left: 0;
       display: flex;
       align-items: center;
 
@@ -93,9 +92,11 @@ export default {
       }
     }
     .list__speakers {
-      flex: 0 0 200px;
+      flex: 1 0 200px;
+      padding: 6px;
       display: flex;
       align-items: center;
+      justify-content: end;
     }
   }
 </style>
