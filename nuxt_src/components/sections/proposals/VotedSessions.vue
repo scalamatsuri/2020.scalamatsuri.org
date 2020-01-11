@@ -18,8 +18,8 @@
     </div>
 
     <ul class="voted-program__programs-list">
-      <draggable v-model="programs" handle=".list__drag-point">
-        <transition-group>
+      <draggable v-model="programs" v-bind="dragOptions" handle=".list__drag-point">
+        <transition-group type="transition">
           <li v-for="(program, index) in programs" :key="program.id" class="program-list__list-container">
             <div class="list__rank">
               {{ index + 1 }}
@@ -73,6 +73,16 @@ export default {
       type: Array,
       required: true,
       default: () => []
+    }
+  },
+  computed: {
+    dragOptions() {
+      return {
+        animation: 200,
+        group: 'description',
+        disabled: false,
+        ghostClass: 'ghost'
+      }
     }
   }
 }
@@ -173,5 +183,10 @@ export default {
       align-items: center;
       justify-content: end;
     }
+  }
+
+  .ghost {
+    opacity: 0.5;
+    background: #c8ebfb;
   }
 </style>
