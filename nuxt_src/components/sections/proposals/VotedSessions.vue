@@ -1,6 +1,6 @@
 <i18n>
   en:
-    title: "programs you voted"
+    title: "sessions you voted"
     description: "Please order by drag & drop.\nThe screening will take into account the ranking."
   ja:
     title: "投票済みセッション"
@@ -18,11 +18,18 @@
     </div>
 
     <ul class="voted-program__programs-list">
-      <draggable v-model="programs" v-bind="dragOptions" handle=".list__drag-point">
+      <draggable
+        v-model="programs"
+        v-bind="dragOptions"
+        handle=".list__drag-point"
+        drag-class="dragging"
+        @start="dragging = true"
+        @end="dragging = false"
+      >
         <transition-group type="transition">
-          <li v-for="(program, index) in programs" :key="program.id" class="program-list__list-container">
+          <li v-for="(program, index) in programs" :key="program.id" class="program-list__list-container" :class="{ dragging }">
             <div class="list__rank">
-              {{ index + 1 }}
+              <span>{{ index + 1 }}</span>
             </div>
             <div class="list__body">
               <div class="program-list">
@@ -73,6 +80,11 @@ export default {
       type: Array,
       required: true,
       default: () => []
+    }
+  },
+  data() {
+    return {
+      dragging: false
     }
   },
   computed: {
@@ -126,10 +138,22 @@ export default {
       font-size: 24px;
       font-weight: bold;
 
+      & > span {
+        transition: all 80ms ease-out;
+        opacity: 1;
+        transform: translateX(0);
+      }
     }
     .list__body {
-      flex: 1 0 calc(100% - 30px);
+      flex: 0 0 calc(100% - 30px);
       padding: 2px;
+    }
+
+    &.dragging {
+      .list__rank > span {
+          opacity: 0;
+          transform: translateX(-12px);
+      }
     }
   }
   .program-list {
@@ -181,12 +205,7 @@ export default {
       padding: 6px;
       display: flex;
       align-items: center;
-      justify-content: end;
+      justify-content: flex-end;
     }
-  }
-
-  .ghost {
-    opacity: 0.5;
-    background: #c8ebfb;
   }
 </style>

@@ -18,23 +18,24 @@
     <!-- 登壇者 ここから -->
     <div v-for="speaker in program.speakers" :key="speaker.id" class="schedule_speakers">
       <div class="schedule_speaker">
-        <div class="schedule_speaker_icon" :style="{ backgroundImage: 'url(' + speaker[$i18n.locale].icon + ')' }" />
+        <div class="schedule_speaker_icon" :style="{ backgroundImage: 'url(' + speaker[locale].icon + ')' }" />
         <p class="schedule_speaker_name">
           {{ speaker[locale].name }}
         </p>
         <!--TODO githubとtwitter -->
         <p class="schedule_speaker_id">
-          <a v-if="speaker[$i18n.locale].twitter" class="modal_speaker_sns" :href="`https://twitter.com/${speaker[$i18n.locale].twitter}`">
+          <a v-if="speaker[locale].twitter" class="modal_speaker_sns" :href="`https://twitter.com/${speaker[locale].twitter}`">
             <img v-lazy="require('~/assets/img/common/icon-sns-tw.svg')">
-            {{ speaker[$i18n.locale].twitter }}
+            {{ speaker[locale].twitter }}
           </a>
-          <a v-if="speaker[$i18n.locale].github" class="modal_speaker_sns" :href="`https://github.com/${speaker[$i18n.locale].github}`">
-            <img v-lazy="require('~/assets/img/common/icon-sns-git.svg')">{{ speaker[$i18n.locale].github }}
+          <a v-if="speaker[locale].github" class="modal_speaker_sns" :href="`https://github.com/${speaker[locale].github}`">
+            <img v-lazy="require('~/assets/img/common/icon-sns-git.svg')">{{ speaker[locale].github }}
           </a>
         </p>
       </div>
     </div>
     <!-- 登壇者 ここまで -->
+    <div class="schedule__vote" />
   </div>
 </template>
 <script>
@@ -54,6 +55,12 @@ export default {
       type: String,
       required: true,
       defualt: 'en'
+    },
+    onVote: {
+      type: Function,
+      default: () => {
+        return () => {}
+      }
     }
   }
 }
