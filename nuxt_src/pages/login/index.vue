@@ -1,22 +1,35 @@
+<i18n>
+  en:
+    login: "Log in to ScalaMatsuri2020"
+    login_successful: "Logged in successfully."
+  ja:
+    login: "ScalaMatsuri2020にログイン"
+    login_successful: "ログインしました."
+</i18n>
+
 <template>
-  <div>
-    <div v-if="isUnknown">
-      Loading...
+  <div class="login">
+    <div v-show="isLoggedOut || isUnknown" class="login__container">
+      <div class="login__logo">
+        <img v-if="$mq === 'lg'" class="logo--pc" :src="require(`~/assets/img/login/img-main_logo-pc.png?resize&size=200`)" alt="ScalaMatsuri2020">
+        <img v-if="$mq === 'sm'" class="logo--sp" :src="require(`~/assets/img/login/img-main_logo-sp.png?resize&size=314`)" alt="ScalaMatsuri2020">
+      </div>
+      <div class="login__text">
+        {{ $t('login') }}
+      </div>
+      <div class="login__firebase-container">
+        <div v-show="isLoggedOut" id="firebaseui-container" />
+      </div>
     </div>
 
-    <div v-show="isLoggedOut" id="firebaseui-container" />
-
-    <div v-if="isLoggedIn">
-      <img v-if="auth.profile.photoURL" :src="auth.profile.photoURL" class="photo">
+    <div v-if="isLoggedIn" class="userinfo">
+      <img v-if="auth.profile.photoURL" class="userinfo__avater" :src="auth.profile.photoURL">
       <ul>
-        <li v-if="auth.profile.displayName">
+        <li v-if="auth.profile.displayName" class="userinfo__name">
           {{ auth.profile.displayName }}
         </li>
-        <li v-if="auth.profile.email">
-          {{ auth.profile.email }}
-        </li>
       </ul>
-      <button @click="logout">
+      <button class="userinfo__button" @click="logout">
         Logout
       </button>
     </div>
@@ -30,6 +43,16 @@ import { auth } from '~/plugins/firebase'
 
 export default {
   name: 'FirebaseAuth',
+  data() {
+    return {
+      prevRoute: null
+    }
+  },
+  beforeRouteEnter(to, from, next) {
+    next((vm) => {
+      vm.prevRoute = from
+    })
+  },
   computed: {
     ...mapState({
       auth: state => state.auth
@@ -66,7 +89,9 @@ export default {
             firebase.auth.GithubAuthProvider.PROVIDER_ID
           ],
           callbacks: {
-            signInSuccessWithAuthResult: function (authResult, redirectUrl) {
+            signInSuccessWithAuthResult: (authResult, redirectUrl) => {
+              this.$toast(this.$t('login_successful'), { closeOnTap: true })
+              this.prevRoute ? this.$router.push(this.prevRoute.fullPath) : this.$router.push('/')
               return false
             }
           },
@@ -79,8 +104,67 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-.photo {
-    width: 200px;
-    height: 200px;
+.login {
+  background-color: #F4F4F4;
+  border-top: 1px solid #E5E5E5;
+  border-bottom: 1px solid #E5E5E5;
+}
+.login__container {
+  padding: 60px 0 20px;
+}
+.login__logo {
+  text-align: center;
+
+  & > img {
+    width: 120px;
+    max-width: 80vw;
+  }
+}
+
+.login__text {
+  font-size: 21px;
+  padding: 20px 0 10px;
+  text-align: center;
+}
+
+.login__firebase-container {
+    padding: 20px 0;
+    background: white;
+    border-radius: 5px;
+    margin: 20px auto 40px;
+    width: 400px;
+    max-width: 90vw;
+}
+
+.userinfo {
+  padding: 60px 0 20px;
+}
+.userinfo__avater {
+  display: block;
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 5px auto;
+  border-radius: 50%;
+}
+.userinfo__name {
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  color: #444;
+  text-align: center;
+}
+.userinfo__button {
+  display: block;
+    height: 44px;
+    width: 106px;
+    margin: 10px auto 0;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: normal;
+    color: #444;
 }
 </style>
