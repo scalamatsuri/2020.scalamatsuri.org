@@ -65,7 +65,7 @@ For detailed explanation on how things work, checkout [Nuxt.js docs](https://nux
 
 2. 1で追記したjsonの以下のフィールドを編集する
 
-- `name`: スポンサー名。
+- `name`: スポンサー名。[広告ページ](https://scalamatsuri.org/ja/sponsors)のタイトルにも使われるため、日本語の正式名称を入れます。
 - `logo`: ロゴファイルのパス。 ファイルは[/nuxt_src/static/img/sponsors](./nuxt_src/static/img/sponsors)に入れて、このフィールドへの記入は `/img/sponsors/XXX.svg` としてください。
 - `url`: ロゴのリンク先。
 
@@ -79,7 +79,8 @@ For detailed explanation on how things work, checkout [Nuxt.js docs](https://nux
 
 ## スポンサー広告ページの更新(How to put sponsor ads)
 
-1. [nuxt_src/data/sponsors/](./nuxt_src/data/sponsors/)の該当スポンサーのjsonに, 以下のように `text_html`と`slide_html` を追記する。
+1. [nuxt_src/data/sponsors/](./nuxt_src/data/sponsors/)の該当スポンサーのjsonに, 以下のように `text_html`と`slide_html` を追記する。  
+`slied_html` について、提出されたスライドが speakerdeck の場合はサンプルの data-id 部分（ `8fbedebe1c6b475b8ed7a8552bd9c6a3` のところ）を当該スライドのdata-idに書き換えればOK。
 
 ```json
 {
