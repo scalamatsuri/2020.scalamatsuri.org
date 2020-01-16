@@ -127,16 +127,6 @@ export default {
     this.tairos = this.shuffle(tairos.filter(s => notDummy(s)))
     this.daimyos = this.shuffle(daimyos.filter(s => notDummy(s)))
     this.samurais = this.shuffle(samurais.filter(s => notDummy(s)))
-  },
-  methods: {
-    shuffle: ([...arr]) => {
-      let m = arr.length
-      while (m) {
-        const i = Math.floor(Math.random() * m--);
-        [arr[m], arr[i]] = [arr[i], arr[m]]
-      }
-      return arr
-    }
   }
 }
 </script>

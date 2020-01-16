@@ -88,9 +88,9 @@ export default {
     }
   },
   mounted() {
-    this.syogun_sponsors = syoguns
-    this.tairo_sponsors = tairos
-    this.daimyo_sponsors = daimyos
+    this.syogun_sponsors = this.shuffle(syoguns)
+    this.tairo_sponsors = this.shuffle(tairos)
+    this.daimyo_sponsors = this.shuffle(daimyos)
   },
   head() {
     const $t = this.$t.bind(this)
