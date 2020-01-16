@@ -42,7 +42,7 @@ export default {
     function notDummy(sponsor) {
       return sponsor.logo && !sponsor.logo.includes('dummy')
     }
-    this.syoguns = syoguns.filter(s => notDummy(s))
+    this.syoguns = this.shuffle(syoguns.filter(s => notDummy(s)))
   }
 }
 </script>

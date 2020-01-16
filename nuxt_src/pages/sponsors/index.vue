@@ -91,9 +91,9 @@ export default {
     function hasHtmls(sponsor) {
       return sponsor.text_html
     }
-    this.syogun_sponsors = syoguns.filter(s => hasHtmls(s))
-    this.tairo_sponsors = tairos.filter(s => hasHtmls(s))
-    this.daimyo_sponsors = daimyos.filter(s => hasHtmls(s))
+    this.syogun_sponsors = this.shuffle(syoguns.filter(s => hasHtmls(s)))
+    this.tairo_sponsors = this.shuffle(tairos.filter(s => hasHtmls(s)))
+    this.daimyo_sponsors = this.shuffle(daimyos.filter(s => hasHtmls(s)))
   },
   head() {
     const $t = this.$t.bind(this)
