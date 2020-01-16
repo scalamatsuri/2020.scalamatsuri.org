@@ -1,10 +1,10 @@
 [
   {
-    "name": "hatena",
+    "name": "株式会社はてな",
     "logo": "/img/sponsors/hatena.svg",
     "url": "http://hatenacorp.jp/",
-    "text_html": "",
-    "slide_html": ""
+    "text_html": "<p>はてなは「『知る』『つながる』『表現する』で新しい体験を提供し、人の生活を豊かにする」をミッションに、「<a href=\"https://b.hatena.ne.jp/\">はてなブックマーク</a>」「<a href=\"https://hatenablog.com/\">はてなブログ</a>」などのソーシャルサービスを展開してきました。最近はこれまでのサービス開発・運用知見を活かし、サーバー監視サービス「<a href=\"https://mackerel.io/\">Mackerel</a>」などビジネス向けの製品や、受託サービスの開発・運用も行っています。</p><p>Scala は Mackerel やはてなブックマーク、はてなブログで採用され、稼働しています（<a href=\"https://developer.hatenastaff.com/entry/2019/07/09/103000\">ScalaMatsuri2019にて「いかにして我々は10年もののPerlプロダクトをScalaでリプレースしたか」というタイトルで登壇しました</a>、<a href=\"https://developer.hatenastaff.com/entry/2016/08/24/150000\">Scala 関西 Summit ではてなにおけるマイクロサービスと Scala について発表します</a> など）。</p><p>技術によってインターネットと人々の生活を豊かにすることに情熱を持てる方、ぜひはてなで働いてみませんか？ 勤務地は京都と東京から選択できます。詳しくは<a href=\"https://hatenacorp.jp/recruit/engineer/\">エンジニア採用サイト</a>や<a href=\"https://developer.hatenastaff.com/\">開発者ブログ</a>をご覧ください。</p><ul><li><a href=\"https://hatenacorp.jp/recruit/engineer/\">エンジニア採用 - 採用情報 - 株式会社はてな</a></li><li><a href=\"https://developer.hatenastaff.com/\">Hatena Developer Blog</a></li></ul>",
+    "slide_html": "<div style=\"left: 0; width: 100%; height: 0; position: relative; padding-bottom: 74.9296%;\"><iframe src=\"https://speakerdeck.com/player/3eb0c03150414e2193134e2d5caa24f8\" style=\"border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;\" allowfullscreen scrolling=\"no\" allow=\"encrypted-media\"></iframe></div>"
   },
   {
     "name": "chatwork",
