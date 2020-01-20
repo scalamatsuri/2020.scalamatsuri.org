@@ -40,5 +40,12 @@
     "name": "alp",
     "logo": "/img/sponsors/alpinc.svg",
     "url": "https://thealp.co.jp/"
+  },
+  {
+    "name": "Forkwell",
+    "logo": "/img/sponsors/forkwell.svg",
+    "url": "https://forkwell.com/",
+    "text_html": "<a href=\"https://forkwell.com/\"> Forkwell </a>は、成長し続けるエンジニアを支援するサービスです。<br/>ポートフォリオサービスにより、ITエンジニアのスキルやプロフィールを可視化、成長のきっかけを提供し、「コードを書く人が評価される」世界の実現を目指します。<br/>さらにエンジニアに特化した<a href=\"https://jobs.forkwell.com/\"> 求人・転職支援サービス </a>群、「幸せに働く」きっかけとなる情報や場の提供などを通じて、ITエンジニアの幸せを追求しつづけます。<br/>その一貫として多くのITエンジニア勉強会のスポンサー活動を行なっており、エンジニアコミュニティでは「<a href=\"https://twitter.com/hashtag/%E3%81%BE%E3%81%9F%E5%87%BA%E3%81%9F%E3%81%AAForkwell?src=hashtag_click\"> #また出たなForkwell </a>」と親しまれております。<br/>勉強会主催の方は是非<a href=\"https://pr.forkwell.com/2019-04-11-release-connpass/\">こちら</a>からスポンサー申し込みをしてください。貴方の勉強会もForkwellが応援します！",
+    "slide_html": ""
   }
 ]
