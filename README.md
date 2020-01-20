@@ -2,8 +2,8 @@
 
 > 2020.scalamatsuri.org Nuxt.js project
 
-![](https://github.com/scalamatsuri/2020.scalamatsuri.org/workflows/deploy/badge.svg)
-![](https://github.com/scalamatsuri/2020.scalamatsuri.org/workflows/verify/badge.svg)
+[![Actions Status](https://github.com/scalamatsuri/2020.scalamatsuri.org/workflows/deploy/badge.svg?branch=master)](https://github.com/scalamatsuri/2020.scalamatsuri.org/actions?query=workflow%3A"deploy")
+[![Actions Status](https://github.com/scalamatsuri/2020.scalamatsuri.org/workflows/verify/badge.svg?event=push)](https://github.com/scalamatsuri/2020.scalamatsuri.org/actions?query=workflow%3A"verify")
 
 ## Build Setup
 

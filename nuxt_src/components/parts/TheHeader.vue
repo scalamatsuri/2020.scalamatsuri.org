@@ -4,7 +4,7 @@
     sponsors: "Sponsors(ja)"
     access: "Access"
     code-of-conduct: "Code of Conduct"
-    program: "Program"
+    proposals: "Proposals(TEMP)"
     outline: "Outline"
     login: "Login"
     ticket: "Ticket"
@@ -13,7 +13,7 @@
     sponsors: "スポンサー"
     access: "アクセス"
     code-of-conduct: "行動規範"
-    program: "プログラム"
+    proposals: "プロポーザル一覧(仮)"
     outline: "開催概要"
     login: "Login"
     ticket: "チケット購入"
@@ -42,6 +42,11 @@
             <!--                <span>{{ $t('program') }}</span>-->
             <!--              </nuxt-link>-->
             <!--            </li>-->
+            <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/proposals') }">
+              <a href="https://docs.google.com/spreadsheets/d/15q7P9zJgT0tVwjdFg5vv8dYblKN42qUvstogbjI-SV4/edit?usp=sharing">
+                <span>{{ $t('proposals') }}</span>
+              </a>
+            </li>
             <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/code-of-conduct') }">
               <nuxt-link :to="localePath('code-of-conduct')">
                 <span>{{ $t('code-of-conduct') }}</span>
