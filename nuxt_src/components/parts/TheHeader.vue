@@ -132,6 +132,11 @@
               <!--                  <span>{{ $t('program') }}</span>-->
               <!--                </nuxt-link>-->
               <!--              </li>-->
+              <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/proposals') }" @click="toggleMenu()">
+                <a href="https://docs.google.com/spreadsheets/d/15q7P9zJgT0tVwjdFg5vv8dYblKN42qUvstogbjI-SV4/edit?usp=sharing">
+                  <span>{{ $t('proposals') }}</span>
+                </a>
+              </li>
               <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/code-of-conduct') }" @click="toggleMenu()">
                 <nuxt-link :to="localePath('code-of-conduct')">
                   <span>{{ $t('code-of-conduct') }}</span>
