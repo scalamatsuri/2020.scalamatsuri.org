@@ -21,7 +21,7 @@
     </h2>
     <ul class="modal_speakers">
       <li v-for="speaker in program[$i18n.locale].speakers" :key="speaker.id" class="modal_speaker">
-        <div class="modal_speaker_icon" :style="`backgroundImage: url('${speaker.icon}') }`" />
+        <div class="modal_speaker_icon" :style="`backgroundImage: url('${speaker.icon}')`" />
         <p class="modal_speaker_name">
           {{ speaker.name }}
         </p>
@@ -33,6 +33,7 @@
           <a v-if="speaker.github" class="modal_speaker_sns" :href="`https://github.com/${speaker.github}`">
             <img v-lazy="require('~/assets/img/common/icon-sns-git.svg')">{{ speaker.github }}
           </a>
+          <!-- TODO: show other_sns field -->
         </p>
       </li>
     </ul>

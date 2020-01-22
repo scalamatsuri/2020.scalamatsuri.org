@@ -25,8 +25,7 @@
         <!--TODO githubとtwitter -->
         <p class="schedule_speaker_id">
           <a v-if="speaker.twitter" class="modal_speaker_sns" :href="`https://twitter.com/${speaker.twitter}`">
-            <img v-lazy="require('~/assets/img/common/icon-sns-tw.svg')">
-            {{ speaker.twitter }}
+            <img v-lazy="require('~/assets/img/common/icon-sns-tw.svg')">{{ speaker.twitter }}
           </a>
           <a v-if="speaker.github" class="modal_speaker_sns" :href="`https://github.com/${speaker.github}`">
             <img v-lazy="require('~/assets/img/common/icon-sns-git.svg')">{{ speaker.github }}
