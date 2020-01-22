@@ -4,7 +4,8 @@
     sponsors: "Sponsors(ja)"
     access: "Access"
     code-of-conduct: "Code of Conduct"
-    proposals: "Proposals(TEMP)"
+    program: "Program"
+    proposals: "Proposals"
     outline: "Outline"
     login: "Login"
     ticket: "Ticket"
@@ -13,11 +14,12 @@
     sponsors: "スポンサー"
     access: "アクセス"
     code-of-conduct: "行動規範"
-    proposals: "プロポーザル一覧(仮)"
+    program: "プログラム"
+    proposals: "セッション候補"
     outline: "開催概要"
     login: "Login"
     ticket: "チケット購入"
-    cfp: "CFP"
+    cfp: "セッション募集"
 </i18n>
 
 <template>
@@ -43,9 +45,9 @@
             <!--              </nuxt-link>-->
             <!--            </li>-->
             <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/proposals') }">
-              <a href="https://docs.google.com/spreadsheets/d/15q7P9zJgT0tVwjdFg5vv8dYblKN42qUvstogbjI-SV4/edit?usp=sharing">
+              <nuxt-link :to="localePath('proposals')">
                 <span>{{ $t('proposals') }}</span>
-              </a>
+              </nuxt-link>
             </li>
             <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/code-of-conduct') }">
               <nuxt-link :to="localePath('code-of-conduct')">
@@ -133,9 +135,9 @@
               <!--                </nuxt-link>-->
               <!--              </li>-->
               <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/proposals') }" @click="toggleMenu()">
-                <a href="https://docs.google.com/spreadsheets/d/15q7P9zJgT0tVwjdFg5vv8dYblKN42qUvstogbjI-SV4/edit?usp=sharing">
+                <nuxt-link :to="localePath('proposals')">
                   <span>{{ $t('proposals') }}</span>
-                </a>
+                </nuxt-link>
               </li>
               <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/code-of-conduct') }" @click="toggleMenu()">
                 <nuxt-link :to="localePath('code-of-conduct')">

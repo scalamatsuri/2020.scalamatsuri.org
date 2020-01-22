@@ -2,15 +2,21 @@
 ## language=yaml
   en:
     title: "Proposals"
-    en_90: "90-minute sessions in English"
+    slide_notation: "Talking languages are as shown below. All slides will be in English."
+    cfp_notation: |
+      CFP is still open now. You can submit from <a href="/en/cfp/">here</a> by 23:59, 1st Feb Anywhere on Earth.
+    en_100: "100-minute sessions in English"
     en_40: "40-minute sessions in English"
-    ja_90: "90-minute sessions in Japanese"
+    ja_100: "100-minute sessions in Japanese"
     ja_40: "40-minute sessions in Japanese"
   ja:
     title: "応募セッション一覧"
-    en_90: "90分英語"
+    slide_notation: "発表言語ごとに表示しています。スライドの言語は全て英語の予定です."
+    cfp_notation: |
+      セッション募集(CFP) 期間中です。ご応募は<a href="/ja/cfp/">こちら</a>。2/1 23:59 AoE (2/2 20:59 JST)締切です。
+    en_100: "100分英語"
     en_40: "40分英語"
-    ja_90: "90分日本語"
+    ja_100: "100分日本語"
     ja_40: "40分日本語"
 </i18n>
 <template>
@@ -22,38 +28,48 @@
         </h1>
       </div>
     </div>
+
+    <div class="section">
+      <p class="section_text">
+        <span v-html="$t('cfp_notation')" />
+      </p>
+      <p class="section_text">
+        <span v-html="$t('slide_notation')" />
+      </p>
+    </div>
+
     <ul class="js-tags tagIndex" />
 
-    <!-- 90分英語 ここから -->
+    <!-- 100分英語 ここから -->
     <div class="program">
       <h2 class="program_title">
-        {{ $t('en_90') }}
+        {{ $t('en_100') }}
       </h2>
       <div class="schedule schedule-thin">
         <!-- schedule 1コマ ここから -->
         <div class="schedule_content">
           <div class="schedule_events">
             <ProposalSkelton v-if="isLoading()" />
-            <div v-for="program in filterProposalsByIdAndLang(90, 'en')" :key="program.id" @click="openModal(program)">
+            <div v-for="program in filterProposalsByIdAndLang(100, 'English')" :key="program.id" @click="openModal(program)">
               <table-row :program="program" :locale="$i18n.locale" />
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- 90分英語 ここまで -->
+    <!-- 100分英語 ここまで -->
 
-    <!-- 90分日本語 ここから -->
+    <!-- 100分日本語 ここから -->
     <div class="program">
       <h2 class="program_title">
-        {{ $t('ja_90') }}
+        {{ $t('ja_100') }}
       </h2>
       <div class="schedule schedule-thin">
         <!-- schedule 1コマ ここから -->
         <div class="schedule_content">
           <div class="schedule_events">
             <ProposalSkelton v-if="isLoading()" />
-            <div v-for="program in filterProposalsByIdAndLang(90, 'ja')" :key="program.id" @click="openModal(program)">
+            <div v-for="program in filterProposalsByIdAndLang(100, 'Japanese')" :key="program.id" @click="openModal(program)">
               <table-row :program="program" :locale="$i18n.locale" />
             </div>
           </div>
@@ -72,7 +88,7 @@
         <div class="schedule_content">
           <div class="schedule_events">
             <ProposalSkelton v-if="isLoading()" />
-            <div v-for="program in filterProposalsByIdAndLang(40, 'en')" :key="program.id" @click="openModal(program)">
+            <div v-for="program in filterProposalsByIdAndLang(40, 'English')" :key="program.id" @click="openModal(program)">
               <table-row :program="program" :locale="$i18n.locale" />
             </div>
           </div>
@@ -91,7 +107,7 @@
         <div class="schedule_content">
           <div class="schedule_events">
             <ProposalSkelton v-if="isLoading()" />
-            <div v-for="program in filterProposalsByIdAndLang(40, 'ja')" :key="program.id" @click="openModal(program)">
+            <div v-for="program in filterProposalsByIdAndLang(40, 'Japanese')" :key="program.id" @click="openModal(program)">
               <table-row :program="program" :locale="$i18n.locale" />
             </div>
           </div>
