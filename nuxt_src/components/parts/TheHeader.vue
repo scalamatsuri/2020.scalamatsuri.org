@@ -19,7 +19,7 @@
     outline: "開催概要"
     login: "Login"
     ticket: "チケット購入"
-    cfp: "CFP"
+    cfp: "セッション募集"
 </i18n>
 
 <template>
