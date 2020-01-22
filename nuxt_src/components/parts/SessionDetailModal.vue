@@ -2,10 +2,16 @@
 ## language=yaml
   en:
     lang: "Language of the"
-    contribute: "Contribute"
+    contribute: "OSS Contribution"
+    keywords: "Keywords"
+    tag: "Categories"
+    speaker_experience: "Speaker Experience"
   ja:
     lang: "発表言語"
-    contribute: "貢献"
+    contribute: "OSS 貢献"
+    keywords: "キーワード"
+    tag: "カテゴリ"
+    speaker_experience: "スピーカー経験"
 </i18n>
 
 <template>
@@ -14,18 +20,18 @@
       {{ program[$i18n.locale].title }}
     </h2>
     <ul class="modal_speakers">
-      <li v-for="speaker in program.speakers" :key="speaker.id" class="modal_speaker">
-        <div class="modal_speaker_icon" :style="{ backgroundImage: 'url(' + speaker[$i18n.locale].icon + ')' }" />
+      <li v-for="speaker in program[$i18n.locale].speakers" :key="speaker.id" class="modal_speaker">
+        <div class="modal_speaker_icon" :style="`backgroundImage: url('${speaker.icon}') }`" />
         <p class="modal_speaker_name">
-          {{ speaker[$i18n.locale].name }}
+          {{ speaker.name }}
         </p>
         <p class="modal_speaker_id">
-          <a v-if="speaker[$i18n.locale].twitter" class="modal_speaker_sns" :href="`https://twitter.com/${speaker[$i18n.locale].twitter}`">
+          <a v-if="speaker.twitter" class="modal_speaker_sns" :href="`https://twitter.com/${speaker.twitter}`">
             <img v-lazy="require('~/assets/img/common/icon-sns-tw.svg')">
-            {{ speaker[$i18n.locale].twitter }}
+            {{ speaker.twitter }}
           </a>
-          <a v-if="speaker[$i18n.locale].github" class="modal_speaker_sns" :href="`https://github.com/${speaker[$i18n.locale].github}`">
-            <img v-lazy="require('~/assets/img/common/icon-sns-git.svg')">{{ speaker[$i18n.locale].github }}
+          <a v-if="speaker.github" class="modal_speaker_sns" :href="`https://github.com/${speaker.github}`">
+            <img v-lazy="require('~/assets/img/common/icon-sns-git.svg')">{{ speaker.github }}
           </a>
         </p>
       </li>
@@ -38,19 +44,46 @@
         <dt>{{ $t('lang') }}</dt>
         <dd>{{ program[$i18n.locale].language }}</dd>
       </dl>
-      <!--      <dl class="modal_scope">-->
-      <!--        <dt>{{ $t('audience_level') }}</dt>-->
-      <!--        <dd>{{ program[$i18n.locale].audience }}</dd>-->
-      <!--      </dl>-->
-      <!--      <dl v-for="suggestion in program[$i18n.locale].suggestions" :key="suggestion" class="modal_scope">-->
-      <!--        <dt>{{ $t('suggestion') }}</dt>-->
-      <!--        <dd>{{ suggestion }}</dd>-->
-      <!--      </dl>-->
-      <!-- TODO: Design dose not considered for multiple speakers. -->
-      <!-- <dl v-for="contribute in program.speakers[0].contributes" :key="contribute" class="modal_scope">
-        <dt>{{ $t('contribute') }}</dt>
-        <dd v-html="contribute" />
-      </dl> -->
+      <dl class="modal_scope">
+        <dt>{{ $t('keywords') }}</dt>
+        <dd>
+          <ul>
+            <li v-for="kw in program[$i18n.locale].keywords" :key="kw">
+              {{ kw }}
+            </li>
+          </ul>
+        </dd>
+      </dl>
+      <dl class="modal_scope">
+        <dt>{{ $t('tag') }}</dt>
+        <dd>
+          <ul>
+            <li v-for="tag in program[$i18n.locale].tags" :key="tag">
+              {{ tag }}
+            </li>
+          </ul>
+        </dd>
+      </dl>
+      <div v-for="speaker in program[$i18n.locale].speakers" :key="speaker.name">
+        <dl class="modal_scope">
+          <dt v-if="program[$i18n.locale].speakers.length === 1">
+            {{ $t('contribute') }}
+          </dt>
+          <dt v-else>
+            {{ speaker.name }} <br> {{ $t('contribute') }}
+          </dt>
+          <dd v-html="speaker.contributes" />
+        </dl>
+        <dl class="modal_scope">
+          <dt v-if="program[$i18n.locale].speakers.length === 1">
+            {{ $t('speaker_experience') }}
+          </dt>
+          <dt v-else>
+            {{ speaker.name }} <br> {{ $t('speaker_experience') }}
+          </dt>
+          <dd v-html="speaker.speaker_experience" />
+        </dl>
+      </div>
     </div>
     <div class="modal_close" @click="$emit('close')">
       閉じる

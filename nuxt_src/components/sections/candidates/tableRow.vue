@@ -16,20 +16,20 @@
     </div>
     <!-- 内容 ここまで -->
     <!-- 登壇者 ここから -->
-    <div v-for="speaker in program.speakers" :key="speaker.id" class="schedule_speakers">
+    <div v-for="speaker in program[locale].speakers" :key="speaker.name" class="schedule_speakers">
       <div class="schedule_speaker">
-        <div class="schedule_speaker_icon" style="background-image: url('/img/dummy/icon-user2.jpg')" />
+        <div class="schedule_speaker_icon" :style="`background-image: url('${speaker.icon}')`" />
         <p class="schedule_speaker_name">
-          {{ speaker[locale].name }}
+          {{ speaker.name }}
         </p>
         <!--TODO githubとtwitter -->
         <p class="schedule_speaker_id">
-          <a v-if="speaker[$i18n.locale].twitter" class="modal_speaker_sns" :href="`https://twitter.com/${speaker[$i18n.locale].twitter}`">
+          <a v-if="speaker.twitter" class="modal_speaker_sns" :href="`https://twitter.com/${speaker.twitter}`">
             <img v-lazy="require('~/assets/img/common/icon-sns-tw.svg')">
-            {{ speaker[$i18n.locale].twitter }}
+            {{ speaker.twitter }}
           </a>
-          <a v-if="speaker[$i18n.locale].github" class="modal_speaker_sns" :href="`https://github.com/${speaker[$i18n.locale].github}`">
-            <img v-lazy="require('~/assets/img/common/icon-sns-git.svg')">{{ speaker[$i18n.locale].github }}
+          <a v-if="speaker.github" class="modal_speaker_sns" :href="`https://github.com/${speaker.github}`">
+            <img v-lazy="require('~/assets/img/common/icon-sns-git.svg')">{{ speaker.github }}
           </a>
         </p>
       </div>

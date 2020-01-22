@@ -34,7 +34,7 @@
         <div class="schedule_content">
           <div class="schedule_events">
             <ProposalSkelton v-if="isLoading()" />
-            <div v-for="program in filterProposalsByIdAndLang(90, 'en')" :key="program.id" @click="openModal(program)">
+            <div v-for="program in filterProposalsByIdAndLang(100, 'English')" :key="program.id" @click="openModal(program)">
               <table-row :program="program" :locale="$i18n.locale" />
             </div>
           </div>
@@ -53,7 +53,7 @@
         <div class="schedule_content">
           <div class="schedule_events">
             <ProposalSkelton v-if="isLoading()" />
-            <div v-for="program in filterProposalsByIdAndLang(90, 'ja')" :key="program.id" @click="openModal(program)">
+            <div v-for="program in filterProposalsByIdAndLang(100, 'Japanese')" :key="program.id" @click="openModal(program)">
               <table-row :program="program" :locale="$i18n.locale" />
             </div>
           </div>
@@ -72,7 +72,7 @@
         <div class="schedule_content">
           <div class="schedule_events">
             <ProposalSkelton v-if="isLoading()" />
-            <div v-for="program in filterProposalsByIdAndLang(40, 'en')" :key="program.id" @click="openModal(program)">
+            <div v-for="program in filterProposalsByIdAndLang(40, 'English')" :key="program.id" @click="openModal(program)">
               <table-row :program="program" :locale="$i18n.locale" />
             </div>
           </div>
@@ -91,7 +91,7 @@
         <div class="schedule_content">
           <div class="schedule_events">
             <ProposalSkelton v-if="isLoading()" />
-            <div v-for="program in filterProposalsByIdAndLang(40, 'ja')" :key="program.id" @click="openModal(program)">
+            <div v-for="program in filterProposalsByIdAndLang(40, 'Japanese')" :key="program.id" @click="openModal(program)">
               <table-row :program="program" :locale="$i18n.locale" />
             </div>
           </div>
@@ -131,6 +131,7 @@ export default {
   computed: {
     ...mapGetters({
       filterProposalsByIdAndLang: 'proposals/filterByLengthAndLang',
+      allProposals: 'proposals/allProposals',
       isLoading: 'proposals/isLoading'
     })
   },
