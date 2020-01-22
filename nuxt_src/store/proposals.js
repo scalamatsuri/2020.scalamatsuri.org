@@ -44,8 +44,7 @@ export const getters = {
     return state.list.filter(proposal => proposal.en.language === lang && proposal.en.length === len)
     // return state.list.filter(proposal => proposal)
   },
-  isLoading: state => () => state.isLoading,
-  allProposals: state => () => state.list
+  isLoading: state => () => state.isLoading
 }
 
 // --[ Private Functions ]-----------------------------------------------------

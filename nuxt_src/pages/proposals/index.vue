@@ -131,7 +131,6 @@ export default {
   computed: {
     ...mapGetters({
       filterProposalsByIdAndLang: 'proposals/filterByLengthAndLang',
-      allProposals: 'proposals/allProposals',
       isLoading: 'proposals/isLoading'
     })
   },
