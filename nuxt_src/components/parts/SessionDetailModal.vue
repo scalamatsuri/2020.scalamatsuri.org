@@ -73,7 +73,11 @@
           <dt v-else>
             {{ speaker.name }} <br> {{ $t('contribute') }}
           </dt>
-          <dd v-html="speaker.contributes" />
+          <dd>
+            <p v-for="contribute in speaker.contributes" :key="contribute">
+              {{ contribute }}
+            </p>
+          </dd>
         </dl>
         <dl class="modal_scope">
           <dt v-if="program[$i18n.locale].speakers.length === 1">
@@ -82,7 +86,11 @@
           <dt v-else>
             {{ speaker.name }} <br> {{ $t('speaker_experience') }}
           </dt>
-          <dd v-html="speaker.speaker_experience" />
+          <dd>
+            <p v-for="ex in speaker.speaker_experience" :key="ex">
+              {{ ex }}
+            </p>
+          </dd>
         </dl>
       </div>
     </div>
