@@ -17,7 +17,7 @@ en:
   hotel2_accept_lang: "English"
   hotel3: <a href="http://www.gardenhotels.co.jp/eng/shiodome-italiagai/" target="_blank" rel="noopener">Mitsui Garden Hotel Shiodome Italia-gai</a>
   hotel3_accept_lang: "English"
-  hotel4: <a href="http://www.hotelsunrouteariake.jp/" target="_blank" rel="noopener">Hotel Sunroute Ariake</a>
+  hotel4: <a href="https://fresa-inn.jp/en/ariake/" target="_blank" rel="noopener">Sotetsu Grand Fresa Tokyo-Bay Ariake</a>
   hotel4_accept_lang: "English"
   hotel5: <a href="https://www.tokyo.grandnikko.com/eng/" target="_blank" rel="noopener">Grand Nikko Tokyo Daiba</a>
   hotel5_accept_lang: "English"
@@ -27,11 +27,11 @@ en:
     Probably the easiest way to get to the venue in the morning would be taking taxi especially if you can share the ride with others.
     But the taxi in Tokyo can be quite expensive.<br><br>
     To take the public transportation, use <a href="https://goo.gl/maps/a9NwZJpxvDK2" target="_blank" rel="noopener">Google Map</a> to figure out what lines to take.
-    From Hotel Sunroute Ariake for example, take <a href="https://www.yurikamome.tokyo/" target="_blank" rel="noopener">Yurikamome line</a> at <a href="http://www.yurikamome.tokyo/route_guidance/u-11/" target="_blank" rel="noopener">U11 Tokyo Big Sight (東京ビッグサイト)</a> towards Shimbashi (新橋),
-    and get off at <a href="http://www.yurikamome.tokyo/route_guidance/u-08/" target="_blank" rel="noopener">U08 Tokyo International Cruise Terminal (東京国際クルーズターミナル)</a> station.
+    From Hotel Sunroute Ariake for example, take <a href="https://www.yurikamome.co.jp/en/" target="_blank" rel="noopener">Yurikamome line</a> at <a href="https://www.yurikamome.co.jp/en/station-timetable/u-11.html" target="_blank" rel="noopener">U11 Tokyo Big Sight (東京ビッグサイト)</a> towards Shimbashi (新橋),
+    and get off at <a href="https://www.yurikamome.co.jp/en/station-timetable/u-08.html" target="_blank" rel="noopener">U08 Tokyo International Cruise Terminal (東京国際クルーズターミナル)</a> station.
   sightseeing: "Odaiba / Tokyo Waterfront"
   sightseeing_info: |
-    <a href="https://www.gotokyo.org/en/index.html" target="_blank" rel="noopener">Odaiba (お台場)</a> is a popular shopping and entertainment district on an artificial island in Tokyo Bay.
+    <a href="https://www.gotokyo.org/en/destinations/southern-tokyo/odaiba/index.html" target="_blank" rel="noopener">Odaiba (お台場)</a> is a popular shopping and entertainment district on an artificial island in Tokyo Bay.
     There's also a The Life Sized UNICORN GUNDAM Statue at a shopping mall called <a href="https://mitsui-shopping-park.com/divercity-tokyo/en/" target="_blank" rel="noopener">DiverCity Tokyo Plaza</a>.
 ja:
   title: "会場付近の宿泊・施設"
@@ -51,7 +51,7 @@ ja:
   hotel2_accept_lang: "English"
   hotel3: <a href="http://www.gardenhotels.co.jp/eng/shiodome-italiagai/" target="_blank" rel="noopener">三井ガーデンホテル汐留イタリア街</a>
   hotel3_accept_lang: "English"
-  hotel4: <a href="http://www.hotelsunrouteariake.jp" target="_blank" rel="noopener">ホテルサンルート有明</a>
+  hotel4: <a href="https://fresa-inn.jp/ariake/" target="_blank" rel="noopener">相鉄グランドフレッサ 東京ベイ有明</a>
   hotel4_accept_lang: "English"
   hotel5: <a href="https://www.tokyo.grand-nikko.com/" target="_blank" rel="noopener">グランドニッコー東京台場</a>
   hotel5_accept_lang: "English"
