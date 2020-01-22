@@ -1,7 +1,7 @@
 <i18n>
 ## language=yaml
   en:
-    lang: "Language of the"
+    lang: "Talking in"
     contribute: "OSS Contribution"
     keywords: "Keywords"
     tag: "Categories"

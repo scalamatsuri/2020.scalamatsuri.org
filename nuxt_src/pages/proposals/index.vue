@@ -2,12 +2,14 @@
 ## language=yaml
   en:
     title: "Proposals"
+    slide_notation: "Talking languages are as shown below. All slides will be in English."
     en_100: "100-minute sessions in English"
     en_40: "40-minute sessions in English"
     ja_100: "100-minute sessions in Japanese"
     ja_40: "40-minute sessions in Japanese"
   ja:
     title: "応募セッション一覧"
+    slide_notation: "発表言語ごとに表示しています。スライドの言語は全て英語の予定です."
     en_100: "100分英語"
     en_40: "40分英語"
     ja_100: "100分日本語"
@@ -20,6 +22,7 @@
         <h1 class="main_title">
           {{ $t('title') }}
         </h1>
+        <p>{{ $t('slide_notation') }}</p>
       </div>
     </div>
     <ul class="js-tags tagIndex" />
