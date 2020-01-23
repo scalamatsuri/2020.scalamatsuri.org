@@ -9,8 +9,8 @@
       <!--        {{ program[locale].audience }}-->
       <!--      </p>-->
       <div class="schedule_tags">
-        <div v-for="tag in program[locale].tags" :key="tag" class="js-tag schedule_tag" data-tag="tag">
-          <span>{{ tag }}</span>
+        <div v-for="kw in program[locale].keywords" :key="kw" class="js-tag schedule_tag" data-tag="tag">
+          <span>{{ kw }}</span>
         </div>
       </div>
     </div>
