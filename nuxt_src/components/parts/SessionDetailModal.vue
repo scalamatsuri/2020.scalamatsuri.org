@@ -45,7 +45,7 @@
         <dt>
           {{ $t('lang') }}
         </dt>
-        <dd class="narrow">
+        <dd>
           {{ program[$i18n.locale].language }}
         </dd>
       </dl>
