@@ -5,6 +5,16 @@ export const state = () => ({
   isLoading: false
 })
 
+// TODO: remove duplication with /nuxt_src/plugins/scalaMatsuriCommon.js
+function shuffle(array) {
+  let m = array.length
+  while (m) {
+    const i = Math.floor(Math.random() * m--);
+    [array[m], array[i]] = [array[i], array[m]]
+  }
+  return array
+}
+
 export const actions = {
   /**
    * fetch proposals
@@ -22,7 +32,7 @@ export const actions = {
       // const proposalsWithSpeakers = proposals.map(joinSpeakers(speakers))
 
       const proposalsWithSpeakers = await this.$axios.get('https://script.google.com/macros/s/AKfycbw0aaFzxpQUGu5VCVEZkWcJuEnzjjQfvyNDrFebdt_93HefnM0/exec')
-      commit(mTypes.SET_PROPOSALS, proposalsWithSpeakers.data)
+      commit(mTypes.SET_PROPOSALS, shuffle(proposalsWithSpeakers.data))
     } catch (error) {
       commit(mTypes.SET_PROPOSALS, error)
     }
@@ -42,7 +52,6 @@ export const mutations = {
 export const getters = {
   filterByLengthAndLang: state => (len, lang) => {
     return state.list.filter(proposal => proposal.en.language === lang && proposal.en.length === len)
-    // return state.list.filter(proposal => proposal)
   },
   isLoading: state => () => state.isLoading
 }
