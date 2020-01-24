@@ -5,6 +5,7 @@ export const state = () => ({
   isLoading: false
 })
 
+// TODO: remove duplication with /nuxt_src/plugins/scalaMatsuriCommon.js
 function shuffle(array) {
   let m = array.length
   while (m) {
