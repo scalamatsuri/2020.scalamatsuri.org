@@ -42,11 +42,17 @@
     </div>
     <div class="modal_scopeArea">
       <dl class="modal_scope">
-        <dt>{{ $t('lang') }}</dt>
-        <dd>{{ program[$i18n.locale].language }}</dd>
+        <dt>
+          {{ $t('lang') }}
+        </dt>
+        <dd>
+          {{ program[$i18n.locale].language }}
+        </dd>
       </dl>
       <dl class="modal_scope">
-        <dt>{{ $t('keywords') }}</dt>
+        <dt>
+          {{ $t('keywords') }}
+        </dt>
         <dd>
           <ul>
             <li v-for="kw in program[$i18n.locale].keywords" :key="kw">
@@ -56,7 +62,9 @@
         </dd>
       </dl>
       <dl class="modal_scope">
-        <dt>{{ $t('tag') }}</dt>
+        <dt>
+          {{ $t('tag') }}
+        </dt>
         <dd>
           <ul>
             <li v-for="tag in program[$i18n.locale].tags" :key="tag">
@@ -66,7 +74,7 @@
         </dd>
       </dl>
       <div v-for="speaker in program[$i18n.locale].speakers" :key="speaker.name">
-        <dl class="modal_scope">
+        <dl class="modal_scope_large">
           <dt v-if="program[$i18n.locale].speakers.length === 1">
             {{ $t('contribute') }}
           </dt>
@@ -79,7 +87,7 @@
             </p>
           </dd>
         </dl>
-        <dl class="modal_scope">
+        <dl class="modal_scope_large">
           <dt v-if="program[$i18n.locale].speakers.length === 1">
             {{ $t('speaker_experience') }}
           </dt>
