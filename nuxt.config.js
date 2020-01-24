@@ -7,7 +7,7 @@ module.exports = {
   */
   loading: { color: '#fff' },
 
-  head: {π
+  head: {
     meta: [
       { 'http-equiv': 'x-dns-prefetch-control', content: 'on' }
     ],
