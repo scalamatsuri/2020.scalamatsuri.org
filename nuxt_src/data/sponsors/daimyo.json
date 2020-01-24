@@ -1,15 +1,17 @@
 [
   {
-    "name": "hatena",
+    "name": "株式会社はてな",
     "logo": "/img/sponsors/hatena.svg",
     "url": "http://hatenacorp.jp/",
-    "text_html": "",
-    "slide_html": ""
+    "text_html": "<p>はてなは「『知る』『つながる』『表現する』で新しい体験を提供し、人の生活を豊かにする」をミッションに、「<a href=\"https://b.hatena.ne.jp/\">はてなブックマーク</a>」「<a href=\"https://hatenablog.com/\">はてなブログ</a>」などのソーシャルサービスを展開してきました。最近はこれまでのサービス開発・運用知見を活かし、サーバー監視サービス「<a href=\"https://mackerel.io/\">Mackerel</a>」などビジネス向けの製品や、受託サービスの開発・運用も行っています。</p><p>Scala は Mackerel やはてなブックマーク、はてなブログで採用され、稼働しています（<a href=\"https://developer.hatenastaff.com/entry/2019/07/09/103000\">ScalaMatsuri2019にて「いかにして我々は10年もののPerlプロダクトをScalaでリプレースしたか」というタイトルで登壇しました</a>、<a href=\"https://developer.hatenastaff.com/entry/2016/08/24/150000\">Scala 関西 Summit ではてなにおけるマイクロサービスと Scala について発表します</a> など）。</p><p>技術によってインターネットと人々の生活を豊かにすることに情熱を持てる方、ぜひはてなで働いてみませんか？ 勤務地は京都と東京から選択できます。詳しくは<a href=\"https://hatenacorp.jp/recruit/engineer/\">エンジニア採用サイト</a>や<a href=\"https://developer.hatenastaff.com/\">開発者ブログ</a>をご覧ください。</p><ul><li><a href=\"https://hatenacorp.jp/recruit/engineer/\">エンジニア採用 - 採用情報 - 株式会社はてな</a></li><li><a href=\"https://developer.hatenastaff.com/\">Hatena Developer Blog</a></li></ul>",
+    "slide_html": "<div style=\"left: 0; width: 100%; height: 0; position: relative; padding-bottom: 74.9296%;\"><iframe src=\"https://speakerdeck.com/player/3eb0c03150414e2193134e2d5caa24f8\" style=\"border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;\" allowfullscreen scrolling=\"no\" allow=\"encrypted-media\"></iframe></div>"
   },
   {
-    "name": "chatwork",
+    "name": "Chatwork株式会社",
     "logo": "/img/sponsors/chatwork.png",
-    "url": "https://corp.chatwork.com/ja/"
+    "url": "https://corp.chatwork.com/ja/",
+    "text_html": "<p>働くをもっと楽しく、創造的に</p><p><a href=\"https://corp.chatwork.com/ja/mission/\">私たちのミッション</a></p><p>会議、電話、メール、訪問。誰もが当たり前と思っていたコミュニケーションを見直せば、より楽しく創造的な働き方にできる。社会が必要としていることを自分の得意分野で実現し、報酬が得られるような働き方をもっと増やしていきたい。私たちが目指す世界のビジョン「すべての人に、一歩先の働き方を」実現するために、チャレンジし続けています。</p><p><a href=\"https://corp.chatwork.com/ja/recruit/\">今日の仕事が明日の世界を変えていく。</a></p><p>Chatworkは、ともに夢を追いかける仲間を募集中。スキルも意識もプロフェッショナル、そんなあなたのご応募をお待ちしています。</p><p><a href=\"https://hrmos.co/pages/chatwork/jobs/1020001\">求める人物像</a></p><ul><li>1. ミッションに共感し、同じ未来を目指せる</li><li>2. 主体性を持って、オープンにコミュニケーションできる</li><li>3. ちょっとした遊び心を大切にできる</li></ul><ul><li><a href=\"https://hrmos.co/pages/chatwork/jobs/1020001\">世の中の働き方をアップデートし続ける、Scalaエンジニア募集！ | Chatwork株式会社</a></li><li><a href=\"https://creators-note.chatwork.com/\">Chatwork Creator&apos;s Note</a></li></ul>",
+    "slide_html": ""
   },
   {
     "name": "nextbeat",
@@ -38,7 +40,14 @@
   },
   {
     "name": "alp",
-    "logo": "/img/sponsors/alpinc.png",
+    "logo": "/img/sponsors/alpinc.svg",
     "url": "https://thealp.co.jp/"
-  }   
+  },
+  {
+    "name": "Forkwell",
+    "logo": "/img/sponsors/forkwell.svg",
+    "url": "https://forkwell.com/",
+    "text_html": "<a href=\"https://forkwell.com/\"> Forkwell </a>は、成長し続けるエンジニアを支援するサービスです。<br/>ポートフォリオサービスにより、ITエンジニアのスキルやプロフィールを可視化、成長のきっかけを提供し、「コードを書く人が評価される」世界の実現を目指します。<br/>さらにエンジニアに特化した<a href=\"https://jobs.forkwell.com/\"> 求人・転職支援サービス </a>群、「幸せに働く」きっかけとなる情報や場の提供などを通じて、ITエンジニアの幸せを追求しつづけます。<br/><br/>その一貫として多くのITエンジニア勉強会のスポンサー活動を行なっており、エンジニアコミュニティでは「<a href=\"https://twitter.com/hashtag/%E3%81%BE%E3%81%9F%E5%87%BA%E3%81%9F%E3%81%AAForkwell?src=hashtag_click\"> #また出たなForkwell </a>」と親しまれております。<br/>勉強会主催の方は是非<a href=\"https://pr.forkwell.com/2019-04-11-release-connpass/\">こちら</a>からスポンサー申し込みをしてください。貴方の勉強会もForkwellが応援します！<br/><br/>また、多くのWebベンチャーやメガベンチャーにもこうしたエンジニアの成長を応援する姿勢を支持頂き、採用に活用頂いております。<br/>「エンジニア採用に困ってます！」といった企業様は<a href=\"https://forkwell.com/about/recruiting#form\">こちら</a>から是非お問い合わせください！",
+    "slide_html": ""
+  }
 ]

@@ -118,6 +118,23 @@ letter-spacing: 0.1em;
     width: 34%;
   }
 }
+.modal_scope_large {
+  font-weight: bold;
+  line-height: normal;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  border-bottom: 1px solid #eee;
+  border-top: 1px solid #eee;
+  & + .modal_scope {
+    border-top: none;
+  }
+  dt,dd {
+    padding: 15px 0;
+  }
+  dd {
+    margin-left: 20px;
+  }
+}
 .modal_input {
   margin-top: 30px;
   input {

@@ -7,7 +7,7 @@ module.exports = {
   */
   loading: { color: '#fff' },
 
-  head: {
+  head: {π
     meta: [
       { 'http-equiv': 'x-dns-prefetch-control', content: 'on' }
     ],
@@ -35,7 +35,8 @@ module.exports = {
   plugins: [
     { src: '~/plugins/vue2-google-maps', ssr: false },
     { src: '~/plugins/lazyload', ssr: false },
-    { src: '~/plugins/firebase', ssr: false }
+    { src: '~/plugins/firebase', ssr: false },
+    { src: '~/plugins/scalaMatsuriCommon', ssr: false }
   ],
 
   /*

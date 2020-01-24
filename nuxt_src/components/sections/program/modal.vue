@@ -39,10 +39,10 @@
           <dt>{{ $t('lang') }}</dt>
           <dd>{{ schedule[$i18n.locale].lang }}</dd>
         </dl>
-        <dl class="modal_scope">
-          <dt>{{ $t('target') }}</dt>
-          <dd>{{ schedule.program[$i18n.locale].audience }}</dd>
-        </dl>
+        <!--        <dl class="modal_scope">-->
+        <!--          <dt>{{ $t('target') }}</dt>-->
+        <!--          <dd>{{ schedule.program[$i18n.locale].audience }}</dd>-->
+        <!--        </dl>-->
       </div>
     </div>
     <div class="modal_close" @click="$emit('close')">

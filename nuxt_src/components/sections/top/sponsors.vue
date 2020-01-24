@@ -123,10 +123,10 @@ export default {
     function notDummy(sponsor) {
       return sponsor.logo && !sponsor.logo.includes('dummy')
     }
-    this.syoguns = syoguns.filter(s => notDummy(s))
-    this.tairos = tairos.filter(s => notDummy(s))
-    this.daimyos = daimyos.filter(s => notDummy(s))
-    this.samurais = samurais.filter(s => notDummy(s))
+    this.syoguns = this.shuffle(syoguns.filter(s => notDummy(s)))
+    this.tairos = this.shuffle(tairos.filter(s => notDummy(s)))
+    this.daimyos = this.shuffle(daimyos.filter(s => notDummy(s)))
+    this.samurais = this.shuffle(samurais.filter(s => notDummy(s)))
   }
 }
 </script>
