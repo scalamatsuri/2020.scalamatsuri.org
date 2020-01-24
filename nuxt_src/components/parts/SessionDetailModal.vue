@@ -2,13 +2,13 @@
 ## language=yaml
   en:
     lang: "Talking in"
-    contribute: "OSS Contribution"
+    contribute: "OSS work"
     keywords: "Keywords"
     tag: "Categories"
     speaker_experience: "Speaker Experience"
   ja:
     lang: "発表言語"
-    contribute: "OSS 貢献"
+    contribute: "OSS 活動"
     keywords: "キーワード"
     tag: "カテゴリ"
     speaker_experience: "スピーカー経験"
@@ -74,7 +74,7 @@
         </dd>
       </dl>
       <div v-for="speaker in program[$i18n.locale].speakers" :key="speaker.name">
-        <dl class="modal_scope_large">
+        <dl v-if="speaker.contributes.length > 0" class="modal_scope_large">
           <dt v-if="program[$i18n.locale].speakers.length === 1">
             {{ $t('contribute') }}
           </dt>
@@ -87,7 +87,7 @@
             </p>
           </dd>
         </dl>
-        <dl class="modal_scope_large">
+        <dl v-if="speaker.speaker_experience.length > 0" class="modal_scope_large">
           <dt v-if="program[$i18n.locale].speakers.length === 1">
             {{ $t('speaker_experience') }}
           </dt>
