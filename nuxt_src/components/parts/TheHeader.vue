@@ -7,10 +7,11 @@
     program: "Program"
     proposals: "Proposals"
     outline: "Outline"
-    login: "Login"
+    login: "Log in"
     ticket: "Ticket"
     cfp: "CFP"
-    logout: "Logout"
+    logout: "Log Out"
+    logout_successful: "Logged out successfully."
   ja:
     sponsors: "スポンサー"
     access: "アクセス"
@@ -18,10 +19,11 @@
     program: "プログラム"
     proposals: "セッション候補"
     outline: "開催概要"
-    login: "Login"
+    login: "ログイン"
     ticket: "チケット購入"
     cfp: "セッション募集"
-    logout: "Logout"
+    logout: "ログアウト"
+    logout_successful: "ログアウトしました."
 </i18n>
 
 <template>
@@ -281,6 +283,8 @@ export default {
     logout() {
       this.userMenuActive = false
       this.$store.dispatch('auth/logout')
+      this.$toast(this.$t('logout_successful'), { closeOnTap: true })
+      this.toggleMenu()
     },
     /**
      * Determin the header css class assignment by scroll position.

@@ -36,7 +36,8 @@ module.exports = {
     { src: '~/plugins/vue2-google-maps', ssr: false },
     { src: '~/plugins/lazyload', ssr: false },
     { src: '~/plugins/firebase', ssr: false },
-    { src: '~/plugins/scalaMatsuriCommon', ssr: false }
+    { src: '~/plugins/scalaMatsuriCommon', ssr: false },
+    { src: '~/plugins/toast', ssr: false }
   ],
 
   /*
