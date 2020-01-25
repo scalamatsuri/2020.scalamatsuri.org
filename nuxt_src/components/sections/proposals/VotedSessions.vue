@@ -10,7 +10,7 @@
 <template>
   <section class="section__voted-programs">
     <h1 class="voted-program__title">
-      {{ $t('title') }} ({{ programs.length }}/5)
+      {{ $t('title') }} ({{ votes.length }}/5)
     </h1>
 
     <div class="voted-program__description">
@@ -19,7 +19,7 @@
 
     <ul class="voted-program__programs-list">
       <draggable
-        v-model="programs"
+        v-model="votes"
         v-bind="dragOptions"
         handle=".list__drag-point"
         drag-class="dragging"
@@ -27,7 +27,7 @@
         @end="dragging = false"
       >
         <transition-group type="transition">
-          <li v-for="(program, index) in programs" :key="program.id" class="program-list__list-container" :class="{ dragging }">
+          <li v-for="(program, index) in votes" :key="program.id" class="program-list__list-container" :class="{ dragging }">
             <div class="list__rank">
               <span>{{ index + 1 }}</span>
             </div>
@@ -41,21 +41,21 @@
                 </div>
                 <div class="list__speakers">
                   <ul class="schedule_speaker">
-                    <li v-for="speaker in program.speakers" :key="speaker.id">
-                      <div class="schedule_speaker_icon" :style="{ backgroundImage: 'url(' + speaker[$i18n.locale].icon + ')' }" />
-                      <p class="schedule_speaker_name">
-                        {{ speaker[$i18n.locale].name }}
-                      </p>
-                      <!--TODO githubとtwitter -->
-                      <p class="schedule_speaker_id">
-                        <a v-if="speaker[$i18n.locale].twitter" class="modal_speaker_sns" :href="`https://twitter.com/${speaker[$i18n.locale].twitter}`">
-                          <img v-lazy="require('~/assets/img/common/icon-sns-tw.svg')">
-                          {{ speaker[$i18n.locale].twitter }}
-                        </a>
-                        <a v-if="speaker[$i18n.locale].github" class="modal_speaker_sns" :href="`https://github.com/${speaker[$i18n.locale].github}`">
-                          <img v-lazy="require('~/assets/img/common/icon-sns-git.svg')">{{ speaker[$i18n.locale].github }}
-                        </a>
-                      </p>
+                    <li v-for="speaker in program[$i18n.locale].speakers" :key="speaker.name" class="schedule_speakers">
+                      <div class="schedule_speaker">
+                        <div class="schedule_speaker_icon" :style="`background-image: url('${speaker.icon}')`" />
+                        <p class="schedule_speaker_name">
+                          {{ speaker.name }}
+                        </p>
+                        <p class="schedule_speaker_id">
+                          <a v-if="speaker.twitter" class="modal_speaker_sns" :href="`https://twitter.com/${speaker.twitter}`">
+                            <img v-lazy="require('~/assets/img/common/icon-sns-tw.svg')">{{ speaker.twitter }}
+                          </a>
+                          <a v-if="speaker.github" class="modal_speaker_sns" :href="`https://github.com/${speaker.github}`">
+                            <img v-lazy="require('~/assets/img/common/icon-sns-git.svg')">{{ speaker.github }}
+                          </a>
+                        </p>
+                      </div>
                     </li>
                   </ul>
                 </div>
@@ -70,6 +70,9 @@
 
 <script>
 import draggable from 'vuedraggable'
+import { mapActions, mapGetters, mapMutations } from 'vuex'
+import { auth } from '@/plugins/firebase'
+import * as mTypes from '@/store/mutation-types'
 
 export default {
   components: {
@@ -88,6 +91,9 @@ export default {
     }
   },
   computed: {
+    ...mapGetters({
+      currentVotes: 'vote/userVotes'
+    }),
     dragOptions() {
       return {
         animation: 200,
@@ -95,7 +101,39 @@ export default {
         disabled: false,
         ghostClass: 'ghost'
       }
+    },
+    votes: {
+      get() {
+        // return this.currentVotes
+        return this.programs
+      },
+      async set(v) {
+        const ranked = v.map((vote, idx) => { return { rank: idx + 1, ...vote } })
+        console.log(ranked)
+        await this.setVotes(ranked)
+        await this.storeVotes()
+      }
     }
+  },
+  mounted() {
+    auth.onAuthStateChanged((user) => {
+      if (user) {
+        this.fetchVotes()
+      } else {
+        // TODO: ユーザがログインしていないときはどうするか？
+        console.log('User is not signe in.')
+      }
+    })
+  },
+  methods: {
+    ...mapActions({
+      fetchVotes: 'vote/fetch',
+      storeVotes: 'vote/store'
+    }),
+    ...mapMutations(
+      { setVotes: 'vote/' + mTypes.SET_USER_VOTES }
+    )
+
   }
 }
 </script>

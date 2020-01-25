@@ -29,7 +29,7 @@
       </div>
     </div>
 
-    <VotedSessions :programs="filterProposalsByIdAndLang(90, 'en')" />
+    <VotedSessions :programs="filterProposalsByIdAndLang(100, 'English')" />
     <div class="section">
       <p class="section_text">
         <span v-html="$t('cfp_notation')" />
