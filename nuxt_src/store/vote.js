@@ -15,8 +15,8 @@ export const actions = {
     try {
       const user = auth.currentUser
       if (user) {
-        database.collection('users').doc(user.uid).get().then((data) => {
-          commit(mTypes.SET_USER_VOTES, data.votes || [])
+        database.collection('users').doc(user.uid).get().then((doc) => {
+          commit(mTypes.SET_USER_VOTES, doc.data().votes || [])
         })
       } else {
         throw new Error('User is not signed in yet.')
@@ -64,7 +64,6 @@ export const actions = {
    */
   remove({ dispatch, commit, rootState }, id) {
     try {
-
     } catch (error) {
       return Promise.reject(error)
     }
@@ -84,7 +83,7 @@ export const getters = {
   userVotes: (state) => {
     // for avoiding edit.
     const copy = [...state.votes]
-    copy.sort(function (a, b) {
+    return copy.sort(function (a, b) {
       if (a.rank < b.rank) return -1
       if (a.rank > b.rank) return 1
       return 0

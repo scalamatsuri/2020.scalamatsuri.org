@@ -10,7 +10,7 @@
 <template>
   <section class="section__voted-programs">
     <h1 class="voted-program__title">
-      {{ $t('title') }} ({{ votes.length }}/5)
+      {{ $t('title') }} ({{ programs.length }}/5)
     </h1>
 
     <div class="voted-program__description">
@@ -104,12 +104,10 @@ export default {
     },
     votes: {
       get() {
-        // return this.currentVotes
-        return this.programs
+        return this.currentVotes
       },
       async set(v) {
-        const ranked = v.map((vote, idx) => { return { rank: idx + 1, ...vote } })
-        console.log(ranked)
+        const ranked = v.map((vote, idx) => { return { ...vote, rank: idx + 1 } })
         await this.setVotes(ranked)
         await this.storeVotes()
       }
