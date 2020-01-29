@@ -92,6 +92,7 @@ export default {
   },
   computed: {
     ...mapGetters({
+      isLoggedIn: 'auth/isLoggedIn',
       currentVotes: 'vote/userVotes'
     }),
     dragOptions() {
@@ -107,9 +108,14 @@ export default {
         return this.currentVotes
       },
       async set(v) {
-        const ranked = v.map((vote, idx) => { return { ...vote, rank: idx + 1 } })
-        await this.setVotes(ranked)
-        await this.storeVotes()
+        if (this.isLoggedIn) {
+          const ranked = v.map((vote, idx) => { return { ...vote, rank: idx + 1 } })
+          await this.setVotes(ranked)
+          await this.storeVotes()
+        } else {
+          // If user tried voting without sign in, redirect to login path.
+          this.$router.redirect(this.localePath('login'))
+        }
       }
     }
   },
@@ -117,9 +123,6 @@ export default {
     auth.onAuthStateChanged((user) => {
       if (user) {
         this.fetchVotes()
-      } else {
-        // TODO: ユーザがログインしていないときはどうするか？
-        console.log('User is not signe in.')
       }
     })
   },

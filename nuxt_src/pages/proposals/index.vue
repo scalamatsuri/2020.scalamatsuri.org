@@ -52,7 +52,7 @@
           <div class="schedule_events">
             <ProposalSkelton v-if="isLoading()" />
             <div v-for="program in filterProposalsByIdAndLang(100, 'English')" :key="program.id" @click="openModal(program)">
-              <table-row :program="program" :locale="$i18n.locale" />
+              <table-row :program="program" :locale="$i18n.locale" :on-vote="onVote" />
             </div>
           </div>
         </div>
@@ -71,7 +71,7 @@
           <div class="schedule_events">
             <ProposalSkelton v-if="isLoading()" />
             <div v-for="program in filterProposalsByIdAndLang(100, 'Japanese')" :key="program.id" @click="openModal(program)">
-              <table-row :program="program" :locale="$i18n.locale" />
+              <table-row :program="program" :locale="$i18n.locale" :on-vote="onVote" />
             </div>
           </div>
         </div>
@@ -90,7 +90,7 @@
           <div class="schedule_events">
             <ProposalSkelton v-if="isLoading()" />
             <div v-for="program in filterProposalsByIdAndLang(40, 'English')" :key="program.id" @click="openModal(program)">
-              <table-row :program="program" :locale="$i18n.locale" />
+              <table-row :program="program" :locale="$i18n.locale" :on-vote="onVote" />
             </div>
           </div>
         </div>
@@ -109,7 +109,7 @@
           <div class="schedule_events">
             <ProposalSkelton v-if="isLoading()" />
             <div v-for="program in filterProposalsByIdAndLang(40, 'Japanese')" :key="program.id" @click="openModal(program)">
-              <table-row :program="program" :locale="$i18n.locale" />
+              <table-row :program="program" :locale="$i18n.locale" :on-vote="onVote" />
             </div>
           </div>
         </div>
@@ -159,10 +159,14 @@ export default {
   },
   methods: {
     ...mapActions({
-      fetchProposals: 'proposals/fetch'
+      fetchProposals: 'proposals/fetch',
+      storeVotes: 'vote/store'
     }),
     ...mapMutations(
-      { setIsLoading: mTypes.SET_IS_LOADING }
+      {
+        setIsLoading: mTypes.SET_IS_LOADING,
+        appendVote: 'vote/' + mTypes.APPEND_USER_VOTE
+      }
     ),
     openModal(item) {
       this.selectProgram = item
@@ -170,6 +174,10 @@ export default {
     },
     closeModal() {
       this.showModal = false
+    },
+    async onVote(proposal) {
+      await this.appendVote(proposal)
+      await this.storeVotes()
     }
   },
   head() {

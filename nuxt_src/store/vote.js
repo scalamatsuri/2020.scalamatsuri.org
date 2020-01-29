@@ -2,7 +2,8 @@ import * as mTypes from './mutation-types'
 import { auth, database } from '@/plugins/firebase'
 
 export const state = () => ({
-  votes: []
+  votes: [],
+  votedIds: []
 })
 
 export const actions = {
@@ -16,7 +17,8 @@ export const actions = {
       const user = auth.currentUser
       if (user) {
         database.collection('users').doc(user.uid).get().then((doc) => {
-          commit(mTypes.SET_USER_VOTES, doc.data().votes || [])
+          console.log(doc.data())
+          commit(mTypes.SET_USER_VOTES, doc.data() && doc.data().votes ? doc.data().votes : [])
         })
       } else {
         throw new Error('User is not signed in yet.')
@@ -32,28 +34,26 @@ export const actions = {
   store({ rootState }) {
     try {
       const user = auth.currentUser
+      // TODO: rootStateを使用しない方法があるはず
+      const votes = rootState.vote.votes
+
       if (user) {
-        database.collection('users').doc(auth.currentUser.uid).set({
-          uid: user.uid,
-          votes: rootState.vote.votes
+        const userInfo = {
+          email: user.email,
+          hasTicketCode: false, // TODO: implement later
+          name: user.displayName,
+          providerId: 'firebase',
+
+          ticketCode: '',
+          timestamp: new Date()
+        }
+
+        database.collection('users').doc(user.uid).set({
+          info: userInfo,
+          allVotes: votes
         })
       } else {
         throw new Error('User is not signed in yet.')
-      }
-    } catch (error) {
-      return Promise.reject(error)
-    }
-  },
-  /**
-   * Append single vote on local store
-   */
-  append({ commit }, vote) {
-    try {
-      if (state.votes.length < 5) {
-        commit(mTypes.SET_USER_VOTES, state.votes + vote)
-      } else {
-        // TODO: ここのエラーハンドリングどうしようか…？そもそもコレはエラーなんだっけ
-        throw Error('Your votes reached limit.')
       }
     } catch (error) {
       return Promise.reject(error)
@@ -73,6 +73,9 @@ export const actions = {
 export const mutations = {
   [mTypes.SET_USER_VOTES](state, votes) {
     state.votes = votes
+  },
+  [mTypes.APPEND_USER_VOTE](state, vote) {
+    if (state.votes.length < 5) { state.votes = [...state.votes, vote] }
   }
 }
 
