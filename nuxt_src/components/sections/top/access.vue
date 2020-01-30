@@ -25,11 +25,11 @@ ja:
         {{ $t('access_link') }}<img v-lazy="require('~/assets/img/common/arrow-next-b.svg')" alt="">
       </nuxt-link>
     </p>
-    <lazy-component>
+    <!-- <lazy-component>
       <GmapMap :center="uluru" :zoom="zoom" map-type-id="terrain" class="access_gmap">
         <GmapMarker :position="uluru" icon="/img/common/icon-pin.svg" />
       </GmapMap>
-    </lazy-component>
+    </lazy-component> -->
     <div class="content_inner">
       <div class="access_contents">
         <div class="access_col">
