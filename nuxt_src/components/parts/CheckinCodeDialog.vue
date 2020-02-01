@@ -16,8 +16,8 @@
 </i18n>
 
 <template>
-  <div v-if="true" class="backdrop" @click.self="onClose">
-    <div ref="modalKeyListener" class="checkin-modal" tabindex="0" @keyup.escape="onClose">
+  <div v-if="true" class="backdrop" @click.self="onClose()">
+    <div class="checkin-modal" tabindex="0" @keyup.escape="onClose()">
       <div class="modal__content">
         <h2 class="content__title">
           {{ $t('title') }}
@@ -26,8 +26,8 @@
           {{ $t('description') }}
         </div>
         <form class="content__form">
-          <input type="text" class="form__input" :placeholder="$t('placeholder')">
-          <button class="form__submit">
+          <input ref="input" type="text" class="form__input" :placeholder="$t('placeholder')">
+          <button class="form__submit" @click="onSubmit(value)">
             {{ $t('submit') }}
           </button>
         </form>
@@ -44,12 +44,21 @@ export default {
   props: {
     onClose: {
       type: Function,
+      required: true,
+      default: () => {}
+    },
+    onSubmit: {
+      type: Function,
       required: true
     }
   },
+  data: function () {
+    return {
+      value: ''
+    }
+  },
   mounted: function () {
-    // For closing modal by pushing ESC key.
-    this.$nextTick(this.$refs.modalKeyListener.focus())
+    this.$nextTick(this.$refs.input.focus())
   }
 }
 </script>
@@ -111,21 +120,24 @@ export default {
 
 .content__form {
   width: 100%;
-  margin-top: 40px;
+  margin-top: 30px;
   display: flex;
-  height: 38px;
+  flex-wrap: wrap;
+  justify-content: center;
 
   .form__input {
     flex: 1 0 auto;
-    margin-right: 10px;
+    display: inline-block;
+    height: 38px;
+    margin-top: 10px;
     background-color: #EEE;
     border: none;
     border-radius: 4px;
-    height: 100%;
     padding: 0 8px;
     box-sizing: border-box;
     caret-color: #CC293E;
     font-weight: bold;
+    outline: none;
 
     &::placeholder {
       color: #BEBEBE;
@@ -134,7 +146,10 @@ export default {
   }
   .form__submit {
     flex: 0 0 100px;
+    height: 38px;
     border: none;
+    margin-top: 10px;
+    margin-left: 10px;
     background-color: #CC293E;
     color: white;
     font-size: 16px;
