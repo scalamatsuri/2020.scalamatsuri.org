@@ -65,6 +65,7 @@
         </transition-group>
       </draggable>
     </ul>
+    <CheckinCodeDialog /></checkincodedialog>
   </section>
 </template>
 
@@ -73,10 +74,12 @@ import draggable from 'vuedraggable'
 import { mapActions, mapGetters, mapMutations } from 'vuex'
 import { auth } from '@/plugins/firebase'
 import * as mTypes from '@/store/mutation-types'
+import CheckinCodeDialog from '@/components/parts/CheckinCodeDialog.vue'
 
 export default {
   components: {
-    draggable
+    draggable,
+    CheckinCodeDialog
   },
   props: {
     programs: {
