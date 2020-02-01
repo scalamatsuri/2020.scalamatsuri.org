@@ -65,7 +65,7 @@
         </transition-group>
       </draggable>
     </ul>
-    <CheckinCodeDialog /></checkincodedialog>
+    <CheckinCodeDialog v-if="ckeckinCodeDialogVisible" :on-submit="registerCheckinCode" :on-close="toggleDialog()" />
   </section>
 </template>
 
@@ -90,7 +90,8 @@ export default {
   },
   data() {
     return {
-      dragging: false
+      dragging: false,
+      ckeckinCodeDialogVisible: false
     }
   },
   computed: {
@@ -136,8 +137,13 @@ export default {
     }),
     ...mapMutations(
       { setVotes: 'vote/' + mTypes.SET_USER_VOTES }
-    )
-
+    ),
+    registerCheckinCode: function (code) {
+      console.log('code: ' + code)
+    },
+    toggleDialog: function () {
+      this.checkinCodeDialogVisible = false
+    }
   }
 }
 </script>

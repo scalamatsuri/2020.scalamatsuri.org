@@ -3,7 +3,8 @@ import { auth, database } from '@/plugins/firebase'
 
 export const state = () => ({
   votes: [],
-  votedIds: []
+  votedIds: [],
+  userInfo: {}
 })
 
 export const actions = {
@@ -17,8 +18,9 @@ export const actions = {
       const user = auth.currentUser
       if (user) {
         database.collection('users').doc(user.uid).get().then((doc) => {
-          console.log(doc.data())
           commit(mTypes.SET_USER_VOTES, doc.data() && doc.data().votes ? doc.data().votes : [])
+          commit(mTypes.SET_USER_INFO, doc.data() && doc.data().info ? doc.data().info : {})
+          commit(mTypes.SET_CHECKIN_CODE, doc.data() && doc.data().info ? doc.data().info.ticketCode : '')
         })
       } else {
         throw new Error('User is not signed in yet.')
@@ -31,20 +33,15 @@ export const actions = {
   /**
    * Store local votes to firebase firestore.
    */
-  store({ rootState }) {
+  store({ state }) {
     try {
       const user = auth.currentUser
       // TODO: rootStateを使用しない方法があるはず
-      const votes = rootState.vote.votes
+      const votes = state.votes
 
       if (user) {
         const userInfo = {
-          email: user.email,
-          hasTicketCode: false, // TODO: implement later
-          name: user.displayName,
-          providerId: 'firebase',
-
-          ticketCode: '',
+          ...state.userInfo,
           timestamp: new Date()
         }
 
@@ -76,6 +73,24 @@ export const mutations = {
   },
   [mTypes.APPEND_USER_VOTE](state, vote) {
     if (state.votes.length < 5) { state.votes = [...state.votes, vote] }
+  },
+  [mTypes.SET_CHECKIN_CODE](state, code) {
+    state.userInfo = {
+      ...state.userInfo,
+      hasTicketCode: code && code.length > 1,
+      ticketCode: code || ''
+    }
+  },
+  [mTypes.SET_USER_INFO](state, user) {
+    if (user) {
+      state.userInfo = {
+        ...state.userInfo,
+        email: user.email,
+        name: user.displayName,
+        providerId: 'firebase',
+        timestamp: new Date()
+      }
+    }
   }
 }
 
