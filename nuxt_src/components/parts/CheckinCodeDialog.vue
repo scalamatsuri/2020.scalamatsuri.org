@@ -16,27 +16,29 @@
 </i18n>
 
 <template>
-  <div class="backdrop" @click.self.stop="$emit('close')">
-    <div class="checkin-modal" tabindex="0" @keyup.escape="$emit('close')">
-      <div class="modal__content">
-        <h2 class="content__title">
-          {{ $t('title') }}
-        </h2>
-        <div class="content__description">
-          {{ $t('description') }}
+  <transition name="fade">
+    <div v-if="shown" class="backdrop" @click.self.stop="$emit('close')">
+      <div class="checkin-modal" tabindex="0" @keyup.escape="$emit('close')">
+        <div class="modal__content">
+          <h2 class="content__title">
+            {{ $t('title') }}
+          </h2>
+          <div class="content__description">
+            {{ $t('description') }}
+          </div>
+          <form class="content__form" @submit.prevent="$emit('submit', value)">
+            <input ref="input" v-model="value" type="text" class="form__input" :placeholder="$t('placeholder')">
+            <button class="form__submit">
+              {{ $t('submit') }}
+            </button>
+          </form>
         </div>
-        <form class="content__form" @submit.prevent="$emit('submit', value)">
-          <input ref="input" v-model="value" type="text" class="form__input" :placeholder="$t('placeholder')">
-          <button class="form__submit">
-            {{ $t('submit') }}
-          </button>
-        </form>
-      </div>
-      <div class="modal__close" @click.stop="$emit('close')">
-        {{ $t('close') }}
+        <div class="modal__close" @click.stop="$emit('close')">
+          {{ $t('close') }}
+        </div>
       </div>
     </div>
-  </div>
+  </transition>
 </template>
 
 <script>
@@ -45,6 +47,10 @@ export default {
     initialValue: {
       type: String,
       default: ''
+    },
+    shown: {
+      type: Boolean,
+      default: true
     }
   },
   data: function () {
@@ -136,6 +142,7 @@ export default {
 
     &::placeholder {
       color: #BEBEBE;
+      font-weight: normal;
     }
 
   }
@@ -150,5 +157,13 @@ export default {
     font-size: 16px;
     border-radius: 38px;
   }
+}
+
+// animations
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .2s;
+}
+.fade-enter, .fade-leave-to {
+  opacity: 0;
 }
 </style>

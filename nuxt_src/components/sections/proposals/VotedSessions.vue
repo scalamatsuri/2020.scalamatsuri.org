@@ -73,7 +73,7 @@
         </transition-group>
       </draggable>
     </ul>
-    <CheckinCodeDialog v-if="checkinCodeDialogVisible" :initial-value="checkinCode" @submit="registerCheckinCode" @close="setDialog(false)" />
+    <CheckinCodeDialog :shown="checkinCodeDialogVisible" :initial-value="checkinCode" @submit="registerCheckinCode" @close="setDialog(false)" />
   </section>
 </template>
 
