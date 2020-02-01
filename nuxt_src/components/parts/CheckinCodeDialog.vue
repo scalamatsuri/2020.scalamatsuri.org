@@ -17,7 +17,7 @@
 
 <template>
   <transition name="fade">
-    <div v-if="shown" class="backdrop" @click.self.stop="$emit('close')">
+    <div class="backdrop" @click.self.stop="$emit('close')">
       <div class="checkin-modal" tabindex="0" @keyup.escape="$emit('close')">
         <div class="modal__content">
           <h2 class="content__title">
@@ -27,7 +27,7 @@
             {{ $t('description') }}
           </div>
           <form class="content__form" @submit.prevent="$emit('submit', value)">
-            <input ref="input" v-model="value" type="text" class="form__input" :placeholder="$t('placeholder')">
+            <input ref="inputRef" v-model="value" type="text" class="form__input" :placeholder="$t('placeholder')">
             <button class="form__submit">
               {{ $t('submit') }}
             </button>
@@ -47,10 +47,6 @@ export default {
     initialValue: {
       type: String,
       default: ''
-    },
-    shown: {
-      type: Boolean,
-      default: true
     }
   },
   data: function () {
@@ -59,7 +55,7 @@ export default {
     }
   },
   mounted: function () {
-    this.$nextTick(this.$refs.input.focus())
+    this.$nextTick(this.$refs.inputRef.focus())
   }
 }
 </script>
@@ -157,13 +153,5 @@ export default {
     font-size: 16px;
     border-radius: 38px;
   }
-}
-
-// animations
-.fade-enter-active, .fade-leave-active {
-  transition: opacity .2s;
-}
-.fade-enter, .fade-leave-to {
-  opacity: 0;
 }
 </style>

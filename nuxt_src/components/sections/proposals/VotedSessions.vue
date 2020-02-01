@@ -73,7 +73,9 @@
         </transition-group>
       </draggable>
     </ul>
-    <CheckinCodeDialog :shown="checkinCodeDialogVisible" :initial-value="checkinCode" @submit="registerCheckinCode" @close="setDialog(false)" />
+    <transition name="fade">
+      <CheckinCodeDialog v-if="checkinCodeDialogVisible" :initial-value="checkinCode" @submit="registerCheckinCode" @close="setDialog(false)" />
+    </transition>
   </section>
 </template>
 
@@ -276,4 +278,12 @@ export default {
       justify-content: flex-end;
     }
   }
+
+  // animations
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .2s;
+}
+.fade-enter, .fade-leave-to {
+  opacity: 0;
+}
 </style>
