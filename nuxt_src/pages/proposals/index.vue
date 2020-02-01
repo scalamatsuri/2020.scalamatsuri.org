@@ -151,7 +151,8 @@ export default {
   computed: {
     ...mapGetters({
       filterProposalsByIdAndLang: 'proposals/filterByLengthAndLang',
-      isLoading: 'proposals/isLoading'
+      isLoading: 'proposals/isLoading',
+      isLoggedIn: 'auth/isLoggedIn'
     })
   },
   created() {
@@ -176,8 +177,13 @@ export default {
       this.showModal = false
     },
     async onVote(proposal) {
-      await this.appendVote(proposal)
-      await this.storeVotes()
+      if (this.isLoggedIn) {
+        await this.appendVote(proposal)
+        await this.storeVotes()
+      } else {
+        // If user tried voting without sign in, redirect to login path.
+        this.$router.push(this.localePath('login'))
+      }
     }
   },
   head() {

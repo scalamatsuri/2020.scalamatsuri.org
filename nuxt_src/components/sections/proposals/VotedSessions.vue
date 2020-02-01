@@ -2,9 +2,11 @@
   en:
     title: "sessions you voted"
     description: "Please order by drag & drop.\nThe screening will take into account the ranking."
+    editCode: "Click here to update your check-in code."
   ja:
     title: "投票済みセッション"
     description: "ドラッグ&ドロップで順位付けをしてください。\n順位も考慮されて選考されます。"
+    editCode: "チェックインコードの修正はこちら"
 </i18n>
 
 <template>
@@ -15,6 +17,12 @@
 
     <div class="voted-program__description">
       <p>{{ $t('description') }}</p>
+    </div>
+
+    <div class="voted-program__edit-code">
+      <a @click="setDialog(true)">
+        {{ $t('editCode') }}
+      </a>
     </div>
 
     <ul class="voted-program__programs-list">
@@ -65,7 +73,7 @@
         </transition-group>
       </draggable>
     </ul>
-    <CheckinCodeDialog v-if="checkinCodeDialogVisible" @submit="registerCheckinCode" @close="setDialog(false)" />
+    <CheckinCodeDialog v-if="checkinCodeDialogVisible" :initial-value="checkinCode" @submit="registerCheckinCode" @close="setDialog(false)" />
   </section>
 </template>
 
@@ -119,7 +127,7 @@ export default {
           await this.storeVotes()
         } else {
           // If user tried voting without sign in, redirect to login path.
-          this.$router.redirect(this.localePath('login'))
+          this.$router.push(this.localePath('login'))
         }
       }
     }
@@ -128,7 +136,6 @@ export default {
     auth.onAuthStateChanged(async (user) => {
       if (user) {
         await this.fetchVotes()
-        console.log(this.checkinCode)
         if (!this.checkinCode || this.checkinCode.length < 1) {
           this.setDialog(true)
         }
@@ -177,10 +184,13 @@ export default {
     display: inline-block;
   }
   .voted-program__description {
-    padding: 48px 0;
+    padding: 48px 0 1em;
     line-height: 2rem;
     font-weight: bold;
     white-space: pre-line;
+  }
+  .voted-program__edit-code {
+    padding-bottom: 48px;
   }
   .program-list__list-container {
     display: flex;
