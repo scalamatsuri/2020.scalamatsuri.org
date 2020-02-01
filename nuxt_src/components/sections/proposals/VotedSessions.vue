@@ -65,7 +65,7 @@
         </transition-group>
       </draggable>
     </ul>
-    <CheckinCodeDialog v-if="checkinCodeDialogVisible" :on-submit="registerCheckinCode" />
+    <CheckinCodeDialog v-if="checkinCodeDialogVisible" @submit="registerCheckinCode" @close="setDialog(false)" />
   </section>
 </template>
 
@@ -128,6 +128,7 @@ export default {
     auth.onAuthStateChanged(async (user) => {
       if (user) {
         await this.fetchVotes()
+        console.log(this.checkinCode)
         if (!this.checkinCode || this.checkinCode.length < 1) {
           this.setDialog(true)
         }

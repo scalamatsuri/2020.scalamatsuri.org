@@ -13,14 +13,14 @@ export const actions = {
    * NOTE: This function never concerns about auth's initialization status.
    *       Please be aware that auth is initialized before it's call.
    */
-  fetch({ commit }) {
+  async fetch({ commit }) {
     try {
       const user = auth.currentUser
       if (user) {
-        database.collection('users').doc(user.uid).get().then((doc) => {
-          commit(mTypes.SET_USER_VOTES, doc.data() && doc.data().votes ? doc.data().votes : [])
-          commit(mTypes.SET_USER_INFO, doc.data() && doc.data().info ? doc.data().info : {})
-          commit(mTypes.SET_CHECKIN_CODE, doc.data() && doc.data().info ? doc.data().info.ticketCode : '')
+        await database.collection('users').doc(user.uid).get().then(async (doc) => {
+          await commit(mTypes.SET_USER_VOTES, doc.data() && doc.data().votes ? doc.data().votes : [])
+          await commit(mTypes.SET_USER_INFO, doc.data() && doc.data().info ? doc.data().info : {})
+          await commit(mTypes.SET_CHECKIN_CODE, doc.data() && doc.data().info ? doc.data().info.ticketCode : '')
         })
       } else {
         throw new Error('User is not signed in yet.')

@@ -16,8 +16,8 @@
 </i18n>
 
 <template>
-  <div class="backdrop" @click.self.prevent="onClose()">
-    <div class="checkin-modal" tabindex="0" @keyup.escape="onClose()">
+  <div class="backdrop" @click.self.stop="$emit('close')">
+    <div class="checkin-modal" tabindex="0" @keyup.escape="$emit('close')">
       <div class="modal__content">
         <h2 class="content__title">
           {{ $t('title') }}
@@ -25,14 +25,14 @@
         <div class="content__description">
           {{ $t('description') }}
         </div>
-        <form class="content__form" @submit="onSubmit(value)">
+        <form class="content__form" @submit.prevent="$emit('submit', value)">
           <input ref="input" v-model="value" type="text" class="form__input" :placeholder="$t('placeholder')">
           <button class="form__submit">
             {{ $t('submit') }}
           </button>
         </form>
       </div>
-      <div class="modal__close" @click.prevent="onClose()">
+      <div class="modal__close" @click.stop="$emit('close')">
         {{ $t('close') }}
       </div>
     </div>
@@ -42,19 +42,14 @@
 <script>
 export default {
   props: {
-    onClose: {
-      type: Function,
-      required: true,
-      default: () => {}
-    },
-    onSubmit: {
-      type: Function,
-      required: true
+    initialValue: {
+      type: String,
+      default: ''
     }
   },
   data: function () {
     return {
-      value: ''
+      value: this.initialValue || ''
     }
   },
   mounted: function () {
