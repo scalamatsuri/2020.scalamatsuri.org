@@ -8,7 +8,7 @@
     close: "close"
   ja:
     title: "チェックインコード登録"
-    description: "チケット購入時に発行されたチェック・インコードを入力してください"
+    description: "チケット購入時に発行されたチェックインコードを入力してください"
     placeholder: "チェックインコードを入力"
     submit: "登録"
     close: "閉じる"
@@ -16,7 +16,7 @@
 </i18n>
 
 <template>
-  <div v-if="true" class="backdrop" @click.self="onClose()">
+  <div class="backdrop" @click.self.prevent="onClose()">
     <div class="checkin-modal" tabindex="0" @keyup.escape="onClose()">
       <div class="modal__content">
         <h2 class="content__title">
@@ -25,14 +25,14 @@
         <div class="content__description">
           {{ $t('description') }}
         </div>
-        <form class="content__form">
-          <input ref="input" type="text" class="form__input" :placeholder="$t('placeholder')">
-          <button class="form__submit" @click="onSubmit(value)">
+        <form class="content__form" @submit="onSubmit(value)">
+          <input ref="input" v-model="value" type="text" class="form__input" :placeholder="$t('placeholder')">
+          <button class="form__submit">
             {{ $t('submit') }}
           </button>
         </form>
       </div>
-      <div class="modal__close" @click="onClose">
+      <div class="modal__close" @click.prevent="onClose()">
         {{ $t('close') }}
       </div>
     </div>

@@ -86,7 +86,7 @@ export const mutations = {
       state.userInfo = {
         ...state.userInfo,
         email: user.email,
-        name: user.displayName,
+        name: user.name,
         providerId: 'firebase',
         timestamp: new Date()
       }
@@ -106,5 +106,6 @@ export const getters = {
       if (a.rank > b.rank) return 1
       return 0
     })
-  }
+  },
+  checkinCode: state => state.userInfo.ticketCode
 }

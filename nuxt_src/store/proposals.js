@@ -3,8 +3,7 @@ import { auth, database } from '~/plugins/firebase'
 
 export const state = () => ({
   list: [],
-  isLoading: false,
-  votes: []
+  isLoading: false
 })
 
 // TODO: remove duplication with /nuxt_src/plugins/scalaMatsuriCommon.js
@@ -69,23 +68,5 @@ export const getters = {
   filterByLengthAndLang: state => (len, lang) => {
     return state.list.filter(proposal => proposal.en.language === lang && proposal.en.length === len)
   },
-  isLoading: state => () => state.isLoading,
-  /**
-   * resolve sessions that user voted.
-   */
-  userVotes: state => state.votes.sort(function (a, b) {
-    if (a < b) return -1
-    if (a > b) return 1
-    return 0
-  })
+  isLoading: state => () => state.isLoading
 }
-
-// --[ Private Functions ]-----------------------------------------------------
-/**
- * join Speakers to proposal
- * NOTE: This function overwrite proposal's speakers property.
- */
-// const joinSpeakers = speakers => (proposal) => {
-//   const intersect = speakers.filter(speaker => proposal.speakers.includes(speaker.id))
-//   return { ...proposal, speakers: intersect }
-// }

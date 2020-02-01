@@ -65,7 +65,7 @@
         </transition-group>
       </draggable>
     </ul>
-    <CheckinCodeDialog v-if="ckeckinCodeDialogVisible" :on-submit="registerCheckinCode" :on-close="toggleDialog()" />
+    <CheckinCodeDialog v-if="checkinCodeDialogVisible" :on-submit="registerCheckinCode" />
   </section>
 </template>
 
@@ -91,13 +91,14 @@ export default {
   data() {
     return {
       dragging: false,
-      ckeckinCodeDialogVisible: false
+      checkinCodeDialogVisible: false
     }
   },
   computed: {
     ...mapGetters({
       isLoggedIn: 'auth/isLoggedIn',
-      currentVotes: 'vote/userVotes'
+      currentVotes: 'vote/userVotes',
+      checkinCode: 'vote/checkinCode'
     }),
     dragOptions() {
       return {
@@ -124,9 +125,12 @@ export default {
     }
   },
   mounted() {
-    auth.onAuthStateChanged((user) => {
+    auth.onAuthStateChanged(async (user) => {
       if (user) {
-        this.fetchVotes()
+        await this.fetchVotes()
+        if (!this.checkinCode || this.checkinCode.length < 1) {
+          this.setDialog(true)
+        }
       }
     })
   },
@@ -136,13 +140,18 @@ export default {
       storeVotes: 'vote/store'
     }),
     ...mapMutations(
-      { setVotes: 'vote/' + mTypes.SET_USER_VOTES }
+      {
+        setVotes: 'vote/' + mTypes.SET_USER_VOTES,
+        setCheckinCode: 'vote/' + mTypes.SET_CHECKIN_CODE
+      }
     ),
-    registerCheckinCode: function (code) {
-      console.log('code: ' + code)
+    setDialog: function (bool) {
+      this.checkinCodeDialogVisible = bool
     },
-    toggleDialog: function () {
-      this.checkinCodeDialogVisible = false
+    registerCheckinCode: async function (value) {
+      await this.setCheckinCode(value)
+      await this.storeVotes()
+      this.setDialog(false)
     }
   }
 }
