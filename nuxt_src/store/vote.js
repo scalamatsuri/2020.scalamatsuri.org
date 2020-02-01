@@ -36,7 +36,7 @@ export const actions = {
   store({ state }) {
     try {
       const user = auth.currentUser
-      // TODO: rootStateを使用しない方法があるはず
+
       const votes = state.votes
 
       if (user) {
@@ -82,11 +82,12 @@ export const mutations = {
     }
   },
   [mTypes.SET_USER_INFO](state, user) {
+    console.log(user)
     if (user) {
       state.userInfo = {
         ...state.userInfo,
-        email: user.email,
-        name: user.name,
+        email: user.email || '',
+        name: user.name || user.displayName || '',
         providerId: 'firebase',
         timestamp: new Date()
       }

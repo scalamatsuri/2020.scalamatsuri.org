@@ -138,6 +138,7 @@ export default {
     auth.onAuthStateChanged(async (user) => {
       if (user) {
         await this.fetchVotes()
+        await this.setUserInfo(user)
         if (!this.checkinCode || this.checkinCode.length < 1) {
           this.setDialog(true)
         }
@@ -152,7 +153,8 @@ export default {
     ...mapMutations(
       {
         setVotes: 'vote/' + mTypes.SET_USER_VOTES,
-        setCheckinCode: 'vote/' + mTypes.SET_CHECKIN_CODE
+        setCheckinCode: 'vote/' + mTypes.SET_CHECKIN_CODE,
+        setUserInfo: 'vote/' + mTypes.SET_USER_INFO
       }
     ),
     setDialog: function (bool) {
