@@ -18,7 +18,7 @@ export const actions = {
       const user = auth.currentUser
       if (user) {
         await database.collection('users').doc(user.uid).get().then(async (doc) => {
-          await commit(mTypes.SET_USER_VOTES, doc.data() && doc.data().votes ? doc.data().votes : [])
+          await commit(mTypes.SET_USER_VOTES, doc.data() && doc.data().allVotes ? doc.data().allVotes : [])
           await commit(mTypes.SET_USER_INFO, doc.data() && doc.data().info ? doc.data().info : {})
           await commit(mTypes.SET_CHECKIN_CODE, doc.data() && doc.data().info ? doc.data().info.ticketCode : '')
         })
@@ -82,7 +82,6 @@ export const mutations = {
     }
   },
   [mTypes.SET_USER_INFO](state, user) {
-    console.log(user)
     if (user) {
       state.userInfo = {
         ...state.userInfo,

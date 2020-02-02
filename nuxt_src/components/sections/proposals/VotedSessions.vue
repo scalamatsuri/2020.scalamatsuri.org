@@ -12,7 +12,7 @@
 <template>
   <section class="section__voted-programs">
     <h1 class="voted-program__title">
-      {{ $t('title') }} ({{ programs.length }}/5)
+      {{ $t('title') }} ({{ votes.length }}/5)
     </h1>
 
     <div class="voted-program__description">
@@ -91,13 +91,6 @@ export default {
     draggable,
     CheckinCodeDialog
   },
-  props: {
-    programs: {
-      type: Array,
-      required: true,
-      default: () => []
-    }
-  },
   data() {
     return {
       dragging: false,
@@ -106,6 +99,7 @@ export default {
   },
   computed: {
     ...mapGetters({
+      filterProposalsByIds: 'proposals/filterByIds',
       isLoggedIn: 'auth/isLoggedIn',
       currentVotes: 'vote/userVotes',
       checkinCode: 'vote/checkinCode'
@@ -120,7 +114,8 @@ export default {
     },
     votes: {
       get() {
-        return this.currentVotes
+        const votedIds = this.currentVotes.map(vote => vote.id) || []
+        return this.filterProposalsByIds(votedIds)
       },
       async set(v) {
         if (this.isLoggedIn) {
