@@ -52,7 +52,7 @@
           <div class="schedule_events">
             <ProposalSkelton v-if="isLoading()" />
             <div v-for="program in filterProposalsByIdAndLang(100, 'English')" :key="program.id" @click="openModal(program)">
-              <table-row :program="program" :locale="$i18n.locale" :on-vote="onVote" />
+              <table-row :program="program" :locale="$i18n.locale" :on-vote="onVote" :voted="currentVotes.some(vote => vote.id === program.id)" />
             </div>
           </div>
         </div>
@@ -71,7 +71,8 @@
           <div class="schedule_events">
             <ProposalSkelton v-if="isLoading()" />
             <div v-for="program in filterProposalsByIdAndLang(100, 'Japanese')" :key="program.id" @click="openModal(program)">
-              <table-row :program="program" :locale="$i18n.locale" :on-vote="onVote" />
+              <table-row :program="program" :locale="$i18n.locale" :on-vote="onVote" :voted="currentVotes.some(vote => vote.id === program.id)" />
+              {{ currentVotes.includes(vote => vote.id === program.id) }}
             </div>
           </div>
         </div>
@@ -90,7 +91,7 @@
           <div class="schedule_events">
             <ProposalSkelton v-if="isLoading()" />
             <div v-for="program in filterProposalsByIdAndLang(40, 'English')" :key="program.id" @click="openModal(program)">
-              <table-row :program="program" :locale="$i18n.locale" :on-vote="onVote" />
+              <table-row :program="program" :locale="$i18n.locale" :on-vote="onVote" :voted="currentVotes.some(vote => vote.id === program.id)" />
             </div>
           </div>
         </div>
@@ -109,7 +110,7 @@
           <div class="schedule_events">
             <ProposalSkelton v-if="isLoading()" />
             <div v-for="program in filterProposalsByIdAndLang(40, 'Japanese')" :key="program.id" @click="openModal(program)">
-              <table-row :program="program" :locale="$i18n.locale" :on-vote="onVote" />
+              <table-row :program="program" :locale="$i18n.locale" :on-vote="onVote" :voted="currentVotes.some(vote => vote.id === program.id)" />
             </div>
           </div>
         </div>
@@ -152,6 +153,7 @@ export default {
     ...mapGetters({
       filterProposalsByIdAndLang: 'proposals/filterByLengthAndLang',
       isLoading: 'proposals/isLoading',
+      currentVotes: 'vote/userVotes',
       isLoggedIn: 'auth/isLoggedIn'
     })
   },

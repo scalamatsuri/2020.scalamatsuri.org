@@ -1,3 +1,12 @@
+<i18n>
+  en:
+    voted: "voted"
+    vote: "vote"
+  ja:
+    voted: "投票済み"
+    vote: "投票する"
+</i18n>
+
 <template>
   <div class="schedule_event schedule_event-disabled" data-target="program.id">
     <!-- 内容 ここから -->
@@ -34,8 +43,11 @@
     </div>
     <!-- 登壇者 ここまで -->
     <div class="schedule__vote">
-      <button class="vote__button" @click.stop.once="onVote(program)">
-        投票する
+      <button v-if="voted" class="vote__button--voted">
+        {{ $t('voted') }}
+      </button>
+      <button v-else class="vote__button" @click.stop.once="onVote(program)">
+        {{ $t('vote') }}
       </button>
     </div>
   </div>
@@ -61,8 +73,12 @@ export default {
     onVote: {
       type: Function,
       default: () => {
-        return () => { console.log('fuga') }
+        return () => {}
       }
+    },
+    voted: {
+      type: Boolean,
+      default: false
     }
   }
 }
@@ -72,6 +88,7 @@ export default {
 .schedule__vote {
   display: flex;
   align-items: center;
+  min-width: 150px;
 }
 .vote__button {
   border: 1px solid #E6E6E6;
@@ -81,7 +98,21 @@ export default {
   font-size: 18px;
   letter-spacing: 1px;
   padding: 10px 24px;
+  margin: 0 10px;
   border-radius: 24px;
   outline:none;
+
+  &--voted {
+    border: 1px solid #CC293E;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 10px 24px;
+    margin: 0 10px;
+    border-radius: 24px;
+    outline:none;
+    color: white;
+    background-color: #CC293E;
+  }
 }
 </style>
