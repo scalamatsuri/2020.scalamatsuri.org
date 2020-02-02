@@ -78,11 +78,11 @@
             <!--                TODO locale pathじゃない？(外部サイト？)-->
             <!--                <nuxt-link :to="localePath('ticket')">{{ $t('ticket') }}</nuxt-link>-->
             <!--              </div>-->
-            <li class="function_item function_item-login">
+            <!-- <li class="function_item function_item-login">
               <nuxt-link :to="localePath('cfp')">
                 {{ $t('cfp') }}
               </nuxt-link>
-            </li>
+            </li> -->
           </ul>
           <!-- ログイン前 ここまで -->
           <!-- ログイン後 ここから -->
@@ -165,11 +165,11 @@
               <!--                TODO locale pathじゃない？(外部サイト？)-->
               <!--                <nuxt-link :to="localePath('ticket')">{{ $t('ticket') }}</nuxt-link>-->
               <!--              </div>-->
-              <div class="function_item function_item-login" @click="toggleMenu()">
+              <!-- <div class="function_item function_item-login" @click="toggleMenu()">
                 <nuxt-link :to="localePath('cfp')">
                   {{ $t('cfp') }}
                 </nuxt-link>
-              </div>
+              </div> -->
             <!--  ログイン前 ここまで -->
             <!--  ログイン後 ここから -->
             <!-- <div class="function_item-userIcon">
