@@ -52,7 +52,7 @@
           <div class="schedule_events">
             <ProposalSkelton v-if="isLoading()" />
             <div v-for="program in filterProposalsByIdAndLang(100, 'English')" :key="program.id" @click="openModal(program)">
-              <table-row :program="program" :locale="$i18n.locale" :on-vote="onVote" :voted="currentVotes.some(vote => vote.id === program.id)" />
+              <table-row :program="program" :locale="$i18n.locale" :on-vote="onVote" :on-unvote="onUnVote" :voted="currentVotes.some(vote => vote.id === program.id)" />
             </div>
           </div>
         </div>
@@ -71,8 +71,7 @@
           <div class="schedule_events">
             <ProposalSkelton v-if="isLoading()" />
             <div v-for="program in filterProposalsByIdAndLang(100, 'Japanese')" :key="program.id" @click="openModal(program)">
-              <table-row :program="program" :locale="$i18n.locale" :on-vote="onVote" :voted="currentVotes.some(vote => vote.id === program.id)" />
-              {{ currentVotes.includes(vote => vote.id === program.id) }}
+              <table-row :program="program" :locale="$i18n.locale" :on-vote="onVote" :on-unvote="onUnVote" :voted="currentVotes.some(vote => vote.id === program.id)" />
             </div>
           </div>
         </div>
@@ -91,7 +90,7 @@
           <div class="schedule_events">
             <ProposalSkelton v-if="isLoading()" />
             <div v-for="program in filterProposalsByIdAndLang(40, 'English')" :key="program.id" @click="openModal(program)">
-              <table-row :program="program" :locale="$i18n.locale" :on-vote="onVote" :voted="currentVotes.some(vote => vote.id === program.id)" />
+              <table-row :program="program" :locale="$i18n.locale" :on-vote="onVote" :on-unvote="onUnVote" :voted="currentVotes.some(vote => vote.id === program.id)" />
             </div>
           </div>
         </div>
@@ -110,7 +109,7 @@
           <div class="schedule_events">
             <ProposalSkelton v-if="isLoading()" />
             <div v-for="program in filterProposalsByIdAndLang(40, 'Japanese')" :key="program.id" @click="openModal(program)">
-              <table-row :program="program" :locale="$i18n.locale" :on-vote="onVote" :voted="currentVotes.some(vote => vote.id === program.id)" />
+              <table-row :program="program" :locale="$i18n.locale" :on-vote="onVote" :on-unvote="onUnVote" :voted="currentVotes.some(vote => vote.id === program.id)" />
             </div>
           </div>
         </div>
@@ -168,7 +167,8 @@ export default {
     ...mapMutations(
       {
         setIsLoading: mTypes.SET_IS_LOADING,
-        appendVote: 'vote/' + mTypes.APPEND_USER_VOTE
+        appendVote: 'vote/' + mTypes.APPEND_USER_VOTE,
+        removeVote: 'vote/' + mTypes.REMOVE_USER_VOTE
       }
     ),
     openModal(item) {
@@ -181,6 +181,16 @@ export default {
     async onVote(proposal) {
       if (this.isLoggedIn) {
         await this.appendVote(proposal)
+        await this.storeVotes()
+      } else {
+        // If user tried voting without sign in, redirect to login path.
+        this.$router.push(this.localePath('login'))
+      }
+    },
+    async onUnVote(proposal) {
+      console.log()
+      if (this.isLoggedIn) {
+        await this.removeVote(proposal)
         await this.storeVotes()
       } else {
         // If user tried voting without sign in, redirect to login path.

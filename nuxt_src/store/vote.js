@@ -55,15 +55,6 @@ export const actions = {
     } catch (error) {
       return Promise.reject(error)
     }
-  },
-  /**
-   * Remove Single vote on local store.
-   */
-  remove({ dispatch, commit, rootState }, id) {
-    try {
-    } catch (error) {
-      return Promise.reject(error)
-    }
   }
 }
 
@@ -73,6 +64,12 @@ export const mutations = {
   },
   [mTypes.APPEND_USER_VOTE](state, vote) {
     if (state.votes.length < 5) { state.votes = [...state.votes, vote] }
+  },
+  [mTypes.REMOVE_USER_VOTE](state, vote) {
+    const targetIdx = state.votes.findIndex(v => v.id === vote || vote.id === v.id)
+    if (targetIdx > -1) {
+      state.votes.splice(targetIdx, 1)
+    }
   },
   [mTypes.SET_CHECKIN_CODE](state, code) {
     state.userInfo = {

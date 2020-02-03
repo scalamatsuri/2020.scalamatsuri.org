@@ -43,10 +43,10 @@
     </div>
     <!-- 登壇者 ここまで -->
     <div class="schedule__vote">
-      <button v-if="voted" class="vote__button--voted">
+      <button v-if="voted" class="vote__button--voted" @click.stop="onUnvote(program)">
         {{ $t('voted') }}
       </button>
-      <button v-else class="vote__button" @click.stop.once="onVote(program)">
+      <button v-else class="vote__button" @click.stop="onVote(program)">
         {{ $t('vote') }}
       </button>
     </div>
@@ -71,6 +71,12 @@ export default {
       defualt: 'en'
     },
     onVote: {
+      type: Function,
+      default: () => {
+        return () => {}
+      }
+    },
+    onUnvote: {
       type: Function,
       default: () => {
         return () => {}
@@ -101,6 +107,12 @@ export default {
   margin: 0 10px;
   border-radius: 24px;
   outline:none;
+  cursor: pointer;
+
+  &:hover {
+    opacity: .8;
+    transition: opacity .1s ease;
+  }
 
   &--voted {
     border: 1px solid #CC293E;
@@ -113,6 +125,12 @@ export default {
     outline:none;
     color: white;
     background-color: #CC293E;
+    cursor: pointer;
+
+    &:hover {
+      opacity: .8;
+      transition: opacity .1s ease;
+    }
   }
 }
 </style>
