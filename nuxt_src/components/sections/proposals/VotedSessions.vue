@@ -48,24 +48,22 @@
                   </span>
                 </div>
                 <div class="list__speakers">
-                  <ul class="schedule_speaker">
-                    <li v-for="speaker in program[$i18n.locale].speakers" :key="speaker.name" class="schedule_speakers">
-                      <div class="schedule_speaker">
-                        <div class="schedule_speaker_icon" :style="`background-image: url('${speaker.icon}')`" />
-                        <p class="schedule_speaker_name">
-                          {{ speaker.name }}
-                        </p>
-                        <p class="schedule_speaker_id">
-                          <a v-if="speaker.twitter" class="modal_speaker_sns" :href="`https://twitter.com/${speaker.twitter}`">
-                            <img v-lazy="require('~/assets/img/common/icon-sns-tw.svg')">{{ speaker.twitter }}
-                          </a>
-                          <a v-if="speaker.github" class="modal_speaker_sns" :href="`https://github.com/${speaker.github}`">
-                            <img v-lazy="require('~/assets/img/common/icon-sns-git.svg')">{{ speaker.github }}
-                          </a>
-                        </p>
-                      </div>
-                    </li>
-                  </ul>
+                  <div v-for="speaker in program[$i18n.locale].speakers" :key="speaker.name" class="schedule_speakers">
+                    <div class="schedule_speaker">
+                      <div class="schedule_speaker_icon" :style="`background-image: url('${speaker.icon}')`" />
+                      <p class="schedule_speaker_name">
+                        {{ speaker.name }}
+                      </p>
+                      <p class="schedule_speaker_id">
+                        <a v-if="speaker.twitter" class="modal_speaker_sns" :href="`https://twitter.com/${speaker.twitter}`">
+                          <img v-lazy="require('~/assets/img/common/icon-sns-tw.svg')">{{ speaker.twitter }}
+                        </a>
+                        <a v-if="speaker.github" class="modal_speaker_sns" :href="`https://github.com/${speaker.github}`">
+                          <img v-lazy="require('~/assets/img/common/icon-sns-git.svg')">{{ speaker.github }}
+                        </a>
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -205,6 +203,11 @@ export default {
       font-size: 24px;
       font-weight: bold;
 
+      @media screen and (max-width: 819px) {
+        flex: 0 0 20px;
+        font-size: 18px;
+      }
+
       & > span {
         transition: all 80ms ease-out;
         opacity: 1;
@@ -214,6 +217,13 @@ export default {
     .list__body {
       flex: 0 0 calc(100% - 30px);
       padding: 2px;
+      max-height: 96px;
+      overflow: hidden;
+
+      @media screen and (max-width: 819px) {
+        max-height: 210px;
+        flex-wrap: wrap;
+      }
     }
 
     &.dragging {
@@ -229,6 +239,10 @@ export default {
     background-color: white;
     border-radius: 2px;
     min-height: 80px;
+
+    @media screen and (max-width: 819px) {
+      flex-wrap: wrap;
+    }
 
     .list__drag-point {
       flex: 0 0 40px;
@@ -261,6 +275,10 @@ export default {
       display: flex;
       align-items: center;
 
+      @media screen and (max-width: 819px) {
+        flex: 1 1 calc(100% - 40px);
+      }
+
       & > span.centered {
         display: table-cell;
         vertical-align: middle;
@@ -269,18 +287,32 @@ export default {
     }
     .list__speakers {
       flex: 1 0 200px;
+      max-height: 96px;
       padding: 6px;
       display: flex;
       align-items: center;
       justify-content: flex-end;
+
+      @media screen and (max-width: 819px) {
+        flex: 1 1 100%;
+      }
+    }
+    .schedule_speakers {
+      margin-left: 8px;
+      width: 100% !important;
+      padding: 0 !important;
+
+      @media screen and (min-width: 820px) {
+        width: 150px !important;
+      }
     }
   }
 
   // animations
-.fade-enter-active, .fade-leave-active {
-  transition: opacity .2s;
-}
-.fade-enter, .fade-leave-to {
-  opacity: 0;
-}
+  .fade-enter-active, .fade-leave-active {
+    transition: opacity .2s;
+  }
+  .fade-enter, .fade-leave-to {
+    opacity: 0;
+  }
 </style>
