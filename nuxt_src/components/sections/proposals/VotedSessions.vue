@@ -113,7 +113,8 @@ export default {
     votes: {
       get() {
         const votedIds = this.currentVotes.map(vote => vote.id) || []
-        return this.filterProposalsByIds(votedIds)
+        const targetVotes = this.filterProposalsByIds(votedIds)
+        return votedIds.map(id => targetVotes.find(v => v.id === id))
       },
       async set(v) {
         if (this.isLoggedIn) {
