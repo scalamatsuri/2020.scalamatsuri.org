@@ -25,7 +25,7 @@
       </a>
     </div>
 
-    <ul class="voted-program__programs-list">
+    <ul v-if="votes && votes.every(v => v)" class="voted-program__programs-list">
       <draggable
         v-model="votes"
         v-bind="dragOptions"
