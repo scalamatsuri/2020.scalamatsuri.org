@@ -76,7 +76,7 @@ ja:
       <h3 class="sponsors_subtitle">
         {{ $t('bugyo') }}
       </h3>
-      <ul class="sponsors_list sponsors_list-bugyo">
+      <ul class="sponsors_list">
         <li v-for="sponsor in bugyos" :key="sponsor.logo" class="sponsors_item">
           <a :href="sponsor.url"><img v-lazy="sponsor.logo" :alt="sponsor.name"></a>
           <p> {{ sponsor.display_name }} </p>
