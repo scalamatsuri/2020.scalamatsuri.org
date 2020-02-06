@@ -77,6 +77,36 @@ For detailed explanation on how things work, checkout [Nuxt.js docs](https://nux
 
 6. merge後、[production環境のWebサイト](https://scalamatsuri.org/ja/)に反映されていることを確認する。
 
+## 奉行スポンサーロゴの更新(How to put bugyo-sponsor logos)
+
+1. [nuxt_src/components/sections/top/](./nuxt_src/components/sections/top/)のsponsors.vueファイルを編集する。
+
+`## language=yaml`の`en`/`ja`それぞれの一番下に`bugyo_name: "奉行名"`を追記する。  
+`bugyos:`の末尾に以下を追記する。
+```
+,{
+ 'name': '',
+ 'logo': '',
+ 'url': '',
+ 'display_name': this.$i18n.t('')
+}
+```
+
+2. 1で追記しvueの以下のフィールドを編集する。
+
+- `name`: スポンサー名。
+- `logo`: ロゴファイルのパス。 ファイルは[/nuxt_src/static/img/sponsors](./nuxt_src/static/img/sponsors)に入れて、このフィールドへの記入は `/img/sponsors/XXX.svg` としてください。
+- `url`: ロゴのリンク先。
+- `display_name`: 1で`## language=yaml`に追記した`bugyo_name`を入れます。
+
+3. develop branchに向けて、PullRequestを送る
+
+4. merge後、staging環境で表示を確認する。
+
+5. 問題なければ、developからmaster branchに向けてPullRequestを送る。
+
+6. merge後、[production環境のWebサイト](https://scalamatsuri.org/ja/)に反映されていることを確認する。
+
 ## スポンサー広告ページの更新(How to put sponsor ads)
 
 1. [nuxt_src/data/sponsors/](./nuxt_src/data/sponsors/)の該当スポンサーのjsonに, 以下のように `text_html`と`slide_html` を追記する。  

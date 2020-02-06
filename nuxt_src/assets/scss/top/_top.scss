@@ -339,7 +339,6 @@
   margin-top: 67px;
   font-size: 20px;
   font-weight: bold;
-  font-weight: bold;
   line-height: normal;
   color: #4F4C47;
   background: -webkit-linear-gradient(0deg, #7F797F, #4F4C47);
@@ -368,7 +367,6 @@
   padding: 0 10px;
 }
 
-
 .sponsors_inner {
 
 }
@@ -382,20 +380,13 @@
     width: 100%;
     background: white;
   }
-}
-.sponsors_list-bugyo {
-  max-width: 1028px;
-  .sponsors_item {
-    padding: 0 10px;
-    width: 25%;
-    margin-top: 20px;
-
-    img {
-      max-width: 100%;
-      background: white;
-    }
+  p {
+    padding-top: 6px;
+    font-size: 16px;
+    color: #4F4C47;
   }
 }
+
 @media screen and (max-width: $viewport - 1) {
   @import "sp";
 }
