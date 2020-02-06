@@ -108,11 +108,11 @@
                 </ul>
               </div>
             </li>
-            <li class="function_item function_item-login">
+            <!-- <li class="function_item function_item-login">
               <nuxt-link :to="localePath('cfp')">
                 {{ $t('cfp') }}
               </nuxt-link>
-            </li>
+            </li> -->
             <!-- <li class="function_item function_item-application">
               <a href="">チケット申込</a>
             </li> -->
@@ -188,7 +188,7 @@
                 <nuxt-link :to="localePath('cfp')">
                   {{ $t('cfp') }}
                 </nuxt-link>
-              </div>
+              </div>-->
               <!--  ログイン前 ここまで -->
               <!--  ログイン後 ここから -->
               <div v-if="isLoggedIn" class="function_item-userIcon">
