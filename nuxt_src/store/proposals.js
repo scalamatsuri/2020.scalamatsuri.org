@@ -66,7 +66,7 @@ export const mutations = {
 
 export const getters = {
   filterByLengthAndLang: state => (len, lang) => {
-    return state.list.filter(proposal => proposal.en.language === lang && proposal.en.length === len)
+    return state.list ? state.list.filter(proposal => proposal.en.language === lang && proposal.en.length === len) : []
   },
   filterByIds: state => (ids) => {
     return state.list.filter(proposal => ids.includes(proposal.id))

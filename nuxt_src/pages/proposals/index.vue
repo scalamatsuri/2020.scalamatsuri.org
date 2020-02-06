@@ -188,7 +188,6 @@ export default {
       }
     },
     async onUnVote(proposal) {
-      console.log()
       if (this.isLoggedIn) {
         await this.removeVote(proposal)
         await this.storeVotes()

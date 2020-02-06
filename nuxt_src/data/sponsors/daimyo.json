@@ -3,25 +3,29 @@
     "name": "株式会社はてな",
     "logo": "/img/sponsors/hatena.svg",
     "url": "http://hatenacorp.jp/",
-    "text_html": "<p>はてなは「『知る』『つながる』『表現する』で新しい体験を提供し、人の生活を豊かにする」をミッションに、「<a href=\"https://b.hatena.ne.jp/\">はてなブックマーク</a>」「<a href=\"https://hatenablog.com/\">はてなブログ</a>」などのソーシャルサービスを展開してきました。最近はこれまでのサービス開発・運用知見を活かし、サーバー監視サービス「<a href=\"https://mackerel.io/\">Mackerel</a>」などビジネス向けの製品や、受託サービスの開発・運用も行っています。</p><p>Scala は Mackerel やはてなブックマーク、はてなブログで採用され、稼働しています（<a href=\"https://developer.hatenastaff.com/entry/2019/07/09/103000\">ScalaMatsuri2019にて「いかにして我々は10年もののPerlプロダクトをScalaでリプレースしたか」というタイトルで登壇しました</a>、<a href=\"https://developer.hatenastaff.com/entry/2016/08/24/150000\">Scala 関西 Summit ではてなにおけるマイクロサービスと Scala について発表します</a> など）。</p><p>技術によってインターネットと人々の生活を豊かにすることに情熱を持てる方、ぜひはてなで働いてみませんか？ 勤務地は京都と東京から選択できます。詳しくは<a href=\"https://hatenacorp.jp/recruit/engineer/\">エンジニア採用サイト</a>や<a href=\"https://developer.hatenastaff.com/\">開発者ブログ</a>をご覧ください。</p><ul><li><a href=\"https://hatenacorp.jp/recruit/engineer/\">エンジニア採用 - 採用情報 - 株式会社はてな</a></li><li><a href=\"https://developer.hatenastaff.com/\">Hatena Developer Blog</a></li></ul>",
+    "text_html": "<p>はてなは「『知る』『つながる』『表現する』で新しい体験を提供し、人の生活を豊かにする」をミッションに、「<a href=\"https://b.hatena.ne.jp/\">はてなブックマーク</a>」「<a href=\"https://hatenablog.com/\">はてなブログ</a>」などのソーシャルサービスを展開してきました。最近はこれまでのサービス開発・運用知見を活かし、サーバー監視サービス「<a href=\"https://mackerel.io/\">Mackerel</a>」などビジネス向けの製品や、受託サービスの開発・運用も行っています。</p><p>Scala は Mackerel やはてなブックマーク、はてなブログで採用され、稼働しています（<a href=\"https://developer.hatenastaff.com/entry/2019/07/09/103000\">ScalaMatsuri2019にて「いかにして我々は10年もののPerlプロダクトをScalaでリプレースしたか」というタイトルで登壇しました</a>、<a href=\"https://developer.hatenastaff.com/entry/2016/08/24/150000\">Scala 関西 Summit ではてなにおけるマイクロサービスと Scala について発表します</a> など）。</p><p>技術によってインターネットと人々の生活を豊かにすることに情熱を持てる方、ぜひはてなで働いてみませんか？ 勤務地は京都と東京から選択できます。詳しくは<a href=\"https://hatenacorp.jp/recruit/engineer/\">エンジニア採用サイト</a>や<a href=\"https://developer.hatenastaff.com/\">開発者ブログ</a>をご覧ください。</p><ul><li><a href=\"https://hatenacorp.jp/recruit/engineer/\">・ エンジニア採用 - 採用情報 - 株式会社はてな</a></li><li><a href=\"https://developer.hatenastaff.com/\">・ Hatena Developer Blog</a></li></ul>",
     "slide_html": "<div style=\"left: 0; width: 100%; height: 0; position: relative; padding-bottom: 74.9296%;\"><iframe src=\"https://speakerdeck.com/player/3eb0c03150414e2193134e2d5caa24f8\" style=\"border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;\" allowfullscreen scrolling=\"no\" allow=\"encrypted-media\"></iframe></div>"
   },
   {
     "name": "Chatwork株式会社",
     "logo": "/img/sponsors/chatwork.png",
     "url": "https://corp.chatwork.com/ja/",
-    "text_html": "<p>働くをもっと楽しく、創造的に</p><p><a href=\"https://corp.chatwork.com/ja/mission/\">私たちのミッション</a></p><p>会議、電話、メール、訪問。誰もが当たり前と思っていたコミュニケーションを見直せば、より楽しく創造的な働き方にできる。社会が必要としていることを自分の得意分野で実現し、報酬が得られるような働き方をもっと増やしていきたい。私たちが目指す世界のビジョン「すべての人に、一歩先の働き方を」実現するために、チャレンジし続けています。</p><p><a href=\"https://corp.chatwork.com/ja/recruit/\">今日の仕事が明日の世界を変えていく。</a></p><p>Chatworkは、ともに夢を追いかける仲間を募集中。スキルも意識もプロフェッショナル、そんなあなたのご応募をお待ちしています。</p><p><a href=\"https://hrmos.co/pages/chatwork/jobs/1020001\">求める人物像</a></p><ul><li>1. ミッションに共感し、同じ未来を目指せる</li><li>2. 主体性を持って、オープンにコミュニケーションできる</li><li>3. ちょっとした遊び心を大切にできる</li></ul><ul><li><a href=\"https://hrmos.co/pages/chatwork/jobs/1020001\">世の中の働き方をアップデートし続ける、Scalaエンジニア募集！ | Chatwork株式会社</a></li><li><a href=\"https://creators-note.chatwork.com/\">Chatwork Creator&apos;s Note</a></li></ul>",
+    "text_html": "<p>働くをもっと楽しく、創造的に</p><p><a href=\"https://corp.chatwork.com/ja/mission/\">私たちのミッション</a></p><p>会議、電話、メール、訪問。誰もが当たり前と思っていたコミュニケーションを見直せば、より楽しく創造的な働き方にできる。社会が必要としていることを自分の得意分野で実現し、報酬が得られるような働き方をもっと増やしていきたい。私たちが目指す世界のビジョン「すべての人に、一歩先の働き方を」実現するために、チャレンジし続けています。</p><p><a href=\"https://corp.chatwork.com/ja/recruit/\">今日の仕事が明日の世界を変えていく。</a></p><p>Chatworkは、ともに夢を追いかける仲間を募集中。スキルも意識もプロフェッショナル、そんなあなたのご応募をお待ちしています。</p><p><a href=\"https://hrmos.co/pages/chatwork/jobs/1020001\">求める人物像</a></p><ul><li>1. ミッションに共感し、同じ未来を目指せる</li><li>2. 主体性を持って、オープンにコミュニケーションできる</li><li>3. ちょっとした遊び心を大切にできる</li></ul><ul><li><a href=\"https://hrmos.co/pages/chatwork/jobs/1020001\">・ 世の中の働き方をアップデートし続ける、Scalaエンジニア募集！ | Chatwork株式会社</a></li><li><a href=\"https://creators-note.chatwork.com/\">・ Chatwork Creator&apos;s Note</a></li></ul>",
     "slide_html": ""
   },
   {
     "name": "株式会社ネクストビート",
     "logo": "/img/sponsors/nextbeat.jpg",
-    "url": "https://www.nextbeat.co.jp/"
+    "url": "https://www.nextbeat.co.jp/",
+    "text_html": "<br/>未来のふつうを、次々と。<br/><br/>ネクストビートのミッションは「人口減少社会において必要とされるインターネット事業を創造し、ニッポンを元気にする」です。<br/><br/>日本では、人口減少が深刻な社会課題となっています。<br/>今後、2030年には、644万人もの人手が不足すると言われています。<br/><br/>ネクストビートではこの「労働力人口の減少」が起因の社会課題に対して<a href= \"https://www.nextbeat.co.jp/services/\">「未来のふつう」を仕組み化することで解決していくサービス</a>を展開しています。<br/><br/>「<a href= \"https://kidsna-connect.com/site/\">KIDSNA キズナコネクト</a>」は、昨今の保育士が不足する現場に向けて、「保育園・幼稚園の『タイヘン』を『カンタン』に」をテーマに作られた、業務効率を改善する保育施設向けの業務支援システムです。<br/><br/>「<a href= \"https://sitter.kidsna.com/\">KIDSNA キズナシッター</a> 」は、お子様のいる親御さんの多様化する働き方をサポートするため、お子様を預けるのに安心・安全なベビーシッターマッチングアプリです。<br/><br/>ネクストビートでは上記2つのサービス以外にも、「ライフイベント領域」「インバウンド領域」「地域創生領域」で多くの事業を展開しており、全てのプロダクトで、Scala を基盤とした開発を行っています。<br/><br/>「労働力人口の減少」を仕組み化で解決することに一緒に挑戦してくれる方、そんな想いを持った方、ぜひ一度お話しませんか？<br/><br/>ネクストビートでは週に1度、社内でBarを開いています。<br/>当社のエンジニアと気軽に話せる場となっておりますので、ご興味をお持ちの方は是非一度遊びにいらしてください！参加を希望される方は、<a href= \"https://forms.gle/vzemKsD3tWWE9woQ8\">こちら</a>からご連絡をお願いします。<br/><br/><a href= \"https://www.nextbeat.co.jp/recruit/engineer\">「未来のふつう」を創り出すエンジニア募集！</a>",
+    "slide_html": ""
   },
   {
     "name": "WAmazing株式会社",
     "logo": "/img/sponsors/wamazing.png",
-    "url": "https://hrmos.co/pages/wamazing/jobs/0000007"
+    "url": "https://hrmos.co/pages/wamazing/jobs/0000007",
+    "text_html": "<p><a href=\"https://corp.wamazing.com/info/\">日本中を楽しみ尽くす、Amazingな人生に。</a></p><p>日本中を楽しみ尽くしてもらうために</p><ul><li>1. 可能性がある産業や文化を掘り起こし、魅力を磨いて、価値を再構築します。</li><li>2. 様々なきっかけを創りだし、「驚き」と「感動」に満ちた出会いを提供することで、ヒトとコト、ヒトとヒトを繋ぎます。</li></ul><p>海、山、スノーリゾート、南国リゾート、歴史の面影を残す城下町、都会… 日本国内にはさまざまな観光・レジャー資源があります。<br><br>「この世界に誇るべき多様性を持つ日本を、みんなにもっと楽しんでほしい。そして、地域や産業を元気にしたい」<br><br>私たちは、既に顕在化している日本の魅力だけでなく、身近すぎて気づけないもの、パッと見ただけで良さが伝わらないものも再発見し、磨き、提案・発信することで、世界中の人たちが「日本を楽しみ尽くす」きっかけを与え続けます。</p></p><p>「インバウンド」「地方創生」、これらのキーワードに思いを持っている方、課題を感じている方は、ぜひ一度お話させて下さい！</p><a href=\"https://hrmos.co/pages/wamazing/jobs?category=1190429391298035712\">WAmazing株式会社 エンジニアの求人一覧</a>",
+    "slide_html": ""
   },
   {
     "name": "株式会社ビズリーチ",
@@ -36,7 +40,9 @@
   {
     "name": "株式会社ファンコミュニケーションズ",
     "logo": "/img/sponsors/fancs.jpg",
-    "url": "https://www.fancs.com/"
+    "url": "https://www.fancs.com/",
+    "text_html": "<br/><a href=\"https://www.fancs.com/20th/prosumer.html\">「プロシューマー・ハピネス」</a></br></br>ファンコミュニケーションズは、生産と消費のどちらの顔も持つ「プロシューマー」をサポートする事業を展開し、それぞれの喜びを最大化できる会社です。</br>インターネット上の成功報酬型アドネットワークサービスを中心に、自社媒体運営、広告代理業等のインターネット広告関連事業を展開しています。</br>主力のサービスは、<a href=\"https://www.a8.net/\">『A8.net』</a>・<a href=\"https://seedapp.jp/\">『seedApp』</a>・<a href=\"https://nend.net/\">『nend』</a>になります。</br>最近では、会社の『第2の柱』となるようなインターネット広告以外の領域の新規事業展開もしています。</br>今後は、「インターネット広告会社」としてではなく、「プロシューマー・ハピネス」という経営ビジョンをもとに世界に消費者と生産者の融合を支援するサービスを生み出し続ける「事業創出会社」として進化をし続けます。</br></br>エンジニアには、高負荷な環境下でも最高のパフォーマンスを発揮できるシステムにすることや様々な課題や時代に合わせた柔軟な対応をすばやく行うことが求められます。</br>ファンコミュニケーションズでは、自身の成長とプロダクトの成長を共に楽しめる仲間を大募集しています。</br></br></br>アウトプット推奨の文化もあり、社内外でのLT大会が盛んです。</br>たくさんの企業のエンジニアと今後も技術のお話したいと思っております！技術交流したい企業・学生団体も大募集してます！</br>Twitter(<a href=\"https://twitter.com/fantechPR\">@fantechPR</a>)からDMでご連絡ください。</br></br><a href=\"https://n.fancs.tech/recruitment/\">FANCOMI エンジニア求人一覧</a></br><a href=\"https://n.fancs.tech/interview/\">エンジニア インタビュー</a></br>",
+    "slide_html": ""
   },
   {
     "name": "アルプ株式会社",
@@ -47,7 +53,12 @@
     "name": "Forkwell",
     "logo": "/img/sponsors/forkwell.svg",
     "url": "https://forkwell.com/",
-    "text_html": "<a href=\"https://forkwell.com/\"> Forkwell </a>は、成長し続けるエンジニアを支援するサービスです。<br/>ポートフォリオサービスにより、ITエンジニアのスキルやプロフィールを可視化、成長のきっかけを提供し、「コードを書く人が評価される」世界の実現を目指します。<br/>さらにエンジニアに特化した<a href=\"https://jobs.forkwell.com/\"> 求人・転職支援サービス </a>群、「幸せに働く」きっかけとなる情報や場の提供などを通じて、ITエンジニアの幸せを追求しつづけます。<br/><br/>その一貫として多くのITエンジニア勉強会のスポンサー活動を行なっており、エンジニアコミュニティでは「<a href=\"https://twitter.com/hashtag/%E3%81%BE%E3%81%9F%E5%87%BA%E3%81%9F%E3%81%AAForkwell?src=hashtag_click\"> #また出たなForkwell </a>」と親しまれております。<br/>勉強会主催の方は是非<a href=\"https://pr.forkwell.com/2019-04-11-release-connpass/\">こちら</a>からスポンサー申し込みをしてください。貴方の勉強会もForkwellが応援します！<br/><br/>また、多くのWebベンチャーやメガベンチャーにもこうしたエンジニアの成長を応援する姿勢を支持頂き、採用に活用頂いております。<br/>「エンジニア採用に困ってます！」といった企業様は<a href=\"https://forkwell.com/about/recruiting#form\">こちら</a>から是非お問い合わせください！",
+    "text_html": "<br/><a href=\"https://forkwell.com/\"> Forkwell </a>は、成長し続けるエンジニアを支援するサービスです。<br/>ポートフォリオサービスにより、ITエンジニアのスキルやプロフィールを可視化、成長のきっかけを提供し、「コードを書く人が評価される」世界の実現を目指します。<br/>さらにエンジニアに特化した<a href=\"https://jobs.forkwell.com/\"> 求人・転職支援サービス </a>群、「幸せに働く」きっかけとなる情報や場の提供などを通じて、ITエンジニアの幸せを追求しつづけます。<br/><br/>その一貫として多くのITエンジニア勉強会のスポンサー活動を行なっており、エンジニアコミュニティでは「<a href=\"https://twitter.com/hashtag/%E3%81%BE%E3%81%9F%E5%87%BA%E3%81%9F%E3%81%AAForkwell?src=hashtag_click\"> #また出たなForkwell </a>」と親しまれております。<br/>勉強会主催の方は是非<a href=\"https://pr.forkwell.com/2019-04-11-release-connpass/\">こちら</a>からスポンサー申し込みをしてください。貴方の勉強会もForkwellが応援します！<br/><br/>また、多くのWebベンチャーやメガベンチャーにもこうしたエンジニアの成長を応援する姿勢を支持頂き、採用に活用頂いております。<br/>「エンジニア採用に困ってます！」といった企業様は<a href=\"https://forkwell.com/about/recruiting#form\">こちら</a>から是非お問い合わせください！",
     "slide_html": ""
+  },
+  {
+    "name": "Fringe81株式会社",
+    "logo": "/img/sponsors/Fringe.png",
+    "url": "https://www.fringe81.com/join/engineer/"
   }
 ]
