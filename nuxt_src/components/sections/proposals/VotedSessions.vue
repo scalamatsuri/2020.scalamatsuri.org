@@ -240,15 +240,19 @@ export default {
     background-color: white;
     border-radius: 2px;
     min-height: 80px;
+    position: relative;
+    padding-left: 40px;
 
     @media screen and (max-width: 819px) {
       flex-wrap: wrap;
+      padding-left: 30px;
     }
 
     .list__drag-point {
-      flex: 0 0 40px;
-      position: relative;
-      width: 8px;
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
       margin: 4px 10px;
       margin: 0 auto;
       cursor: grab;
