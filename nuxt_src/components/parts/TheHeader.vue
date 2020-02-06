@@ -5,6 +5,7 @@
     access: "Access"
     code-of-conduct: "Code of Conduct"
     program: "Program"
+    proposals: "Proposals"
     outline: "Outline"
     login: "Log in"
     ticket: "Ticket"
@@ -16,10 +17,11 @@
     access: "アクセス"
     code-of-conduct: "行動規範"
     program: "プログラム"
+    proposals: "セッション候補"
     outline: "開催概要"
     login: "ログイン"
     ticket: "チケット購入"
-    cfp: "CFP"
+    cfp: "セッション募集"
     logout: "ログアウト"
     logout_successful: "ログアウトしました."
 </i18n>
@@ -46,6 +48,11 @@
             <!--                <span>{{ $t('program') }}</span>-->
             <!--              </nuxt-link>-->
             <!--            </li>-->
+            <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/proposals') }">
+              <nuxt-link :to="localePath('proposals')">
+                <span>{{ $t('proposals') }}</span>
+              </nuxt-link>
+            </li>
             <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/code-of-conduct') }">
               <nuxt-link :to="localePath('code-of-conduct')">
                 <span>{{ $t('code-of-conduct') }}</span>
@@ -76,11 +83,11 @@
             <!--                TODO locale pathじゃない？(外部サイト？)-->
             <!--                <nuxt-link :to="localePath('ticket')">{{ $t('ticket') }}</nuxt-link>-->
             <!--              </div>-->
-            <li class="function_item function_item-login">
+            <!-- <li class="function_item function_item-login">
               <nuxt-link :to="localePath('cfp')">
                 {{ $t('cfp') }}
               </nuxt-link>
-            </li>
+            </li> -->
           </ul>
           <!-- ログイン前 ここまで -->
           <!-- ログイン後 ここから -->
@@ -145,6 +152,11 @@
               <!--                  <span>{{ $t('program') }}</span>-->
               <!--                </nuxt-link>-->
               <!--              </li>-->
+              <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/proposals') }" @click="toggleMenu()">
+                <nuxt-link :to="localePath('proposals')">
+                  <span>{{ $t('proposals') }}</span>
+                </nuxt-link>
+              </li>
               <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/code-of-conduct') }" @click="toggleMenu()">
                 <nuxt-link :to="localePath('code-of-conduct')">
                   <span>{{ $t('code-of-conduct') }}</span>
@@ -172,7 +184,7 @@
               <!--                TODO locale pathじゃない？(外部サイト？)-->
               <!--                <nuxt-link :to="localePath('ticket')">{{ $t('ticket') }}</nuxt-link>-->
               <!--              </div>-->
-              <div class="function_item function_item-login" @click="toggleMenu()">
+              <!-- <div class="function_item function_item-login" @click="toggleMenu()">
                 <nuxt-link :to="localePath('cfp')">
                   {{ $t('cfp') }}
                 </nuxt-link>

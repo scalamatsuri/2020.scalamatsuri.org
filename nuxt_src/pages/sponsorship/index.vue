@@ -19,9 +19,11 @@
         <a href="/pdf/sponsorship.pdf" class="sponsorship_btn sponsorship_btn-pdf">スポンサーシップのご案内</a>
         <a href="https://forms.gle/jz29vPswF52yUnZB8" class="sponsorship_btn sponsorship_btn-form">お申込みフォーム</a>
       </div>
+      <!--
       <p class="sponsorship_note">
         年末年始は、2019年12月28日(土)から2020年1月5日(日)までスポンサー窓口はお休みです。<br>2019年12月26日(木)23:59JSTまでにスポンサーのお申し込みいただいた場合は、請求書を年内にご送付いたします。
       </p>
+      -->
     </div>
     <!-- sponsorship ここまで -->
     <!-- recruit ここまで -->
@@ -207,9 +209,11 @@
         <a href="/pdf/sponsorship.pdf" class="sponsorship_btn sponsorship_btn-pdf">スポンサーシップのご案内</a>
         <a href="https://forms.gle/jz29vPswF52yUnZB8" class="sponsorship_btn sponsorship_btn-form">お申込みフォーム</a>
       </div>
+      <!--
       <p class="sponsorship_note">
         年末年始は、2019年12月28日(土)から2020年1月5日(日)までスポンサー窓口はお休みです。<br>2019年12月26日(木)23:59JSTまでにスポンサーのお申し込みいただいた場合は、請求書を年内にご送付いたします。
       </p>
+      -->
     </div>
     <!-- sponsorship ここまで -->
     <section class="inquiry">

@@ -34,10 +34,10 @@ line-height: 39px;
 font-size: 24px;
 letter-spacing: 0.1em;
 }
-.modal_speakers {
-}
 .modal_speaker {
+  display: inline-block;
   margin-top: 10px;
+  margin-right: 18px;
 }
 .modal_speaker_icon {
   width: 40px;
@@ -54,6 +54,12 @@ letter-spacing: 0.1em;
   letter-spacing: 0.1em;
   margin-left: 50px;
 }
+.modal_speaker_org {
+  line-height: 18px;
+  font-size: 9px;
+  letter-spacing: 0.1em;
+  margin-left: 50px;
+}
 .modal_speaker_id {
   font-weight: bold;
   line-height: 20px;
@@ -62,6 +68,13 @@ letter-spacing: 0.1em;
   margin-left: 50px;
   >a {
     color: #00A4DE;
+  }
+
+  > a > img {
+    width: 16px;
+    height: 16px;
+    margin-top: .24em;
+    margin-right: 4px;
   }
 }
 .modal_text {
@@ -109,6 +122,23 @@ letter-spacing: 0.1em;
   }
   dt {
     width: 34%;
+  }
+}
+.modal_scope_large {
+  font-weight: bold;
+  line-height: normal;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  border-bottom: 1px solid #eee;
+  border-top: 1px solid #eee;
+  & + .modal_scope {
+    border-top: none;
+  }
+  dt,dd {
+    padding: 15px 0;
+  }
+  dd {
+    margin-left: 20px;
   }
 }
 .modal_input {

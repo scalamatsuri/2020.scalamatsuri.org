@@ -14,7 +14,7 @@
   <div ref="modalKeyListener" class="modal_inner" tabindex="0" @keyup.escape="$emit('close')">
     <div class="modal_content">
       <h2 class="modal_title">
-        {{ schedule.program.title }}
+        {{ schedule[$i18n.locale].title }}
       </h2>
       <div class="modal_speakers">
         <div class="modal_speaker">
@@ -28,21 +28,21 @@
         </div>
       </div>
       <div class="modal_text">
-        <p>{{ schedule.program.detail }}</p>
+        <p>{{ schedule.program[$i18n.locale].detail }}</p>
       </div>
       <div class="modal_scopeArea">
         <dl class="modal_scope">
           <dt>{{ $t('length') }}</dt>
-          <dd>{{ schedule.program.length }}</dd>
+          <dd>{{ schedule[$i18n.locale].length }}</dd>
         </dl>
         <dl class="modal_scope">
           <dt>{{ $t('lang') }}</dt>
-          <dd>{{ schedule.program.lang }}</dd>
+          <dd>{{ schedule[$i18n.locale].lang }}</dd>
         </dl>
-        <dl class="modal_scope">
-          <dt>{{ $t('target') }}</dt>
-          <dd>{{ schedule.program.audience }}</dd>
-        </dl>
+        <!--        <dl class="modal_scope">-->
+        <!--          <dt>{{ $t('target') }}</dt>-->
+        <!--          <dd>{{ schedule.program[$i18n.locale].audience }}</dd>-->
+        <!--        </dl>-->
       </div>
     </div>
     <div class="modal_close" @click="$emit('close')">
@@ -58,9 +58,7 @@ export default {
       // Object{}である
       type: Object,
       // 必須である
-      required: true,
-      // デフォルト値
-      default: () => { return {} }
+      required: true
     }
   },
   mounted: function () {

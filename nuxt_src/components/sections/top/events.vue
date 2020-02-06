@@ -60,16 +60,6 @@ export default {
   },
   mounted() {
     this.images = this.shuffle(this.images)
-  },
-  methods: {
-    shuffle: ([...arr]) => {
-      let m = arr.length
-      while (m) {
-        const i = Math.floor(Math.random() * m--);
-        [arr[m], arr[i]] = [arr[i], arr[m]]
-      }
-      return arr
-    }
   }
 }
 </script>

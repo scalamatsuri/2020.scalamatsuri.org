@@ -1,0 +1,25 @@
+id: "HarryLaoulakos"
+en:
+  name: "HarryLaoulakos"
+  twitter: https://twitter.com/harrylaou
+  github: https://github.com/harrylaou
+  other_sns: https://www.linkedin.com/in/harrylaou/
+  icon: https://www.dropbox.com/s/t6ufl9iyvrdpep0/harry.jpg?dl=0
+  organization: Talos Software
+  contributes:
+    -
+  speaker_experience:
+    - "<a href=\"https://scala.io/2016/speakers.html#/b3e01a349f1eb483384fcb27102073b9aa62861e\">Shapeless 101</a>"
+    - "<a href=\"https://harrylaou.com/slides/MonadStacks.pdf\">Monad Stacks or: How I Learned to Stop Worrying and Love the Free Monad</a>"
+ja:
+  name: "HarryLaoulakos"
+  twitter: https://twitter.com/harrylaou
+  github: https://github.com/harrylaou
+  other_sns: https://www.linkedin.com/in/harrylaou/
+  icon: https://www.dropbox.com/s/t6ufl9iyvrdpep0/harry.jpg?dl=0
+  organization: Talos Software
+  contributes:
+    -
+  speaker_experience:
+    - "<a href=\"https://scala.io/2016/speakers.html#/b3e01a349f1eb483384fcb27102073b9aa62861e\">Shapeless 101</a>"
+    - "<a href=\"https://harrylaou.com/slides/MonadStacks.pdf\">Monad Stacks or: How I Learned to Stop Worrying and Love the Free Monad</a>"

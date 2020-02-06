@@ -31,30 +31,30 @@ ja:
     </div>
     <!-- sponsor ここから -->
     <div class="sponsor">
-      <h2 class="sponsor_title">
+      <h2 v-if="syogun_sponsors.length" class="sponsor_title">
         {{ $t('sponsorType.syogun') }}
       </h2>
-      <div class="sponsor_list">
+      <div v-if="syogun_sponsors.length" class="sponsor_list">
         <div v-for="sponsor in syogun_sponsors" :key="sponsor.logo">
-          <sponsor v-if="sponsor.text_html" :sponsor="sponsor" />
+          <sponsor :sponsor="sponsor" />
         </div>
       </div>
-      <!--      <h2 class="sponsor_title">-->
-      <!--        {{ $t('sponsorType.tairou') }}-->
-      <!--      </h2>-->
-      <!--      <div class="sponsor_list">-->
-      <!--        <div v-for="sponsor in tairo_sponsors" :key="sponsor.url">-->
-      <!--          <sponsor :sponsor="sponsor" />-->
-      <!--        </div>-->
-      <!--      </div>-->
-      <!--      <h2 class="sponsor_title">-->
-      <!--        {{ $t('sponsorType.daimyo') }}-->
-      <!--      </h2>-->
-      <!--      <div class="sponsor_list">-->
-      <!--        <div v-for="sponsor in daimyo_sponsors" :key="sponsor.url">-->
-      <!--          <sponsor :sponsor="sponsor" />-->
-      <!--        </div>-->
-      <!--      </div>-->
+      <h2 v-if="tairo_sponsors.length" class="sponsor_title">
+        {{ $t('sponsorType.tairo') }}
+      </h2>
+      <div v-if="tairo_sponsors.length" class="sponsor_list">
+        <div v-for="sponsor in tairo_sponsors" :key="sponsor.logo">
+          <sponsor :sponsor="sponsor" />
+        </div>
+      </div>
+      <h2 class="sponsor_title">
+        {{ $t('sponsorType.daimyo') }}
+      </h2>
+      <div class="sponsor_list">
+        <div v-for="sponsor in daimyo_sponsors" :key="sponsor.logo">
+          <sponsor :sponsor="sponsor" />
+        </div>
+      </div>
       <section class="inquiry">
         <h3 class="inquiry_title">
           <nuxt-link :to="localePath('sponsorship')">
@@ -76,8 +76,6 @@ import syoguns from '@/data/sponsors/syogun'
 import tairos from '@/data/sponsors/tairo'
 import daimyos from '@/data/sponsors/daimyo'
 
-// import Page404NotFoundMixin from '@/mixins/page/Page404NotFound.js'
-
 export default {
   components: {
     Sponsor
@@ -90,9 +88,12 @@ export default {
     }
   },
   mounted() {
-    this.syogun_sponsors = syoguns
-    this.tairo_sponsors = tairos
-    this.daimyo_sponsors = daimyos
+    function hasHtmls(sponsor) {
+      return sponsor.text_html
+    }
+    this.syogun_sponsors = this.shuffle(syoguns.filter(s => hasHtmls(s)))
+    this.tairo_sponsors = this.shuffle(tairos.filter(s => hasHtmls(s)))
+    this.daimyo_sponsors = this.shuffle(daimyos.filter(s => hasHtmls(s)))
   },
   head() {
     const $t = this.$t.bind(this)
