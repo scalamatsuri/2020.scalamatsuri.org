@@ -92,7 +92,7 @@ For detailed explanation on how things work, checkout [Nuxt.js docs](https://nux
 }
 ```
 
-2. 1で追記しvueの以下のフィールドを編集する。
+2. 1で追記したvueの以下のフィールドを編集する。
 
 - `name`: スポンサー名。
 - `logo`: ロゴファイルのパス。 ファイルは[/nuxt_src/static/img/sponsors](./nuxt_src/static/img/sponsors)に入れて、このフィールドへの記入は `/img/sponsors/XXX.svg` としてください。
