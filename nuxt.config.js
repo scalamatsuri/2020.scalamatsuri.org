@@ -46,6 +46,7 @@ module.exports = {
     '@nuxtjs/axios',
     '@nuxtjs/pwa',
     '@bazzite/nuxt-optimized-images',
+    '@nuxtjs/sentry',
     ['@nuxtjs/google-analytics', {
       id: 'UA-51559416-6'
     }],
@@ -94,6 +95,10 @@ module.exports = {
   */
   axios: {
     // See https://github.com/nuxt-community/axios-module#options
+  },
+  sentry: {
+    dsn: 'https://0dc25f3d199249d7a209f4fd48cdc9a6@sentry.io/2211949',
+    config: {}
   },
   /*
   ** Build configuration
