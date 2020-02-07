@@ -7,9 +7,11 @@
     program: "Program"
     proposals: "Proposals"
     outline: "Outline"
-    login: "Login"
+    login: "Log in"
     ticket: "Ticket"
     cfp: "CFP"
+    logout: "Log Out"
+    logout_successful: "Logged out successfully."
   ja:
     sponsors: "スポンサー"
     access: "アクセス"
@@ -17,9 +19,11 @@
     program: "プログラム"
     proposals: "セッション候補"
     outline: "開催概要"
-    login: "Login"
+    login: "ログイン"
     ticket: "チケット購入"
     cfp: "セッション募集"
+    logout: "ログアウト"
+    logout_successful: "ログアウトしました."
 </i18n>
 
 <template>
@@ -69,11 +73,12 @@
             </li>
           </ul>
           <!--  ログイン前 ここから -->
-          <ul class="function">
-            <!--              <div class="function_item function_item-application">-->
-            <!--                TODO jsな気がするのでlocale path じゃない？-->
-            <!--                <nuxt-link :to="localePath('login')">{{ $t('login') }}</nuxt-link>-->
-            <!--              </div>-->
+          <ul v-if="isLoggedOut" class="function">
+            <div class="function_item function_item-application">
+              <nuxt-link :to="localePath('login')">
+                {{ $t('login') }}
+              </nuxt-link>
+            </div>
             <!--              <div class="function_item function_item-application">-->
             <!--                TODO locale pathじゃない？(外部サイト？)-->
             <!--                <nuxt-link :to="localePath('ticket')">{{ $t('ticket') }}</nuxt-link>-->
@@ -86,19 +91,32 @@
           </ul>
           <!-- ログイン前 ここまで -->
           <!-- ログイン後 ここから -->
-          <!-- <ul class="function">
+          <ul v-else-if="isLoggedIn" class="function">
             <li class="function_item function_item-userIcon">
-                <div class="userMenu js-myMenu">
-                  <div class="function_userIcon js-myMenuIcon" style="background-image: url('/img/dummy/icon-user2.jpg')"></div>
-                  <ul class="userMenu_list js-myMenuList">
-                    <li class="userMenu_list_item"><a href="#">メニュー1</a></li>
-                    <li class="userMenu_list_item"><a href="#">メニュー2</a></li>
-                    <li class="userMenu_list_item"><a href="#">メニュー3</a></li>
-                  </ul>
-                </div>
+              <div class="userMenu js-myMenu">
+                <div class="function_userIcon js-myMenuIcon" :style="`background-image: url(${auth.profile.photoURL})`" @click="toggleUserMenu()" />
+                <ul v-if="userMenuActive" class="userMenu_list js-myMenuList">
+                  <li class="userMenu_list_item" @click="logout()">
+                    {{ $t('logout') }}
+                  </li>
+                  <!-- <li class="userMenu_list_item">
+                    <a href="#">メニュー2</a>
+                  </li>
+                  <li class="userMenu_list_item">
+                    <a href="#">メニュー3</a>
+                  </li> -->
+                </ul>
+              </div>
             </li>
-            <li class="function_item function_item-application"><a href="">チケット申込</a></li>
-          </ul> -->
+            <!-- <li class="function_item function_item-login">
+              <nuxt-link :to="localePath('cfp')">
+                {{ $t('cfp') }}
+              </nuxt-link>
+            </li> -->
+            <!-- <li class="function_item function_item-application">
+              <a href="">チケット申込</a>
+            </li> -->
+          </ul>
           <!-- ログイン後 ここまで -->
         </div>
       </div>
@@ -155,12 +173,13 @@
                 </nuxt-link>
               </li>
             </ul>
-            <!--  ログイン前 ここから -->
             <div class="function">
-              <!--              <div class="function_item function_item-login">-->
-              <!--                TODO jsな気がするのでlocale path じゃない？-->
-              <!--                <nuxt-link :to="localePath('login')">{{ $t('login') }}</nuxt-link>-->
-              <!--              </div>-->
+              <!--  ログイン前 ここから -->
+              <div v-if="isLoggedOut" class="function_item function_item-login" @click="toggleMenu()">
+                <nuxt-link :to="localePath('login')">
+                  {{ $t('login') }}
+                </nuxt-link>
+              </div>
               <!--              <div class="function_item function_item-application">-->
               <!--                TODO locale pathじゃない？(外部サイト？)-->
               <!--                <nuxt-link :to="localePath('ticket')">{{ $t('ticket') }}</nuxt-link>-->
@@ -170,21 +189,29 @@
                   {{ $t('cfp') }}
                 </nuxt-link>
               </div> -->
-            <!--  ログイン前 ここまで -->
-            <!--  ログイン後 ここから -->
-            <!-- <div class="function_item-userIcon">
-              <div class="userMenu">
-                <div class="function_userInfo js-accordion">
-                  <div class="function_userIcon" style="background-image: url('/img/dummy/icon-user2.jpg')"></div>
-                  <p class="function_userName">ポプテピピック氏</p>
+              <!--  ログイン前 ここまで -->
+              <!--  ログイン後 ここから -->
+              <div v-if="isLoggedIn" class="function_item-userIcon">
+                <div class="userMenu">
+                  <div class="function_userInfo js-accordion" @click="toggleUserMenu()">
+                    <div class="function_userIcon" :style="`background-image: url(${auth.profile.photoURL})`" />
+                    <p class="function_userName">
+                      {{ auth.profile.displayName }}
+                    </p>
+                  </div>
+                  <ul v-if="userMenuActive" class="userMenu_list js-accordionTarget">
+                    <li class="userMenu_list_item" @click="logout()">
+                      {{ $t('logout') }}
+                    </li>
+                    <!-- <li class="userMenu_list_item">
+                      <a href="#">メニュー2</a>
+                    </li>
+                    <li class="userMenu_list_item">
+                      <a href="#">メニュー3</a>
+                    </li> -->
+                  </ul>
                 </div>
-                <ul class="userMenu_list js-accordionTarget">
-                  <li class="userMenu_list_item"><a href="#">メニュー1</a></li>
-                  <li class="userMenu_list_item"><a href="#">メニュー2</a></li>
-                  <li class="userMenu_list_item"><a href="#">メニュー3</a></li>
-                </ul>
               </div>
-            </div> -->
             <!--  ログイン後 ここまで -->
             </div>
             <LangSwitcherSp @on-option-click="toggleMenu()" />
@@ -203,6 +230,7 @@
 </template>
 
 <script>
+import { mapState, mapGetters } from 'vuex'
 import LangSwitcher from '@/components/parts/LangSwitcher'
 import LangSwitcherSp from '@/components/parts/LangSwitcherSp'
 
@@ -214,10 +242,20 @@ export default {
   data: () => {
     return {
       menuActive: false,
+      userMenuActive: false,
       lastScrollPos: 0,
       isHeaderActivePC: true, // PC only.toggle css classes on header in conditions.Default true for initial rendering.
       isHeaderFixedPC: true // Same as above.
     }
+  },
+  computed: {
+    ...mapState({
+      auth: state => state.auth
+    }),
+    ...mapGetters({
+      isLoggedIn: 'auth/isLoggedIn',
+      isLoggedOut: 'auth/isLoggedOut'
+    })
   },
   mounted() {
     window.addEventListener('scroll', this.updateHeaderClassAssignmentByScrollPos)
@@ -238,6 +276,15 @@ export default {
     },
     toggleMenu() {
       this.menuActive = !this.menuActive
+    },
+    toggleUserMenu() {
+      this.userMenuActive = !this.userMenuActive
+    },
+    logout() {
+      this.userMenuActive = false
+      this.$store.dispatch('auth/logout')
+      this.$toast(this.$t('logout_successful'), { closeOnTap: true })
+      this.toggleMenu()
     },
     /**
      * Determin the header css class assignment by scroll position.

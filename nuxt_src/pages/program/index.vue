@@ -146,15 +146,11 @@ ja:
 import Modal from '@/components/sections/program/modal.vue'
 import Schedule from '@/components/sections/program/schedule.vue'
 
-import Page404NotFoundMixin from '@/mixins/page/Page404NotFound.js'
-
 export default {
   components: {
     Modal,
     Schedule
   },
-  // TODO: スケジュールが決定し次第、404表示を解除する
-  mixins: [Page404NotFoundMixin],
   data() {
     return {
       program_list: {

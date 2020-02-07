@@ -1,19 +1,17 @@
 <template>
-  <transition name="fadein">
-    <div class="skelton__container">
-      <div class="skelton__text">
-        <div class="shcedule_skelton skelton__title" />
-        <div class="shcedule_skelton skelton__description" />
-      </div>
-      <div class="skelton__speaker">
-        <div class="skelton__avator" />
-        <div class="skelton__speaker-info">
-          <div class="shcedule_skelton skelton__speaker-name" />
-          <div class="shcedule_skelton skelton__speaker-sns" />
-        </div>
+  <div class="skelton__container">
+    <div class="skelton__text">
+      <div class="shcedule_skelton skelton__title" />
+      <div class="shcedule_skelton skelton__description" />
+    </div>
+    <div class="skelton__speaker">
+      <div class="skelton__avator" />
+      <div class="skelton__speaker-info">
+        <div class="shcedule_skelton skelton__speaker-name" />
+        <div class="shcedule_skelton skelton__speaker-sns" />
       </div>
     </div>
-  </transition>
+  </div>
 </template>
 
 <style lang="scss" scoped>
