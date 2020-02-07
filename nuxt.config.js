@@ -97,7 +97,7 @@ module.exports = {
     // See https://github.com/nuxt-community/axios-module#options
   },
   sentry: {
-    dsn: 'https://4cd39f8283f644a59904697e971a8722@sentry.io/1859502',
+    dsn: 'https://0dc25f3d199249d7a209f4fd48cdc9a6@sentry.io/2211949',
     config: {}
   },
   /*
