@@ -29,6 +29,7 @@
       </div>
     </div>
 
+    <VotedSessions v-if="isLoggedIn" :programs="filterProposalsByIdAndLang(100, 'English')" />
     <div class="section">
       <p class="section_text">
         <span v-html="$t('cfp_notation')" />
@@ -51,7 +52,7 @@
           <div class="schedule_events">
             <ProposalSkelton v-if="isLoading()" />
             <div v-for="program in filterProposalsByIdAndLang(100, 'English')" :key="program.id" @click="openModal(program)">
-              <table-row :program="program" :locale="$i18n.locale" />
+              <table-row :program="program" :locale="$i18n.locale" :on-vote="onVote" :on-unvote="onUnVote" :voted="currentVotes.some(vote => vote.id === program.id)" />
             </div>
           </div>
         </div>
@@ -70,7 +71,7 @@
           <div class="schedule_events">
             <ProposalSkelton v-if="isLoading()" />
             <div v-for="program in filterProposalsByIdAndLang(100, 'Japanese')" :key="program.id" @click="openModal(program)">
-              <table-row :program="program" :locale="$i18n.locale" />
+              <table-row :program="program" :locale="$i18n.locale" :on-vote="onVote" :on-unvote="onUnVote" :voted="currentVotes.some(vote => vote.id === program.id)" />
             </div>
           </div>
         </div>
@@ -89,7 +90,7 @@
           <div class="schedule_events">
             <ProposalSkelton v-if="isLoading()" />
             <div v-for="program in filterProposalsByIdAndLang(40, 'English')" :key="program.id" @click="openModal(program)">
-              <table-row :program="program" :locale="$i18n.locale" />
+              <table-row :program="program" :locale="$i18n.locale" :on-vote="onVote" :on-unvote="onUnVote" :voted="currentVotes.some(vote => vote.id === program.id)" />
             </div>
           </div>
         </div>
@@ -108,7 +109,7 @@
           <div class="schedule_events">
             <ProposalSkelton v-if="isLoading()" />
             <div v-for="program in filterProposalsByIdAndLang(40, 'Japanese')" :key="program.id" @click="openModal(program)">
-              <table-row :program="program" :locale="$i18n.locale" />
+              <table-row :program="program" :locale="$i18n.locale" :on-vote="onVote" :on-unvote="onUnVote" :voted="currentVotes.some(vote => vote.id === program.id)" />
             </div>
           </div>
         </div>
@@ -132,11 +133,14 @@ import Modal from '@/components/parts/SessionDetailModal.vue'
 import ProposalSkelton from '@/components/parts/ProposalSkelton.vue'
 import * as mTypes from '@/store/mutation-types'
 
+import VotedSessions from '@/components/sections/proposals/VotedSessions.vue'
+
 export default {
   components: {
     Modal,
     TableRow,
-    ProposalSkelton
+    ProposalSkelton,
+    VotedSessions
   },
   data() {
     return {
@@ -147,7 +151,9 @@ export default {
   computed: {
     ...mapGetters({
       filterProposalsByIdAndLang: 'proposals/filterByLengthAndLang',
-      isLoading: 'proposals/isLoading'
+      isLoading: 'proposals/isLoading',
+      currentVotes: 'vote/userVotes',
+      isLoggedIn: 'auth/isLoggedIn'
     })
   },
   created() {
@@ -155,10 +161,15 @@ export default {
   },
   methods: {
     ...mapActions({
-      fetchProposals: 'proposals/fetch'
+      fetchProposals: 'proposals/fetch',
+      storeVotes: 'vote/store'
     }),
     ...mapMutations(
-      { setIsLoading: mTypes.SET_IS_LOADING }
+      {
+        setIsLoading: mTypes.SET_IS_LOADING,
+        appendVote: 'vote/' + mTypes.APPEND_USER_VOTE,
+        removeVote: 'vote/' + mTypes.REMOVE_USER_VOTE
+      }
     ),
     openModal(item) {
       this.selectProgram = item
@@ -166,6 +177,24 @@ export default {
     },
     closeModal() {
       this.showModal = false
+    },
+    async onVote(proposal) {
+      if (this.isLoggedIn) {
+        await this.appendVote(proposal)
+        await this.storeVotes()
+      } else {
+        // If user tried voting without sign in, redirect to login path.
+        this.$router.push(this.localePath('login'))
+      }
+    },
+    async onUnVote(proposal) {
+      if (this.isLoggedIn) {
+        await this.removeVote(proposal)
+        await this.storeVotes()
+      } else {
+        // If user tried voting without sign in, redirect to login path.
+        this.$router.push(this.localePath('login'))
+      }
     }
   },
   head() {

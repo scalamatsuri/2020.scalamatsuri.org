@@ -188,7 +188,7 @@
                 <nuxt-link :to="localePath('cfp')">
                   {{ $t('cfp') }}
                 </nuxt-link>
-              </div>-->
+              </div> -->
               <!--  ログイン前 ここまで -->
               <!--  ログイン後 ここから -->
               <div v-if="isLoggedIn" class="function_item-userIcon">

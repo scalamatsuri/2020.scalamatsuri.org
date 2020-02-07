@@ -1,4 +1,5 @@
 import * as mTypes from './mutation-types'
+import { auth, database } from '~/plugins/firebase'
 
 export const state = () => ({
   list: [],
@@ -37,6 +38,17 @@ export const actions = {
       commit(mTypes.SET_PROPOSALS, error)
     }
     commit(mTypes.SET_IS_LOADING, false)
+  },
+
+  setVotes({ dispatch, commit, rootState }) {
+    try {
+      // TODO: これはテストなので後で書き換える
+      database.collection('users').doc(auth().currentUser.uid).set({
+        name: 'test'
+      })
+    } catch (error) {
+      return Promise.reject(error)
+    }
   }
 }
 
@@ -46,22 +58,18 @@ export const mutations = {
   },
   [mTypes.SET_IS_LOADING](state, bool) {
     state.isLoading = bool
+  },
+  [mTypes.SET_USER_VOTES](state, programs) {
+    state.votes = programs
   }
 }
 
 export const getters = {
   filterByLengthAndLang: state => (len, lang) => {
-    return state.list.filter(proposal => proposal.en.language === lang && proposal.en.length === len)
+    return state.list ? state.list.filter(proposal => proposal.en.language === lang && proposal.en.length === len) : []
+  },
+  filterByIds: state => (ids) => {
+    return state.list.filter(proposal => ids.includes(proposal.id))
   },
   isLoading: state => () => state.isLoading
 }
-
-// --[ Private Functions ]-----------------------------------------------------
-/**
- * join Speakers to proposal
- * NOTE: This function overwrite proposal's speakers property.
- */
-// const joinSpeakers = speakers => (proposal) => {
-//   const intersect = speakers.filter(speaker => proposal.speakers.includes(speaker.id))
-//   return { ...proposal, speakers: intersect }
-// }

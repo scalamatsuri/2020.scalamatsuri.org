@@ -4,7 +4,8 @@
       "npm --prefix \"$RESOURCE_DIR\" run lint",
       "npm --prefix \"$RESOURCE_DIR\" run mocha",
       "npm --prefix \"$RESOURCE_DIR\" run build"
-    ]
+    ],
+    "source": "functions"
   },
   "hosting": {
     "public": "dist",
@@ -13,11 +14,13 @@
       "**/.*",
       "**/node_modules/**"
     ],
-    "redirects": [ {
-      "source" : "/",
-      "destination" : "/en",
-      "type" : 301
-    } ],
+    "redirects": [
+      {
+        "source": "/",
+        "destination": "/en",
+        "type": 301
+      }
+    ],
     "headers": [
       {
         "source": "**/*.@(js|css|jpg|jpeg|gif|png|svg)",
@@ -32,5 +35,9 @@
   },
   "storage": {
     "rules": "storage.rules"
+  },
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
   }
 }
