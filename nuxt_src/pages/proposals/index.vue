@@ -31,9 +31,9 @@
 
     <VotedSessions v-if="isLoggedIn" :programs="filterProposalsByIdAndLang(100, 'English')" />
     <div class="section">
-      <p class="section_text">
+      <!-- <p class="section_text">
         <span v-html="$t('cfp_notation')" />
-      </p>
+      </p> -->
       <p class="section_text">
         <span v-html="$t('slide_notation')" />
       </p>
