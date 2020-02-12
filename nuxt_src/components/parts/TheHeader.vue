@@ -75,14 +75,15 @@
           <!--  ログイン前 ここから -->
           <ul v-if="isLoggedOut" class="function">
             <div class="function_item function_item-application">
-              <nuxt-link :to="localePath('login')">
+              <nuxt-link :to="localePath('login')" style="background-color: #EBA80A;">
                 {{ $t('login') }}
               </nuxt-link>
             </div>
-            <!--              <div class="function_item function_item-application">-->
-            <!--                TODO locale pathじゃない？(外部サイト？)-->
-            <!--                <nuxt-link :to="localePath('ticket')">{{ $t('ticket') }}</nuxt-link>-->
-            <!--              </div>-->
+            <div class="function_item function_item-application">
+              <a href="https://scalaconfjp.doorkeeper.jp/events/103550" target="_blank" rel="noopener">
+                {{ $t('ticket') }}
+              </a>
+            </div>
             <!-- <li class="function_item function_item-login">
               <nuxt-link :to="localePath('cfp')">
                 {{ $t('cfp') }}
@@ -113,9 +114,11 @@
                 {{ $t('cfp') }}
               </nuxt-link>
             </li> -->
-            <!-- <li class="function_item function_item-application">
-              <a href="">チケット申込</a>
-            </li> -->
+            <li class="function_item function_item-application">
+              <a href="https://scalaconfjp.doorkeeper.jp/events/103550" target="_blank" rel="noopener">
+                {{ $t('ticket') }}
+              </a>
+            </li>
           </ul>
           <!-- ログイン後 ここまで -->
         </div>
@@ -175,15 +178,16 @@
             </ul>
             <div class="function">
               <!--  ログイン前 ここから -->
-              <div v-if="isLoggedOut" class="function_item function_item-login" @click="toggleMenu()">
+              <div v-if="isLoggedOut" class="function_item function_item-login" style="margin-bottom: 16px;" @click="toggleMenu()">
                 <nuxt-link :to="localePath('login')">
                   {{ $t('login') }}
                 </nuxt-link>
               </div>
-              <!--              <div class="function_item function_item-application">-->
-              <!--                TODO locale pathじゃない？(外部サイト？)-->
-              <!--                <nuxt-link :to="localePath('ticket')">{{ $t('ticket') }}</nuxt-link>-->
-              <!--              </div>-->
+              <div class="function_item function_item-application">
+                <a href="https://scalaconfjp.doorkeeper.jp/events/103550" target="_blank" rel="noopener">
+                  {{ $t('ticket') }}
+                </a>
+              </div>
               <!-- <div class="function_item function_item-login" @click="toggleMenu()">
                 <nuxt-link :to="localePath('cfp')">
                   {{ $t('cfp') }}
