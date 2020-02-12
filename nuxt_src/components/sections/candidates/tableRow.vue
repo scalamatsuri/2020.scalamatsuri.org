@@ -102,6 +102,11 @@ export default {
   display: flex;
   align-items: center;
   min-width: 150px;
+
+  @media screen and (max-width: 819px) {
+    width: 100%;
+    padding: 7px 7px 14px;
+  }
 }
 .vote__button {
   border: 1px solid #E6E6E6;
