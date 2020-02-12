@@ -115,6 +115,7 @@ export default {
   border-radius: 24px;
   outline:none;
   cursor: pointer;
+  transition: background-color .1s ease, color .1s ease;
 
   &:hover:not(:disabled) {
     opacity: .8;
@@ -140,6 +141,7 @@ export default {
     color: white;
     background-color: #CC293E;
     cursor: pointer;
+    transition: background-color .1s ease, color .1s ease;
 
     &:hover {
       opacity: .8;
