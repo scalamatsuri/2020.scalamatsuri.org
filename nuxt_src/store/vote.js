@@ -1,6 +1,8 @@
 import * as mTypes from './mutation-types'
 import { auth, database } from '@/plugins/firebase'
 
+const VOTE_NUM = 5
+
 export const state = () => ({
   votes: [],
   votedIds: [],
@@ -63,7 +65,7 @@ export const mutations = {
     state.votes = votes
   },
   [mTypes.APPEND_USER_VOTE](state, vote) {
-    if (state.votes.length < 5) { state.votes = [...state.votes, vote] }
+    if (state.votes.length < VOTE_NUM) { state.votes = [...state.votes, vote] }
   },
   [mTypes.REMOVE_USER_VOTE](state, vote) {
     const targetIdx = state.votes.findIndex(v => v.id === vote || vote.id === v.id)
@@ -104,5 +106,10 @@ export const getters = {
       return 0
     })
   },
-  checkinCode: state => state.userInfo.ticketCode
+  checkinCode: state => state.userInfo.ticketCode,
+
+  /**
+   * Whether user votes exeeded it's limit.
+   */
+  exceededVoteLimit: state => state.votes ? state.votes.length >= VOTE_NUM : false
 }

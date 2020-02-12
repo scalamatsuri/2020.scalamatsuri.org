@@ -46,13 +46,15 @@
       <button v-if="voted" class="vote__button--voted" @click.stop="onUnvote(program)">
         {{ $t('voted') }}
       </button>
-      <button v-else class="vote__button" @click.stop="onVote(program)">
+      <button v-else class="vote__button" :disabled="exceededVoteLimit" @click.stop="onVote(program)">
         {{ $t('vote') }}
       </button>
     </div>
   </div>
 </template>
 <script>
+import { mapGetters } from 'vuex'
+
 export default {
   props: {
     program: {
@@ -86,6 +88,11 @@ export default {
       type: Boolean,
       default: false
     }
+  },
+  computed: {
+    ...mapGetters({
+      exceededVoteLimit: 'vote/exceededVoteLimit'
+    })
   }
 }
 </script>
@@ -109,9 +116,16 @@ export default {
   outline:none;
   cursor: pointer;
 
-  &:hover {
+  &:hover:not(:disabled) {
     opacity: .8;
     transition: opacity .1s ease;
+  }
+
+  &:disabled {
+    pointer-events: none;
+    cursor: not-allowed;
+    background-color: #E0E0E0;
+    color: #A6A6A6;
   }
 
   &--voted {
