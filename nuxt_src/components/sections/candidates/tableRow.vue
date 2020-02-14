@@ -8,7 +8,7 @@
 </i18n>
 
 <template>
-  <div class="schedule_event schedule_event-disabled" data-target="program.id">
+  <div :id="program.id" class="schedule_event schedule_event-disabled" data-target="program.id">
     <!-- 内容 ここから -->
     <div class="schedule_detail">
       <p class="schedule_title">
