@@ -1,7 +1,7 @@
 <i18n>
   en:
     title: "sessions you voted"
-    description: "Please order by drag & drop.\nThe screening will take into account the ranking."
+    description: "Vote below, then order the selection using drag&drop\nThe screening will take into account the ranking."
     editCode: "Click here to update your check-in code."
   ja:
     title: "投票済みセッション"

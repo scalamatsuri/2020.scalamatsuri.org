@@ -46,13 +46,15 @@
       <button v-if="voted" class="vote__button--voted" @click.stop="onUnvote(program)">
         {{ $t('voted') }}
       </button>
-      <button v-else class="vote__button" @click.stop="onVote(program)">
+      <button v-else class="vote__button" :disabled="exceededVoteLimit" @click.stop="onVote(program)">
         {{ $t('vote') }}
       </button>
     </div>
   </div>
 </template>
 <script>
+import { mapGetters } from 'vuex'
+
 export default {
   props: {
     program: {
@@ -86,6 +88,11 @@ export default {
       type: Boolean,
       default: false
     }
+  },
+  computed: {
+    ...mapGetters({
+      exceededVoteLimit: 'vote/exceededVoteLimit'
+    })
   }
 }
 </script>
@@ -95,6 +102,11 @@ export default {
   display: flex;
   align-items: center;
   min-width: 150px;
+
+  @media screen and (max-width: 819px) {
+    width: 100%;
+    padding: 7px 7px 14px;
+  }
 }
 .vote__button {
   border: 1px solid #E6E6E6;
@@ -108,10 +120,18 @@ export default {
   border-radius: 24px;
   outline:none;
   cursor: pointer;
+  transition: background-color .1s ease, color .1s ease;
 
-  &:hover {
+  &:hover:not(:disabled) {
     opacity: .8;
     transition: opacity .1s ease;
+  }
+
+  &:disabled {
+    pointer-events: none;
+    cursor: not-allowed;
+    background-color: #E0E0E0;
+    color: #A6A6A6;
   }
 
   &--voted {
@@ -126,6 +146,7 @@ export default {
     color: white;
     background-color: #CC293E;
     cursor: pointer;
+    transition: background-color .1s ease, color .1s ease;
 
     &:hover {
       opacity: .8;
