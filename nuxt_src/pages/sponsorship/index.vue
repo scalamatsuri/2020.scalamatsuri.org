@@ -7,6 +7,10 @@
         </h1>
       </div>
     </div>
+    <div class="notification">
+      2020/2/12 ご好評につき常設ブースは<strong>完売いたしました。</strong>
+    </div>
+
     <!-- sponsorship ここから -->
     <div class="sponsorship">
       <h2 class="sponsorship_title">
@@ -262,3 +266,17 @@ export default {
   }
 }
 </script>
+
+<style lang="scss" scoped>
+.notification {
+  text-align: center;
+  font-size: 20px;
+  width: 100%;
+  padding: 100px 20px .1em;
+
+  & > strong {
+    border-bottom: 2px solid #EBA808;
+    padding-bottom: .1em;
+  }
+}
+</style>
