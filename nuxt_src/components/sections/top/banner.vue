@@ -3,9 +3,11 @@
 en:
   sponsorship: "Sponsorship(ja)"
   cfp: "Call for proposals"
+  ticket: "Ticket"
 ja:
   sponsorship: "スポンサー募集"
   cfp: "セッションに応募する"
+  ticket: "チケット購入"
 </i18n>
 <template>
   <div class="banner">
@@ -16,6 +18,9 @@ ja:
       <!-- <nuxt-link :to="localePath('cfp')" class="banner_item banner_item-staff">
         <span>{{ $t('cfp') }}</span>
       </nuxt-link> -->
+      <a href="https://scalaconfjp.doorkeeper.jp/events/103550" target="_blank" rel="noopener" class="banner_item banner_item-staff">
+        <span>{{ $t('ticket') }}</span>
+      </a>
     </div>
   </div>
 </template>

@@ -35,6 +35,9 @@ module.exports = {
   plugins: [
     { src: '~/plugins/vue2-google-maps', ssr: false },
     { src: '~/plugins/lazyload', ssr: false },
+    { src: '~/plugins/firebase', ssr: false },
+    { src: '~/plugins/scalaMatsuriCommon', ssr: false },
+    { src: '~/plugins/toast', ssr: false },
     { src: '~/plugins/scalaMatsuriCommon', ssr: false }
   ],
 
@@ -46,6 +49,7 @@ module.exports = {
     '@nuxtjs/axios',
     '@nuxtjs/pwa',
     '@bazzite/nuxt-optimized-images',
+    '@nuxtjs/sentry',
     ['@nuxtjs/google-analytics', {
       id: 'UA-51559416-6'
     }],
@@ -94,6 +98,10 @@ module.exports = {
   */
   axios: {
     // See https://github.com/nuxt-community/axios-module#options
+  },
+  sentry: {
+    dsn: 'https://0dc25f3d199249d7a209f4fd48cdc9a6@sentry.io/2211949',
+    config: {}
   },
   /*
   ** Build configuration
