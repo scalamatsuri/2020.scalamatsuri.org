@@ -1,8 +1,9 @@
 import * as mTypes from './mutation-types'
 import { auth, database } from '~/plugins/firebase'
+import proposalData from '~/data/proposals/all.json'
 
 export const state = () => ({
-  list: [],
+  list: shuffle(proposalData),
   isLoading: false
 })
 
@@ -22,23 +23,30 @@ export const actions = {
    * NOTE: This action calls Speaker store's "fetch" action.
    * But basically, calling other action from anothor action is NOT recommended.
    */
+
+  /*
+      Get proposals from GoogleAppsScript.
+      It's commented out since it occurs CORS / preflight problems in Safari and Firefox
+
   async fetch({ dispatch, commit, rootState }) {
     commit(mTypes.SET_IS_LOADING, true)
     try {
-      // fetch proposals and speakers from API
-      // const [ { data: proposals }, { data: speakers } ] = await Promise.all([
-      //   this.$axios.get('https://firebasestorage.googleapis.com/v0/b/coherent-span-230012.appspot.com/o/proposals%2Fdist%2Fres.json?alt=media&token=4baa4e57-c93e-4ecb-89f0-517d9317c1e8'),
-      //   this.$axios.get('https://firebasestorage.googleapis.com/v0/b/coherent-span-230012.appspot.com/o/speakers%2Fdist%2Fres.json?alt=media&token=f4484cc7-5104-4a76-8047-c1a9752b0e60')
-      // ])
-      // const proposalsWithSpeakers = proposals.map(joinSpeakers(speakers))
+    // fetch proposals and speakers from API
+    // const [ { data: proposals }, { data: speakers } ] = await Promise.all([
+    //   this.$axios.get('https://firebasestorage.googleapis.com/v0/b/coherent-span-230012.appspot.com/o/proposals%2Fdist%2Fres.json?alt=media&token=4baa4e57-c93e-4ecb-89f0-517d9317c1e8'),
+    //   this.$axios.get('https://firebasestorage.googleapis.com/v0/b/coherent-span-230012.appspot.com/o/speakers%2Fdist%2Fres.json?alt=media&token=f4484cc7-5104-4a76-8047-c1a9752b0e60')
+    // ])
+    // const proposalsWithSpeakers = proposals.map(joinSpeakers(speakers))
 
       const proposalsWithSpeakers = await this.$axios.get('https://script.google.com/macros/s/AKfycbw0aaFzxpQUGu5VCVEZkWcJuEnzjjQfvyNDrFebdt_93HefnM0/exec')
-      commit(mTypes.SET_PROPOSALS, shuffle(proposalsWithSpeakers.data))
-    } catch (error) {
-      commit(mTypes.SET_PROPOSALS, error)
-    }
-    commit(mTypes.SET_IS_LOADING, false)
-  },
+
+    commit(mTypes.SET_PROPOSALS, shuffle(proposalWithSpeakers))
+  } catch (error) {
+    commit(mTypes.SET_PROPOSALS, error)
+  }
+  commit(mTypes.SET_IS_LOADING, false)
+},
+     */
 
   setVotes({ dispatch, commit, rootState }) {
     try {
