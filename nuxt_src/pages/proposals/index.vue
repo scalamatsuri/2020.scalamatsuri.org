@@ -50,7 +50,7 @@
         <!-- schedule 1コマ ここから -->
         <div class="schedule_content">
           <div class="schedule_events">
-            <ProposalSkelton v-if="isLoading()" />
+            <!--            <ProposalSkelton v-if="isLoading()" />-->
             <div v-for="program in filterProposalsByIdAndLang(100, 'English')" :key="program.id" @click="openModal(program)">
               <table-row :program="program" :locale="$i18n.locale" :on-vote="onVote" :on-unvote="onUnVote" :voted="currentVotes.some(vote => vote.id === program.id)" />
             </div>
@@ -69,7 +69,7 @@
         <!-- schedule 1コマ ここから -->
         <div class="schedule_content">
           <div class="schedule_events">
-            <ProposalSkelton v-if="isLoading()" />
+            <!--            <ProposalSkelton v-if="isLoading()" />-->
             <div v-for="program in filterProposalsByIdAndLang(100, 'Japanese')" :key="program.id" @click="openModal(program)">
               <table-row :program="program" :locale="$i18n.locale" :on-vote="onVote" :on-unvote="onUnVote" :voted="currentVotes.some(vote => vote.id === program.id)" />
             </div>
@@ -88,7 +88,7 @@
         <!-- schedule 1コマ ここから -->
         <div class="schedule_content">
           <div class="schedule_events">
-            <ProposalSkelton v-if="isLoading()" />
+            <!--            <ProposalSkelton v-if="isLoading()" />-->
             <div v-for="program in filterProposalsByIdAndLang(40, 'English')" :key="program.id" @click="openModal(program)">
               <table-row :program="program" :locale="$i18n.locale" :on-vote="onVote" :on-unvote="onUnVote" :voted="currentVotes.some(vote => vote.id === program.id)" />
             </div>
@@ -107,7 +107,7 @@
         <!-- schedule 1コマ ここから -->
         <div class="schedule_content">
           <div class="schedule_events">
-            <ProposalSkelton v-if="isLoading()" />
+            <!--            <ProposalSkelton v-if="isLoading()" />-->
             <div v-for="program in filterProposalsByIdAndLang(40, 'Japanese')" :key="program.id" @click="openModal(program)">
               <table-row :program="program" :locale="$i18n.locale" :on-vote="onVote" :on-unvote="onUnVote" :voted="currentVotes.some(vote => vote.id === program.id)" />
             </div>
@@ -130,7 +130,7 @@
 import { mapActions, mapGetters, mapMutations } from 'vuex'
 import TableRow from '@/components/sections/candidates/tableRow'
 import Modal from '@/components/parts/SessionDetailModal.vue'
-import ProposalSkelton from '@/components/parts/ProposalSkelton.vue'
+// import ProposalSkelton from '@/components/parts/ProposalSkelton.vue'
 import * as mTypes from '@/store/mutation-types'
 
 import VotedSessions from '@/components/sections/proposals/VotedSessions.vue'
@@ -139,7 +139,7 @@ export default {
   components: {
     Modal,
     TableRow,
-    ProposalSkelton,
+    // ProposalSkelton,
     VotedSessions
   },
   data() {
@@ -151,22 +151,22 @@ export default {
   computed: {
     ...mapGetters({
       filterProposalsByIdAndLang: 'proposals/filterByLengthAndLang',
-      isLoading: 'proposals/isLoading',
+      // isLoading: 'proposals/isLoading',
       currentVotes: 'vote/userVotes',
       isLoggedIn: 'auth/isLoggedIn'
     })
   },
   created() {
-    this.fetchProposals()
+    // this.fetchProposals()
   },
   methods: {
     ...mapActions({
-      fetchProposals: 'proposals/fetch',
+      // fetchProposals: 'proposals/fetch',
       storeVotes: 'vote/store'
     }),
     ...mapMutations(
       {
-        setIsLoading: mTypes.SET_IS_LOADING,
+        // setIsLoading: mTypes.SET_IS_LOADING,
         appendVote: 'vote/' + mTypes.APPEND_USER_VOTE,
         removeVote: 'vote/' + mTypes.REMOVE_USER_VOTE
       }
