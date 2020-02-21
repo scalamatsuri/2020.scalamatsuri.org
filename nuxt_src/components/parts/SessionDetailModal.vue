@@ -17,7 +17,9 @@
 <template>
   <div ref="modalKeyListener" class="modal_inner" tabindex="0" @keyup.escape="$emit('close')">
     <h2 class="modal_title">
-      {{ program[$i18n.locale].title }}
+      <a :href="`proposals/${program.id}`" target="_blank">
+        {{ program[$i18n.locale].title }}
+      </a>
     </h2>
     <ul class="modal_speakers">
       <li v-for="speaker in program[$i18n.locale].speakers" :key="speaker.id" class="modal_speaker">

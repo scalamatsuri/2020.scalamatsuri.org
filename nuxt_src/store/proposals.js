@@ -79,5 +79,8 @@ export const getters = {
   filterByIds: state => (ids) => {
     return state.list.filter(proposal => ids.includes(proposal.id))
   },
+  findById: state => (id) => {
+    return state.list.filter(proposal => id === proposal.id)
+  },
   isLoading: state => () => state.isLoading
 }
