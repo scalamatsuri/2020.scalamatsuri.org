@@ -80,7 +80,7 @@ export const getters = {
     return state.list.filter(proposal => ids.includes(proposal.id))
   },
   findById: state => (id) => {
-    return state.list.filter(proposal => id === proposal.id)
+    return state.list.find(proposal => id === proposal.id)
   },
   isLoading: state => () => state.isLoading
 }

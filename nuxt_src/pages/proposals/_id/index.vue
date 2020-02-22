@@ -114,6 +114,17 @@
 import { mapGetters } from 'vuex'
 
 export default {
+  validate({ store, params }) {
+    return store.getters['proposals/findById'](params.id)
+  },
+  data() {
+    return {
+      program: {
+        type: Object,
+        required: true
+      }
+    }
+  },
   computed: {
     ...mapGetters({
       findById: 'proposals/findById'
@@ -133,17 +144,9 @@ export default {
       ]
     }
   },
-  data() {
-    return {
-      program: {
-        type: Object,
-        required: true
-      }
-    }
-  },
   asyncData({ store, params }) {
     return {
-      program: store.getters['proposals/findById'](params.id)[0]
+      program: store.getters['proposals/findById'](params.id)
     }
   }
 }
