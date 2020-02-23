@@ -29,7 +29,7 @@
       </div>
     </div>
 
-    <VotedSessions v-if="isLoggedIn" :programs="filterProposalsByIdAndLang(100, 'English')" />
+    <!-- <VotedSessions v-if="isLoggedIn" :programs="filterProposalsByIdAndLang(100, 'English')" /> -->
     <div class="section">
       <!-- <p class="section_text">
         <span v-html="$t('cfp_notation')" />
@@ -52,7 +52,7 @@
           <div class="schedule_events">
             <!--            <ProposalSkelton v-if="isLoading()" />-->
             <div v-for="program in filterProposalsByIdAndLang(100, 'English')" :key="program.id" @click="openModal(program)">
-              <table-row :program="program" :locale="$i18n.locale" :on-vote="onVote" :on-unvote="onUnVote" :voted="currentVotes.some(vote => vote.id === program.id)" />
+              <table-row :program="program" :locale="$i18n.locale" :on-vote="onVote" :on-unvote="onUnVote" />
             </div>
           </div>
         </div>
@@ -71,7 +71,7 @@
           <div class="schedule_events">
             <!--            <ProposalSkelton v-if="isLoading()" />-->
             <div v-for="program in filterProposalsByIdAndLang(100, 'Japanese')" :key="program.id" @click="openModal(program)">
-              <table-row :program="program" :locale="$i18n.locale" :on-vote="onVote" :on-unvote="onUnVote" :voted="currentVotes.some(vote => vote.id === program.id)" />
+              <table-row :program="program" :locale="$i18n.locale" :on-vote="onVote" :on-unvote="onUnVote" />
             </div>
           </div>
         </div>
@@ -90,7 +90,7 @@
           <div class="schedule_events">
             <!--            <ProposalSkelton v-if="isLoading()" />-->
             <div v-for="program in filterProposalsByIdAndLang(40, 'English')" :key="program.id" @click="openModal(program)">
-              <table-row :program="program" :locale="$i18n.locale" :on-vote="onVote" :on-unvote="onUnVote" :voted="currentVotes.some(vote => vote.id === program.id)" />
+              <table-row :program="program" :locale="$i18n.locale" :on-vote="onVote" :on-unvote="onUnVote" />
             </div>
           </div>
         </div>
@@ -109,7 +109,7 @@
           <div class="schedule_events">
             <!--            <ProposalSkelton v-if="isLoading()" />-->
             <div v-for="program in filterProposalsByIdAndLang(40, 'Japanese')" :key="program.id" @click="openModal(program)">
-              <table-row :program="program" :locale="$i18n.locale" :on-vote="onVote" :on-unvote="onUnVote" :voted="currentVotes.some(vote => vote.id === program.id)" />
+              <table-row :program="program" :locale="$i18n.locale" :on-vote="onVote" :on-unvote="onUnVote" />
             </div>
           </div>
         </div>
@@ -133,14 +133,14 @@ import Modal from '@/components/parts/SessionDetailModal.vue'
 // import ProposalSkelton from '@/components/parts/ProposalSkelton.vue'
 import * as mTypes from '@/store/mutation-types'
 
-import VotedSessions from '@/components/sections/proposals/VotedSessions.vue'
+// import VotedSessions from '@/components/sections/proposals/VotedSessions.vue'
 
 export default {
   components: {
     Modal,
-    TableRow,
+    TableRow
     // ProposalSkelton,
-    VotedSessions
+    // VotedSessions
   },
   data() {
     return {

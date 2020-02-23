@@ -42,14 +42,14 @@
       </div>
     </div>
     <!-- 登壇者 ここまで -->
-    <div class="schedule__vote">
+    <!-- <div class="schedule__vote">
       <button v-if="voted" class="vote__button--voted" @click.stop="onUnvote(program)">
         {{ $t('voted') }}
       </button>
       <button v-else class="vote__button" :disabled="exceededVoteLimit" @click.stop="onVote(program)">
         {{ $t('vote') }}
       </button>
-    </div>
+    </div> -->
   </div>
 </template>
 <script>
