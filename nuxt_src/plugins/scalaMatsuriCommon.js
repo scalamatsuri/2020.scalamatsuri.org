@@ -1,11 +1,11 @@
 // ScalaMatsuri Commons
 // ---------------------------------------------------------------------------
 // 共通処理化したいメソッドを定義しましょう。
-// shffle() の様にメソッドを定義すれば、 this.shuffle() としてどこからでも呼ぶ事ができます。
 import Vue from 'vue'
 
 Vue.mixin({
   methods: {
+    // shffle() の様にメソッドを定義すれば、 this.shuffle() としてどこからでも呼ぶ事ができます。
     shuffle(array) {
       let m = array.length
       while (m) {
