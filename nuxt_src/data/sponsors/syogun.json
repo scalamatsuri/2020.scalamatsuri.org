@@ -12,8 +12,10 @@
     "url": "https://www.septeni-original.co.jp/"
   },
   {
-    "name": "株式会社オプト",
+    "name": "株式会社オプト（Opt Technologies）",
     "logo": "/img/sponsors/opt.svg",
-    "url": "https://opt-technologies.jp/"
+    "url": "https://opt-technologies.jp/",
+    "text_html": " <br/>Opt Technologies とは、インターネット広告代理店である株式会社オプトのエンジニア部門です。企業や生活者を広告や技術でつなぐことで社会のデジタルシフトを推進し、より便利でサステナブルな社会の実現を目指しています。詳しくは以下のサイトをご覧ください！<ul><li><a target=\"_blank\" href=\"https://opt-technologies.jp/\">・ Opt Technologies</a></li><li><a target=\"_blank\" href=\"https://tech-magazine.opt.ne.jp/\">・ Opt Technologies Magazine</a></li></ul><br/><br/>Scalaエンジニアに Opt Technologies をお勧めする理由<ul><li>・ プロダクトチームに技術選定の裁量があり、ScalaもScala以外も選べる現場です（ただし選定理由は聞かれます）。最近はClojure勢が勢力を伸ばしています</li><li>・ 大規模なマイクロサービスの集合体のサービス開発の企画がありますが、マイクロサービスやDDDなどに詳しい人もおらず手探りでやっています。マイクロサービスでの大規模業務システムにチャレンジしたい人はぜひ</li><li>・ <a href=\"https://scala-text.github.io/scala_text/\" target=\"_blank\">Scala研修テキスト</a>などで知られている<a target=\"_blank\" href=\"https://twitter.com/kmizu/\">@kmizu</a>さんがテクノロジーエヴァンジェリストとして在籍。各プロダクトチームへの技術アドバイスや技術面の教育・育成をやっていただいています</li><li></li></ul>",
+    "slide_html": ""
   }
 ]
