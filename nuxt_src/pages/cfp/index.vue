@@ -3,7 +3,7 @@
 en:
   title: Come share your stories at ScalaMatsuri 2020!
   section1_1: |
-    We are excited to announce that ScalaMatsuri will be held on May 15th (Friday) and 16th (Saturday), 2020 at Tokyo International Exchange Center.<br>
+    We are excited to announce that ScalaMatsuri will be held on Oct 17th (Saturday) and 16th (Sunday), 2020 at Tokyo International Exchange Center.<br>
     Please submit your talk for the general sessions.<br>
     For 2020 edition, we are adding a new track to increase more talks for Scala beginners, making the total to four tracks, of which two will have professional interpreters translating to/from English-Japanese at real time.<br/>
     The CFP will close at 2020, February 1st (Saturday) 23:59 <a href="https://time.is/en/Anywhere%20on%20Earth">Anywhere on Earth</a> (or Feb 2, 20:59 JST).
@@ -84,7 +84,7 @@ en:
 ja:
   title: "ScalaMatsuriで話を聞かせてください！"
   section1_1: |
-    2020年5月15日(金)および16日(土)に、東京国際交流館にてScalaMatsuri 2020を開催します。<br/>
+    2020年10月17日(土)および18日(日)に、東京国際交流館にてScalaMatsuri 2020を開催します。<br/>
     そこで、ScalaMatsuri 2020の一般セッションの応募を開始します。<br/>
     今回のカンファレンスでは、Scalaビギナー向けのセッションを拡充するためトラックを増やし、4つのトラックを用意します。うち2トラックには、プロによる日英同時通訳がつきます。<br/>
     締切は2020年2月1日(土) 23:59 <a href="https://time.is/ja/Anywhere%20on%20Earth">Anywhere on Earth</a> (2月2日 20:59 JST)を予定しています。
