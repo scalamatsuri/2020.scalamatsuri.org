@@ -37,7 +37,7 @@ en:
       <li class="section_note_item">Any topic interesting Scala beginners or Scala community is welcome.</li>
       <li class="section_note_item">The session length are 10 min.</li>
       <li class="section_note_item">The talk must be in either English or Japanese. All slides does not need to be in English, unlike a regular session.</li>
-      <li class="section_note_item">The abstract must be 300 characters or fewer. We might ask for a longer overview once the talk is accepted.</li>
+      <li class="section_note_item">The title must be 300 characters or fewer. We might ask for a longer overview once the talk is accepted.</li>
       <li class="section_note_item">Pick 3 keywords that could help voters get an idea of your talk. The keywords will be displayed on the talk list.</li>
       <li class="section_note_item">You are allowed up to 2 submissions. However, we'll ask you to select 1 talk even if multiple talks qualified.</li>
       <li class="section_note_item">Please note that if you exceed any of the limits, the staff may edit your submissions at our discretion.</li>
