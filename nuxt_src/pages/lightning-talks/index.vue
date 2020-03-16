@@ -1,12 +1,12 @@
 <i18n>
 ## language=yaml
 en:
-  title: Come share your stories at ScalaMatsuri 2020!
+  title: Come share your Lightning Talks at ScalaMatsuri 2020!
   section1_1: |
     We are excited to announce that ScalaMatsuri will be held on Oct 17th (Saturday) and 16th (Sunday), 2020 at Tokyo International Exchange Center.<br>
-    Please submit your talk for the general sessions.<br>
+    Please submit your talk for the lightning talk sessions.<br>
     For 2020 edition, we are adding a new track to increase more talks for Scala beginners, making the total to four tracks, of which two will have professional interpreters translating to/from English-Japanese at real time.<br/>
-    The CFP will close at 2020, February 1st (Saturday) 23:59 <a href="https://time.is/en/Anywhere%20on%20Earth">Anywhere on Earth</a> (or Feb 2, 20:59 JST).
+    The CFP will close at 2020, August 30st (Wednesday) 23:59 <a href="https://time.is/en/Anywhere%20on%20Earth">Anywhere on Earth</a> (or August 31, 20:59 JST).
   section1_2: |
     Matsuri, meaning festival, is about time and space out of the everyday.<br>
     It’s about mustering up the courage to do something cool (even though we are normally shy).<br>
@@ -35,58 +35,23 @@ en:
   section4_1: |
     <ul class="section_note">
       <li class="section_note_item">Any topic interesting Scala beginners or Scala community is welcome.</li>
-      <li class="section_note_item">The session length are 40 min and 100 min (includes 20 min recess).</li>
-      <li class="section_note_item">The format may be the regular lecture format, hands-on workshop format, hackathon, or whatever you can think of.</li>
-      <li class="section_note_item">The talk must be in either English or Japanese. All slides must be in English. Note that we will prepare Japanese subtitles.</li>
+      <li class="section_note_item">The session length are 10 min.</li>
+      <li class="section_note_item">The talk must be in either English or Japanese. All slides does not need to be in English, unlike a regular session.</li>
       <li class="section_note_item">The abstract must be 300 characters or fewer. We might ask for a longer overview once the talk is accepted.</li>
       <li class="section_note_item">Pick 3 keywords that could help voters get an idea of your talk. The keywords will be displayed on the talk list.</li>
-      <li class="section_note_item">You are allowed up to 3 submissions. However, we'll ask you to select 1 talk even if multiple talks qualified.</li>
+      <li class="section_note_item">You are allowed up to 2 submissions. However, we'll ask you to select 1 talk even if multiple talks qualified.</li>
       <li class="section_note_item">Please note that if you exceed any of the limits, the staff may edit your submissions at our discretion.</li>
       <li class="section_note_item">If you would like to modify your submissions, please send a pull request to <a href="https://github.com/scalajp/2020.scalamatsuri.org" target="_blank">this repository</a>.</li>
     </ul>
   section4_2: |
-    Note again that ScalaMatsuri organizers will need to prepare the subtitles, so you are asked to submit the slides weeks in advance.
-  section5_title: Travel grant
-  section5_1: |
-    ScalaMatsuri wants diverse speakers from all over the world.<br>
-    To help break down the barriers, we’re excited to offer travel grant.
-  section5_2: |
-    Because ScalaMatsuri is run by a non-profit association, the travel grant must only be used for something that we can file as an expense.
-  section5_3: |
-    Here are the categories that is ok:
-    <ul class="section_note">
-      <li class="section_note_item">Airfare and other transportation to Tokyo.</li>
-      <li class="section_note_item">Other transportation during ScalaMatsuri</li>
-      <li class="section_note_item">Hotel fares during ScalaMatsuri sessions.</li>
-    </ul>
-  section5_4: |
-    Any other expenses, including ones incurred from sightseeing or hotel fares (priced per person in Japan) for accompanying travellers, cannot be expensed by us.
-  section5_5: |
-    We’ll accept expense requests after ScalaMatsuri for a month. All items must have either an email forward from an airline or scans/photos of a receipt.<br>
-    If you need earlier financial support, we will do our best to accommodate you.
-  section5_6: |
-    The maximum amount of the travel grant is fixed by the origin of your travel:
-  section5_7: |
-    <ul class="section_note">
-      <li class="section_note_item">Working adult: Domestic: 500 USD Overseas: 1000 USD</li>
-      <li class="section_note_item">Student: Domestic: 750 USD Overseas: 1500 USD</li>
-    </ul>
-  section5_8: |
-    Note that the amount offered as travel grant will NOT exceed the actual travel expense.<br>
-    Suppose you’ve been approved for the grant and the travel expense was $1500 from Europe, the maximum amount the ScalaMatsuri will reimburse will be $1000.<br>
-    If you started from somewhere in Asia and it cost $700, the reimbursement will be $700.<br>
-    Students are given larger maximum amount of $750 for domestic and $1500 for overseas.<br>
-    In the application, please include the year you’re in (for example, D4 for fourth year doctorate student).
-  section5_9: |
-    Your expenses will NOT be accepted in the event that you do not attend the conference.<br>
-    At the sole discretion of ScalaMatsuri, some expenses may be reimbursed upon a natural disaster, death or illness of the speaker or a family member.<br>
-    We suggest you purchase travel insurance if these terms are not sufficient.
+    Note again that ScalaMatsuri organizers will need to prepare the subtitles, so you are asked to submit the slides weeks in advance.<br/>
+    Please join us!!
 ja:
-  title: "あなたもScalaMatsuriのlightning Talksに出ませんか？"
+  title: "ScalaMatsuriのlightning Talksに出ませんか？"
   section1_1: |
     2020年10月17日(土)および18日(日)に、東京国際交流館にてScalaMatsuri 2020を開催します。<br/>
     ScalaMatsuri 2020では通常のセッションに加え、Lightning Talks枠を用意しました。<br/>
-    皆様奮ってご参加ください！<br/>
+    ぜひ奮ってご参加ください！<br/>
     締切は2020年8月30日(水) 23:59 <a href="https://time.is/ja/Anywhere%20on%20Earth">Anywhere on Earth</a> (8月31日 20:59 JST)を予定しています。
   section1_2: |
     「Matsuri」はハレの日、つまり非日常の時と空間です。<br/>
@@ -97,7 +62,6 @@ ja:
     会の終了後には一緒に飲み屋へ繰り出しましょう。遠方からいらっしゃる方も道中サポートします。
   section2_title: "スピーカーの決定"
   section2_1: |
-    // TODO: 投票制で決めるかどうか
     今回のScalaMatsuriでは、<br>
     <ul class="section_note">
       <li class="section_note_item"> 参加者による投票 </li>
@@ -131,7 +95,7 @@ ja:
     </ul>
   section4_2: |
     概要、スライド等の英語につきましては、運営のベストエフォートでレビューをしています。<br/>
-    どうぞ奮ってご参加ください！
+    みなさまのご応募をお待ちしております！
 </i18n>
 <template>
   <div id="cfp">
