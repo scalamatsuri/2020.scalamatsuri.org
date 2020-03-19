@@ -47,7 +47,7 @@ en:
     Note again that ScalaMatsuri organizers will need to prepare the subtitles, so you are asked to submit the slides weeks in advance.<br/>
     Please join us!!
 ja:
-  title: "ScalaMatsuriのlightning Talksに出ませんか？"
+  title: "ScalaMatsuriのLightning Talksに出ませんか？"
   section1_1: |
     2020年10月17日(土)および18日(日)に、東京国際交流館にてScalaMatsuri 2020を開催します。<br/>
     ScalaMatsuri 2020では通常のセッションに加え、Lightning Talks枠を用意しました。<br/>
