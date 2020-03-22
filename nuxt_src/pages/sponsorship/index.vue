@@ -141,7 +141,7 @@
               <th>Tシャツ</th>
               <th>来場者<br>プレゼント</th>
               <td>○</td>
-              <td>○</td>
+              <td>-</td>
               <td>─</td>
               <td>─</td>
             </tr>
