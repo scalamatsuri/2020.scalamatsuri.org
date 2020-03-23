@@ -17,7 +17,7 @@ en:
     Like the above sample decks, please create a black text box to fit 2 lines in 36px font (27pt on Windows, 36pt on Mac) at the bottom each slides.
   title_03: Submit your slides
   body_03: |
-    Please submit your slide decks by Aug 30th 23:59 AoE to cfp@scalamatsuri.org .
+    Please submit your slide decks by Sep 11th 23:59 AoE to cfp@scalamatsuri.org .
     <br/>
     ScalaMatsuri staff will provide the translation, and also check for Code of Conduct compliance. Since the translation will be done based on text, if you could please submit a text file with all the texts along with your slide deck, it would be most appreciated (like a lot)! The slide deck will also be submitted to the interpreters. If you send it as PowerPoint, Google slide show, or Keynote format, we put/fix “subtitles” directly. Otherwise, we send you a translated/fixed text file, so you put/fix by yourself. We recommend 4:3 aspect ratio, but also 16:9 OK.
     <br/>
@@ -42,7 +42,7 @@ ja:
     サンプル資料を参考に丸ゴシック体の 36px (Windows だと 27pt、Mac だと 36pt) で二行分のスペースを資料の下の部分に入れて下さい。 字幕の文言は、全てを直訳しようとせずに、肝となる部分だけを一言で意訳するようにして下さい。
   title_03: 発表資料の提出
   body_03: |
-    発表資料は 8/30 23:59 AoE (8/31 20:59 JST) までに cfp[at]scalamatsuri.org へ提出して下さい。
+    発表資料は9/11(土)23:59 AoE（9/12 20:59 JST）まで cfp[at]scalamatsuri.org へ提出して下さい。
     <br/>
     スタッフ側で発表資料の本文・字幕の翻訳の確認、および行動規範への準拠の確認を行います。 翻訳作業はチーム内ではテキストベースで行うので、スライドと共にテキスト部だけを書きだしたテキストファイルをご提出下さい。 また、資料の形式を、PowerPoint,Google スライドショー、Keynoteのいずれかで提出いただけた場合は、翻訳、チェック後の字幕をこちらで挿入/修正いたします。それ以外の場合は、翻訳/修正したテキストファイルをお送りしますので、ご自身で字幕の挿入/修正をお願いいたします。 画面の比率は4:3が望ましいですが、16:9でも大丈夫です。
     <br/>
