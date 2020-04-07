@@ -4,6 +4,7 @@
     <news :posts="blogPosts" />
     <banner />
     <events />
+    <accepted-sessions />
     <access />
     <lazy-component>
       <info />
@@ -21,6 +22,7 @@ import events from '@/components/sections/top/events'
 import access from '@/components/sections/top/access'
 import info from '@/components/sections/top/info'
 import topSponsors from '@/components/sections/top/sponsors'
+import AcceptedSessions from '@/components/sections/top/AcceptedSessions'
 
 export default {
   components: {
@@ -30,7 +32,8 @@ export default {
     events,
     access,
     info,
-    topSponsors
+    topSponsors,
+    AcceptedSessions
   },
   computed: {
     ...mapState({
