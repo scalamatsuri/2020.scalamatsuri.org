@@ -81,6 +81,7 @@ export default {
   border-radius: 10px;
   padding: 50px 60px 40px;
   text-align: left;
+  overflow: scroll;
 
   .modal_title {
     font-weight: bold;
@@ -170,7 +171,7 @@ export default {
 @media screen and (max-width: 820px - 1) {
   .modal_inner {
     height:  calc(100% - 40px);
-    padding: 40px 40px 0;
+    padding: 40px;
   }
   .modal_content {
     max-height: calc(100% - 70px);
