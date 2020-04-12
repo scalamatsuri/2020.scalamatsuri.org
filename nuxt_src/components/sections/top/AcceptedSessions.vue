@@ -54,7 +54,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 .modal {
   display: flex;
   pointer-events: auto;
@@ -80,6 +80,7 @@ export default {
   background-color: #FFF;
   border-radius: 10px;
   padding: 50px 60px 40px;
+  text-align: left;
 
   .modal_title {
     font-weight: bold;
