@@ -5,10 +5,10 @@ ja:
 </i18n>
 
 <template>
-  <section class="content sessions">
+  <section id="sessions" class="content sessions">
     <div class="content_inner">
       <h2 class="content_title">
-        Accepted Sessions
+        Sessions
       </h2>
       <div>
         <list-session-container :programs="sessions" @program-clicked="openModal" />
@@ -139,6 +139,7 @@ letter-spacing: 0.1em;
   font-size: 16px;
   letter-spacing: 0.1em;
   margin-top: 30px;
+  white-space:pre-wrap;
 }
 .modal_close {
   font-weight: bold;
