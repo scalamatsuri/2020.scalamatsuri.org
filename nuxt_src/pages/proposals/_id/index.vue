@@ -198,7 +198,7 @@ export default {
     font-size: 12px;
     letter-spacing: 0.1em;
     margin-left: 50px;
-    >a {
+    > a {
       color: #00A4DE;
     }
     > a > img {
