@@ -139,6 +139,11 @@ export default {
     letter-spacing: 0.1em;
     > a {
       color: #00A4DE;
+      white-space: nowrap;
+      display: block;
+      width: 100px;
+      overflow: hidden;
+      text-overflow: ellipsis;
     }
     > a > img {
       width: 16px;
