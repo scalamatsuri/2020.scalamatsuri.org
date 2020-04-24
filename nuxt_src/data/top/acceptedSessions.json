@@ -1112,5 +1112,333 @@
         }
       ]
     }
+  },
+  {
+    "id": "E5",
+    "en": {
+      "title": "3 Approaches for Differential Programming in Scala 3",
+      "detail": "This talk will introduce and motivate automatic differentiation, and will describe some different approaches to AD in Scala 3 – including dual numbers (forward AD), type-oriented symbolic differentiation, and reverse AD with TASTy reflection.",
+      "language": "English",
+      "length": 40,
+      "tags": [
+        "Functional Programming",
+        " Data Science / Machine Learning"
+      ],
+      "keywords": [
+        "differentiable programming",
+        "machine learning",
+        "dotty"
+      ],
+      "speakers": [
+        {
+          "name": "Jeremy Smith",
+          "icon": "/img/speakers/E5.jpg",
+          "organization": "Senior Software Engineer at Netflix",
+          "speaker_experience": [
+            "Scala eXchange 2018 – no video, but slides are here: https://jeremyrsmith.github.io/scalax-workshop/",
+            "ScalaDays 2019 – Video is here: https://www.youtube.com/watch?v=BfaBeT0pRe0 and slides are here: https://jeremyrsmith.github.io/baudrillard/slides/",
+            "Scale by the Bay 2019 – Video is here: https://www.youtube.com/watch?v=QplRowWRNuQ (slides aren't yet posted)"
+          ],
+          "contributes": [
+            "Creator of Polynote – github.com/polynote/polynote",
+            "Creator of circe-yaml – github.com/circe/circe-yaml",
+            "Occasional contributor to shapeless",
+            ""
+          ],
+          "github": "jeremyrsmith",
+          "twitter": "jeremyrsmith",
+          "other_sns": "LinkedIn – gentleman-and-a-scala"
+        }
+      ]
+    },
+    "ja": {
+      "title": "Scala 3、微分可能プログラミングの3つのアプローチ",
+      "detail": "このトークでは、自動微分とその動機の紹介をしたあと、Scala 3で自動微分を実現するための3つの異なるアプローチ - 二重数 (フォワードモード自動微分)、型指向数式微分、TASTyリフレクションによるリバースモード自動微分- について見ていきます。",
+      "language": "English",
+      "length": 40,
+      "tags": [
+        "Functional Programming",
+        " Data Science / Machine Learning"
+      ],
+      "keywords": [
+        "differentiable programming",
+        "machine learning",
+        "dotty"
+      ],
+      "speakers": [
+        {
+          "name": "Jeremy Smith",
+          "icon": "/img/speakers/E5.jpg",
+          "organization": "Senior Software Engineer at Netflix",
+          "speaker_experience": [
+            "Scala eXchange 2018 – no video, but slides are here: https://jeremyrsmith.github.io/scalax-workshop/",
+            "ScalaDays 2019 – Video is here: https://www.youtube.com/watch?v=BfaBeT0pRe0 and slides are here: https://jeremyrsmith.github.io/baudrillard/slides/",
+            "Scale by the Bay 2019 – Video is here: https://www.youtube.com/watch?v=QplRowWRNuQ (slides aren't yet posted)"
+          ],
+          "contributes": [
+            "Creator of Polynote – github.com/polynote/polynote",
+            "Creator of circe-yaml – github.com/circe/circe-yaml",
+            "Occasional contributor to shapeless",
+            ""
+          ],
+          "github": "jeremyrsmith",
+          "twitter": "jeremyrsmith",
+          "other_sns": "LinkedIn – gentleman-and-a-scala"
+        }
+      ]
+    }
+  },
+  {
+    "id": "J20",
+    "en": {
+      "title": "liberty, equality, and boxed primitive types",
+      "detail": "In this talk, I will explore the equality in Scala. == is seemingly easy, but it's actually a complicated topic.\n\nThe Scala Language Spec doesn't explain much about equality. We'll try to revisit some of the past discussions and think how == actually behave.",
+      "language": "Japanese",
+      "length": 40,
+      "tags": [
+        "Others"
+      ],
+      "keywords": [
+        "scala",
+        "equality",
+        "language design"
+      ],
+      "speakers": [
+        {
+          "name": "Eugene Yokota (eed3si9n)",
+          "icon": "https://secure.gravatar.com/avatar/8f41595db400be30176f6f04630c2842",
+          "organization": "Lightbend",
+          "speaker_experience": [
+            "Scala Days",
+            "Scala Sphere",
+            "nescala"
+          ],
+          "contributes": [
+            "sbt",
+            "Zinc",
+            "Scala"
+          ],
+          "github": "eed3si9n",
+          "twitter": "eed3si9n_ja",
+          "other_sns": ""
+        }
+      ]
+    },
+    "ja": {
+      "title": "自由、平等、ボックス化されたプリミティブ型",
+      "detail": "Scala における等価性に関して考察します。== は一見簡単そうに見えて実は複雑なトピックです。\n\nScala の言語仕様は等価性に関してあまり詳しく書いてありません。過去の議論などをさかのぼって == がどう振る舞うのかを考えてみましょう。",
+      "language": "Japanese",
+      "length": 40,
+      "tags": [
+        "Others"
+      ],
+      "keywords": [
+        "scala",
+        "equality",
+        "language design"
+      ],
+      "speakers": [
+        {
+          "name": "Eugene Yokota (eed3si9n)",
+          "icon": "https://secure.gravatar.com/avatar/8f41595db400be30176f6f04630c2842",
+          "organization": "Lightbend",
+          "speaker_experience": [
+            "Scala Days",
+            "Scala Sphere",
+            "nescala"
+          ],
+          "contributes": [
+            "sbt",
+            "Zinc",
+            "Scala"
+          ],
+          "github": "eed3si9n",
+          "twitter": "eed3si9n_ja",
+          "other_sns": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "E29",
+    "en": {
+      "title": "First-Class Type-Level Programming",
+      "detail": "Scala already supports type-level programming through implicits, but can we do better? In this talk we introduce \"match types\", i.e., type functions, arriving in Scala 3.0 and some of their use cases. We also explore how the language could evolve to support fully-fledged dependent types.",
+      "language": "English",
+      "length": 40,
+      "tags": [
+        "Functional Programming",
+        " Others"
+      ],
+      "keywords": [
+        "type-level programming",
+        "match types",
+        "dependent types"
+      ],
+      "speakers": [
+        {
+          "name": "Georg Schmid",
+          "icon": "https://avatars2.githubusercontent.com/u/2364189?s=460&v=4",
+          "organization": "EPFL",
+          "speaker_experience": [],
+          "contributes": [
+            "Dotty, Stainless, V8"
+          ],
+          "github": "gsps",
+          "twitter": "",
+          "other_sns": ""
+        },
+        {
+          "proposalId": "E29",
+          "name": "Olivier Blanvillain",
+          "icon": "https://people.epfl.ch/private/common/photos/links/184098.jpg",
+          "organization": "EPFL",
+          "speaker_experience": [
+            "Scala Days Berlin 2018"
+          ],
+          "contributes": [
+            "Dotty, Frameless, Monadic-html"
+          ],
+          "github": "olivierblanvillain",
+          "twitter": "",
+          "other_sns": ""
+        }
+      ]
+    },
+    "ja": {
+      "title": "第1級の型レベルプログラミング",
+      "detail": "Scalaはすでにimplicitを通じて型レベルプログラミングをサポートしていますが、よりうまくやる方法はないでしょうか？\n\nこのトークでは、Scala 3に導入された \"match types\" や、型レベルの関数について解説しつつ、そのユースケースについても紹介します。そして本格的な依存型のサポートへ向けて、さらにどのように進化できるのかについて探ります。",
+      "language": "English",
+      "length": 40,
+      "tags": [
+        "Functional Programming",
+        " Others"
+      ],
+      "keywords": [
+        "type-level programming",
+        "match types",
+        "dependent types"
+      ],
+      "speakers": [
+        {
+          "name": "Georg Schmid",
+          "icon": "https://avatars2.githubusercontent.com/u/2364189?s=460&v=4",
+          "organization": "EPFL",
+          "speaker_experience": [],
+          "contributes": [
+            "Dotty, Stainless, V8"
+          ],
+          "github": "gsps",
+          "twitter": "",
+          "other_sns": ""
+        },
+        {
+          "proposalId": "E29",
+          "name": "Olivier Blanvillain",
+          "icon": "https://people.epfl.ch/private/common/photos/links/184098.jpg",
+          "organization": "EPFL",
+          "speaker_experience": [
+            "Scala Days Berlin 2018"
+          ],
+          "contributes": [
+            "Dotty, Frameless, Monadic-html"
+          ],
+          "github": "olivierblanvillain",
+          "twitter": "",
+          "other_sns": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "E22",
+    "en": {
+      "title": "Expectations vs Reality: Working with Data @ Spotify",
+      "detail": "In the real-world, datasets don’t always conform to our expectations. We will discuss tools that have been built at Spotify to help data producers and consumers better understand the contents of data they are working with, and standardize the process of working with data across a large and complex organization.",
+      "language": "English",
+      "length": 40,
+      "tags": [
+        "Big Data / Fast Data",
+        " Best Practices"
+      ],
+      "keywords": [
+        "Big Data",
+        "Typeclass Derivation",
+        "Pipeline Testing"
+      ],
+      "speakers": [
+        {
+          "name": "Idrees Khan",
+          "icon": "/img/speakers/E22.jpg",
+          "organization": "Senior Data Infrastructure Engineer at Spotify",
+          "speaker_experience": [
+            "I have presented at",
+            "Scale By The Bay Oakland 2019 - https://www.youtube.com/watch?v=lRpB76CXMd4",
+            "NABD Paris 2019",
+            "Scala Up North Toronto 2018 - https://www.youtube.com/watch?v=SOLM8t5snGM"
+          ],
+          "contributes": [
+            "https://github.com/spotify/ratatool"
+          ],
+          "github": "idreeskhan",
+          "twitter": "idreesxkhan",
+          "other_sns": ""
+        },
+        {
+          "name": "Anne DeCusatis",
+          "icon": " https://pbs.twimg.com/profile_images/1130075560544296962/VmC9d80m_400x400.jpg",
+          "organization": "Data Infrastructure Engineer at Spotify NYC",
+          "speaker_experience": [],
+          "contributes": [],
+          "github": "",
+          "twitter": "",
+          "other_sns": ""
+        }
+      ]
+    },
+    "ja": {
+      "title": "データ処理の期待と現実@Spotify",
+      "detail": "現実世界ではデータセットはいつも我々の期待に適合するとは限りません。\nSpotify で開発されたツールについてお話します。このツールによってデータのプロデューサー、コンシューマーが取り扱うデータの内容をよりよく理解できるようになり、また巨大で複雑な組織内でのデータ処理プロセスを標準化するのに役立ちました。",
+      "language": "English",
+      "length": 40,
+      "tags": [
+        "Big Data / Fast Data",
+        " Best Practices"
+      ],
+      "keywords": [
+        "Big Data",
+        "Typeclass Derivation",
+        "Pipeline Testing"
+      ],
+      "speakers": [
+        {
+          "name": "Idrees Khan",
+          "icon": "/img/speakers/E22.jpg",
+          "organization": "Senior Data Infrastructure Engineer at Spotify",
+          "speaker_experience": [
+            "I have presented at",
+            "Scale By The Bay Oakland 2019 - https://www.youtube.com/watch?v=lRpB76CXMd4",
+            "NABD Paris 2019",
+            "Scala Up North Toronto 2018 - https://www.youtube.com/watch?v=SOLM8t5snGM"
+          ],
+          "contributes": [
+            "https://github.com/spotify/ratatool"
+          ],
+          "github": "idreeskhan",
+          "twitter": "idreesxkhan",
+          "other_sns": ""
+        },
+        {
+          "name": "Anne DeCusatis",
+          "icon": " https://pbs.twimg.com/profile_images/1130075560544296962/VmC9d80m_400x400.jpg",
+          "organization": "Data Infrastructure Engineer at Spotify NYC",
+          "speaker_experience": [],
+          "contributes": [],
+          "github": "",
+          "twitter": "",
+          "other_sns": ""
+        }
+      ]
+    }
   }
 ]
