@@ -48,11 +48,11 @@
             <!--                <span>{{ $t('program') }}</span>-->
             <!--              </nuxt-link>-->
             <!--            </li>-->
-            <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/proposals') }">
+            <!-- <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/proposals') }">
               <nuxt-link :to="localePath('proposals')">
                 <span>{{ $t('proposals') }}</span>
               </nuxt-link>
-            </li>
+            </li> -->
             <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/code-of-conduct') }">
               <nuxt-link :to="localePath('code-of-conduct')">
                 <span>{{ $t('code-of-conduct') }}</span>
