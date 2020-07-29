@@ -81,5 +81,10 @@
     "name": "株式会社リクルートマーケティングパートナーズ",
     "logo": "/img/sponsors/rmp.jpg",
     "url": "http://www.recruit-mp.co.jp/"
+  },
+  {
+    "name": "株式会社サイバーエージェント",
+    "logo": "/img/sponsors/cyberagent.svg",
+    "url": "https://cyberagent.ai/"
   }
 ]
