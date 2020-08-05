@@ -1,0 +1,29 @@
+<i18n>
+## language=yaml
+ja:
+  event_overview: |
+    この度8月30日(日)に プレScalaMatsuri 兼 リハーサルとして、オンラインLT大会を開催します。<br>
+    開催概要を以下イベントページからご確認の上、奮ってご参加ください。
+  event_link: イベントページはこちら
+en:
+  event_overview: |
+    On Sunday, August 30th, we will be holding a pre-ScalaMatsuri and online LT competition as a rehearsal for the upcoming ScalaMatsuri.<br>
+    Please check out the event page below and join us.
+  event_link: Click here for event page
+</i18n>
+
+<template>
+  <section class="content pre-events">
+    <div class="content_inner">
+      <h2 class="content_title">
+        Pre-ScalaMatsuri
+      </h2>
+      <p class="content_text">
+        <span v-html="$t('event_overview')" />
+      </p>
+      <p class="content_link">
+        <a href="">{{ $t('event_link') }}</a><img v-lazy="require('~/assets/img/common/arrow-next-b.svg')" alt="">
+      </p>
+    </div>
+  </section>
+</template>
