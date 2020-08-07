@@ -22,7 +22,7 @@ en:
         <span v-html="$t('event_overview')" />
       </p>
       <p class="content_link">
-        <a href="">{{ $t('event_link') }}</a><img v-lazy="require('~/assets/img/common/arrow-next-b.svg')" alt="">
+        <a href="https://scalaconfjp.doorkeeper.jp/events/110045" target="_blank" rel="noopener">{{ $t('event_link') }}</a><img v-lazy="require('~/assets/img/common/arrow-next-b.svg')">
       </p>
     </div>
   </section>
