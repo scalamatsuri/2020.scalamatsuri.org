@@ -2,12 +2,12 @@
 ## language=yaml
 ja:
   event_overview: |
-    この度8月30日(日)に プレScalaMatsuri 兼 リハーサルとして、オンラインLT大会を開催します。<br>
+    8月30日(日) 17:00 より、プレScalaMatsuri 兼 リハーサルとして、オンラインLT大会を開催します。<br>
     開催概要を以下イベントページからご確認の上、奮ってご参加ください。
   event_link: イベントページはこちら
 en:
   event_overview: |
-    On Sunday, August 30th, we will be holding a pre-ScalaMatsuri and online LT competition as a rehearsal for the upcoming ScalaMatsuri.<br>
+    On Sunday, August 30th, we will be holding a pre-ScalaMatsuri Lightning Talks online meetup, which is also intended as a rehearsal for the upcoming ScalaMatsuri.<br>
     Please check out the event page below and join us.
   event_link: Click here for event page
 </i18n>
