@@ -27,7 +27,7 @@
     <!-- 登壇者 ここから -->
     <div v-for="speaker in program[locale].speakers" :key="speaker.name" class="schedule_speakers">
       <div class="schedule_speaker">
-        <div class="schedule_speaker_icon" :style="`background-image: url('${speaker.icon}')`" />
+        <img v-lazy="speaker.icon" class="schedule_speaker_icon">
         <p class="schedule_speaker_name">
           {{ speaker.name }}
         </p>
