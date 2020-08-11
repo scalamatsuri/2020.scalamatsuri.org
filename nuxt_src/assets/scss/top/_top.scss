@@ -387,7 +387,7 @@
 @media screen and (max-width: $viewport - 1) {
   @import "sp";
 }
-@media screen and (min-width: $viewport) and (max-width: 1020px - 1) {
+@media screen and (min-width: $viewport){
   @import "pc";
   .main_title {
     font-size: 8vw;
