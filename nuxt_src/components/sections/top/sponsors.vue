@@ -13,7 +13,6 @@ en:
   bugyo_cacoo: "Ukiyo-e Bugyo"
   bugyo_hatena: "Kawara-ban Bugyo"
   bugyo_sentry: "Metsuke Bugyo"
-  bugyo_nextbeat: "Lullaby Bugyo"
 ja:
   sponsor_overview: |
     アジア最大級の国際Scalaカンファレンスである、ScalaMatsuriに協賛いただけるスポンサー様を募集しています。<br>
@@ -27,7 +26,6 @@ ja:
   bugyo_cacoo: "浮世絵奉行"
   bugyo_hatena: "瓦版奉行"
   bugyo_sentry: "目付奉行"
-  bugyo_nextbeat: "子守奉行"
 </i18n>
 <template>
   <section class="sponsors">
@@ -125,12 +123,6 @@ export default {
           'logo': '/img/sponsors/sentry.svg',
           'url': 'https://sentry.io/',
           'display_name': this.$i18n.t('bugyo_sentry')
-        },
-        {
-          'name': 'nextbeat',
-          'logo': '/img/sponsors/kidsnasitter.png',
-          'url': 'https://sitter.kidsna.com/',
-          'display_name': this.$i18n.t('bugyo_nextbeat')
         }
       ]
     }
