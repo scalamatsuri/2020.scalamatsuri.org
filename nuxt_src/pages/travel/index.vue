@@ -154,7 +154,10 @@ ja:
 </template>
 
 <script>
+import Page404NotFoundMixin from '@/mixins/page/Page404NotFound.js'
+
 export default {
+  mixins: [Page404NotFoundMixin],
   head() {
     const $t = this.$t.bind(this)
     return {
