@@ -63,11 +63,11 @@
                 <span>{{ $t('sponsors') }}</span>
               </nuxt-link>
             </li>
-            <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/#access') }">
+            <!-- <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/#access') }">
               <nuxt-link :to="locale_access_link()">
                 <span>{{ $t('access') }}</span>
               </nuxt-link>
-            </li>
+            </li> -->
             <li class="gnav_item">
               <LangSwitcher />
             </li>
@@ -170,11 +170,11 @@
                   <span>{{ $t('sponsors') }}</span>
                 </nuxt-link>
               </li>
-              <li class="gnav_item" :class="{ 'gnav_item-current': current_path('#access') }" @click="toggleMenu()">
+              <!-- <li class="gnav_item" :class="{ 'gnav_item-current': current_path('#access') }" @click="toggleMenu()">
                 <nuxt-link :to="locale_access_link()">
                   <span>{{ $t('access') }}</span>
                 </nuxt-link>
-              </li>
+              </li> -->
             </ul>
             <div class="function">
               <!--  ログイン前 ここから -->
