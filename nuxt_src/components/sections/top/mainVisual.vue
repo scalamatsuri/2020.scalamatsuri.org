@@ -15,8 +15,8 @@ ja:
           <img v-if="$mq === 'sm'" class="logo--sp" :src="require(`~/assets/img/top/${$i18n.locale}/img-main_logo-sp.png?resize&size=314`)" alt="ScalaMatsuri2020">
         </div>
         <h1 class="main__title">
-          <img v-if="$mq === 'lg'" class="title--pc" :src="require(`~/assets/img/top/${$i18n.locale}/img-main_title-pc.png?resize&size=772`)" :alt="`${$t('alt')}`">
-          <img v-if="$mq === 'sm'" class="title--sp" :src="require(`~/assets/img/top/${$i18n.locale}/img-main_title-sp.png?resize&size=314`)" :alt="`${$t('alt')}`">
+          <img v-if="$mq === 'lg'" class="title--pc" :src="require(`~/assets/img/top/${$i18n.locale}/img-main_title-pc.svg`)" :alt="`${$t('alt')}`">
+          <img v-if="$mq === 'sm'" class="title--sp" :src="require(`~/assets/img/top/${$i18n.locale}/img-main_title-sp.svg`)" :alt="`${$t('alt')}`">
         </h1>
       </div>
       <div class="main_sponsor">

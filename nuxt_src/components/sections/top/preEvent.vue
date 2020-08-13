@@ -7,7 +7,8 @@ ja:
   event_link: イベントページはこちら
 en:
   event_overview: |
-    On Sunday, August 30th, we will be holding a pre-ScalaMatsuri Lightning Talks online meetup, which is also intended as a rehearsal for the upcoming ScalaMatsuri.<br>
+    On Sunday, August 30th, we will be holding a pre-ScalaMatsuri Lightning Talks online meetup, <br>
+    which is also intended as a rehearsal for the upcoming ScalaMatsuri.<br>
     Please check out the event page below and join us.
   event_link: Click here for event page
 </i18n>

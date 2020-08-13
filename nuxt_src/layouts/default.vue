@@ -17,14 +17,14 @@
     defaultSiteSubTitle: The largest international Scala conference in Asia
     defaultDescription: The largest international Scala conference in Asia.
     defaultUrl: https://scalamatsuri.org/
-    opengraphUri: https://scalamatsuri.org/img/favicons/opengraph_en.png
+    opengraphUri: https://scalamatsuri.org/img/favicons/ogp_en.jpg
     twitterAccountId: '@scala_jp'
   ja:
     defaultSiteName: ScalaMatsuri 2020
     defaultSiteSubTitle: アジア最大級の Scala のカンファレンス
     defaultDescription: Scala をテーマにアジア最大級のカンファレンスが開催されます。
     defaultUrl: https://scalamatsuri.org/
-    opengraphUri: https://scalamatsuri.org/img/favicons/opengraph_ja.png
+    opengraphUri: https://scalamatsuri.org/img/favicons/ogp_ja.jpg
     twitterAccountId: '@scala_jp'
 </i18n>
 

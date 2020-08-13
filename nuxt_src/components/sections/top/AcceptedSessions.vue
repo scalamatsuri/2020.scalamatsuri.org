@@ -55,6 +55,9 @@ export default {
 </script>
 
 <style lang="scss">
+.content {
+  padding-bottom: 40px !important;
+}
 .modal {
   display: flex;
   pointer-events: auto;
