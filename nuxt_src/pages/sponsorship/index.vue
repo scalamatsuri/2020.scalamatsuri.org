@@ -94,10 +94,10 @@
               <th colspan="3">
                 招待枠
               </th>
+              <td>12名様</td>
               <td>10名様</td>
-              <td>8名様</td>
-              <td>6名様</td>
-              <td>2名様</td>
+              <td>7名様</td>
+              <td>3名様</td>
             </tr>
             <tr>
               <th rowspan="2">
@@ -120,18 +120,18 @@
             </tr>
             <tr>
               <th rowspan="3">
-                印刷物ロゴ掲載
+                ロゴ掲載
               </th>
-              <th>スピーカーバックパネル</th>
-              <th>登壇者<br>写真スポット</th>
-              <td>A会場</td>
-              <td>B会場</td>
+              <th>スピーカー<br>バーチャル背景</th>
+              <th>登壇者の<br>背景画像</th>
+              <td>カンファレンス<br>会場A,C</td>
+              <td>カンファレンス<br>会場B</td>
               <td>─</td>
               <td>─</td>
             </tr>
             <tr>
-              <th>日除けのれん</th>
-              <th>来場者<br>写真スポット</th>
+              <th>バーチャルのれん</th>
+              <th>来場者の<br>目に触れる位置</th>
               <td>○</td>
               <td>○</td>
               <td>─</td>
@@ -139,7 +139,7 @@
             </tr>
             <tr>
               <th>Tシャツ</th>
-              <th>来場者<br>プレゼント</th>
+              <th>公式ECサイトで<br>頒布</th>
               <td>○</td>
               <td>-</td>
               <td>─</td>
@@ -149,8 +149,12 @@
               <th rowspan="2">
                 スライド掲載
               </th>
-              <th>会場内ディスプレイ</th>
-              <th>休憩時間向け<br>ブース誘導にも◎</th>
+              <th>Zoom Webinar</th>
+              <th>
+                セッションの<br>
+                休憩時間に上映。<br>
+                バーチャルブースへの誘導にも◎
+              </th>
               <td>1ページ</td>
               <td>1ページ</td>
               <td>1/2ページ</td>
@@ -166,7 +170,7 @@
             </tr>
             <tr>
               <th colspan="3">
-                常設ブース(別売) 申し込み可能数
+                バーチャルブース(別売) 申し込み可能数
               </th>
               <td>最大2枠</td>
               <td>最大1枠</td>
@@ -181,7 +185,7 @@
     <!-- booth ここから -->
     <section class="section booth">
       <h2 class="section_title">
-        <span class="section_title_inner">常設ブース</span>
+        <span class="section_title_inner">バーチャルブース</span>
       </h2>
       <table class="section_table2 section_table2-alignL">
         <tr>
@@ -194,11 +198,11 @@
         </tr>
         <tr>
           <th>招待枠</th>
-          <td>2名様</td>
+          <td>3名様</td>
         </tr>
       </table>
       <p class="section_text">
-        常設ブースには2名様分の招待枠が付きます。この招待枠は通常プランに付いて来るものと同じ扱いで、カンファレンスや懇親会にご参加頂けますが、常設ブースの設営及び運営をされる方も招待枠を使用してご入場ください。<br>
+        バーチャルブースには3名様分の招待枠が付きます。この招待枠は通常プランに付いて来るものと同じ扱いで、カンファレンスや懇親会にご参加頂けますが、バーチャルブースの設営及び運営をされる方も招待枠を使用してご入場ください。<br>
       </p>
     </section>
     <!-- sponsorship ここから -->
@@ -225,7 +229,7 @@
         スポンサーのお申込みに関するお問い合わせ
       </h3>
       <p class="inquiry_text">
-        <a href="">本年度スポンサーシップのご案内</a> をご参照の上、不明点などがございましたら <a href="" target="_blank" rel="noopener">お問い合わせフォーム</a> よりお問い合わせください。
+        <a href="">本年度スポンサーシップのご案内</a> をご参照の上、不明点などがございましたら <a href="https://docs.google.com/forms/d/e/1FAIpQLSftjA6961ZzzJjqq1CrWtAN9wwrqXRUGFqZI5G8x2BjmZHeWw/viewform" target="_blank" rel="noopener">お問い合わせフォーム</a> よりお問い合わせください。
       </p>
     </section>
   </div>
@@ -247,8 +251,8 @@ export default {
         },
         {
           image: require('~/assets/img/sponsorship/img-recruit3.jpg'),
-          url: 'https://blog.scalamatsuri.org/entry/2018/01/17/173447',
-          title: '株式会社FOLIOさまへ転職された 横田紋奈さん（@ihcomega）'
+          url: 'https://blog.scalamatsuri.org/entry/2020/05/01/155020',
+          title: 'アルプ株式会社さまへ転職された オミさん(@omiend)'
         },
         {
           image: require('~/assets/img/sponsorship/img-recruit2.jpg'),
