@@ -6,7 +6,7 @@
     <pre-event />
     <events />
     <accepted-sessions />
-    <access />
+    <!-- <access /> -->
     <lazy-component>
       <info />
     </lazy-component>
@@ -20,7 +20,7 @@ import mainVisual from '@/components/sections/top/mainVisual'
 import news from '@/components/sections/top/news'
 import banner from '@/components/sections/top/banner'
 import events from '@/components/sections/top/events'
-import access from '@/components/sections/top/access'
+// import access from '@/components/sections/top/access'
 import info from '@/components/sections/top/info'
 import topSponsors from '@/components/sections/top/sponsors'
 import AcceptedSessions from '@/components/sections/top/AcceptedSessions'
@@ -34,7 +34,7 @@ export default {
     preEvent,
     banner,
     events,
-    access,
+    // access,
     info,
     topSponsors,
     AcceptedSessions
