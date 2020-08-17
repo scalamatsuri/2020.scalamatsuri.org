@@ -7,9 +7,11 @@
         </h1>
       </div>
     </div>
+    <!--
     <div class="notification">
       2020/2/12 ご好評につき常設ブースは<strong>完売いたしました。</strong>
     </div>
+    -->
 
     <!-- sponsorship ここから -->
     <div class="sponsorship">
