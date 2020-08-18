@@ -29,9 +29,11 @@ export default {
       intervalId: null // for setInterval and clearInterval
     }
   },
-  mounted: function () {
-    if (this.posts && this.posts.length > 0) {
-      this.intervalId = setInterval(() => { this.currentIdx = (this.currentIdx + 1) % this.posts.length }, 5000)
+  watch: {
+    posts: function (newPosts, _) {
+      if (newPosts.length > 0) {
+        this.intervalId = setInterval(() => { this.currentIdx = (this.currentIdx + 1) % newPosts.length }, 5000)
+      }
     }
   },
   beforeDestroy: function () {

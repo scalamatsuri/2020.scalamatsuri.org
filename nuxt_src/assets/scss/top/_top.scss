@@ -65,6 +65,8 @@
   position: absolute;
   top: -50px;
   left: 0;
+  padding: 0 38px;
+  max-height: 60px;
 }
 .news_item-show {
   top: 0;
@@ -100,8 +102,6 @@
     color: #FFF;
     font-weight: bold;
     font-size: 18px;
-    padding: 0 38px;
-    display: block;
   }
 
   img {
