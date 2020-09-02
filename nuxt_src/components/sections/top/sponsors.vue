@@ -68,11 +68,6 @@ ja:
           <a :href="sponsor.url"><img v-lazy="sponsor.logo" :alt="sponsor.name"></a>
         </li>
       </ul>
-      <ul class="sponsors_list">
-        <li v-for="sponsor in tairos" :key="sponsor.logo" class="sponsors_item">
-          <a :href="sponsor.url"><img v-lazy="sponsor.logo" :alt="sponsor.name"></a>
-        </li>
-      </ul>
       <h3 class="sponsors_subtitle">
         {{ $t('bugyo') }}
       </h3>
