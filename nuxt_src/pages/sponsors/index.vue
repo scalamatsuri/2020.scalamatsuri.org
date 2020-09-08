@@ -4,7 +4,7 @@ en:
   title: "Sponsors"
   sponsorType:
     syogun: Shogun Sponsor
-    tairou: Tairo Sponsor
+    tairo: Tairo Sponsor
     daimyo: Daimyo Sponsor
   inquiry:
     title: Inquiry about Sponsorship
@@ -13,7 +13,7 @@ ja:
   title: スポンサー
   sponsorType:
     syogun: 将軍スポンサー
-    tairou: 大老スポンサー
+    tairo: 大老スポンサー
     daimyo: 大名スポンサー
   inquiry:
     title: スポンサー申し込みはこちら

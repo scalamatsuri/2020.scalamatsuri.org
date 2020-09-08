@@ -2155,7 +2155,7 @@
         {
           "name": "Junichi Kato",
           "icon": "/img/speakers/J6.jpg",
-          "organization": "Chatwork株式会社 テックリード",
+          "organization": "Chatwork Co., Ltd. Tech Lead",
           "speaker_experience": [
             "ScalaMatsuri 2019, AWS DevDay など"
           ],
@@ -2475,7 +2475,7 @@
         {
           "name": "TATSUNO Yasuhiro",
           "icon": "https://pbs.twimg.com/profile_images/1065225327763320832/px0zvxM5_400x400.jpg",
-          "organization": "有限会社来栖川電算",
+          "organization": "Chatwork Co., Ltd.",
           "speaker_experience": [
             "ScalaMatsuri Unconference (2017)",
             "東京Node学園/Tokyo Node Festival (2018)",
@@ -2513,7 +2513,7 @@
         {
           "name": "立野靖博",
           "icon": "https://pbs.twimg.com/profile_images/1065225327763320832/px0zvxM5_400x400.jpg",
-          "organization": "有限会社来栖川電算",
+          "organization": "Chatwork株式会社",
           "speaker_experience": [
             "ScalaMatsuri Unconference (2017)",
             "東京Node学園/Tokyo Node Festival (2018)",
@@ -3957,7 +3957,7 @@
         {
           "name": "Eugene Yokota (eed3si9n)",
           "icon": "https://secure.gravatar.com/avatar/8f41595db400be30176f6f04630c2842",
-          "organization": "Lightbend",
+          "organization": "Twitter",
           "speaker_experience": [
             "Scala Days",
             "Scala Sphere",
@@ -3991,7 +3991,7 @@
         {
           "name": "Eugene Yokota (eed3si9n)",
           "icon": "https://secure.gravatar.com/avatar/8f41595db400be30176f6f04630c2842",
-          "organization": "Lightbend",
+          "organization": "Twitter",
           "speaker_experience": [
             "Scala Days",
             "Scala Sphere",
@@ -4709,7 +4709,7 @@
   {
     "id": "J27",
     "en": {
-      "title": "Biggining Scala from zero for other language exparts: ~block exp, for exp, type classes",
+      "title": "Beginning Scala from zero for other language exparts: ~block exp, for exp, type classes",
       "detail": "Scala is sometimes said to be expensive to learn.\n\nThe existence of language mechanisms that are difficult to analogize from the experience of other languages,\nIn other languages, specially prepared functions are realized by a combination of simple functions,\nso, some people feel difficult to learn.\n\nIn this session, it ’s helpful to know first,\nI would like to explain the effective language mechanisms that are difficult to learn by analogy from other languages.",
       "language": "Japanese",
       "length": 40,
