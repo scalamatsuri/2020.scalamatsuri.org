@@ -4709,7 +4709,7 @@
   {
     "id": "J27",
     "en": {
-      "title": "Biggining Scala from zero for other language exparts: ~block exp, for exp, type classes",
+      "title": "Beginning Scala from zero for other language exparts: ~block exp, for exp, type classes",
       "detail": "Scala is sometimes said to be expensive to learn.\n\nThe existence of language mechanisms that are difficult to analogize from the experience of other languages,\nIn other languages, specially prepared functions are realized by a combination of simple functions,\nso, some people feel difficult to learn.\n\nIn this session, it ’s helpful to know first,\nI would like to explain the effective language mechanisms that are difficult to learn by analogy from other languages.",
       "language": "Japanese",
       "length": 40,
