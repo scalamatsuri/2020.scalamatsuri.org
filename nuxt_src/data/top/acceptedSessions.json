@@ -170,9 +170,9 @@
         {
           "name": "Junichi Kato",
           "icon": "/img/speakers/J6.jpg",
-          "organization": "Chatwork株式会社 テックリード",
+          "organization": "Chatwork Co., Ltd. Tech Lead",
           "speaker_experience": [
-            "ScalaMatsuri 2019, AWS DevDay など"
+            "ScalaMatsuri 2019, AWS DevDay etc."
           ],
           "contributes": [],
           "github": "j5ik2o",
@@ -302,7 +302,7 @@
         {
           "name": "TATSUNO Yasuhiro",
           "icon": "https://pbs.twimg.com/profile_images/1065225327763320832/px0zvxM5_400x400.jpg",
-          "organization": "Chatwork株式会社",
+          "organization": "Chatwork Co., Ltd.",
           "speaker_experience": [
             "ScalaMatsuri Unconference (2017)",
             "東京Node学園/Tokyo Node Festival (2018)",
