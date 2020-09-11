@@ -68,7 +68,7 @@
           <dd>
             <ul>
               <li>チケット代無料</li>
-              <li><a href="https://scalamatsuri.official.ec/">Tシャツ</a>割引クーポン(システム下限の50円となります)</li>
+              <li><a href="https://scalamatsuri.official.ec/" target="_blank" rel="noopener">Tシャツ</a>割引クーポン(システム下限の50円となります)</li>
               <li>後日のスタッフ打ち上げへの参加</li>
             </ul>
           </dd>
