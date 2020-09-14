@@ -211,8 +211,8 @@
   {
     "id": "E27",
     "en": {
-      "title": "Caliban: Designing a Functional GraphQL Library",
-      "detail": "GraphQL is becoming a strong alternative to REST for exposing APIs. In this talk, I will introduce Caliban, a new functional library for writing GraphQL backends in Scala. I will go through the process of creating the library from scratch and explain my design choices: how to minimize boilerplate, how to expose a pure API with explicit errors, how to handle subscriptions, etc.",
+      "title": "Caliban: Functional GraphQL Library for Scala",
+      "detail": "Caliban is a library for GraphQL in Scala. It was designed with the goal of reducing boilerplate to a minimum while exposing a purely functional interface. In this talk, we’ll discover how to create a simple GraphQL API from the ground up, then we’ll dig into advanced features such as query optimization and middlewares. Finally, we will take a look at the recently released GraphQL client support.",
       "language": "English",
       "length": 40,
       "tags": [
