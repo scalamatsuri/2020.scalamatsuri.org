@@ -3,7 +3,7 @@
     <main-visual />
     <news :posts="blogPosts" />
     <banner />
-    <pre-event />
+    <ec-shop />
     <events />
     <accepted-sessions />
     <!-- <access /> -->
@@ -25,13 +25,13 @@ import info from '@/components/sections/top/info'
 import topSponsors from '@/components/sections/top/sponsors'
 import AcceptedSessions from '@/components/sections/top/AcceptedSessions'
 
-import preEvent from '@/components/sections/top/preEvent'
+import ecShop from '@/components/sections/top/ecShop'
 
 export default {
   components: {
     mainVisual,
     news,
-    preEvent,
+    ecShop,
     banner,
     events,
     // access,
