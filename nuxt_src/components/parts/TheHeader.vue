@@ -10,6 +10,7 @@
     login: "Log in"
     ticket: "Ticket"
     cfp: "CFP"
+    extra-staff: "Extra Staffs(ja)"
     logout: "Log Out"
     logout_successful: "Logged out successfully."
   ja:
@@ -22,6 +23,7 @@
     login: "ログイン"
     ticket: "チケット購入"
     cfp: "セッション募集"
+    extra-staff: "スタッフ募集"
     logout: "ログアウト"
     logout_successful: "ログアウトしました."
 </i18n>
@@ -61,6 +63,11 @@
             <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/sponsors') }">
               <nuxt-link :to="localePath('sponsors')">
                 <span>{{ $t('sponsors') }}</span>
+              </nuxt-link>
+            </li>
+            <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/extra-staff') }">
+              <nuxt-link :to="localePath('extra-staff')">
+                <span>{{ $t('extra-staff') }}</span>
               </nuxt-link>
             </li>
             <!-- <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/#access') }">
