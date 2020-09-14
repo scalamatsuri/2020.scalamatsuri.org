@@ -1,11 +1,13 @@
 <i18n>
 ## language=yaml
 ja:
+  title: ScalaMatsuri Tシャツショップ
   overview: |
     ScalaMatsuriTシャツのオンラインショップが、期間限定でオープンしました！過去最多の7色展開です。
   ecshop_japan_link: 日本からのみ注文可能なショップはこちら
   ecshop_world_link: 全世界から注文可能なショップはこちら
 en:
+  title: ScalaMatsuri T-shirt shop
   overview: |
     ScalaMatsuri T-shirts online shop has been open for a limited period! There are seven color T-shirts. Please choose the one you like.
   ecshop_japan_link: Japan Domestic Orders
@@ -16,7 +18,7 @@ en:
   <section class="content pre-events">
     <div class="content_inner">
       <h2 class="content_title">
-        ScalaMatsuri T-shirt shop
+        {{ $t('title') }}
       </h2>
       <p class="content_text">
         <span v-html="$t('overview')" />
