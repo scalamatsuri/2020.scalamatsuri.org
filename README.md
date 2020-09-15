@@ -23,7 +23,17 @@ $ nodenv install x.x.x #please refer to .node-version under this project
 $ node -v #check the version is same as .node-verson .
 ```
 
-## Build and start devlopment local server 
+Or you can also use nvm. nvm referes [.nvmrc](.nvmrc) file.
+
+```bash
+$ brew install nvm
+
+$ nvm use
+
+$ nvm ls #check the version
+```
+
+## Build and start development local server 
 
 ```bash
 # install dependencies
