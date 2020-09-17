@@ -4575,8 +4575,8 @@
   {
     "id": "J26",
     "en": {
-      "title": "Reading code of SaaS backend, guided by PofEAA",
-      "detail": "On SaaS development scenes, mature design skill is required to make code refrect complex business models.In that situation, Martin Fowler's \"Patterns of Enterprise Application Architecture\" is still a powerful source of idea even after the times.In this session, I will introduce examples of implementing PofEAA using Scala's expressive powers.",
+      "title": "Making of SaaS backend, guided by PofEAA",
+      "detail": "On SaaS development scenes, mature design skill is required to make code refrect complex business models.In that situation, Martin Fowler's \"Patterns of Enterprise Application Architecture\" is still a powerful source of idea even after the times.In this session, I will explain Implementation of SaaS backend API using patterns from PofEAA.",
       "language": "Japanese",
       "length": 40,
       "tags": [
@@ -4606,8 +4606,8 @@
       ]
     },
     "ja": {
-      "title": "PofEAAで読み解くSaaSバックエンドの現場のコード",
-      "detail": "SaaSの開発現場では複雑なビジネスモデルをコードに落とし込むため、地に足のついた設計技能が不可欠です。そんな時、Martin Fowler氏の著した『Patterns of Enterprise Application Architecture』は、時代を経た今でも十分有力な情報源になります。このセッションでは、Scalaの多彩な表現力を用いてPofEAAのパターンを実装した実例をご紹介します。",
+      "title": "PofEAAで考えるSaaSバックエンドの作り方",
+      "detail": "SaaSの開発現場では複雑なビジネスモデルをコードに落とし込むため、地に足のついた設計技能が不可欠です。そんな時、Martin Fowler氏の著した『Patterns of Enterprise Application Architecture』は、時代を経た今でも十分有力な情報源になります。このセッションではPofEAAのパターンを用いてSaaSのバックエンドAPIを実装する方法を解説します。",
       "language": "Japanese",
       "length": 40,
       "tags": [

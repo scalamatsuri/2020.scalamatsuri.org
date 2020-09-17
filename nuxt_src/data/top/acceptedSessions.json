@@ -986,8 +986,8 @@
   {
     "id": "J26",
     "en": {
-      "title": "Reading code of SaaS backend, guided by PofEAA",
-      "detail": "On SaaS development scenes, mature design skill is required to make code refrect complex business models.In that situation, Martin Fowler's \"Patterns of Enterprise Application Architecture\" is still a powerful source of idea even after the times.In this session, I will introduce examples of implementing PofEAA using Scala's expressive powers.\n\nIt may be difficult to understand Scala's OO and FP characteristics simultaneously for beginners.I think that focusing OO aspect is helpful for them.I will talk about traditional OO patterns mentioned at PofEAA, which have been applied to Scala code in my real project.",
+      "title": "Making of SaaS backend, guided by PofEAA",
+      "detail": "On SaaS development scenes, mature design skill is required to make code refrect complex business models.In that situation, Martin Fowler's \"Patterns of Enterprise Application Architecture\" is still a powerful source of idea even after the times.In this session, I will explain Implementation of SaaS backend API using patterns from PofEAA.\n\nIt may be difficult to understand Scala's OO and FP characteristics simultaneously for beginners.I think that focusing OO aspect is helpful for them.PofEAA contains a lot of hints for writing well Object Oriented code.Of course they can be applied to Scala.",
       "language": "Japanese",
       "length": 40,
       "tags": [
@@ -1017,8 +1017,8 @@
       ]
     },
     "ja": {
-      "title": "PofEAAで読み解くSaaSバックエンドの現場のコード",
-      "detail": "SaaSの開発現場では複雑なビジネスモデルをコードに落とし込むため、地に足のついた設計技能が不可欠です。そんな時、Martin Fowler氏の著した『Patterns of Enterprise Application Architecture』は、時代を経た今でも十分有力な情報源になります。このセッションでは、Scalaの多彩な表現力を用いてPofEAAのパターンを実装した実例をご紹介します。\n\nScala初学者にとって、オブジェクト指向と関数型の性質を同時に理解するのはハードルが高いかもしれません。そこでまずは、Scalaのオブジェクト指向の側面に着目してみるのはどうでしょうか。このセッションでは、オブジェクト指向の古典であるPofEAAで紹介されているパターンを、実際のプロジェクトのコードに適用した事例をお話しします。",
+      "title": "PofEAAで考えるSaaSバックエンドの作り方",
+      "detail": "SaaSの開発現場では複雑なビジネスモデルをコードに落とし込むため、地に足のついた設計技能が不可欠です。そんな時、Martin Fowler氏の著した『Patterns of Enterprise Application Architecture』は、時代を経た今でも十分有力な情報源になります。このセッションではPofEAAのパターンを用いてSaaSのバックエンドAPIを実装する方法を解説します。\n\nScala初学者にとってオブジェクト指向と関数型の性質を同時に理解するのはハードルが高いかもしれません。そこでまずはScalaのオブジェクト指向の側面に着目してみるのはどうでしょうか。PofEAAにはオブジェクト指向らしいコードを書くためのヒントが散りばめられています。もちろんそれらはScalaにも適用可能です",
       "language": "Japanese",
       "length": 40,
       "tags": [
