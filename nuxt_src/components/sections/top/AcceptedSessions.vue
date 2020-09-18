@@ -1,7 +1,11 @@
 <i18n>
 ## language=yaml
 en:
+  release_time_table: |
+    <a href="https://docs.google.com/spreadsheets/d/1FJ7V6OUuSjfpMcNMIOXDUNnxJDiTWYx2UcaFfXSAx9o/edit?usp=sharing">Time table</a> is now released.
 ja:
+  release_time_table: |
+    <a href="https://docs.google.com/spreadsheets/d/1FJ7V6OUuSjfpMcNMIOXDUNnxJDiTWYx2UcaFfXSAx9o/edit?usp=sharing">タイムテーブル</a>を公開しました。
 </i18n>
 
 <template>
@@ -10,13 +14,20 @@ ja:
       <h2 class="content_title">
         Sessions
       </h2>
+      <div class="session_news" v-html="$t('release_time_table')" />
       <div>
         <list-session-container :programs="sessions" @program-clicked="openModal" />
       </div>
     </div>
     <!-- modal -->
     <transition name="fade">
-      <div v-if="showModal" class="modal" tabindex="0" @click.self="closeModal" @keyup.escape="closeModal()">
+      <div
+        v-if="showModal"
+        class="modal"
+        tabindex="0"
+        @click.self="closeModal"
+        @keyup.escape="closeModal()"
+      >
         <modal :program="selectedProgram" @close="closeModal" />
       </div>
     </transition>
@@ -62,17 +73,17 @@ export default {
   display: flex;
   pointer-events: auto;
   position: fixed;
-  background: rgba(0,0,0,.6);
-  justify-content:center;
+  background: rgba(0, 0, 0, 0.6);
+  justify-content: center;
   align-items: center;
   z-index: 2;
   top: 0;
   left: 0;
   height: 100%;
   width: 100%;
-  animation-duration: .1s;
+  animation-duration: 0.1s;
   &.is_active {
-  display: flex;
+    display: flex;
   }
 }
 .modal_inner {
@@ -81,7 +92,7 @@ export default {
   width: 90%;
   max-height: 90vh;
   margin: 0 auto;
-  background-color: #FFF;
+  background-color: #fff;
   border-radius: 10px;
   padding: 50px 60px 40px;
   overflow: auto;
@@ -89,10 +100,10 @@ export default {
   text-align: left;
 }
 .modal_title {
-font-weight: bold;
-line-height: 39px;
-font-size: 24px;
-letter-spacing: 0.1em;
+  font-weight: bold;
+  line-height: 39px;
+  font-size: 24px;
+  letter-spacing: 0.1em;
 }
 .modal_speaker {
   display: inline-block;
@@ -102,7 +113,7 @@ letter-spacing: 0.1em;
 .modal_speaker_icon {
   width: 40px;
   height: 40px;
-  box-shadow:0px 0px 1px 1px rgba(0,0,0,0.1) inset;
+  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.1) inset;
   background-size: cover;
   border-radius: 20px;
   float: left;
@@ -126,14 +137,14 @@ letter-spacing: 0.1em;
   font-size: 12px;
   letter-spacing: 0.1em;
   margin-left: 50px;
-  >a {
-    color: #00A4DE;
+  > a {
+    color: #00a4de;
   }
 
   > a > img {
     width: 16px;
     height: 16px;
-    margin-top: .24em;
+    margin-top: 0.24em;
     margin-right: 4px;
   }
 }
@@ -142,7 +153,7 @@ letter-spacing: 0.1em;
   font-size: 16px;
   letter-spacing: 0.1em;
   margin-top: 30px;
-  white-space:pre-wrap;
+  white-space: pre-wrap;
 }
 .modal_close {
   font-weight: bold;
@@ -178,7 +189,8 @@ letter-spacing: 0.1em;
   & + .modal_scope {
     border-top: none;
   }
-  dt,dd {
+  dt,
+  dd {
     padding: 15px 0;
   }
   dt {
@@ -195,7 +207,8 @@ letter-spacing: 0.1em;
   & + .modal_scope {
     border-top: none;
   }
-  dt,dd {
+  dt,
+  dd {
     padding: 15px 0;
   }
   dd {
@@ -205,7 +218,7 @@ letter-spacing: 0.1em;
 .modal_input {
   margin-top: 30px;
   input {
-    background: #EEEEEE;
+    background: #eeeeee;
     border-radius: 6px;
     padding: 8px 16px;
     border: none;
@@ -221,15 +234,15 @@ letter-spacing: 0.1em;
   }
 }
 .modal_inputBtn {
-    vertical-align: middle;
-  background: #CF293B;
+  vertical-align: middle;
+  background: #cf293b;
   border-radius: 22px;
   width: 120px;
   max-width: 25%;
   height: 44px;
   line-height: 44px;
   display: inline-block;
-  color: #FFF;
+  color: #fff;
   text-decoration: none;
   text-align: center;
   margin-left: 5%;
@@ -237,13 +250,12 @@ letter-spacing: 0.1em;
 // SP
 @media screen and (max-width: 820px - 1) {
   .modal_inner {
-    height:  calc(100% - 40px);
+    height: calc(100% - 40px);
     padding: 40px;
   }
   .modal_content {
     max-height: calc(100% - 70px);
     overflow: auto;
-
   }
   .modal_close {
     margin-top: 20px;
@@ -251,10 +263,16 @@ letter-spacing: 0.1em;
 }
 
 // animations
-.fade-enter-active, .fade-leave-active {
-  transition: opacity .2s;
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.2s;
 }
-.fade-enter, .fade-leave-to {
+.fade-enter,
+.fade-leave-to {
   opacity: 0;
+}
+
+.session_news {
+  font-size: 20px
 }
 </style>
