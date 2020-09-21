@@ -11,3 +11,6 @@ export const SET_USER_INFO = 'SET_USER_INFO'
 
 // Hatena blog RSS
 export const SET_BLOG_POSTS = 'SET_BLOG_POSTS'
+
+// sessions
+export const GET_ALL_SESSIONS = 'GET_ALL_SESSIONS'
