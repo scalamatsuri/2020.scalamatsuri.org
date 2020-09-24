@@ -29,7 +29,6 @@
       </div>
     </div>
 
-    <!-- <VotedSessions v-if="isLoggedIn" :programs="filterProposalsByIdAndLang(100, 'English')" /> -->
     <div class="section">
       <!-- <p class="section_text">
         <span v-html="$t('cfp_notation')" />
@@ -50,7 +49,6 @@
         <!-- schedule 1コマ ここから -->
         <div class="schedule_content">
           <div class="schedule_events">
-            <!--            <ProposalSkelton v-if="isLoading()" />-->
             <div v-for="program in filterProposalsByIdAndLang(100, 'English')" :key="program.id" @click="openModal(program)">
               <table-row :program="program" :locale="$i18n.locale" :on-vote="onVote" :on-unvote="onUnVote" />
             </div>
@@ -69,7 +67,6 @@
         <!-- schedule 1コマ ここから -->
         <div class="schedule_content">
           <div class="schedule_events">
-            <!--            <ProposalSkelton v-if="isLoading()" />-->
             <div v-for="program in filterProposalsByIdAndLang(100, 'Japanese')" :key="program.id" @click="openModal(program)">
               <table-row :program="program" :locale="$i18n.locale" :on-vote="onVote" :on-unvote="onUnVote" />
             </div>
@@ -88,7 +85,6 @@
         <!-- schedule 1コマ ここから -->
         <div class="schedule_content">
           <div class="schedule_events">
-            <!--            <ProposalSkelton v-if="isLoading()" />-->
             <div v-for="program in filterProposalsByIdAndLang(40, 'English')" :key="program.id" @click="openModal(program)">
               <table-row :program="program" :locale="$i18n.locale" :on-vote="onVote" :on-unvote="onUnVote" />
             </div>
@@ -151,7 +147,6 @@ export default {
   computed: {
     ...mapGetters({
       filterProposalsByIdAndLang: 'proposals/filterByLengthAndLang',
-      // isLoading: 'proposals/isLoading',
       currentVotes: 'vote/userVotes',
       isLoggedIn: 'auth/isLoggedIn'
     })

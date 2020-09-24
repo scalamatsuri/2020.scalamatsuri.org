@@ -2,35 +2,24 @@
 ## language=yaml
 en:
   title: Program
-  day1_header: "6/27 Workshop Day"
-  day2_header: "6/28 Conference Day"
-  day3_header: "6/29 Unconference Day"
-  to_candidates: "To Proposals"
-  bookmark_only: "BookMark Only"
+  day1_header: 10/17 Conference Day
+  day2_header: 10/18 Unonference Day
+  to_candidates: To Proposals
+  bookmark_only: BookMark Only
   day1_description: |
-    ScalaMatsuri has the important goal of expanding the Scala community by helping more people know the attraction of Scala and helping those who want to get started with Scala. <br>
-    At ScalaMatsuri 2019, we will hold a "Scala lesson by drawing" at the workshop DAY on the first day.
-  day2_description: "Conference DAY in conference format (3 parallel sessions). Doors open at 9:00, scheduled to end at 20:00. Lunch and light refreshment will be served at the party."
-  day3_description: |
-    Unconference DAY in unconference format, except for Room A. Doors open at 9:00, and scheduled to end at 18:00. Breakfast and lunch will be served.<br><br>
-    <a href="%{unconference_link}" target="_blank" rel="noopener">What is unconference?</a><br><br>
-    <a href="https://scalabridge.org/" target="_blank" rel="noopener">ScalaBridge</a> Tokyo is an introductory Scala programming workshop for women and engineers from all underrepresented background (race, gender, age etc) to build more inclusive Scala community.
+    Conference DAY in conference format (3 parallel sessions). Doors open at 9:00, scheduled to end at 20:00. Lunch and light refreshment will be served at the party.
+  day2_description: |
+    Unconference DAY in unconference format, except for Room A. Doors open at 9:00, and scheduled to end at 18:00. Breakfast and lunch will be served.<br>
 ja:
   title: プログラム
-  day1_header: "6/27 Workshop Day"
-  day2_header: "6/28 Conference Day"
-  day3_header: "6/29 Unconference Day"
-  to_candidates: "応募セッション一覧を表示する"
-  bookmark_only: "ブックマークのみ表示"
-  day1_description:  |
-    ScalaMatsuri では、Scala の魅力をより多くの人に知ってもらったり、Scala に入門したい人の手助けをすることで、Scalaコミュニティの裾野を広げていくという大事な目標があります。
-    ScalaMatsuri 2019 では、初日のワークショップDAYにて、「お絵かきで学ぶScala教室」を開催することになりました。
-  day2_description: カンファレンス DAY カンファレンス形式(3パラレルセッション) 9時00分入場開始 20時終了予定。 昼食および懇親会での軽食をご用意しています。
-  day3_description: |
+  day1_header: 10/17 Conference Day
+  day2_header: 10/18 Unconference Day
+  to_candidates: 応募セッション一覧を表示する
+  bookmark_only: ブックマークのみ表示
+  day1_description: |
+    カンファレンス DAY カンファレンス形式(3パラレルセッション) 9時00分入場開始 20時終了予定。 昼食および懇親会での軽食をご用意しています。
+  day2_description: |
     アンカンファレンス DAY ただし会場Aはカンファレンス形式 9時00分入場開始 18:00時終了予定。<br>
-    朝食と昼食をご用意しています。<br><br>
-    アンカンファレンスについては<a href="%{unconference_link}" target="_blank" rel="noopener">コチラ</a><br><br>
-    <a href="https://scalabridge.org/" target="_blank" rel="noopener">ScalaBridge</a>は、女性やマイノリティのエンジニア向けのワークショップとして海外で開催されてきたワークショッププログラムです。
 </i18n>
 
 <template>
@@ -49,9 +38,6 @@ ja:
           </li>
           <li class="main_item">
             <a href="#day2">{{ $t('day2_header') }}</a>
-          </li>
-          <li class="main_item">
-            <a href="#day3">{{ $t('day3_header') }}</a>
           </li>
         </ul>
       </div>
@@ -112,29 +98,6 @@ ja:
       </div>
     </div>
 
-    <div id="day3" class="program">
-      <h2 class="program_title">
-        {{ $t('day3_header') }}
-      </h2>
-      <p class="program_text">
-        <span v-html="$t('day3_description', { unconference_link: localePath('unconference') })" />
-      </p>
-      <div class="schedule">
-        <div v-for="(v,k) in getProgram(3, 'ja')" :key="k">
-          <div class="schedule_content">
-            <p class="schedule_time">
-              {{ k }}
-            </p>
-            <div class="schedule_events">
-              <div v-for="schedule in v" :key="schedule.id" @click="openModal(schedule)">
-                <schedule :schedule="schedule" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
     <transition name="fade">
       <div v-if="showModal" class="modal is_active fadeIn animated" tabindex="0" @click.self="closeModal()" @keyup.escape="closeModal()">
         <modal :schedule="selectProgram" @close="closeModal" />
@@ -163,8 +126,7 @@ export default {
           require('@/data/program/day2/1-0-0_registration.yaml'),
           require('@/data/program/day2/1-1-0_opening.yaml'),
           require('@/data/program/day2/sample.yaml')
-        ],
-        day3: [require('@/data/program/day3/sample.yaml')]
+        ]
       },
       selectProgram: null,
       showModal: false
