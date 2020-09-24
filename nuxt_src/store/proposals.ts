@@ -11,7 +11,7 @@ import { Proposal } from '~/models/proposal'
 
 import proposalData from '~/data/proposals/all.json'
 
-export const namespace = 'sessions'
+export const namespace = 'proposals'
 
 export interface State {
   proposals: Array<Proposal>
@@ -19,7 +19,7 @@ export interface State {
 
 const initialState = (): State => {
   return {
-    proposals: []
+    proposals: proposalData
   }
 }
 
@@ -27,10 +27,10 @@ const getters = defineGetter<State, RootState>()({
   filterByLengthAndLang: state => (len: number, lang: string) => {
     return state.proposals ? state.proposals.filter(proposal => proposal.en.language === lang && proposal.en.length === len) : []
   },
-  filterByIds: state => (ids) => {
+  filterByIds: state => (ids: Array<string>) => {
     return state.proposals.filter(proposal => ids.includes(proposal.id))
   },
-  findById: state => (id) => {
+  findById: state => (id: string) => {
     return state.proposals.find(proposal => id === proposal.id)
   }
 })

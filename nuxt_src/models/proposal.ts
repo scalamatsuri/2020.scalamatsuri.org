@@ -1,12 +1,8 @@
 
 import { Talk } from './talk'
 
-export type ProposalId = string & {
-    __proposalTag: any
-}
-
 export interface Proposal {
-    id: ProposalId,
+    id: string,
     en: Talk,
     ja: Talk
 }

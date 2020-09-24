@@ -7,5 +7,5 @@ export interface Talk {
     speakers: Array<Speaker>,
     language?: string,
     length?: number,
-    tags?: string
+    tags?: Array<string>
 }

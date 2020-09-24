@@ -1,5 +1,5 @@
 import { Store } from 'vuex'
-import { defineModule } from '~/store/helpers';
+import { createHelper, defineModule } from '~/store/helpers';
 import { auth } from '~/plugins/firebase'
 import * as sessionsStore from '~/store/sessions'
 import * as proposalsStore from '~/store/proposals'
@@ -20,7 +20,8 @@ const listenAuthState = (store: Store<any>) => {
 export const plugins = [listenAuthState]
 
 export interface RootState {
-  [sessionsStore.namespace]: sessionsStore.State
+  [sessionsStore.namespace]: sessionsStore.State;
+  [proposalsStore.namespace]: proposalsStore.State;
 }
 
 export const root = defineModule<RootState>()({
@@ -29,3 +30,6 @@ export const root = defineModule<RootState>()({
     [proposalsStore.namespace]: proposalsStore.proposalsModule
   },
 });
+
+export const mapper = createHelper<typeof root, RootState>()
+export const modules = root.modules
