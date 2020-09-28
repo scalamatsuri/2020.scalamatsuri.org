@@ -22,7 +22,7 @@
       {{ schedule.room }}
     </p>
     <!-- 内容 ここから -->
-    <div class="schedule_detail">
+    <div v-if="schedule.proposal" class="schedule_detail">
       <p class="schedule_title">
         {{ schedule.proposal[locale].title }}
       </p>
@@ -51,7 +51,6 @@
         <img
           v-lazy="speaker.icon"
           class="schedule_speaker_icon"
-          style="background-image: url('/img/dummy/icon-user2.jpg')"
         >
         <p class="schedule_speaker_name">
           {{ speaker.name }}
