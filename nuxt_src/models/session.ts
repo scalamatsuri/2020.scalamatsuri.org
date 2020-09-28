@@ -1,10 +1,12 @@
-import { DateTime } from 'luxon'
+
 import { Proposal } from './proposal'
 
 export interface Session {
-    proposal: Proposal,
-    startAt: DateTime,
-    endAt: DateTime,
+    startAt: number, // unixtime
+    endAt: number, // unixtime
+    proposal?: Proposal | null,
+    title?: string,
+    room?: string,
     youtubeUrl?: string,
     slideUrl?: string
 }

@@ -49,7 +49,7 @@ ja:
           <img v-lazy="require('~/assets/img/common/arrow-next-b.svg')" alt>
         </nuxt-link>
       </p>
-      <a class="js-changeView favBtn" href="javascript:void(0) ">{{ $t('bookmark_only') }}</a>
+      <!-- <a class="js-changeView favBtn" href="javascript:void(0) ">{{ $t('bookmark_only') }}</a> -->
     </div>
 
     <div id="day1" class="program">
@@ -60,14 +60,14 @@ ja:
         <span v-html="$t('day1_description')" />
       </p>
       <div class="schedule">
-        <div v-for="(v,k) in getProgram(1, 'ja')" :key="k">
+        <div v-for="[startAt, sessions] in Object.entries(filterByDateAndGroupByStartAt(17))" :key="startAt">
           <div class="schedule_content">
             <p class="schedule_time">
-              {{ k }}
+              {{ getTimeStr(parseInt(startAt)) }}
             </p>
             <div class="schedule_events">
-              <div v-for="schedule in v" :key="schedule.id" @click="openModal(schedule)">
-                <schedule :schedule="schedule" />
+              <div v-for="session in sessions" :key="session" @click="openModal(session.proposal)">
+                <schedule :schedule="session.proposal" :locale="$i18n.locale" />
               </div>
             </div>
           </div>
@@ -105,9 +105,11 @@ ja:
     </transition>
   </div>
 </template>
-<script>
+<script lang="ts">
+import { mapGetters } from 'vuex'
 import Modal from '@/components/sections/program/modal.vue'
 import Schedule from '@/components/sections/program/schedule.vue'
+import { DateTime } from 'luxon'
 
 export default {
   components: {
@@ -118,21 +120,26 @@ export default {
     return {
       program_list: {
         day1: [
-          require('@/data/program/day1/sample.yaml'),
-          require('@/data/program/day1/sample2.yaml'),
-          require('@/data/program/day1/sample3.yaml')
         ],
         day2: [
-          require('@/data/program/day2/1-0-0_registration.yaml'),
-          require('@/data/program/day2/1-1-0_opening.yaml'),
-          require('@/data/program/day2/sample.yaml')
         ]
       },
       selectProgram: null,
       showModal: false
     }
   },
+  computed: {
+    ...mapGetters({
+      filterByDateAndGroupByStartAt: 'sessions/filterByDateAndGroupByStartAt'
+    })
+  },
+  mounted: function () {
+    console.log(this.filterByDateAndGroupByStartAt(17))
+  },
   methods: {
+    getTimeStr(time) {
+      return DateTime.fromSeconds(time).toFormat('HH:mm')
+    },
     /**
      * 開始時刻をキーに、Programの詳細のListをValueに持つMapを返す
      * @param day

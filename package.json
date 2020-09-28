@@ -38,6 +38,7 @@
     "imagemin-svgo": "^7.0.0",
     "jimp": "^0.8.4",
     "js-yaml-loader": "^1.2.2",
+    "lodash": "^4.17.20",
     "lqip-loader": "^2.2.0",
     "luxon": "^1.25.0",
     "nuxt": "^2.9.1",

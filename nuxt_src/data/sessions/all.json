@@ -1,0 +1,26 @@
+[
+    {
+      "id": "J8",
+      "startAt": 1602907200,
+      "endAt": 1602909600,
+      "room": "Track A (with interpreters)",
+      "youtubeUrl": "",
+      "slideUrl": ""
+    },
+    {
+      "id": "J20",
+      "startAt": 1602907200,
+      "endAt": 1602909600,
+      "room": "Track B (with interpreters)",
+      "youtubeUrl": "",
+      "slideUrl": ""
+    },
+    {
+      "id": "J20",
+      "startAt": 1602907200,
+      "endAt": 1602909600,
+      "room": "Track C (with interpreters)",
+      "youtubeUrl": "",
+      "slideUrl": ""
+    }
+]

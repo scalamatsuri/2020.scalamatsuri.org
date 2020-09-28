@@ -5,7 +5,7 @@
     </p>
     <div class="schedule_detail">
       <p class="schedule_title">
-        {{ schedule.program.title }}
+        {{ schedule[locale].title }}
       </p>
       <div class="schedule_tags">
         <p class="schedule_tag">
@@ -87,14 +87,16 @@
       </p>
       <div class="schedule_tags">
         <p class="schedule_tag">
-          {{ schedule.time.started_at }} - {{ schedule.time.ended_at }}
+          {{ schedule.started_at }} - {{ schedule.ended_at }}
         </p>
       </div>
     </div>
   </div>
 </template>
 
-<script>
+<script lang="ts">
+import { Session } from '~/models/sessions'
+
 // ちょっと場当たり的な気がするが、一旦…
 export default {
   props: {
@@ -107,6 +109,11 @@ export default {
       default: () => {
         return {}
       }
+    },
+    locale: {
+      type: String,
+      required: true,
+      defualt: 'en'
     }
   },
   // 場当たり的な対応だが…
@@ -118,7 +125,7 @@ export default {
       return !this.fillRow()
     },
     isProgram() {
-      return this.useRoom() && this.schedule.speaker.id !== ''
+      return this.useRoom() && this.schedule.speaker && this.schedule.speaker.id !== ''
     }
   }
 }
