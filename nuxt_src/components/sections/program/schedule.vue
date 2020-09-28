@@ -1,72 +1,69 @@
 <template>
-  <div v-if="fillRow()" class="schedule_event">
+  <div v-if="!useRoom()" class="schedule_event">
     <p class="empty_room">
-      ROOM A
+      {{ schedule.room }}
     </p>
     <div class="schedule_detail">
       <p class="schedule_title">
-        {{ schedule[locale].title }}
+        {{ schedule.title }}
       </p>
       <div class="schedule_tags">
         <p class="schedule_tag">
-          {{ schedule.time.started_at }} - {{ schedule.time.ended_at }}
+          {{ getTimeStr(schedule.startAt) }} - {{ getTimeStr(schedule.endAt) }}
         </p>
       </div>
     </div>
   </div>
   <div
     v-else-if="isProgram()"
-    class="js-modal schedule_event"
-    data-target="modal0-0-0"
-    data-name="taro"
+    class="schedule_event"
   >
     <p class="schedule_room">
-      ROOM {{ schedule.room }}
+      {{ schedule.room }}
     </p>
     <!-- 内容 ここから -->
     <div class="schedule_detail">
       <p class="schedule_title">
-        {{ schedule.program.title }}
+        {{ schedule.proposal[locale].title }}
       </p>
       <div class="schedule_tags">
         <p class="schedule_tag">
-          {{ schedule.time.started_at }} - {{ schedule.time.ended_at }}
+          {{ getTimeStr(schedule.startAt) }} - {{ getTimeStr(schedule.endAt) }}
         </p>
         <p class="schedule_tag">
-          {{ schedule.program.lang }}
+          {{ schedule.proposal[locale].language }}
         </p>
         <p class="schedule_tag">
-          {{ schedule.program.audience }}
+          {{ schedule.proposal[locale].tags.join() }}
         </p>
       </div>
       <ul class="schedule_function">
-        <li v-for="item in schedule.program.links" :key="item" class="schedule_function">
+        <li v-for="item in schedule.proposal[locale].tags" :key="item" class="schedule_function">
           <!-- eslint-disable-next-line vue/no-v-html -->
-          <span v-html="item" />
+          <!-- <span v-html="item" /> -->
         </li>
       </ul>
     </div>
     <!-- 内容 ここまで -->
     <!-- 登壇者 ここから -->
     <div class="schedule_speakers">
-      <div class="schedule_speaker">
-        <div
+      <div v-for="speaker in schedule.proposal[locale].speakers" :key="speaker.name" class="schedule_speaker">
+        <img
+          v-lazy="speaker.icon"
           class="schedule_speaker_icon"
           style="background-image: url('/img/dummy/icon-user2.jpg')"
-        />
+        >
         <p class="schedule_speaker_name">
-          {{ schedule.speaker.name }}
+          {{ speaker.name }}
         </p>
         <p class="schedule_speaker_id">
-          <!-- TODO id ってpropertyでよいのかな…？ -->
-          {{ schedule.speaker.id }}
+          {{ speaker.id }}
         </p>
       </div>
     </div>
     <!-- 登壇者 ここまで -->
     <!-- お気に入り ここから -->
-    <div class="schedule_fav js-anc">
-      <!-- お気に入りは親にcallbackするような仕組みも多分必要-->
+    <!-- <div class="schedule_fav js-anc">
       <input
         id="favCheck0-0-0"
         type="checkbox"
@@ -74,10 +71,10 @@
         class="schedule_fav_checkbox js-fav"
       >
       <label for="favCheck0-0-0" class="schedule_fav_icon js-favLabel" />
-    </div>
+    </div> -->
     <!-- お気に入り ここまで -->
   </div>
-  <div v-else class="schedule_event">
+  <!-- <div v-else class="schedule_event">
     <p class="schedule_room">
       ROOM {{ schedule.room }}
     </p>
@@ -91,11 +88,11 @@
         </p>
       </div>
     </div>
-  </div>
+  </div> -->
 </template>
 
-<script lang="ts">
-import { Session } from '~/models/sessions'
+<script>
+import { DateTime } from 'luxon'
 
 // ちょっと場当たり的な気がするが、一旦…
 export default {
@@ -118,14 +115,14 @@ export default {
   },
   // 場当たり的な対応だが…
   methods: {
-    fillRow() {
-      return this.schedule.room === ''
-    },
     useRoom() {
-      return !this.fillRow()
+      return this.schedule && !!this.schedule.room
     },
     isProgram() {
-      return this.useRoom() && this.schedule.speaker && this.schedule.speaker.id !== ''
+      return this.useRoom() && !!this.schedule.proposal
+    },
+    getTimeStr(time) {
+      return DateTime.fromSeconds(time).toFormat('HH:mm')
     }
   }
 }

@@ -66,8 +66,8 @@ ja:
               {{ getTimeStr(parseInt(startAt)) }}
             </p>
             <div class="schedule_events">
-              <div v-for="session in sessions" :key="session" @click="openModal(session.proposal)">
-                <schedule :schedule="session.proposal" :locale="$i18n.locale" />
+              <div v-for="session in sessions" :key="session.title || session.proposal.id" @click="openModal(session.proposal)">
+                <schedule :schedule="session" :locale="$i18n.locale" />
               </div>
             </div>
           </div>
@@ -100,14 +100,14 @@ ja:
 
     <transition name="fade">
       <div v-if="showModal" class="modal is_active fadeIn animated" tabindex="0" @click.self="closeModal()" @keyup.escape="closeModal()">
-        <modal :schedule="selectProgram" @close="closeModal" />
+        <modal :program="selectProgram" @close="closeModal" />
       </div>
     </transition>
   </div>
 </template>
-<script lang="ts">
+<script>
 import { mapGetters } from 'vuex'
-import Modal from '@/components/sections/program/modal.vue'
+import Modal from '@/components/parts/SessionDetailModal.vue'
 import Schedule from '@/components/sections/program/schedule.vue'
 import { DateTime } from 'luxon'
 
@@ -132,9 +132,6 @@ export default {
     ...mapGetters({
       filterByDateAndGroupByStartAt: 'sessions/filterByDateAndGroupByStartAt'
     })
-  },
-  mounted: function () {
-    console.log(this.filterByDateAndGroupByStartAt(17))
   },
   methods: {
     getTimeStr(time) {
@@ -179,9 +176,7 @@ export default {
         }, {})
     },
     openModal(item) {
-      if (item.speaker.id === '') {
-        return
-      }
+      console.log(item)
       this.selectProgram = item
       this.showModal = true
     },
