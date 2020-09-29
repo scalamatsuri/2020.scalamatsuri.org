@@ -17,9 +17,9 @@
 <template>
   <div ref="modalKeyListener" class="modal_inner" tabindex="0" @keyup.escape="$emit('close')">
     <h2 class="modal_title">
-      <a :href="`proposals/${program.id}`" target="_blank">
+      <nuxt-link :to="localePath({name: 'proposals-id', params: {id: program.id}})" no-prefetch target="_blank">
         {{ program[$i18n.locale].title }}
-      </a>
+      </nuxt-link>
     </h2>
     <ul class="modal_speakers">
       <li v-for="speaker in program[$i18n.locale].speakers" :key="speaker.id" class="modal_speaker">
