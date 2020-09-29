@@ -7,9 +7,9 @@ en:
   to_candidates: To Proposals
   bookmark_only: BookMark Only
   day1_description: |
-    Conference DAY in conference format (3 parallel sessions). Doors open at 9:00, scheduled to end at 20:00. Lunch and light refreshment will be served at the party.
+    Conference DAY in conference format (3 parallel sessions). Doors open at 10:30, scheduled to end at 21:00 in JST.
   day2_description: |
-    Unconference DAY in unconference format, except for Room A. Doors open at 9:00, and scheduled to end at 18:00. Breakfast and lunch will be served.<br>
+    Unconference DAY in unconference format. Doors open at 10:30, and scheduled to end at 20:00 in JST.<br>
 ja:
   title: プログラム
   day1_header: 10/17 Conference Day
@@ -17,9 +17,9 @@ ja:
   to_candidates: 応募セッション一覧を表示する
   bookmark_only: ブックマークのみ表示
   day1_description: |
-    カンファレンス DAY カンファレンス形式(3パラレルセッション) 9時00分入場開始 20時終了予定。 昼食および懇親会での軽食をご用意しています。
+    カンファレンス DAY カンファレンス形式(3パラレルセッション) 10時30分入場開始 21時終了予定。
   day2_description: |
-    アンカンファレンス DAY ただし会場Aはカンファレンス形式 9時00分入場開始 18:00時終了予定。<br>
+    アンカンファレンス DAY 10時30分入場開始 20:00時終了予定。<br>
 </i18n>
 
 <template>
