@@ -7,11 +7,7 @@
         </h1>
       </div>
     </div>
-    <!--
-    <div class="notification">
-      2020/2/12 ご好評につき常設ブースは<strong>完売いたしました。</strong>
-    </div>
-    -->
+    <div class="notification" />
 
     <!-- sponsorship ここから -->
     <div class="sponsorship">
@@ -23,16 +19,16 @@
       </p>
       <div class="sponsorship_btnArea">
         <a href="/pdf/sponsorship.pdf" class="sponsorship_btn sponsorship_btn-pdf">スポンサーシップのご案内</a>
+        <!--
         <a href="https://forms.gle/jz29vPswF52yUnZB8" class="sponsorship_btn sponsorship_btn-form">お申込みフォーム</a>
+        -->
       </div>
-      <!--
       <p class="sponsorship_note">
-        年末年始は、2019年12月28日(土)から2020年1月5日(日)までスポンサー窓口はお休みです。<br>2019年12月26日(木)23:59JSTまでにスポンサーのお申し込みいただいた場合は、請求書を年内にご送付いたします。
+        2020/10/1 ScalaMatsuri 2020 <strong>スポンサー募集は締め切りました。</strong><br>たくさんのご応募、誠にありがとうございました。
       </p>
-      -->
     </div>
     <!-- sponsorship ここまで -->
-    <!-- recruit ここまで -->
+    <!-- recruit ここから -->
     <section class="section recruit">
       <h2 class="section_title">
         <span class="section_title_inner">特別企画 - 私、ScalaMatsuriで転職しました -</span>
@@ -217,13 +213,13 @@
       </p>
       <div class="sponsorship_btnArea">
         <a href="/pdf/sponsorship.pdf" class="sponsorship_btn sponsorship_btn-pdf">スポンサーシップのご案内</a>
+        <!--
         <a href="https://forms.gle/jz29vPswF52yUnZB8" class="sponsorship_btn sponsorship_btn-form">お申込みフォーム</a>
+        -->
       </div>
-      <!--
       <p class="sponsorship_note">
-        年末年始は、2019年12月28日(土)から2020年1月5日(日)までスポンサー窓口はお休みです。<br>2019年12月26日(木)23:59JSTまでにスポンサーのお申し込みいただいた場合は、請求書を年内にご送付いたします。
+        2020/10/1 ScalaMatsuri 2020 <strong>スポンサー募集は締め切りました。</strong><br>たくさんのご応募、誠にありがとうございました。
       </p>
-      -->
     </div>
     <!-- sponsorship ここまで -->
     <section class="inquiry">

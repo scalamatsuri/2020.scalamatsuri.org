@@ -65,11 +65,13 @@
                 <span>{{ $t('sponsors') }}</span>
               </nuxt-link>
             </li>
+            <!--
             <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/extra-staff') }">
               <nuxt-link :to="localePath('extra-staff')">
                 <span>{{ $t('extra-staff') }}</span>
               </nuxt-link>
             </li>
+            -->
             <!-- <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/#access') }">
               <nuxt-link :to="locale_access_link()">
                 <span>{{ $t('access') }}</span>
