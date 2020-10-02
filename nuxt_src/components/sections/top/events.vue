@@ -3,7 +3,7 @@
 en:
   event_overview: |
     This year's Scala Matsuri will be held online.<br>
-    We are planning to hold many events unique to online, so please look forward to it!
+    We are planning to hold some contents unique to online. Stay tuned!
 ja:
   event_overview: |
     本年のScalaMatsuriはオンライン開催になりました。<br>
