@@ -83,7 +83,12 @@
   }
 
   &-sponsor {
-    background-color: #4F9AD5;
+    span {
+      zoom: 0.7;
+      margin-bottom: 10px;
+    }
+  }
+  &-tshirt {
     span {
       zoom: 0.7;
       margin-bottom: 10px;

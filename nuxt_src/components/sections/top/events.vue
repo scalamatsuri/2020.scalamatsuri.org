@@ -2,18 +2,12 @@
 ## language=yaml
 en:
   event_overview: |
-    It is packed with fun and memorable events such as sponsored exhibits, Japanese food stalls and social gatherings.<br>
-    Please drop in between the sessions.
-  photo_caption1: TEXTTEXTTEXTTEXTTEXT
-  photo_caption2: TEXTTEXTTEXTTEXTTEXT
-  photo_caption3: TEXTTEXTTEXTTEXTTEXT
+    This year's Scala Matsuri will be held online.<br>
+    We are planning to hold some contents unique to online. Stay tuned!
 ja:
   event_overview: |
-    スポンサーによる展示や日本ならではの屋台や交流会など、思い出に残る楽しい企画が満載です。<br>
-    セッションの合間に是非お立ち寄りください！
-  photo_caption1: テキストテキストテキストテキストテキストテキストテキストテキストテキストテキ
-  photo_caption2: テキストテキストテキストテキストテキストテキストテキストテキストテキストテキ
-  photo_caption3: テキストテキストテキストテキストテキストテキストテキストテキストテキストテキ
+    本年のScalaMatsuriはオンライン開催になりました。<br>
+    オンラインならではの催し物を多数実施する予定ですので、どうぞお楽しみに！
 </i18n>
 
 <template>
