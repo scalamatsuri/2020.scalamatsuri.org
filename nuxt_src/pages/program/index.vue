@@ -67,7 +67,7 @@ ja:
             </p>
             <div class="schedule_events">
               <div v-for="session in sessions" :key="session.title || session.proposal.id" @click="openModal(session.proposal)">
-                <schedule :schedule="session" :locale="$i18n.locale" />
+                <schedule :schedule="session" :locale="$i18n.locale" :style="{ 'pointer-events': !!session.proposal ? 'auto' : 'none' }" />
               </div>
             </div>
           </div>
@@ -176,7 +176,7 @@ export default {
         }, {})
     },
     openModal(item) {
-      console.log(item)
+      if (!item) return
       this.selectProgram = item
       this.showModal = true
     },
