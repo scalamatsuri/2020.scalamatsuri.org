@@ -7,15 +7,21 @@
         </h1>
       </div>
     </div>
+
     <div class="lead">
       <img v-lazy="require('~/assets/img/extra-staff/img-main.jpg')" alt="" class="lead_img is_sp">
       <div class="lead_inner">
         <h2 class="lead_text">
           イベントを一緒に盛り上げる<br>仲間を募集しています
         </h2>
+        <!--
         <div class="section_btnArea lead_btnArea">
           <a href="https://forms.gle/SkbscteHs4nzGPZB8" target="_blank" rel="noopener" class="section_btn section_btn-l">スタッフに応募する</a>
         </div>
+        -->
+        <p class="extrastaff_note">
+          2020/10/1 ScalaMatsuri 2020 <strong>直前期スタッフ募集は締め切りました。</strong><br> たくさんのご応募、誠にありがとうございました。
+        </p>
       </div>
     </div>
     <p class="catch">
