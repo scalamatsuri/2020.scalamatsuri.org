@@ -45,11 +45,11 @@
                 <span>{{ $t('outline') }}</span>
               </nuxt-link>
             </li>
-            <!--            <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/program') }">-->
-            <!--              <nuxt-link :to="localePath('program')">-->
-            <!--                <span>{{ $t('program') }}</span>-->
-            <!--              </nuxt-link>-->
-            <!--            </li>-->
+            <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/program') }">
+              <nuxt-link :to="localePath('program')">
+                <span>{{ $t('program') }}</span>
+              </nuxt-link>
+            </li>
             <!-- <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/proposals') }">
               <nuxt-link :to="localePath('proposals')">
                 <span>{{ $t('proposals') }}</span>
