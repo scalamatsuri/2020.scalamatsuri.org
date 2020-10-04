@@ -21,7 +21,8 @@ ja:
   bookmark_only: ブックマークのみ表示
   day1_description: |
     カンファレンス DAY カンファレンス形式(3パラレルセッション) 10時30分入場開始 21時終了予定。<br>
-    Track AおよびBの全セッションについて、Zoom Webinarを利用した同時通訳がつきます。
+    Track AおよびBの全セッションについて、Zoom Webinarを利用した同時通訳がつきます。<br><br>
+    さらに、ScalaMatsuriスポンサー企業によるバーチャルブースコンテンツTrackも追加予定です。どうぞお楽しみに！
   day2_description: |
     アンカンファレンス DAY 10時30分入場開始 20:00時終了予定。<br>
 </i18n>
