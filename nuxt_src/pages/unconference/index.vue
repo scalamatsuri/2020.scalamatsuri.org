@@ -1,7 +1,7 @@
 <i18n>
 ## language=yaml
 en:
-  title: "Unconference"
+  title: Unconference
   unconferenve_title: What is an unconference?
   unconferenve_text_01: |
     An unconference is a participant-driven meeting. The term "unconference" has been applied, or self-applied, to a wide range of gatherings that try to avoid hierarchical aspects of a conventional conference, such as sponsored presentations and top-down organization.
@@ -12,13 +12,13 @@ en:
     Let's see how ScalaMatsuri unconference is organized.
   unconference_flow_title: ScalaMatsuri unconference flow
   unconference_flow_text_01: |
-    We will prepare a whiteboard to gather session ideas from the day before, the conference day.
+    We will prepare a GitHub repository to gather session ideas beforehand.
     <br>
-    Please put your session ideas.
+    Please create GitHub issues to put your session ideas.
     <br><br>
-    Morning session will be held at the beginning of the unconference day.
+    Morning and Coffee-break sessions will be held during unconference day.
     <br>
-    We will assign sessions ideas on the whiteboard into session slots, and finally form a timetable.
+    We will assign sessions ideas on the GitHub project into session slots, and finally form a timetable.
     <br><br>
     Once the timetable is decided, the unconference starts.
     <br><br>
@@ -55,27 +55,26 @@ en:
     <br><br>
     After the morning meeting, the unconference starts!
     <br><br>
-    ScalaMatsuri will support you with a translator at the unconference.
+    Unconference seesions will be conducted in English or Japanese.
     <br><br>
-    A schedule board will be prepared even after the unconference starts.
-    If you have a vacant room and time zone, please contact ScalaMatsuri management.
-    You can start a session like a guerrilla!
+    Since ScalaMatsuri have an interpreter bot in Discord venue, you can utilize it to communicate in your favorite language.
     <br><br>
-    The schedule for the day will also be posted on the website.
+    You can raise an additional session idea even after the unconference starts.
+    <br><br>
     If you have an interesting session, please join us.
   preparation_title: Preparation for unconference day
   preparation_text_01: |
-    Many workshop-style sessions are held, so it is recommended that you bring your laptop.
-    <br>
-    If you want to make a presentation, please bring a display connector.
+    Unconference gives you more opportunities to speak than conferences.
+    <br><br>
+    Please use headphones and an external microphone to avoid audio feedback.
   lastly_title: Lastly
 
   lastly_text_01: |
-    An unconference is <b> created by all participants </b>.
+    An unconference is <b>formed by you, and all participants.</b>
     <br><br>
     Let's have fun together!
 ja:
-  title: "Unconference"
+  title: アンカンファレンス
   unconferenve_title: アンカンファレンスとは？
   unconferenve_text_01: |
     講演内容や発表者が当日まで決まっておらず、来場者が自分の話したい内容を発表する、参加者が全員でつくりあげるカンファレンスです。
@@ -89,9 +88,9 @@ ja:
     では、ScalaMatsuriのアンカンファレンスがどのように作られていくか、説明したいと思います。
   unconference_flow_title: ScalaMatsuriのアンカンファレンスの流れ
   unconference_flow_text_01: |
-    前日(カンファレンス DAY)からネタを募集するホワイトボードを用意するので、思い思いにネタを出して下さい。
+    ScalaMatsuri 2020では、ネタを募集するGitHubリポジトリを用意するので、思い思いにネタissueを書いて下さい。
     <br><br>
-    アンカンファレンス(アンカンファレンス DAY)の冒頭に「朝会」を行い、集まったネタを元にセッションの決定とタイムテーブルの作成を行います。
+    アンカンファレンスDAYに「朝会」と「おやつ会（仮）」を行い、集まったネタを元にセッションの決定とタイムテーブルの作成を行います。
     <br><br>
     タイムテーブルが決まったら、アンカンファレンス開始です。
     <br><br>
@@ -120,24 +119,26 @@ ja:
     どんな些細なネタでもいいので出して見て下さい。
   flow_of_the_day_title: 当日の流れ
   flow_of_the_day_text_01: |
-    <b>朝会</b>の様子は、<a href="https://www.youtube.com/watch?v=XA3OqSml7V4" target="_blank" rel="noopener">こちら</a>をご覧ください。
+    <b>過去の朝会</b>の様子は、<a href="https://www.youtube.com/watch?v=XA3OqSml7V4" target="_blank" rel="noopener">こちら</a>をご覧ください。
   flow_of_the_day_text_02: |
-    朝会では、前日までに集まったネタをある程度グルーピングしてまとめ、朝から来てくれた参加者のみんなで、どの時間帯、どの部屋で開催するかを決めます。
+    朝会では、前日までに集まったネタをある程度グルーピングしてまとめ、朝から来てくれた参加者のみんなで、どの時間帯、どのTrackで開催するかを決めます。
     <br><br>
-    朝会が終了次第、カンファレンスが始まります！
+    朝会が終了次第、アンカンファレンスのセッションが始まります！
     <br><br>
-    ネタによっては、海外の人が講演者になることもありますし、通訳が必要な参加者も参加されます。
+    アンカンファレンスでは、日本語や英語のセッションが入り混じります。
     <br><br>
-    そこでScalaMatsuriでは、部屋は限られますがアンカンファレンスでも通訳をいれて皆さんをサポートいたします。
+    口頭での同時通訳はありませんが、Discord上の通訳botは利用可能です。日英話者間でのコミュニケーションにぜひご活用ください。
     <br><br>
-    また、アンカンファレンスのスケジュールボードを用意しますので、空いている部屋、時間帯があればアンカンファレンス開始後でも記載してScalaMatsuriの運営に連絡をいただければ、ゲリラ的にセッションを始めていただいても構いません。
+    また、朝会・おやつ会以外でもアンカンファレンスのセッション追加は可能です。ゲリラ的にセッションを始めていただいても構いません。
     <br><br>
-    当日のスケジュールはwebsiteにも反映しますので、興味を惹かれるセッションがあったら是非途中からでもご参加ください。
+    タイムテーブルに掲載したい場合は、運営にお声がけください。
+    <br><br>
+    当日のスケジュールはGitHub Projectに反映されますので、興味を惹かれるセッションがあったら是非途中からでもご参加ください。
   preparation_title: 当日の準備
   preparation_text_01: |
-    ワークショップ形式のセッションも多く開催されるので、ノートPCを持ってくるのを推奨します。
+    アンカンファレンスでは、カンファレンスに比べ発言機会が増えます。
     <br>
-    また、発表したい人は念のためディスプレイコネクターもご持参下さい。
+    ハウリングしないよう、ヘッドホンや外部マイクのご準備をよろしくお願いします。
   lastly_title: おわりに
   lastly_text_01: |
     アンカンファレンスは、<b>参加者が全員でつくりあげる</b>カンファレンスです。一緒に楽しみましょう！
