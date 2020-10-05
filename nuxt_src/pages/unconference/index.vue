@@ -2,19 +2,19 @@
 ## language=yaml
 en:
   title: Unconference
-  unconferenve_title: What is an unconference?
-  unconferenve_text_01: |
+  unconference_title: What is an unconference?
+  unconference_text_01: |
     An unconference is a participant-driven meeting. The term "unconference" has been applied, or self-applied, to a wide range of gatherings that try to avoid hierarchical aspects of a conventional conference, such as sponsored presentations and top-down organization.
     <a href="https://en.wikipedia.org/wiki/Unconference" target="_blank" rel="noopener">Wikipedia</a>
-  unconferenve_text_02: |
+  unconference_text_02: |
     Have you ever wondered why all the sessions in Unconference Day are TBD? Might there be a problem? No. It's definitely intended!
     <br><br>
     Let's see how ScalaMatsuri unconference is organized.
   unconference_flow_title: ScalaMatsuri unconference flow
   unconference_flow_text_01: |
-    We will prepare a GitHub repository to gather session ideas beforehand.
+    We will prepare <a href="https://github.com/scalamatsuri/2020.unconference" target="_blank" rel="noopener">a GitHub repository to gather session ideas</a> beforehand.
     <br>
-    Please create GitHub issues to put your session ideas.
+    Please create <a href="https://github.com/scalamatsuri/2020.unconference/issues" target="_blank" rel="noopener">GitHub issues</a> to put your session ideas.
     <br><br>
     Morning and Coffee-break sessions will be held during unconference day.
     <br>
@@ -75,12 +75,12 @@ en:
     Let's have fun together!
 ja:
   title: アンカンファレンス
-  unconferenve_title: アンカンファレンスとは？
-  unconferenve_text_01: |
+  unconference_title: アンカンファレンスとは？
+  unconference_text_01: |
     講演内容や発表者が当日まで決まっておらず、来場者が自分の話したい内容を発表する、参加者が全員でつくりあげるカンファレンスです。
     発表したい人が、カンファレンス中に発表内容を提案し、参加者の投票によってプログラムが決まります。
     <a href="http://d.hatena.ne.jp/keyword/%a5%a2%a5%f3%a5%ab%a5%f3%a5%d5%a5%a1%a5%ec%a5%f3%a5%b9" target="_blank" rel="noopener">Hatena Keyword</a>より
-  unconferenve_text_02: |
+  unconference_text_02: |
     <a href="http://blog.scalamatsuri.org/entry/2015/09/29/023812" target="_blank" rel="noopener">番外編 Scala World 2015レポート その2 アンカンファレンス編</a>にも 紹介されているとおり、<b>参加者が全員でつくりあげる</b>カンファレンスです。
     <br><br>
     アンカンファレンス DAYのスケジュールが<b>TBD</b>で埋まっていて、作りかけなんじゃないかと感じたあなた、正解です。
@@ -88,7 +88,9 @@ ja:
     では、ScalaMatsuriのアンカンファレンスがどのように作られていくか、説明したいと思います。
   unconference_flow_title: ScalaMatsuriのアンカンファレンスの流れ
   unconference_flow_text_01: |
-    ScalaMatsuri 2020では、ネタを募集するGitHubリポジトリを用意するので、思い思いにネタissueを書いて下さい。
+    ScalaMatsuri 2020では、<a href="https://github.com/scalamatsuri/2020.unconference" target="_blank" rel="noopener">ネタを募集するGitHubリポジトリ</a>を用意します。
+    <br><br>
+    思い思いにセッションのアイディアを<a href="https://github.com/scalamatsuri/2020.unconference/issues" target="_blank" rel="noopener">GitHub issue</a>に書いて下さい。
     <br><br>
     アンカンファレンスDAYに「朝会」と「おやつ会（仮）」を行い、集まったネタを元にセッションの決定とタイムテーブルの作成を行います。
     <br><br>
@@ -155,10 +157,10 @@ ja:
     </div>
     <div class="section">
       <h2 class="section_title">
-        <span class="section_title_inner">{{ $t('unconferenve_title') }}</span>
+        <span class="section_title_inner">{{ $t('unconference_title') }}</span>
       </h2>
-      <blockquote class="section_text" v-html="$t('unconferenve_text_01')" />
-      <p class="section_text" v-html="$t('unconferenve_text_02')" />
+      <blockquote class="section_text" v-html="$t('unconference_text_01')" />
+      <p class="section_text" v-html="$t('unconference_text_02')" />
     </div>
     <div class="section">
       <h2 class="section_title">
