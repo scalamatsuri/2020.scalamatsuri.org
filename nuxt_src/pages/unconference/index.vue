@@ -20,7 +20,7 @@ en:
     <br>
     We will assign sessions ideas on the GitHub project into session slots, and finally form a timetable.
     <br><br>
-    Once the timetable is decided, the unconference starts.
+    Once <a href="https://github.com/scalamatsuri/2020.unconference/projects/1" target="_blank" rel="noopener">the timetable</a> is decided, the unconference starts.
     <br><br>
     There must be a lot of attractive sessions.
     <br>
@@ -94,7 +94,7 @@ ja:
     <br><br>
     アンカンファレンスDAYに「朝会」と「おやつ会（仮）」を行い、集まったネタを元にセッションの決定とタイムテーブルの作成を行います。
     <br><br>
-    タイムテーブルが決まったら、アンカンファレンス開始です。
+    <a href="https://github.com/scalamatsuri/2020.unconference/projects/1" target="_blank" rel="noopener">タイムテーブル</a>が決まったら、アンカンファレンス開始です。
     <br><br>
     面白いセッションが目白押しで、聞きたいセッションがかぶることも多いので、途中参加、途中退出は自由です。
   themes_title: ネタ出し

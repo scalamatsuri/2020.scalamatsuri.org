@@ -11,7 +11,8 @@ en:
     Conference DAY in conference format (3 parallel sessions). Doors open at 10:30, scheduled to end at 21:00 in JST.<br>
     Simultaneous interpretation will be provided via Zoom Webinar for all Track A or B sessions.
   day2_description: |
-    Unconference DAY in unconference format. Doors open at 10:30, and scheduled to end at 20:00 in JST.<br>
+    Unconference DAY <a href="https://github.com/scalamatsuri/2020.unconference/projects/1" target="_blank" rel="noopener">Timetable</a>.<br>
+    Doors open at 10:30, and scheduled to end at 20:00 in JST.<br>
     Please put your sessions ideas to <a href="https://github.com/scalamatsuri/2020.unconference" target="_blank" rel="noopener">scalamatsuri/2020.unconference</a> Github repository.<br><br>
 
 ja:
@@ -26,7 +27,7 @@ ja:
     Track AおよびBの全セッションについて、Zoom Webinarを利用した同時通訳がつきます。<br><br>
     さらに、ScalaMatsuriスポンサー企業によるバーチャルブースコンテンツTrackも追加予定です。どうぞお楽しみに！
   day2_description: |
-    アンカンファレンス DAY 10時30分入場開始 20:00時終了予定。<br>
+    アンカンファレンス DAY <a href="https://github.com/scalamatsuri/2020.unconference/projects/1" target="_blank" rel="noopener">タイムテーブル</a>（10時30分入場開始 20時 終了予定）<br>
     セッションのアイディアは、<a href="https://github.com/scalamatsuri/2020.unconference" target="_blank" rel="noopener">scalamatsuri/2020.unconference</a> Githubリポジトリに投稿してください。<br><br>
 </i18n>
 
