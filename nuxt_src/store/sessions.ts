@@ -11,7 +11,7 @@ import { RootState } from '~/store'
 import { Session } from '~/models/session'
 
 import sessionsData from '~/data/sessions/all.json'
-import proposalData from '~/data/proposals/all.json'
+import proposalData from '~/data/top/acceptedSessions.json'
 import { Proposal } from '~/models/proposal'
 
 export const namespace = 'sessions'
