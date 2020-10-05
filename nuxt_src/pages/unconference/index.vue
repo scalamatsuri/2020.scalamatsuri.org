@@ -121,7 +121,7 @@ ja:
   flow_of_the_day_title: 当日の流れ
   flow_of_the_day_text_01: |
     <b>朝会</b>の様子は、<a href="https://www.youtube.com/watch?v=XA3OqSml7V4" target="_blank" rel="noopener">こちら</a>をご覧ください。
-    flow_of_the_day_text_02: |
+  flow_of_the_day_text_02: |
     朝会では、前日までに集まったネタをある程度グルーピングしてまとめ、朝から来てくれた参加者のみんなで、どの時間帯、どの部屋で開催するかを決めます。
     <br><br>
     朝会が終了次第、カンファレンスが始まります！
