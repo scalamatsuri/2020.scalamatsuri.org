@@ -10,7 +10,7 @@ import { RootState } from '~/store'
 import { Proposal } from '~/models/proposal'
 
 import proposalData from '~/data/proposals/all.json'
-
+//TODO: acceptedSessionsはidのみのarrayとし、プロポーザル詳細についてはall.jsonのみを参照するよう修正する
 import acceptedSessionData from  '~/data/top/acceptedSessions.json'
 
 export const namespace = 'proposals'
