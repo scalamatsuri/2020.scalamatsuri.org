@@ -87,7 +87,6 @@ export default {
   }
 }
 
-
 // animations
 .fade-enter-active,
 .fade-leave-active {
