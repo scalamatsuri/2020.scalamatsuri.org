@@ -3879,7 +3879,7 @@
     "id": "J19",
     "en": {
       "title": "Onboarding process of the Scala team",
-      "detail": "Scala is unique in its flexibility and expressiveness. On the other hand, such aspects sometimes make it hard for newcomer to catch up with the coding style of team.\nIn this session, I will share our Scala team's \"Onboarding\" process and tools to make teamwork work.",
+      "detail": "Scala is unique in its flexibility and expressiveness. On the other hand, such aspects sometimes make it hard for newcomer to catch up with the coding style of team.\nIn this session, I will share our Scala team's \"Onboarding\" process and tools to make teamwork work.\n\nI'll also talk about topics that might be useful to newcomers, such as how to apply Scala's language features to production code and learning resources.",
       "language": "Japanese",
       "length": 40,
       "tags": [
@@ -3904,12 +3904,22 @@
           "github": "todokr",
           "twitter": "todokr",
           "other_sns": ""
+        },
+        {
+          "name": "Robert Devlin",
+          "icon": "https://avatars2.githubusercontent.com/u/49631740?s=460&u=4fbd12e0778c01518833ec7ee52775144ef152fa&v=4",
+          "organization": "株式会社ビズリーチ",
+          "speaker_experience": [],
+          "contributes": [],
+          "github": "",
+          "twitter": "",
+          "other_sns": ""
         }
       ]
     },
     "ja": {
       "title": "Scalaチームのオンボーディング",
-      "detail": "Scalaの特色として挙げられるのが、柔軟性や抽象度の高いコードを記述できる表現力です。一方、それゆえにチームのコーディングスタイルへの新メンバーのキャッチアップが難しくなってしまうこともしばしばあります。\nこのセッションでは、新メンバーの入社前から業務の開始、活躍に至るまでの「オンボーディング」の取り組みや、活用しているツールを共有します。",
+      "detail": "Scalaの特色として挙げられるのが、柔軟性や抽象度の高いコードを記述できる表現力です。一方、それゆえにチームのコーディングスタイルへの新メンバーのキャッチアップが難しくなってしまうこともしばしばあります。\nこのセッションでは、新メンバーの入社前から業務の開始、活躍に至るまでの「オンボーディング」の取り組みや、活用しているツールを共有します。\n\n主なテーマは「Scala未経験の新メンバーをチームはどのようにサポートするか」ですが、Scalaの言語機能をどのように活かすかや、学習リソースの紹介など、入門者の方に役立つかもしれないトピックについてもお話ししたいと思います。",
       "language": "Japanese",
       "length": 40,
       "tags": [
@@ -3933,6 +3943,16 @@
           "contributes": [],
           "github": "todokr",
           "twitter": "todokr",
+          "other_sns": ""
+        },
+        {
+          "name": "Robert Devlin",
+          "icon": "https://avatars2.githubusercontent.com/u/49631740?s=460&u=4fbd12e0778c01518833ec7ee52775144ef152fa&v=4",
+          "organization": "株式会社ビズリーチ",
+          "speaker_experience": [],
+          "contributes": [],
+          "github": "",
+          "twitter": "",
           "other_sns": ""
         }
       ]

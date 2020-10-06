@@ -213,6 +213,7 @@ export default {
     font-size: 16px;
     letter-spacing: 0.1em;
     margin-top: 30px;
+    white-space: pre-wrap;
   }
   .individual_scopeArea {
     margin-top: 37px;
