@@ -4,22 +4,31 @@ en:
   title: Program
   day1_header: 10/17 Conference Day
   day2_header: 10/18 Unonference Day
+  unconference_title: What is an unconference？
   to_candidates: To Proposals
   bookmark_only: BookMark Only
   day1_description: |
-    Conference DAY in conference format (3 parallel sessions). Doors open at 10:30, scheduled to end at 21:00 in JST.
+    Conference DAY in conference format (3 parallel sessions). Doors open at 10:30, scheduled to end at 21:00 in JST.<br>
+    Simultaneous interpretation will be provided via Zoom Webinar for all Track A or B sessions.
   day2_description: |
-    Unconference DAY in unconference format. Doors open at 10:30, and scheduled to end at 20:00 in JST.<br>
+    Unconference DAY <a href="https://github.com/scalamatsuri/2020.unconference/projects/1" target="_blank" rel="noopener">Timetable</a>.<br>
+    Doors open at 10:30, and scheduled to end at 20:00 in JST.<br>
+    Please put your sessions ideas to <a href="https://github.com/scalamatsuri/2020.unconference" target="_blank" rel="noopener">scalamatsuri/2020.unconference</a> Github repository.<br><br>
+
 ja:
   title: プログラム
-  day1_header: 10/17 Conference Day
-  day2_header: 10/18 Unconference Day
+  day1_header: 10/17 カンファレンス Day
+  day2_header: 10/18 アンカンファレンス Day
+  unconference_title: アンカンファレンスとは？
   to_candidates: 応募セッション一覧を表示する
   bookmark_only: ブックマークのみ表示
   day1_description: |
-    カンファレンス DAY カンファレンス形式(3パラレルセッション) 10時30分入場開始 21時終了予定。
+    カンファレンス DAY カンファレンス形式(3パラレルセッション) 10時30分入場開始 21時終了予定。<br>
+    Track AおよびBの全セッションについて、Zoom Webinarを利用した同時通訳がつきます。<br><br>
+    さらに、ScalaMatsuriスポンサー企業によるバーチャルブースコンテンツTrackも追加予定です。どうぞお楽しみに！
   day2_description: |
-    アンカンファレンス DAY 10時30分入場開始 20:00時終了予定。<br>
+    アンカンファレンス DAY <a href="https://github.com/scalamatsuri/2020.unconference/projects/1" target="_blank" rel="noopener">タイムテーブル</a>（10時30分入場開始 20時 終了予定）<br>
+    セッションのアイディアは、<a href="https://github.com/scalamatsuri/2020.unconference" target="_blank" rel="noopener">scalamatsuri/2020.unconference</a> Githubリポジトリに投稿してください。<br><br>
 </i18n>
 
 <template>
@@ -42,15 +51,15 @@ ja:
         </ul>
       </div>
     </div>
-    <div class="btnArea programCtrl">
+    <!-- <div class="btnArea programCtrl">
       <p class="content_link candidatesBtn">
         <nuxt-link :to="localePath('proposals')">
           {{ $t('to_candidates') }}
           <img v-lazy="require('~/assets/img/common/arrow-next-b.svg')" alt>
         </nuxt-link>
       </p>
-      <!-- <a class="js-changeView favBtn" href="javascript:void(0) ">{{ $t('bookmark_only') }}</a> -->
-    </div>
+      <a class="js-changeView favBtn" href="javascript:void(0) ">{{ $t('bookmark_only') }}</a>
+    </div> -->
 
     <div id="day1" class="program">
       <h2 class="program_title">
@@ -81,6 +90,11 @@ ja:
       </h2>
       <p class="program_text">
         <span v-html="$t('day2_description')" />
+      </p>
+      <p>
+        <nuxt-link :to="localePath('unconference')">
+          {{ $t('unconference_title') }}
+        </nuxt-link>
       </p>
       <div class="schedule">
         <div v-for="(v,k) in getProgram(2, 'ja')" :key="k">
