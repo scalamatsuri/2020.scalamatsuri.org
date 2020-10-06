@@ -3,10 +3,8 @@
     <main-visual />
     <news :posts="blogPosts" />
     <banner />
-    <ec-shop />
+    <program />
     <events />
-    <accepted-sessions />
-    <!-- <access /> -->
     <lazy-component>
       <info />
     </lazy-component>
@@ -23,21 +21,17 @@ import events from '@/components/sections/top/events'
 // import access from '@/components/sections/top/access'
 import info from '@/components/sections/top/info'
 import topSponsors from '@/components/sections/top/sponsors'
-import AcceptedSessions from '@/components/sections/top/AcceptedSessions'
-
-import ecShop from '@/components/sections/top/ecShop'
+import program from '@/components/sections/top/program'
 
 export default {
   components: {
     mainVisual,
     news,
-    ecShop,
     banner,
     events,
-    // access,
     info,
     topSponsors,
-    AcceptedSessions
+    program
   },
   computed: {
     ...mapState({

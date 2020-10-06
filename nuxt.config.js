@@ -40,7 +40,10 @@ module.exports = {
     { src: '~/plugins/toast', ssr: false },
     { src: '~/plugins/scalaMatsuriCommon', ssr: false }
   ],
-
+  /*
+   ** Nuxt.js dev-modules
+   */
+  buildModules: ['@nuxt/typescript-build'],
   /*
   ** Nuxt.js modules
   */

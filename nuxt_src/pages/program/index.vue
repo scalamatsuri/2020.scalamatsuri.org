@@ -2,35 +2,33 @@
 ## language=yaml
 en:
   title: Program
-  day1_header: "6/27 Workshop Day"
-  day2_header: "6/28 Conference Day"
-  day3_header: "6/29 Unconference Day"
-  to_candidates: "To Proposals"
-  bookmark_only: "BookMark Only"
+  day1_header: 10/17 Conference Day
+  day2_header: 10/18 Unonference Day
+  unconference_title: What is an unconference？
+  to_candidates: To Proposals
+  bookmark_only: BookMark Only
   day1_description: |
-    ScalaMatsuri has the important goal of expanding the Scala community by helping more people know the attraction of Scala and helping those who want to get started with Scala. <br>
-    At ScalaMatsuri 2019, we will hold a "Scala lesson by drawing" at the workshop DAY on the first day.
-  day2_description: "Conference DAY in conference format (3 parallel sessions). Doors open at 9:00, scheduled to end at 20:00. Lunch and light refreshment will be served at the party."
-  day3_description: |
-    Unconference DAY in unconference format, except for Room A. Doors open at 9:00, and scheduled to end at 18:00. Breakfast and lunch will be served.<br><br>
-    <a href="%{unconference_link}" target="_blank" rel="noopener">What is unconference?</a><br><br>
-    <a href="https://scalabridge.org/" target="_blank" rel="noopener">ScalaBridge</a> Tokyo is an introductory Scala programming workshop for women and engineers from all underrepresented background (race, gender, age etc) to build more inclusive Scala community.
+    Conference DAY in conference format (3 parallel sessions). Doors open at 10:30, scheduled to end at 21:00 in JST.<br>
+    Simultaneous interpretation will be provided via Zoom Webinar for all Track A or B sessions.
+  day2_description: |
+    Unconference DAY <a href="https://github.com/scalamatsuri/2020.unconference/projects/1" target="_blank" rel="noopener">Timetable</a>.<br>
+    Doors open at 10:30, and scheduled to end at 20:00 in JST.<br>
+    Please put your sessions ideas to <a href="https://github.com/scalamatsuri/2020.unconference" target="_blank" rel="noopener">scalamatsuri/2020.unconference</a> Github repository.<br><br>
+
 ja:
   title: プログラム
-  day1_header: "6/27 Workshop Day"
-  day2_header: "6/28 Conference Day"
-  day3_header: "6/29 Unconference Day"
-  to_candidates: "応募セッション一覧を表示する"
-  bookmark_only: "ブックマークのみ表示"
-  day1_description:  |
-    ScalaMatsuri では、Scala の魅力をより多くの人に知ってもらったり、Scala に入門したい人の手助けをすることで、Scalaコミュニティの裾野を広げていくという大事な目標があります。
-    ScalaMatsuri 2019 では、初日のワークショップDAYにて、「お絵かきで学ぶScala教室」を開催することになりました。
-  day2_description: カンファレンス DAY カンファレンス形式(3パラレルセッション) 9時00分入場開始 20時終了予定。 昼食および懇親会での軽食をご用意しています。
-  day3_description: |
-    アンカンファレンス DAY ただし会場Aはカンファレンス形式 9時00分入場開始 18:00時終了予定。<br>
-    朝食と昼食をご用意しています。<br><br>
-    アンカンファレンスについては<a href="%{unconference_link}" target="_blank" rel="noopener">コチラ</a><br><br>
-    <a href="https://scalabridge.org/" target="_blank" rel="noopener">ScalaBridge</a>は、女性やマイノリティのエンジニア向けのワークショップとして海外で開催されてきたワークショッププログラムです。
+  day1_header: 10/17 カンファレンス Day
+  day2_header: 10/18 アンカンファレンス Day
+  unconference_title: アンカンファレンスとは？
+  to_candidates: 応募セッション一覧を表示する
+  bookmark_only: ブックマークのみ表示
+  day1_description: |
+    カンファレンス DAY カンファレンス形式(3パラレルセッション) 10時30分入場開始 21時終了予定。<br>
+    Track AおよびBの全セッションについて、Zoom Webinarを利用した同時通訳がつきます。<br><br>
+    さらに、ScalaMatsuriスポンサー企業によるバーチャルブースコンテンツTrackも追加予定です。どうぞお楽しみに！
+  day2_description: |
+    アンカンファレンス DAY <a href="https://github.com/scalamatsuri/2020.unconference/projects/1" target="_blank" rel="noopener">タイムテーブル</a>（10時30分入場開始 20時 終了予定）<br>
+    セッションのアイディアは、<a href="https://github.com/scalamatsuri/2020.unconference" target="_blank" rel="noopener">scalamatsuri/2020.unconference</a> Githubリポジトリに投稿してください。<br><br>
 </i18n>
 
 <template>
@@ -50,13 +48,10 @@ ja:
           <li class="main_item">
             <a href="#day2">{{ $t('day2_header') }}</a>
           </li>
-          <li class="main_item">
-            <a href="#day3">{{ $t('day3_header') }}</a>
-          </li>
         </ul>
       </div>
     </div>
-    <div class="btnArea programCtrl">
+    <!-- <div class="btnArea programCtrl">
       <p class="content_link candidatesBtn">
         <nuxt-link :to="localePath('proposals')">
           {{ $t('to_candidates') }}
@@ -64,7 +59,7 @@ ja:
         </nuxt-link>
       </p>
       <a class="js-changeView favBtn" href="javascript:void(0) ">{{ $t('bookmark_only') }}</a>
-    </div>
+    </div> -->
 
     <div id="day1" class="program">
       <h2 class="program_title">
@@ -74,14 +69,14 @@ ja:
         <span v-html="$t('day1_description')" />
       </p>
       <div class="schedule">
-        <div v-for="(v,k) in getProgram(1, 'ja')" :key="k">
+        <div v-for="[startAt, sessions] in Object.entries(filterByDateAndGroupByStartAt(17))" :key="startAt">
           <div class="schedule_content">
             <p class="schedule_time">
-              {{ k }}
+              {{ getTimeStr(parseInt(startAt)) }}
             </p>
             <div class="schedule_events">
-              <div v-for="schedule in v" :key="schedule.id" @click="openModal(schedule)">
-                <schedule :schedule="schedule" />
+              <div v-for="session in sessions" :key="session.title || session.proposal.id" @click="openModal(session.proposal)">
+                <schedule :schedule="session" :locale="$i18n.locale" :style="{ 'pointer-events': !!session.proposal ? 'auto' : 'none' }" />
               </div>
             </div>
           </div>
@@ -95,6 +90,11 @@ ja:
       </h2>
       <p class="program_text">
         <span v-html="$t('day2_description')" />
+      </p>
+      <p>
+        <nuxt-link :to="localePath('unconference')">
+          {{ $t('unconference_title') }}
+        </nuxt-link>
       </p>
       <div class="schedule">
         <div v-for="(v,k) in getProgram(2, 'ja')" :key="k">
@@ -112,39 +112,18 @@ ja:
       </div>
     </div>
 
-    <div id="day3" class="program">
-      <h2 class="program_title">
-        {{ $t('day3_header') }}
-      </h2>
-      <p class="program_text">
-        <span v-html="$t('day3_description', { unconference_link: localePath('unconference') })" />
-      </p>
-      <div class="schedule">
-        <div v-for="(v,k) in getProgram(3, 'ja')" :key="k">
-          <div class="schedule_content">
-            <p class="schedule_time">
-              {{ k }}
-            </p>
-            <div class="schedule_events">
-              <div v-for="schedule in v" :key="schedule.id" @click="openModal(schedule)">
-                <schedule :schedule="schedule" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
     <transition name="fade">
       <div v-if="showModal" class="modal is_active fadeIn animated" tabindex="0" @click.self="closeModal()" @keyup.escape="closeModal()">
-        <modal :schedule="selectProgram" @close="closeModal" />
+        <modal :program="selectProgram" @close="closeModal" />
       </div>
     </transition>
   </div>
 </template>
 <script>
-import Modal from '@/components/sections/program/modal.vue'
+import { mapGetters } from 'vuex'
+import Modal from '@/components/parts/SessionDetailModal.vue'
 import Schedule from '@/components/sections/program/schedule.vue'
+import { DateTime } from 'luxon'
 
 export default {
   components: {
@@ -155,22 +134,23 @@ export default {
     return {
       program_list: {
         day1: [
-          require('@/data/program/day1/sample.yaml'),
-          require('@/data/program/day1/sample2.yaml'),
-          require('@/data/program/day1/sample3.yaml')
         ],
         day2: [
-          require('@/data/program/day2/1-0-0_registration.yaml'),
-          require('@/data/program/day2/1-1-0_opening.yaml'),
-          require('@/data/program/day2/sample.yaml')
-        ],
-        day3: [require('@/data/program/day3/sample.yaml')]
+        ]
       },
       selectProgram: null,
       showModal: false
     }
   },
+  computed: {
+    ...mapGetters({
+      filterByDateAndGroupByStartAt: 'sessions/filterByDateAndGroupByStartAt'
+    })
+  },
   methods: {
+    getTimeStr(time) {
+      return DateTime.fromSeconds(time).toFormat('HH:mm')
+    },
     /**
      * 開始時刻をキーに、Programの詳細のListをValueに持つMapを返す
      * @param day
@@ -210,9 +190,7 @@ export default {
         }, {})
     },
     openModal(item) {
-      if (item.speaker.id === '') {
-        return
-      }
+      if (!item) return
       this.selectProgram = item
       this.showModal = true
     },
