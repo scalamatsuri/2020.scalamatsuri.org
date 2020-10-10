@@ -203,48 +203,8 @@
       "length": 40,
       "speakers": [
         {
-          "name": "門脇 拓巳 @blac_k_ey",
+          "name": "株式会社セプテーニ・オリジナル社員",
           "icon": "https://pbs.twimg.com/profile_images/1110501048559390720/UmgRho9s_400x400.jpg",
-          "organization": "株式会社 セプテーニ・オリジナル エンジニア",
-          "speaker_experience": [
-            "Scala秋祭り 『面倒なことはScalaスクリプトにやらせよう』 https://speakerdeck.com/nomadblacky/let-scala-scripts-do-the-troublesome-things",
-            "Scala関西Summit 2018 『Readable Code in Scala』 https://gitpitch.com/NomadBlacky/slides/readable-code-in-scala#/"
-          ],
-          "contributes": [
-            "https://github.com/serverless/serverless",
-            "https://github.com/NomadBlacky/scaladog",
-            "https://github.com/NomadBlacky/digdag-plugin-datadog"
-          ],
-          "github": "NomadBlacky",
-          "twitter": "blac_k_ey",
-          "other_sns": ""
-        },
-        {
-          "name": "Naoki Aoyama - @aoiroaoino",
-          "icon": "https://avatars0.githubusercontent.com/u/2589034?s=460&v=4",
-          "organization": "株式会社セプテーニ・オリジナル",
-          "speaker_experience": [
-            "おもな登壇:",
-            "",
-            "ScalaMatsuri (2018),  Scala関西Summit (2016, 2017, 2019), Scala秋祭り, など",
-            "",
-            "おもな資料:",
-            "",
-            "Lens の基本と基礎 (ScalaMatsuri 2017 アンカンファレンス)",
-            "https://www.slideshare.net/AoiroAoino/van-laarhoven-lens-72584231 ",
-            "",
-            "Purely Functional Play Framework Application (ScalaMatsuri 2018)",
-            "https://www.slideshare.net/AoiroAoino/purelyfunctionalplayframeworkapplication",
-            "",
-            "Scala における継続モナドの実装と活用 (Scala秋祭り)",
-            "https://speakerdeck.com/aoiroaoino/scala-niokeruji-sok-monadofalseshi-zhuang-tohuo-yong"
-          ],
-          "contributes": [
-            "https://github.com/aoiroaoino/guttural"
-          ],
-          "github": "aoiroaoino",
-          "twitter": "AoiroAoino",
-          "other_sns": ""
         }
       ]
     },
@@ -255,48 +215,8 @@
       "length": 40,
       "speakers": [
         {
-          "name": "門脇 拓巳 @blac_k_ey",
+          "name": "株式会社セプテーニ・オリジナル社員",
           "icon": "https://pbs.twimg.com/profile_images/1110501048559390720/UmgRho9s_400x400.jpg",
-          "organization": "株式会社 セプテーニ・オリジナル エンジニア",
-          "speaker_experience": [
-            "Scala秋祭り 『面倒なことはScalaスクリプトにやらせよう』 https://speakerdeck.com/nomadblacky/let-scala-scripts-do-the-troublesome-things",
-            "Scala関西Summit 2018 『Readable Code in Scala』 https://gitpitch.com/NomadBlacky/slides/readable-code-in-scala#/"
-          ],
-          "contributes": [
-            "https://github.com/serverless/serverless",
-            "https://github.com/NomadBlacky/scaladog",
-            "https://github.com/NomadBlacky/digdag-plugin-datadog"
-          ],
-          "github": "NomadBlacky",
-          "twitter": "blac_k_ey",
-          "other_sns": ""
-        },
-        {
-          "name": "Naoki Aoyama - @aoiroaoino",
-          "icon": "https://avatars0.githubusercontent.com/u/2589034?s=460&v=4",
-          "organization": "株式会社セプテーニ・オリジナル",
-          "speaker_experience": [
-            "おもな登壇:",
-            "",
-            "ScalaMatsuri (2018),  Scala関西Summit (2016, 2017, 2019), Scala秋祭り, など",
-            "",
-            "おもな資料:",
-            "",
-            "Lens の基本と基礎 (ScalaMatsuri 2017 アンカンファレンス)",
-            "https://www.slideshare.net/AoiroAoino/van-laarhoven-lens-72584231 ",
-            "",
-            "Purely Functional Play Framework Application (ScalaMatsuri 2018)",
-            "https://www.slideshare.net/AoiroAoino/purelyfunctionalplayframeworkapplication",
-            "",
-            "Scala における継続モナドの実装と活用 (Scala秋祭り)",
-            "https://speakerdeck.com/aoiroaoino/scala-niokeruji-sok-monadofalseshi-zhuang-tohuo-yong"
-          ],
-          "contributes": [
-            "https://github.com/aoiroaoino/guttural"
-          ],
-          "github": "aoiroaoino",
-          "twitter": "AoiroAoino",
-          "other_sns": ""
         }
       ]
     }
