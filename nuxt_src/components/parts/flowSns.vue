@@ -4,12 +4,12 @@
     share_with_friends: "Share it with your friends!"
     add_hatena_bookmark: "Add this entry to Hatena bookmark"
     facebook_locale: "en_US"
-    facebook_button_width: "82.8"
+    facebook_button_width: "88.8"
   ja:
     share_with_friends: "是非あなたの友達にもシェアしてください！"
     add_hatena_bookmark: "このエントリーをはてなブックマークに追加"
     facebook_locale: "ja_JP"
-    facebook_button_width: "84.8"
+    facebook_button_width: "90.8"
 </i18n>
 
 <template>

@@ -1,27 +1,304 @@
 [
-    {
-        "id": "S1",
-        "en": {
-          "title": "ｴｯ、Chatworkのブースでそんなことすんの？何やるかの概要をお伝えします！(available in Japanese)",
-          "language": "Japanese",
-          "length": 40,
-          "speakers": [
-            {
-              "name": "Chatwork株式会社",
-              "icon": "/img/sponsors/chatwork.png"
-            }
-          ]
-        },
-        "ja": {
-            "title": "ｴｯ、Chatworkのブースでそんなことすんの？何やるかの概要をお伝えします！",
-            "language": "Japanese",
-            "length": 40,
-            "speakers": [
-              {
-                "name": "Chatwork株式会社",
-                "icon": "/img/sponsors/chatwork.png"
-              }
-            ]
-          }
+  {
+    "id": "S1",
+    "en": {
+      "title": "ｴｯ、Chatworkのブースでそんなことすんの？何やるかの概要をお伝えします！(available in Japanese)",
+      "language": "Japanese",
+      "length": 20,
+      "speakers": [
+        {
+          "name": "Chatwork株式会社",
+          "icon": "/img/sponsors/chatwork.png"
+        }
+      ]
+    },
+    "ja": {
+      "title": "ｴｯ、Chatworkのブースでそんなことすんの？何やるかの概要をお伝えします！",
+      "language": "Japanese",
+      "length": 20,
+      "speakers": [
+        {
+          "name": "Chatwork株式会社",
+          "icon": "/img/sponsors/chatwork.png"
+        }
+      ]
     }
+  },
+  {
+    "id": "S2",
+    "en": {
+      "title": "How Scala works at Mercari (available in Japanese)",
+      "language": "Japanese",
+      "length": 20,
+      "speakers": [
+        {
+          "name": "株式会社メルカリ",
+          "icon": "/img/sponsors/chatwork.png"
+        }
+      ]
+    },
+    "ja": {
+      "title": "Scala がメルカリでどう動くか？",
+      "language": "Japanese",
+      "length": 20,
+      "speakers": [
+        {
+          "name": "株式会社メルカリ",
+          "icon": "/img/sponsors/chatwork.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "S3",
+    "en": {
+      "title": "Akka Split Brain Resolver 実機検証 on Raspberry Pi クラスタ(available in Japanese)",
+      "language": "Japanese",
+      "length": 40,
+      "speakers": [
+        {
+          "name": "Chatwork株式会社",
+          "icon": "/img/sponsors/chatwork.png"
+        }
+      ]
+    },
+    "ja": {
+      "title": "Akka Split Brain Resolver 実機検証 on Raspberry Pi クラスタ",
+      "language": "Japanese",
+      "length": 40,
+      "speakers": [
+        {
+          "name": "Chatwork株式会社",
+          "icon": "/img/sponsors/chatwork.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "S4",
+    "en": {
+      "title": "Alp x BizReach ゆるゆる会 〜SaaS 事業の2社がお互いに気になることをゆるゆる聞いてみる〜 (available in Japanese)",
+      "language": "Japanese",
+      "length": 40,
+      "speakers": [
+        {
+          "name": "田所 駿佑",
+          "icon": "https://avatars2.githubusercontent.com/u/2328540?s=460&v=4",
+          "organization": "株式会社ビズリーチ",
+          "speaker_experience": [
+            "ScalaMatsuri 2019 「Running Scala on AWS Lambda in a Snappy Way」 ( https://speakerdeck.com/todokr/running-scala-on-aws-lambda-in-a-snappy-way )",
+            "JJUG CCC 2017 Fall 「新しいプログラミング言語の学び方 HTTPサーバーを作って学ぶJava, Scala, Clojure」( https://speakerdeck.com/todokr/xin-siihurokuraminkuyan-yu-falsexue-hifang-httpsahawozuo-tutexue-hu-java-scala-clojure )"
+          ],
+          "contributes": [],
+          "github": "todokr",
+          "twitter": "todokr",
+          "other_sns": ""
+        },
+        {
+          "name": "竹尾 正馬（ゲスト） - @showmant",
+          "icon": "https://avatars2.githubusercontent.com/u/5019215?s=460&v=4",
+          "organization": "アルプ株式会社",
+          "speaker_experience": [
+            "Scala秋祭り"
+          ],
+          "contributes": [],
+          "github": "showmant",
+          "twitter": "showmant_",
+          "other_sns": ""
+        }
+      ]
+    },
+    "ja": {
+      "title": "Alp x BizReach ゆるゆる会 〜SaaS 事業の2社がお互いに気になることをゆるゆる聞いてみる〜",
+      "language": "Japanese",
+      "length": 40,
+      "speakers": [
+        {
+          "name": "田所 駿佑",
+          "icon": "https://avatars2.githubusercontent.com/u/2328540?s=460&v=4",
+          "organization": "株式会社ビズリーチ",
+          "speaker_experience": [
+            "ScalaMatsuri 2019 「Running Scala on AWS Lambda in a Snappy Way」 ( https://speakerdeck.com/todokr/running-scala-on-aws-lambda-in-a-snappy-way )",
+            "JJUG CCC 2017 Fall 「新しいプログラミング言語の学び方 HTTPサーバーを作って学ぶJava, Scala, Clojure」( https://speakerdeck.com/todokr/xin-siihurokuraminkuyan-yu-falsexue-hifang-httpsahawozuo-tutexue-hu-java-scala-clojure )"
+          ],
+          "contributes": [],
+          "github": "todokr",
+          "twitter": "todokr",
+          "other_sns": ""
+        },
+        {
+          "name": "竹尾 正馬（ゲスト） - @showmant",
+          "icon": "https://avatars2.githubusercontent.com/u/5019215?s=460&v=4",
+          "organization": "アルプ株式会社",
+          "speaker_experience": [
+            "Scala秋祭り"
+          ],
+          "contributes": [],
+          "github": "showmant",
+          "twitter": "showmant_",
+          "other_sns": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "S5",
+    "en": {
+      "title": "Slinky で Scala.js製 React Webアプリケーションをつくったはなし(available in Japanese)",
+      "detail": "主にバックエンドで活躍しているScalaですが、フロントエンドアプリケーションのための Scala.js の存在も最近際立ってきました。\nこのLTでは、Scala.js の React.js フレームワークである Slinky を用いて実際にWebアプリケーションを作成した過程とそのノウハウについて紹介いたします。",
+      "language": "Japanese",
+      "length": 20,
+      "speakers": [
+        {
+          "name": "門脇 拓巳 @blac_k_ey",
+          "icon": "https://pbs.twimg.com/profile_images/1110501048559390720/UmgRho9s_400x400.jpg",
+          "organization": "株式会社 セプテーニ・オリジナル エンジニア",
+          "speaker_experience": [
+            "Scala秋祭り 『面倒なことはScalaスクリプトにやらせよう』 https://speakerdeck.com/nomadblacky/let-scala-scripts-do-the-troublesome-things",
+            "Scala関西Summit 2018 『Readable Code in Scala』 https://gitpitch.com/NomadBlacky/slides/readable-code-in-scala#/"
+          ],
+          "contributes": [
+            "https://github.com/serverless/serverless",
+            "https://github.com/NomadBlacky/scaladog",
+            "https://github.com/NomadBlacky/digdag-plugin-datadog"
+          ],
+          "github": "NomadBlacky",
+          "twitter": "blac_k_ey",
+          "other_sns": ""
+        }
+      ]
+    },
+    "ja": {
+      "title": "Slinky で Scala.js製 React Webアプリケーションをつくったはなし",
+      "detail": "主にバックエンドで活躍しているScalaですが、フロントエンドアプリケーションのための Scala.js の存在も最近際立ってきました。\nこのLTでは、Scala.js の React.js フレームワークである Slinky を用いて実際にWebアプリケーションを作成した過程とそのノウハウについて紹介いたします。",
+      "language": "Japanese",
+      "length": 20,
+      "speakers": [
+        {
+          "name": "門脇 拓巳 @blac_k_ey",
+          "icon": "https://pbs.twimg.com/profile_images/1110501048559390720/UmgRho9s_400x400.jpg",
+          "organization": "株式会社 セプテーニ・オリジナル エンジニア",
+          "speaker_experience": [
+            "Scala秋祭り 『面倒なことはScalaスクリプトにやらせよう』 https://speakerdeck.com/nomadblacky/let-scala-scripts-do-the-troublesome-things",
+            "Scala関西Summit 2018 『Readable Code in Scala』 https://gitpitch.com/NomadBlacky/slides/readable-code-in-scala#/"
+          ],
+          "contributes": [
+            "https://github.com/serverless/serverless",
+            "https://github.com/NomadBlacky/scaladog",
+            "https://github.com/NomadBlacky/digdag-plugin-datadog"
+          ],
+          "github": "NomadBlacky",
+          "twitter": "blac_k_ey",
+          "other_sns": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "S6",
+    "en": {
+      "title": "セプオリ史上初！技術も仕事も会社のことも、ココだけの話を大公開！社員が赤裸々に語る『セプオリラジオ』！(available in Japanese)",
+      "detail": "弊社社員が赤裸々に語る番組『セプオリラジオ』！\n史上初の取り組みとして、セプオリの社員たちへのインタビューをScalaMatsuri限定で大公開！\nベテランから若手まで、またエンジニアに留まらず多様な職種の方々の生の声を皆様にお届けします！\n\nまた当日は、リスナーの皆さまからの質問もリアルタイムで受け付けます！\nScala についての質問をするもよし、セプオリについて聞くのもよし、茶々を入れるだけでもよし！\nみなさんの気軽なご参加をお待ちしております！",
+      "language": "Japanese",
+      "length": 40,
+      "speakers": [
+        {
+          "name": "門脇 拓巳 @blac_k_ey",
+          "icon": "https://pbs.twimg.com/profile_images/1110501048559390720/UmgRho9s_400x400.jpg",
+          "organization": "株式会社 セプテーニ・オリジナル エンジニア",
+          "speaker_experience": [
+            "Scala秋祭り 『面倒なことはScalaスクリプトにやらせよう』 https://speakerdeck.com/nomadblacky/let-scala-scripts-do-the-troublesome-things",
+            "Scala関西Summit 2018 『Readable Code in Scala』 https://gitpitch.com/NomadBlacky/slides/readable-code-in-scala#/"
+          ],
+          "contributes": [
+            "https://github.com/serverless/serverless",
+            "https://github.com/NomadBlacky/scaladog",
+            "https://github.com/NomadBlacky/digdag-plugin-datadog"
+          ],
+          "github": "NomadBlacky",
+          "twitter": "blac_k_ey",
+          "other_sns": ""
+        },
+        {
+          "name": "Naoki Aoyama - @aoiroaoino",
+          "icon": "https://avatars0.githubusercontent.com/u/2589034?s=460&v=4",
+          "organization": "株式会社セプテーニ・オリジナル",
+          "speaker_experience": [
+            "おもな登壇:",
+            "",
+            "ScalaMatsuri (2018),  Scala関西Summit (2016, 2017, 2019), Scala秋祭り, など",
+            "",
+            "おもな資料:",
+            "",
+            "Lens の基本と基礎 (ScalaMatsuri 2017 アンカンファレンス)",
+            "https://www.slideshare.net/AoiroAoino/van-laarhoven-lens-72584231 ",
+            "",
+            "Purely Functional Play Framework Application (ScalaMatsuri 2018)",
+            "https://www.slideshare.net/AoiroAoino/purelyfunctionalplayframeworkapplication",
+            "",
+            "Scala における継続モナドの実装と活用 (Scala秋祭り)",
+            "https://speakerdeck.com/aoiroaoino/scala-niokeruji-sok-monadofalseshi-zhuang-tohuo-yong"
+          ],
+          "contributes": [
+            "https://github.com/aoiroaoino/guttural"
+          ],
+          "github": "aoiroaoino",
+          "twitter": "AoiroAoino",
+          "other_sns": ""
+        }
+      ]
+    },
+    "ja": {
+      "title": "セプオリ史上初！技術も仕事も会社のことも、ココだけの話を大公開！社員が赤裸々に語る『セプオリラジオ』！",
+      "detail": "弊社社員が赤裸々に語る番組『セプオリラジオ』！\n史上初の取り組みとして、セプオリの社員たちへのインタビューをScalaMatsuri限定で大公開！\nベテランから若手まで、またエンジニアに留まらず多様な職種の方々の生の声を皆様にお届けします！\n\nまた当日は、リスナーの皆さまからの質問もリアルタイムで受け付けます！\nScala についての質問をするもよし、セプオリについて聞くのもよし、茶々を入れるだけでもよし！\nみなさんの気軽なご参加をお待ちしております！",
+      "language": "Japanese",
+      "length": 40,
+      "speakers": [
+        {
+          "name": "門脇 拓巳 @blac_k_ey",
+          "icon": "https://pbs.twimg.com/profile_images/1110501048559390720/UmgRho9s_400x400.jpg",
+          "organization": "株式会社 セプテーニ・オリジナル エンジニア",
+          "speaker_experience": [
+            "Scala秋祭り 『面倒なことはScalaスクリプトにやらせよう』 https://speakerdeck.com/nomadblacky/let-scala-scripts-do-the-troublesome-things",
+            "Scala関西Summit 2018 『Readable Code in Scala』 https://gitpitch.com/NomadBlacky/slides/readable-code-in-scala#/"
+          ],
+          "contributes": [
+            "https://github.com/serverless/serverless",
+            "https://github.com/NomadBlacky/scaladog",
+            "https://github.com/NomadBlacky/digdag-plugin-datadog"
+          ],
+          "github": "NomadBlacky",
+          "twitter": "blac_k_ey",
+          "other_sns": ""
+        },
+        {
+          "name": "Naoki Aoyama - @aoiroaoino",
+          "icon": "https://avatars0.githubusercontent.com/u/2589034?s=460&v=4",
+          "organization": "株式会社セプテーニ・オリジナル",
+          "speaker_experience": [
+            "おもな登壇:",
+            "",
+            "ScalaMatsuri (2018),  Scala関西Summit (2016, 2017, 2019), Scala秋祭り, など",
+            "",
+            "おもな資料:",
+            "",
+            "Lens の基本と基礎 (ScalaMatsuri 2017 アンカンファレンス)",
+            "https://www.slideshare.net/AoiroAoino/van-laarhoven-lens-72584231 ",
+            "",
+            "Purely Functional Play Framework Application (ScalaMatsuri 2018)",
+            "https://www.slideshare.net/AoiroAoino/purelyfunctionalplayframeworkapplication",
+            "",
+            "Scala における継続モナドの実装と活用 (Scala秋祭り)",
+            "https://speakerdeck.com/aoiroaoino/scala-niokeruji-sok-monadofalseshi-zhuang-tohuo-yong"
+          ],
+          "contributes": [
+            "https://github.com/aoiroaoino/guttural"
+          ],
+          "github": "aoiroaoino",
+          "twitter": "AoiroAoino",
+          "other_sns": ""
+        }
+      ]
+    }
+  }
 ]

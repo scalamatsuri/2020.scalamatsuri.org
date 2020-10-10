@@ -50,6 +50,12 @@
     "endAt": 1602907200
   },
   {
+    "id": "S2",
+    "room": "Sponsor",
+    "startAt": 1602906000,
+    "endAt": 1602907200
+  },
+  {
     "id": "J6",
     "startAt": 1602907200,
     "endAt": 1602909600,
@@ -132,6 +138,12 @@
     "slideUrl": ""
   },
   {
+    "id": "S3",
+    "startAt": 1602914400,
+    "endAt": 1602916800,
+    "room": "Sponsor"
+  },
+  {
     "title": "Break",
     "startAt": 1602916800,
     "endAt": 1602918000
@@ -161,7 +173,19 @@
     "slideUrl": ""
   },
   {
+    "id": "S4",
+    "startAt": 1602918000,
+    "endAt": 1602920400,
+    "room": "Sponsor"
+  },
+  {
     "title": "Break",
+    "startAt": 1602920400,
+    "endAt": 1602921600
+  },
+  {
+    "id": "S5",
+    "room": "Sponsor",
     "startAt": 1602920400,
     "endAt": 1602921600
   },
@@ -201,6 +225,12 @@
     "room": "Track B",
     "youtubeUrl": "",
     "slideUrl": ""
+  },
+  {
+    "id": "S6",
+    "startAt": 1602925200,
+    "endAt": 1602927600,
+    "room": "Sponsor"
   },
   {
     "title": "Break",
