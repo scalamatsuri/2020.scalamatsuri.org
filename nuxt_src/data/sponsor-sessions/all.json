@@ -1,0 +1,27 @@
+[
+    {
+        "id": "S1",
+        "en": {
+          "title": "ｴｯ、Chatworkのブースでそんなことすんの？何やるかの概要をお伝えします！(available in Japanese)",
+          "language": "Japanese",
+          "length": 40,
+          "speakers": [
+            {
+              "name": "Chatwork株式会社",
+              "icon": "/img/sponsors/chatwork.png"
+            }
+          ]
+        },
+        "ja": {
+            "title": "ｴｯ、Chatworkのブースでそんなことすんの？何やるかの概要をお伝えします！",
+            "language": "Japanese",
+            "length": 40,
+            "speakers": [
+              {
+                "name": "Chatwork株式会社",
+                "icon": "/img/sponsors/chatwork.png"
+              }
+            ]
+          }
+    }
+]

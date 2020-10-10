@@ -159,16 +159,16 @@
                   <span>{{ $t('outline') }}</span>
                 </nuxt-link>
               </li>
-              <!--              <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/program') }" @click="toggleMenu()">-->
-              <!--                <nuxt-link :to="localePath('program')">-->
-              <!--                  <span>{{ $t('program') }}</span>-->
-              <!--                </nuxt-link>-->
-              <!--              </li>-->
-              <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/proposals') }" @click="toggleMenu()">
+              <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/program') }" @click="toggleMenu()">
+                <nuxt-link :to="localePath('program')">
+                  <span>{{ $t('program') }}</span>
+                </nuxt-link>
+              </li>
+              <!-- <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/proposals') }" @click="toggleMenu()">
                 <nuxt-link :to="localePath('proposals')">
                   <span>{{ $t('proposals') }}</span>
                 </nuxt-link>
-              </li>
+              </li> -->
               <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/code-of-conduct') }" @click="toggleMenu()">
                 <nuxt-link :to="localePath('code-of-conduct')">
                   <span>{{ $t('code-of-conduct') }}</span>
