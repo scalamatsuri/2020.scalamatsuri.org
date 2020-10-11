@@ -220,5 +220,302 @@
         }
       ]
     }
+  },
+
+  {
+    "id": "S7",
+    "en": {
+      "title": "1日耐久Chatwork説明会 ～バーチャルブースで僕と握手～(available in Japanese)",
+      "language": "Japanese",
+      "length": 20,
+      "speakers": [
+        {
+          "name": "Chatwork株式会社",
+          "icon": "https://pbs.twimg.com/profile_images/1067607479884730368/qjMk0qi1_400x400.jpg"
+        }
+      ]
+    },
+    "ja": {
+      "title": "1日耐久Chatwork説明会 ～バーチャルブースで僕と握手～",
+      "language": "Japanese",
+      "length": 20,
+      "speakers": [
+        {
+          "name": "Chatwork株式会社",
+          "icon": "https://pbs.twimg.com/profile_images/1067607479884730368/qjMk0qi1_400x400.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "id": "S8",
+    "en": {
+      "title": "大変だよ、Tagless-final パターン(available in Japanese)",
+      "detail": "大変美しく作用を分離できると巷で話題の(?) Tagless-final パターン。しかし、実際に導入してみると、その抽象度の高さが故の悩みどころがいくつも見えてきました。この LT では、そんな悩みポイントの共有と、それを踏まえてどんな場面で導入すべきか否かのお話を致します。",
+      "language": "Japanese",
+      "length": 20,
+      "speakers": [
+        {
+          "name": "Naoki Aoyama - @aoiroaoino",
+          "icon": "https://avatars0.githubusercontent.com/u/2589034?s=460&v=4",
+          "organization": "株式会社セプテーニ・オリジナル",
+          "speaker_experience": [
+            "おもな登壇:",
+            "",
+            "ScalaMatsuri (2018),  Scala関西Summit (2016, 2017, 2019), Scala秋祭り, など",
+            "",
+            "おもな資料:",
+            "",
+            "Lens の基本と基礎 (ScalaMatsuri 2017 アンカンファレンス)",
+            "https://www.slideshare.net/AoiroAoino/van-laarhoven-lens-72584231 ",
+            "",
+            "Purely Functional Play Framework Application (ScalaMatsuri 2018)",
+            "https://www.slideshare.net/AoiroAoino/purelyfunctionalplayframeworkapplication",
+            "",
+            "Scala における継続モナドの実装と活用 (Scala秋祭り)",
+            "https://speakerdeck.com/aoiroaoino/scala-niokeruji-sok-monadofalseshi-zhuang-tohuo-yong"
+          ],
+          "contributes": [
+            "https://github.com/aoiroaoino/guttural"
+          ],
+          "github": "aoiroaoino",
+          "twitter": "AoiroAoino",
+          "other_sns": ""
+        }
+      ]
+    },
+    "ja": {
+      "title": "大変だよ、Tagless-final パターン",
+      "detail": "大変美しく作用を分離できると巷で話題の(?) Tagless-final パターン。しかし、実際に導入してみると、その抽象度の高さが故の悩みどころがいくつも見えてきました。この LT では、そんな悩みポイントの共有と、それを踏まえてどんな場面で導入すべきか否かのお話を致します。",
+      "language": "Japanese",
+      "length": 20,
+      "speakers": [
+        {
+          "name": "Naoki Aoyama - @aoiroaoino",
+          "icon": "https://avatars0.githubusercontent.com/u/2589034?s=460&v=4",
+          "organization": "株式会社セプテーニ・オリジナル",
+          "speaker_experience": [
+            "おもな登壇:",
+            "",
+            "ScalaMatsuri (2018),  Scala関西Summit (2016, 2017, 2019), Scala秋祭り, など",
+            "",
+            "おもな資料:",
+            "",
+            "Lens の基本と基礎 (ScalaMatsuri 2017 アンカンファレンス)",
+            "https://www.slideshare.net/AoiroAoino/van-laarhoven-lens-72584231 ",
+            "",
+            "Purely Functional Play Framework Application (ScalaMatsuri 2018)",
+            "https://www.slideshare.net/AoiroAoino/purelyfunctionalplayframeworkapplication",
+            "",
+            "Scala における継続モナドの実装と活用 (Scala秋祭り)",
+            "https://speakerdeck.com/aoiroaoino/scala-niokeruji-sok-monadofalseshi-zhuang-tohuo-yong"
+          ],
+          "contributes": [
+            "https://github.com/aoiroaoino/guttural"
+          ],
+          "github": "aoiroaoino",
+          "twitter": "AoiroAoino",
+          "other_sns": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "S9",
+    "en": {
+      "title": "How Scala works at Mercari (available in Japanese)",
+      "language": "Japanese",
+      "length": 20,
+      "speakers": [
+        {
+          "name": "株式会社メルカリ",
+          "icon": "https://pbs.twimg.com/profile_images/1300795002948333569/d1fzW3fY_400x400.png"
+        }
+      ]
+    },
+    "ja": {
+      "title": "Scala がメルカリでどう動くか？",
+      "language": "Japanese",
+      "length": 20,
+      "speakers": [
+        {
+          "name": "株式会社メルカリ",
+          "icon": "https://pbs.twimg.com/profile_images/1300795002948333569/d1fzW3fY_400x400.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "S10",
+    "en": {
+      "title": "知ってました？実はチャットツールだけじゃない会社なんです ～ゆるくつながるChatwork説明会～(available in Japanese)",
+      "language": "Japanese",
+      "length": 40,
+      "speakers": [
+        {
+          "name": "Chatwork株式会社",
+          "icon": "https://pbs.twimg.com/profile_images/1067607479884730368/qjMk0qi1_400x400.jpg"
+        }
+      ]
+    },
+    "ja": {
+      "title": "知ってました？実はチャットツールだけじゃない会社なんです ～ゆるくつながるChatwork説明会～",
+      "language": "Japanese",
+      "length": 40,
+      "speakers": [
+        {
+          "name": "Chatwork株式会社",
+          "icon": "https://pbs.twimg.com/profile_images/1067607479884730368/qjMk0qi1_400x400.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "id": "S11",
+    "en": {
+      "title": "熟練Scalaエンジニアの匠の技術を盗め！リアーキテクティングの技をライブで披露します！(available in Japanese)",
+      "detail": "Scala(Play Framework)で構築されたアプリケーションをリアーキテクティングする様子をライブで披露致します！\n天然物のアプリケーションを、保守性が高く運用のオーバーヘッドが低い設計へと見直して参ります。\nさらに Play Framework 最新バージョンでのベストプラクティスも併せてご紹介！\nScala初心者から上級者まで楽しめて、かつ学びを得て頂けるようなコンテンツとなっております！\nぜひ奮ってご参加下さい！",
+      "language": "Japanese",
+      "length": 40,
+      "speakers": [
+        {
+          "name": "Naoki Aoyama - @aoiroaoino",
+          "icon": "https://avatars0.githubusercontent.com/u/2589034?s=460&v=4",
+          "organization": "株式会社セプテーニ・オリジナル",
+          "speaker_experience": [
+            "おもな登壇:",
+            "",
+            "ScalaMatsuri (2018),  Scala関西Summit (2016, 2017, 2019), Scala秋祭り, など",
+            "",
+            "おもな資料:",
+            "",
+            "Lens の基本と基礎 (ScalaMatsuri 2017 アンカンファレンス)",
+            "https://www.slideshare.net/AoiroAoino/van-laarhoven-lens-72584231 ",
+            "",
+            "Purely Functional Play Framework Application (ScalaMatsuri 2018)",
+            "https://www.slideshare.net/AoiroAoino/purelyfunctionalplayframeworkapplication",
+            "",
+            "Scala における継続モナドの実装と活用 (Scala秋祭り)",
+            "https://speakerdeck.com/aoiroaoino/scala-niokeruji-sok-monadofalseshi-zhuang-tohuo-yong"
+          ],
+          "contributes": [
+            "https://github.com/aoiroaoino/guttural"
+          ],
+          "github": "aoiroaoino",
+          "twitter": "AoiroAoino",
+          "other_sns": ""
+        },
+        {
+          "name": "Takumi Kadowaki",
+          "icon": "https://pbs.twimg.com/profile_images/1110501048559390720/UmgRho9s_400x400.jpg",
+          "organization": "株式会社 セプテーニ・オリジナル エンジニア",
+          "speaker_experience": [
+            "Scala秋祭り 『面倒なことはScalaスクリプトにやらせよう』 https://speakerdeck.com/nomadblacky/let-scala-scripts-do-the-troublesome-things",
+            "Scala関西Summit 2018 『Readable Code in Scala』 https://gitpitch.com/NomadBlacky/slides/readable-code-in-scala#/"
+          ],
+          "contributes": [
+            "https://github.com/serverless/serverless",
+            "https://github.com/NomadBlacky/scaladog",
+            "https://github.com/NomadBlacky/digdag-plugin-datadog"
+          ],
+          "github": "NomadBlacky",
+          "twitter": "blac_k_ey",
+          "other_sns": ""
+        }
+      ]
+    },
+    "ja": {
+      "title": "熟練Scalaエンジニアの匠の技術を盗め！リアーキテクティングの技をライブで披露します！",
+      "detail": "Scala(Play Framework)で構築されたアプリケーションをリアーキテクティングする様子をライブで披露致します！\n天然物のアプリケーションを、保守性が高く運用のオーバーヘッドが低い設計へと見直して参ります。\nさらに Play Framework 最新バージョンでのベストプラクティスも併せてご紹介！\nScala初心者から上級者まで楽しめて、かつ学びを得て頂けるようなコンテンツとなっております！\nぜひ奮ってご参加下さい！",
+      "language": "Japanese",
+      "length": 40,
+      "speakers": [
+        {
+          "name": "Naoki Aoyama - @aoiroaoino",
+          "icon": "https://avatars0.githubusercontent.com/u/2589034?s=460&v=4",
+          "organization": "株式会社セプテーニ・オリジナル",
+          "speaker_experience": [
+            "おもな登壇:",
+            "",
+            "ScalaMatsuri (2018),  Scala関西Summit (2016, 2017, 2019), Scala秋祭り, など",
+            "",
+            "おもな資料:",
+            "",
+            "Lens の基本と基礎 (ScalaMatsuri 2017 アンカンファレンス)",
+            "https://www.slideshare.net/AoiroAoino/van-laarhoven-lens-72584231 ",
+            "",
+            "Purely Functional Play Framework Application (ScalaMatsuri 2018)",
+            "https://www.slideshare.net/AoiroAoino/purelyfunctionalplayframeworkapplication",
+            "",
+            "Scala における継続モナドの実装と活用 (Scala秋祭り)",
+            "https://speakerdeck.com/aoiroaoino/scala-niokeruji-sok-monadofalseshi-zhuang-tohuo-yong"
+          ],
+          "contributes": [
+            "https://github.com/aoiroaoino/guttural"
+          ],
+          "github": "aoiroaoino",
+          "twitter": "AoiroAoino",
+          "other_sns": ""
+        },
+        {
+          "name": "Takumi Kadowaki",
+          "icon": "https://pbs.twimg.com/profile_images/1110501048559390720/UmgRho9s_400x400.jpg",
+          "organization": "株式会社 セプテーニ・オリジナル エンジニア",
+          "speaker_experience": [
+            "Scala秋祭り 『面倒なことはScalaスクリプトにやらせよう』 https://speakerdeck.com/nomadblacky/let-scala-scripts-do-the-troublesome-things",
+            "Scala関西Summit 2018 『Readable Code in Scala』 https://gitpitch.com/NomadBlacky/slides/readable-code-in-scala#/"
+          ],
+          "contributes": [
+            "https://github.com/serverless/serverless",
+            "https://github.com/NomadBlacky/scaladog",
+            "https://github.com/NomadBlacky/digdag-plugin-datadog"
+          ],
+          "github": "NomadBlacky",
+          "twitter": "blac_k_ey",
+          "other_sns": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "S12",
+    "en": {
+      "title": "脆弱性対策のための Clean Architecture 〜脆弱性に対するレジリエンスを確保せよ〜(available in Japanese)",      
+      "language": "Japanese",
+      "length": 40,
+      "speakers": [
+        {
+          "name": "鈴木 健一",
+          "icon": "https://avatars2.githubusercontent.com/u/16099864?s=460&v=4",
+          "organization": "",
+          "speaker_experience": [
+            "Scala秋祭り (https://speakerdeck.com/dcubeio/from-tagless-final-to-typed-final-program-transformations-in-the-final-style)"
+          ],
+          "contributes": [],
+          "github": "",
+          "twitter": "",
+          "other_sns": ""
+        }
+      ]
+    },
+    "ja": {
+      "title": "脆弱性対策のための Clean Architecture 〜脆弱性に対するレジリエンスを確保せよ〜",
+      "language": "Japanese",
+      "length": 40,
+      "speakers": [
+        {
+          "name": "鈴木 健一",
+          "icon": "https://avatars2.githubusercontent.com/u/16099864?s=460&v=4",
+          "organization": "",
+          "speaker_experience": [
+            "Scala秋祭り (https://speakerdeck.com/dcubeio/from-tagless-final-to-typed-final-program-transformations-in-the-final-style)"
+          ],
+          "contributes": [],
+          "github": "",
+          "twitter": "",
+          "other_sns": ""
+        }
+      ]
+    }
   }
 ]

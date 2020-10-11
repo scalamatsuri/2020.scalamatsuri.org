@@ -241,5 +241,134 @@
     "title": "Party",
     "startAt": 1602928800,
     "endAt": 1602936000
+  },
+
+  {
+    "title": "Reception Open",
+    "startAt": 1602984600,
+    "endAt": 1602985800
+  },
+  {
+    "title": "Morning Session",
+    "startAt": 1602985800,
+    "endAt": 1602989400
+  },
+  {
+    "title": "Break",
+    "startAt": 1602989400,
+    "endAt": 1602990000
+  },
+
+  {
+    "title": "TBD",
+    "startAt": 1602990000,
+    "endAt": 1602992400
+  },
+  {
+    "title": "Break",
+    "startAt": 1602992400,
+    "endAt": 1602993600
+  },
+  {
+    "id": "S7",
+    "room": "Sponsor",
+    "startAt": 1602992400,
+    "endAt": 1602993600
+  },
+  {
+    "title": "TBD",
+    "startAt": 1602993600,
+    "endAt": 1602996000
+  },
+  {
+    "title": "Break",
+    "startAt": 1602996000,
+    "endAt": 1602997200
+  },
+  {
+    "id": "S8",
+    "room": "Sponsor",
+    "startAt": 1602996000,
+    "endAt": 1602997200
+  },
+  {
+    "title": "TBD",
+    "startAt": 1602997200,
+    "endAt": 1602999600
+  },
+  {
+    "title": "Break",
+    "startAt": 1602999600,
+    "endAt": 1603000800
+  },
+  {
+    "id": "S9",
+    "room": "Sponsor",
+    "startAt": 1602999600,
+    "endAt": 1603000800
+  },
+  {
+    "title": "TBD",
+    "startAt": 1603000800,
+    "endAt": 1603003200
+  },
+  {
+    "id": "S10",
+    "room": "Sponsor",
+    "startAt": 1603000800,
+    "endAt": 1603003200
+  },
+  {
+    "title": "Break",
+    "startAt": 1603003200,
+    "endAt": 1603004400
+  },
+  {
+    "title": "TBD",
+    "startAt": 1603004400,
+    "endAt": 1603006800
+  },
+  {
+    "title": "Break",
+    "startAt": 1603006800,
+    "endAt": 1603008000
+  },
+  {
+    "title": "TBD",
+    "startAt": 1603008000,
+    "endAt": 1603010400
+  },
+  {
+    "id": "S11",
+    "room": "Sponsor",
+    "startAt": 1603008000,
+    "endAt": 1603010400
+  },
+
+  {
+    "title": "Break",
+    "startAt": 1603010400,
+    "endAt": 1603011600
+  },
+  {
+    "title": "TBD",
+    "startAt": 1603011600,
+    "endAt": 1603014000
+  },
+  {
+    "id": "S12",
+    "room": "Sponsor",
+    "startAt": 1603011600,
+    "endAt": 1603014000
+  },
+  {
+    "title": "Break",
+    "startAt": 1603014000,
+    "endAt": 1603015200
+  },
+  {
+    "title": "TBD",
+    "startAt": 1603015200,
+    "endAt": 1603017600
   }
 ]
