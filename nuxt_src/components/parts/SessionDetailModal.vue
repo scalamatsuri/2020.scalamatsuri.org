@@ -17,9 +17,12 @@
 <template>
   <div ref="modalKeyListener" class="modal_inner" tabindex="0" @keyup.escape="$emit('close')">
     <h2 class="modal_title">
-      <nuxt-link :to="localePath({name: 'proposals-id', params: {id: program.id}})" no-prefetch target="_blank">
+      <nuxt-link v-if="isProposal(program)" :to="localePath({name: 'proposals-id', params: {id: program.id}})" no-prefetch target="_blank">
         {{ program[$i18n.locale].title }}
       </nuxt-link>
+      <span v-else>
+        {{ program[$i18n.locale].title }}
+      </span>
     </h2>
     <ul class="modal_speakers">
       <li v-for="speaker in program[$i18n.locale].speakers" :key="speaker.id" class="modal_speaker">
@@ -124,6 +127,11 @@ export default {
   mounted: function () {
     // For closing modal by pushing ESC key.
     this.$nextTick(this.$refs.modalKeyListener.focus())
+  },
+  methods: {
+    isProposal: function (proposal) {
+      return proposal.id.startsWith('J') || proposal.id.startsWith('E')
+    }
   }
 }
 </script>
