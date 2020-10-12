@@ -61,9 +61,11 @@ ja:
           <!--          <dd class="footerNav_item">-->
           <!--            <a :href="localePath('extra-staff')">{{ $t('extra_staff') }}</a>-->
           <!--          </dd>-->
+          <!--
           <dd class="footerNav_item">
             <a :href="localePath('travel')">{{ $t('travel') }}</a>
           </dd>
+          -->
           <dd class="footerNav_item">
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSftjA6961ZzzJjqq1CrWtAN9wwrqXRUGFqZI5G8x2BjmZHeWw/viewform" target="_blank" rel="noopener">{{ $t('help') }}</a>
           </dd>
