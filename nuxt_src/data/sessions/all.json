@@ -16,7 +16,7 @@
   },
   {
     "id": "S1",
-    "room": "Sponsor",
+    "room": "(株)Chatwork ブース",
     "startAt": 1602902400,
     "endAt": 1602903600
   },
@@ -51,7 +51,7 @@
   },
   {
     "id": "S2",
-    "room": "Sponsor",
+    "room": "(株)メルカリ ブース",
     "startAt": 1602906000,
     "endAt": 1602907200
   },
@@ -141,7 +141,7 @@
     "id": "S3",
     "startAt": 1602914400,
     "endAt": 1602916800,
-    "room": "Sponsor"
+    "room": "(株)Chatwork ブース"
   },
   {
     "title": "Break",
@@ -176,7 +176,7 @@
     "id": "S4",
     "startAt": 1602918000,
     "endAt": 1602920400,
-    "room": "Sponsor"
+    "room": "# HRMOS_LT"
   },
   {
     "title": "Break",
@@ -185,7 +185,7 @@
   },
   {
     "id": "S5",
-    "room": "Sponsor",
+    "room": "(株)セプテーニ・オリジナル ブース",
     "startAt": 1602920400,
     "endAt": 1602921600
   },
@@ -230,7 +230,7 @@
     "id": "S6",
     "startAt": 1602925200,
     "endAt": 1602927600,
-    "room": "Sponsor"
+    "room": "(株)セプテーニ・オリジナル ブース"
   },
   {
     "title": "Break",
@@ -271,7 +271,7 @@
   },
   {
     "id": "S7",
-    "room": "Sponsor",
+    "room": "(株)Chatwork ブース",
     "startAt": 1602992400,
     "endAt": 1602993600
   },
@@ -287,7 +287,7 @@
   },
   {
     "id": "S8",
-    "room": "Sponsor",
+    "room": "(株)セプテーニ・オリジナル ブース",
     "startAt": 1602996000,
     "endAt": 1602997200
   },
@@ -303,7 +303,7 @@
   },
   {
     "id": "S9",
-    "room": "Sponsor",
+    "room": "(株)メルカリ ブース",
     "startAt": 1602999600,
     "endAt": 1603000800
   },
@@ -314,7 +314,7 @@
   },
   {
     "id": "S10",
-    "room": "Sponsor",
+    "room": "(株)Chatwork ブース",
     "startAt": 1603000800,
     "endAt": 1603003200
   },
@@ -340,7 +340,7 @@
   },
   {
     "id": "S11",
-    "room": "Sponsor",
+    "room": "(株)セプテーニ・オリジナル ブース",
     "startAt": 1603008000,
     "endAt": 1603010400
   },
@@ -357,7 +357,7 @@
   },
   {
     "id": "S12",
-    "room": "Sponsor",
+    "room": "(株)ビズリーチ(Visional) ブース",
     "startAt": 1603011600,
     "endAt": 1603014000
   },
