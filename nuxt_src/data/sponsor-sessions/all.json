@@ -517,5 +517,30 @@
         }
       ]
     }
+  },
+  {
+    "id": "S13",
+    "en": {
+      "title": "Go To Amazon！ITエンジニアのキャリアを支援するForkwellが特別プレゼントがもらえるLTします！(available in Japanese)",      
+      "language": "Japanese",
+      "length": 20,
+      "speakers": [
+        {
+          "name": "Forkwell",
+          "icon": "https://pbs.twimg.com/profile_images/1009313414517145600/FfPjexS2_400x400.jpg"
+        }
+      ]
+    },
+    "ja": {
+      "title": "Go To Amazon！ITエンジニアのキャリアを支援するForkwellが特別プレゼントがもらえるLTします！",
+      "language": "Japanese",
+      "length": 20,
+      "speakers": [
+        {
+          "name": "Forkwell",
+          "icon": "https://pbs.twimg.com/profile_images/1009313414517145600/FfPjexS2_400x400.jpg"
+        }
+      ]
+    }
   }
 ]
