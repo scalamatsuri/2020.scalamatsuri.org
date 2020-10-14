@@ -669,7 +669,7 @@
   {
     "id": "J14",
     "en": {
-      "title": "Express complex domain regions and boundaries with 'modular monoliths'",
+      "title": "Expressing complex domain regions and boundaries with 'modular monoliths'",
       "detail": "The architecture must change constantly, considering three requirements: organizational growth, domain and performance.\nHowever, to implement microservices at startup, it can be difficult to meet all the requirements.\nWe will explain how to realize context boundaries and reduce the pain of service division using \"modular monolith\" in Scala.",
       "language": "Japanese",
       "length": 40,
