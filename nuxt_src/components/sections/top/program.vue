@@ -8,7 +8,7 @@ ja:
 en:
   title: Program
   overview: |
-    18th Oct. is a conference day. 18th Oct. is an unconference day.
+    17th Oct. is a conference day. 18th Oct. is an unconference day.
   link_text: Here is our timetable.
 
 </i18n>

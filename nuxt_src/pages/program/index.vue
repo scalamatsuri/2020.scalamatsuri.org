@@ -76,7 +76,7 @@ ja:
             </p>
             <div class="schedule_events">
               <div v-for="session in sessions" :key="session.title || session.proposal.id" @click="openModal(session.proposal)">
-                <schedule :schedule="session" :locale="$i18n.locale" :style="{ 'pointer-events': !!session.proposal ? 'auto' : 'none' }" />
+                <schedule :schedule="session" :locale="$i18n.locale" :style="{ 'pointer-events': isSessionWellDetailed(session.proposal) ? 'auto' : 'none' }" />
               </div>
             </div>
           </div>
@@ -97,14 +97,14 @@ ja:
         </nuxt-link>
       </p>
       <div class="schedule">
-        <div v-for="(v,k) in getProgram(2, 'ja')" :key="k">
+        <div v-for="[startAt, sessions] in Object.entries(filterByDateAndGroupByStartAt(18))" :key="startAt">
           <div class="schedule_content">
             <p class="schedule_time">
-              {{ k }}
+              {{ getTimeStr(parseInt(startAt)) }}
             </p>
             <div class="schedule_events">
-              <div v-for="schedule in v" :key="schedule.id" @click="openModal(schedule)">
-                <schedule :schedule="schedule" />
+              <div v-for="session in sessions" :key="session.title || session.proposal.id" @click="openModal(session.proposal)">
+                <schedule :schedule="session" :locale="$i18n.locale" :style="{ 'pointer-events': isSessionWellDetailed(session.proposal) ? 'auto' : 'none' }" />
               </div>
             </div>
           </div>
@@ -132,12 +132,6 @@ export default {
   },
   data() {
     return {
-      program_list: {
-        day1: [
-        ],
-        day2: [
-        ]
-      },
       selectProgram: null,
       showModal: false
     }
@@ -151,46 +145,11 @@ export default {
     getTimeStr(time) {
       return DateTime.fromSeconds(time).toFormat('HH:mm')
     },
-    /**
-     * 開始時刻をキーに、Programの詳細のListをValueに持つMapを返す
-     * @param day
-     * @param lang
-     * @returns {*}
-     */
-    getProgram(day, lang) {
-      let candidate = []
-      switch (day) {
-        case 1:
-          candidate = this.program_list.day1
-          break
-        case 2:
-          candidate = this.program_list.day2
-          break
-        case 3:
-          candidate = this.program_list.day3
-          break
-      }
-
-      // TODO starの状態は本当はDBから引く…というのがある
-      return candidate
-        .map((a) => {
-          const program = a[lang]
-          program.id = a.id
-          program.time = a.time
-          program.room = a.room
-          program.star = a.star
-          return program
-        })
-        .reduce((acc, p) => {
-          if (acc[p.time.started_at] === undefined) {
-            acc[p.time.started_at] = []
-          }
-          acc[p.time.started_at].push(p)
-          return acc
-        }, {})
+    isSessionWellDetailed(session) {
+      return session && session[this.$i18n.locale] && session[this.$i18n.locale].detail
     },
     openModal(item) {
-      if (!item) return
+      if (!item || !this.isSessionWellDetailed(item)) return
       this.selectProgram = item
       this.showModal = true
     },
