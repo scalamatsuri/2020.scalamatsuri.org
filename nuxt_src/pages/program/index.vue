@@ -2,8 +2,8 @@
 ## language=yaml
 en:
   title: Program
-  day1_header: 10/17 Conference Day
-  day2_header: 10/18 Unonference Day
+  day1_header: Conference Day
+  day2_header: Unonference Day
   unconference_title: What is an unconference？
   to_candidates: To Proposals
   bookmark_only: BookMark Only
@@ -17,17 +17,17 @@ en:
 
 ja:
   title: プログラム
-  day1_header: 10/17 カンファレンス Day
-  day2_header: 10/18 アンカンファレンス Day
+  day1_header: カンファレンス Day
+  day2_header: アンカンファレンス Day
   unconference_title: アンカンファレンスとは？
   to_candidates: 応募セッション一覧を表示する
   bookmark_only: ブックマークのみ表示
   day1_description: |
-    カンファレンス DAY カンファレンス形式(3パラレルセッション) 10時30分入場開始 21時終了予定。<br>
+    カンファレンス DAY カンファレンス形式(3パラレルセッション) 10時30分入場開始 21時終了予定 (JST)。<br>
     Track AおよびBの全セッションについて、Zoom Webinarを利用した同時通訳がつきます。<br><br>
     さらに、ScalaMatsuriスポンサー企業によるバーチャルブースコンテンツTrackも追加予定です。どうぞお楽しみに！
   day2_description: |
-    アンカンファレンス DAY <a href="https://github.com/scalamatsuri/2020.unconference/projects/1" target="_blank" rel="noopener">タイムテーブル</a>（10時30分入場開始 20時 終了予定）<br>
+    アンカンファレンス DAY <a href="https://github.com/scalamatsuri/2020.unconference/projects/1" target="_blank" rel="noopener">タイムテーブル</a> 10時30分入場開始 20時終了予定(JST）<br>
     セッションのアイディアは、<a href="https://github.com/scalamatsuri/2020.unconference" target="_blank" rel="noopener">scalamatsuri/2020.unconference</a> Githubリポジトリに投稿してください。<br><br>
 </i18n>
 
@@ -43,10 +43,10 @@ ja:
         </h1>
         <ul class="main_index">
           <li class="main_item">
-            <a href="#day1">{{ $t('day1_header') }}</a>
+            <a href="#day1">{{ getWholeDayStrOf(sessionsIn17) + $t('day1_header') }}</a>
           </li>
           <li class="main_item">
-            <a href="#day2">{{ $t('day2_header') }}</a>
+            <a href="#day2">{{ getWholeDayStrOf(sessionsIn18) + $t('day2_header') }}</a>
           </li>
         </ul>
       </div>
@@ -63,13 +63,13 @@ ja:
 
     <div id="day1" class="program">
       <h2 class="program_title">
-        {{ $t('day1_header') }}
+        {{ getWholeDayStrOf(sessionsIn17) + $t('day1_header') }}
       </h2>
       <p class="program_text">
         <span v-html="$t('day1_description')" />
       </p>
       <div class="schedule">
-        <div v-for="[startAt, sessions] in Object.entries(filterByDateAndGroupByStartAt(17))" :key="startAt">
+        <div v-for="[startAt, sessions] in Object.entries(sessionsIn17)" :key="startAt">
           <div class="schedule_content">
             <p class="schedule_time">
               {{ getTimeStr(parseInt(startAt)) }}
@@ -86,7 +86,7 @@ ja:
 
     <div id="day2" class="program">
       <h2 class="program_title">
-        {{ $t('day2_header') }}
+        {{ getWholeDayStrOf(sessionsIn18) + $t('day2_header') }}
       </h2>
       <p class="program_text">
         <span v-html="$t('day2_description')" />
@@ -97,7 +97,7 @@ ja:
         </nuxt-link>
       </p>
       <div class="schedule">
-        <div v-for="[startAt, sessions] in Object.entries(filterByDateAndGroupByStartAt(18))" :key="startAt">
+        <div v-for="[startAt, sessions] in Object.entries(sessionsIn18)" :key="startAt">
           <div class="schedule_content">
             <p class="schedule_time">
               {{ getTimeStr(parseInt(startAt)) }}
@@ -139,11 +139,29 @@ export default {
   computed: {
     ...mapGetters({
       filterByDateAndGroupByStartAt: 'sessions/filterByDateAndGroupByStartAt'
-    })
+    }),
+    sessionsIn17() {
+      return this.filterByDateAndGroupByStartAt(17)
+    },
+    sessionsIn18() {
+      return this.filterByDateAndGroupByStartAt(18)
+    }
   },
   methods: {
     getTimeStr(time) {
       return DateTime.fromSeconds(time).toFormat('HH:mm')
+    },
+    getDateStr(time) {
+      return DateTime.fromSeconds(time).toFormat('d')
+    },
+    getWholeDayStr(fromTime, toTime) {
+      const from = this.getDateStr(fromTime)
+      const to = this.getDateStr(toTime)
+      if (from === to) { return '10/' + from + ' ' } else { return '10/' + from + ' - ' + to + ' ' }
+    },
+    getWholeDayStrOf(sessionTimeObj) {
+      const sessionTimes = Object.keys(sessionTimeObj).map(v => parseInt(v))
+      return this.getWholeDayStr(sessionTimes[0], sessionTimes[sessionTimes.length - 1])
     },
     isSessionWellDetailed(session) {
       return session && session[this.$i18n.locale] && session[this.$i18n.locale].detail
