@@ -33,7 +33,7 @@
         <p class="schedule_tag">
           {{ schedule.proposal[locale].language }}
         </p>
-        <p class="schedule_tag">
+        <p v-if="schedule.proposal[locale].tags" class="schedule_tag">
           {{ schedule.proposal[locale].tags.join() }}
         </p>
       </div>

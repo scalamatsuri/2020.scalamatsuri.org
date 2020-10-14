@@ -17,9 +17,12 @@
 <template>
   <div ref="modalKeyListener" class="modal_inner" tabindex="0" @keyup.escape="$emit('close')">
     <h2 class="modal_title">
-      <nuxt-link :to="localePath({name: 'proposals-id', params: {id: program.id}})" no-prefetch target="_blank">
+      <nuxt-link v-if="isProposal(program)" :to="localePath({name: 'proposals-id', params: {id: program.id}})" no-prefetch target="_blank">
         {{ program[$i18n.locale].title }}
       </nuxt-link>
+      <span v-else>
+        {{ program[$i18n.locale].title }}
+      </span>
     </h2>
     <ul class="modal_speakers">
       <li v-for="speaker in program[$i18n.locale].speakers" :key="speaker.id" class="modal_speaker">
@@ -42,7 +45,7 @@
         </p>
       </li>
     </ul>
-    <div class="modal_text">
+    <div v-if="program[$i18n.locale].detail" class="modal_text">
       <p v-text="program[$i18n.locale].detail" />
     </div>
     <div class="modal_scopeArea">
@@ -54,7 +57,7 @@
           {{ program[$i18n.locale].language }}
         </dd>
       </dl>
-      <dl class="modal_scope">
+      <dl v-if="program[$i18n.locale].keywords" class="modal_scope">
         <dt>
           {{ $t('keywords') }}
         </dt>
@@ -66,7 +69,7 @@
           </ul>
         </dd>
       </dl>
-      <dl class="modal_scope">
+      <dl v-if="program[$i18n.locale].tags" class="modal_scope">
         <dt>
           {{ $t('tag') }}
         </dt>
@@ -79,7 +82,7 @@
         </dd>
       </dl>
       <div v-for="speaker in program[$i18n.locale].speakers" :key="speaker.name">
-        <dl v-if="speaker.contributes.length > 0" class="modal_scope_large">
+        <dl v-if="speaker.contributes && speaker.contributes.length > 0" class="modal_scope_large">
           <dt v-if="program[$i18n.locale].speakers.length === 1">
             {{ $t('contribute') }}
           </dt>
@@ -92,8 +95,8 @@
             </p>
           </dd>
         </dl>
-        <dl v-if="speaker.speaker_experience.length > 0" class="modal_scope_large">
-          <dt v-if="program[$i18n.locale].speakers.length === 1">
+        <dl v-if="speaker.speaker_experience && speaker.speaker_experience.length > 0" class="modal_scope_large">
+          <dt v-if="program[$i18n.locale].speakers && program[$i18n.locale].speakers.length === 1">
             {{ $t('speaker_experience') }}
           </dt>
           <dt v-else>
@@ -124,6 +127,11 @@ export default {
   mounted: function () {
     // For closing modal by pushing ESC key.
     this.$nextTick(this.$refs.modalKeyListener.focus())
+  },
+  methods: {
+    isProposal: function (proposal) {
+      return proposal.id.startsWith('J') || proposal.id.startsWith('E')
+    }
   }
 }
 </script>

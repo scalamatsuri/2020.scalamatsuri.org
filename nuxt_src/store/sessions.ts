@@ -12,6 +12,7 @@ import { Session } from '~/models/session'
 
 import sessionsData from '~/data/sessions/all.json'
 import proposalData from '~/data/top/acceptedSessions.json'
+import sponsorSessionData from '~/data/sponsor-sessions/all.json'
 import { Proposal } from '~/models/proposal'
 
 export const namespace = 'sessions'
@@ -33,13 +34,16 @@ export interface State {
 const initialState = (): State => {
   const partialSessions: Array<PartialSession> = sessionsData
   const proposals: Array<Proposal> = proposalData
+  const sponsorSessions: Array<Proposal> = sponsorSessionData
 
-  const proposalMap: Map<string, Proposal> = new Map(proposals.map(p => [p.id, p]))
+  // All sessions, containing: proposals, sponsor sessions, and unconference sessions.
+  const sessionsMap: Map<string, Proposal> = new Map(proposals.concat(sponsorSessions).map(p => [p.id, p]))
+
   return {
     sessions: partialSessions.map(s => 
       ({
         ...s,
-        proposal: s.id ? proposalMap.get(s.id) : undefined
+        proposal: s.id ? sessionsMap.get(s.id) : undefined
       })
     )
   }
