@@ -16,7 +16,7 @@
   },
   {
     "id": "S1",
-    "room": "(株)Chatwork BOOTH",
+    "room": "Chatwork(株) BOOTH",
     "startAt": 1602902400,
     "endAt": 1602903600
   },
@@ -153,7 +153,7 @@
     "id": "S3",
     "startAt": 1602914400,
     "endAt": 1602916800,
-    "room": "(株)Chatwork BOOTH"
+    "room": "Chatwork(株) BOOTH"
   },
   {
     "title": "Break",
@@ -283,7 +283,7 @@
   },
   {
     "id": "S7",
-    "room": "(株)Chatwork BOOTH",
+    "room": "Chatwork(株) BOOTH",
     "startAt": 1602992400,
     "endAt": 1602993600
   },
@@ -332,7 +332,7 @@
   },
   {
     "id": "S10",
-    "room": "(株)Chatwork BOOTH",
+    "room": "Chatwork(株) BOOTH",
     "startAt": 1603000800,
     "endAt": 1603003200
   },
