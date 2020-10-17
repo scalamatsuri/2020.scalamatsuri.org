@@ -3,7 +3,7 @@
 en:
   title: Program
   day1_header: Conference Day
-  day2_header: Unonference Day
+  day2_header: Unconference Day
   unconference_title: What is an unconference？
   to_candidates: To Proposals
   bookmark_only: BookMark Only
