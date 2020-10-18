@@ -155,7 +155,7 @@
   {
     "id": "U6",
     "ja": {
-      "title": "Akka-Typedによって構築された、リアクティブシステムを雑に解説する会(13:00 ~ 14:00 JST)",
+      "title": "Akka-Typedによって構築された、リアクティブシステムを雑に解説する会(13:00 ~ 15:00 JST)",
       "detail": "akka-typedによって構築された、リアクティブシステムを雑に解説する会",
       "length": 120,
       "speakers": [
@@ -174,7 +174,7 @@
       ]
     },
     "en": {
-      "title": "Explanation roughly a CQRS/Event Sourcing system built by akka-typed(13:00 ~ 14:00 JST)",
+      "title": "Explanation roughly a CQRS/Event Sourcing system built by akka-typed(13:00 ~ 15:00 JST)",
       "detail": "Explanation roughly a CQRS/Event Sourcing system built by akka-typed.",
       "length": 120,
       "speakers": [
