@@ -3,7 +3,7 @@
     "id": "U1",
     "ja": {
       "title": "Scala無双 実践編: AirframeとScala + Scala.jsでライブコーディング",
-      "detail": "Live coding demo of building Scala.js UI that interacts with Scala RPC server using Airframe RPC and Rx.\nAirframe RPCとRxの機能を使って、Scala RPCサーバーと通信するScala.js UIを短時間で構築するライブコーディングデモをします",
+      "detail": "Live coding demo of building Scala.js UI that interacts with Scala RPC server using Airframe RPC and Rx.\nAirframe RPCとRxの機能を使って、Scala RPCサーバーと通信するScala.js UIを短時間で構築するライブコーディングデモをします\n\n・Airframe RPC: https://wvlet.org/airframe/docs/airframe-rpc\n・Airframe Rx: https://wvlet.org/airframe/docs/airframe-rx",
       "language": "English or Japanese",
       "length": 60,
       "speakers": [
@@ -26,7 +26,7 @@
     },
     "en": {
       "title": "Scala無双 実践編: AirframeとScala + Scala.jsでライブコーディング",
-      "detail": "Live coding demo of building Scala.js UI that interacts with Scala RPC server using Airframe RPC and Rx.\nAirframe RPCとRxの機能を使って、Scala RPCサーバーと通信するScala.js UIを短時間で構築するライブコーディングデモをします",
+      "detail": "Live coding demo of building Scala.js UI that interacts with Scala RPC server using Airframe RPC and Rx.\nAirframe RPCとRxの機能を使って、Scala RPCサーバーと通信するScala.js UIを短時間で構築するライブコーディングデモをします\n\n・Airframe RPC: https://wvlet.org/airframe/docs/airframe-rpc\n・Airframe Rx: https://wvlet.org/airframe/docs/airframe-rx",
       "language": "English or Japanese",
       "length": 60,
       "speakers": [
@@ -157,6 +157,7 @@
     "ja": {
       "title": "Akka-Typedによって構築された、リアクティブシステムを雑に解説する会(13:00 ~ 15:00 JST)",
       "detail": "akka-typedによって構築された、リアクティブシステムを雑に解説する会",
+      "language": "Japanese",
       "length": 120,
       "speakers": [
         {
@@ -176,6 +177,7 @@
     "en": {
       "title": "Explanation roughly a CQRS/Event Sourcing system built by akka-typed(13:00 ~ 15:00 JST)",
       "detail": "Explanation roughly a CQRS/Event Sourcing system built by akka-typed.",
+      "language": "Japanese",
       "length": 120,
       "speakers": [
         {
@@ -225,6 +227,7 @@
     "id": "U8",
     "en": {
       "title": "OSS Hackathon(12:00 ~ 16:00 JST)",
+      "language": "Japanese or English",
       "speakers": [
         {
           "name": "Eugene Yokota (eed3si9n)",
@@ -248,6 +251,7 @@
     },
     "ja": {
       "title": "OSS Hackathon (12:00 ~ 16:00 JST)",
+      "language": "Japanese or English",
       "speakers": [
         {
           "name": "Eugene Yokota (eed3si9n)",
