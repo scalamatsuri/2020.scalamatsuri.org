@@ -106,7 +106,7 @@
     "id": "U4",
     "en": {
       "title": "A-Accelerating Scala Workloads on Oracle GraalVM Enterprise",
-      "detail:": "Learn firsthand Scala’s unique approach to functional programming within a broad ecosystem of solutions compatible with Java applications.\n・How to use GraalVM Enterprise to achieve the best performance for your Scala applications.\n・How GraalVM Enterprise native image technology can transform Scala microservices into efficient cloud-native deployments.\nHow to speed up the development process of Scala applications with GraalVM Enterprise.",
+      "detail": "Learn firsthand Scala’s unique approach to functional programming within a broad ecosystem of solutions compatible with Java applications.\n・How to use GraalVM Enterprise to achieve the best performance for your Scala applications.\n・How GraalVM Enterprise native image technology can transform Scala microservices into efficient cloud-native deployments.\nHow to speed up the development process of Scala applications with GraalVM Enterprise.",
       "language": "English",
       "length": 40,
       "speakers": [
@@ -119,7 +119,7 @@
     },
     "ja": {
       "title": "A-Accelerating Scala Workloads on Oracle GraalVM Enterprise",
-      "detail:": "Learn firsthand Scala’s unique approach to functional programming within a broad ecosystem of solutions compatible with Java applications.\n\n・How to use GraalVM Enterprise to achieve the best performance for your Scala applications.\n・How GraalVM Enterprise native image technology can transform Scala microservices into efficient cloud-native deployments.\nHow to speed up the development process of Scala applications with GraalVM Enterprise.",
+      "detail": "Learn firsthand Scala’s unique approach to functional programming within a broad ecosystem of solutions compatible with Java applications.\n\n・How to use GraalVM Enterprise to achieve the best performance for your Scala applications.\n・How GraalVM Enterprise native image technology can transform Scala microservices into efficient cloud-native deployments.\nHow to speed up the development process of Scala applications with GraalVM Enterprise.",
       "language": "English",
       "length": 40,
       "speakers": [
