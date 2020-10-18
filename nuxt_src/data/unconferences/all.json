@@ -1,1 +1,273 @@
-[]
+[
+  {
+    "id": "U1",
+    "ja": {
+      "title": "Scala無双 実践編: AirframeとScala + Scala.jsでライブコーディング",
+      "detail": "Live coding demo of building Scala.js UI that interacts with Scala RPC server using Airframe RPC and Rx.\nAirframe RPCとRxの機能を使って、Scala RPCサーバーと通信するScala.js UIを短時間で構築するライブコーディングデモをします",
+      "language": "English or Japanese",
+      "length": 40,
+      "speakers": [
+        {
+          "name": "Taro L. Saito",
+          "icon": "https://pbs.twimg.com/profile_images/652040869705461760/eIm1fxaM_400x400.jpg",
+          "organization": "Arm Treasure Data",
+          "speaker_experience": [
+            "- Scala Matsuri",
+            "- Conferenceなど"
+          ],
+          "contributes": [
+            "Airframe, sbt-sonatype, MessagePackなど"
+          ],
+          "github": "xerial",
+          "twitter": "taroleo",
+          "other_sns": ""
+        }
+      ]
+    },
+    "en": {
+      "title": "Scala無双 実践編: AirframeとScala + Scala.jsでライブコーディング",
+      "detail": "Live coding demo of building Scala.js UI that interacts with Scala RPC server using Airframe RPC and Rx.\nAirframe RPCとRxの機能を使って、Scala RPCサーバーと通信するScala.js UIを短時間で構築するライブコーディングデモをします",
+      "language": "English or Japanese",
+      "length": 40,
+      "speakers": [
+        {
+          "name": "Taro L. Saito",
+          "icon": "https://pbs.twimg.com/profile_images/652040869705461760/eIm1fxaM_400x400.jpg",
+          "organization": "Arm Treasure Data",
+          "speaker_experience": [
+            "- Scala Matsuri",
+            "- Conferenceなど"
+          ],
+          "contributes": [
+            "Airframe, sbt-sonatype, MessagePackなど"
+          ],
+          "github": "xerial",
+          "twitter": "taroleo",
+          "other_sns": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "U2",
+    "ja": {
+      "title": "Scalaの転職市場動向 ~Scala使うと年収上がるって本当？~",
+      "detail": "Leverages株式会社のデータを元に、現在の日本におけるScala人材の転職市場の動向を個人を特定しない範囲で赤裸々にお伝えします。聞きたい方はぜひ👍をお願いします。",
+      "language": "Japanese",
+      "length": 40,
+      "speakers": [
+        {
+          "name": "竹下@staff",
+          "icon": "https://avatars1.githubusercontent.com/u/304296?s=460&v=4"
+        }
+      ]
+    },
+    "en": {
+      "title": "Scalaの転職市場動向 ~Scala使うと年収上がるって本当？~",
+      "detail": "Leverages株式会社のデータを元に、現在の日本におけるScala人材の転職市場の動向を個人を特定しない範囲で赤裸々にお伝えします。聞きたい方はぜひ👍をお願いします。",
+      "language": "Japanese",
+      "length": 40,
+      "speakers": [
+        {
+          "name": "竹下@staff",
+          "icon": "https://avatars1.githubusercontent.com/u/304296?s=460&v=4"
+        }
+      ]
+    }
+  },
+  {
+    "id": "U3",
+    "ja": {
+      "title": "ひどいScalaコード選手権(The International Obfuscated Scala Code Contest)",
+      "detail": "誰でも参加可能です。15時 TrackBに、ひどいコードを書いて来て下さい。\nレギュレーションとしては、お題があるのでお題のどれかについてコンパイルが通り実行できるコードを持ち寄って貰えればOKです。\n\n優勝者は、そのコードが来年のTシャツのデザインの一つになるかも！？(優勝商品はあるかどうかも未定です。もし実現しなくてもご容赦下さい。)",
+      "language": "Japanese or English",
+      "length": 40,
+      "speakers": [
+        {
+          "name": "omiend",
+          "icon": "https://avatars3.githubusercontent.com/u/4135267?s=460&u=a6e70959a61cf8fe39bb2ffa523d528b3bd57292&v=4"
+        }
+      ]
+    },
+    "en": {
+      "title": "ひどいScalaコード選手権(The International Obfuscated Scala Code Contest)",
+      "detail": "Leverages株式会社のデータを元に、現在の日本におけるScala人材の転職市場の動向を個人を特定しない範囲で赤裸々にお伝えします。聞きたい方はぜひ👍をお願いします。",
+      "language": "Japanese or English",
+      "length": 40,
+      "speakers": [
+        {
+          "name": "omiend",
+          "icon": "https://avatars3.githubusercontent.com/u/4135267?s=460&u=a6e70959a61cf8fe39bb2ffa523d528b3bd57292&v=4"
+        }
+      ]
+    }
+  },
+  {
+    "id": "U4",
+    "en": {
+      "title": "A-Accelerating Scala Workloads on Oracle GraalVM Enterprise",
+      "detail:": "Learn firsthand Scala’s unique approach to functional programming within a broad ecosystem of solutions compatible with Java applications.\n・How to use GraalVM Enterprise to achieve the best performance for your Scala applications.\n・How GraalVM Enterprise native image technology can transform Scala microservices into efficient cloud-native deployments.\nHow to speed up the development process of Scala applications with GraalVM Enterprise.",
+      "language": "English",
+      "length": 40,
+      "speakers": [
+        {
+          "name": "Amitpal S. Dhillon",
+          "icon": "https://avatars1.githubusercontent.com/u/55666802?s=400&v=4",
+          "organization": "Oracle Labs, Product Management"
+        }
+      ]
+    },
+    "ja": {
+      "title": "A-Accelerating Scala Workloads on Oracle GraalVM Enterprise",
+      "detail:": "Learn firsthand Scala’s unique approach to functional programming within a broad ecosystem of solutions compatible with Java applications.\n\n・How to use GraalVM Enterprise to achieve the best performance for your Scala applications.\n・How GraalVM Enterprise native image technology can transform Scala microservices into efficient cloud-native deployments.\nHow to speed up the development process of Scala applications with GraalVM Enterprise.",
+      "language": "English",
+      "length": 40,
+      "speakers": [
+        {
+          "name": "Amitpal S. Dhillon",
+          "icon": "https://avatars1.githubusercontent.com/u/55666802?s=400&v=4",
+          "organization": "Oracle Labs, Product Management"
+        }
+      ]
+    }
+  },
+  {
+    "id": "U5",
+    "ja": {
+      "title": "みんなScala教育どうやってますか？　事例共有など",
+      "speakers": [
+        {
+          "name": "kmizu",
+          "icon": "https://avatars3.githubusercontent.com/u/97326?s=460&v=4"
+        }
+      ]
+    },
+    "en": {
+      "title": "みんなScala教育どうやってますか？　事例共有など",
+      "speakers": [
+        {
+          "name": "kmizu",
+          "icon": "https://avatars3.githubusercontent.com/u/97326?s=460&v=4"
+        }
+      ]
+    }
+  },
+  {
+    "id": "U6",
+    "ja": {
+      "title": "Akka-Typedによって構築された、リアクティブシステムを雑に解説する会",
+      "detail": "akka-typedによって構築された、リアクティブシステムを雑に解説する会",
+      "length": 120,
+      "speakers": [
+        {
+          "name": "Junichi Kato",
+          "icon": "/img/speakers/J6.jpg",
+          "organization": "Chatwork Co., Ltd. Tech Lead",
+          "speaker_experience": [
+            "ScalaMatsuri 2019, AWS DevDay etc."
+          ],
+          "contributes": [],
+          "github": "j5ik2o",
+          "twitter": "j5ik2o",
+          "other_sns": "twiiter"
+        }
+      ]
+    },
+    "en": {
+      "title": "Explanation roughly a CQRS/Event Sourcing system built by akka-typed ",
+      "detail": "Explanation roughly a CQRS/Event Sourcing system built by akka-typed.",
+      "length": 120,
+      "speakers": [
+        {
+          "name": "Junichi Kato",
+          "icon": "/img/speakers/J6.jpg",
+          "organization": "Chatwork Co., Ltd. Tech Lead",
+          "speaker_experience": [
+            "ScalaMatsuri 2019, AWS DevDay etc."
+          ],
+          "contributes": [],
+          "github": "j5ik2o",
+          "twitter": "j5ik2o",
+          "other_sns": "twiiter"
+        }
+      ]
+    }
+  },
+  {
+    "id": "U7",
+    "en": {
+      "title": "Scio in practice",
+      "detail": "Scio is a Scala SDK for building data pipelines in Dataflow on Google Cloud Platform.\nScio is an oss from Spotify.\nAlthough there is official documentation and sample code for Scio, I feel that there is not much information available on Scio based on our experience with it.\nIn this session, we'll talk about how to use Scio in real world situations, based on our own experiences with Scio.\n\nFor urgent reasons, I'm going to talk about\nHere's the explanation based on my Medium article.\nAnd the article is in Japanese. I'm sorry...\n\nThe Medium article will be published in the night of October 17th.\nI will post it on this Issue after it is published.",
+      "language": "Japanese",
+      "length": 30,
+      "speakers": [
+       {
+         "name": "kimutyam",
+         "icon": "https://avatars3.githubusercontent.com/u/1275636?s=400&u=18dc586680a7b6aa97bfd0cc341cd48c046436c7&v=4"
+       } 
+      ]
+      
+    },
+    "ja": {
+      "title": "Scio in practice",
+      "detail": "ScioはGoogle Cloud PlatformのDataflowでデータパイプラインを構築するためのScala SDKです。\nScioはSpotify社のossです。\nScioは公式ドキュメントやサンプルコードが存在しますが、まだまだ導入実績や運用経験を軸とした情報が少ないように感じています。\n本セッションでは、Scioを用いた具体的なソースコードを元に実務で使っているユースケースの実現方法を説明します。\n\n急ごしらえな都合で、\n私のMediumの記事を元に説明致します。\nそして、記事内容は日本語です。\n\nMediumの記事は10/17の夜を目処に公開する予定です。\n公開したらこのIssueに掲載します",
+      "language": "Japanese",
+      "length": 30,
+      "speakers": [
+        {
+          "name": "kimutyam",
+          "icon": "https://avatars3.githubusercontent.com/u/1275636?s=400&u=18dc586680a7b6aa97bfd0cc341cd48c046436c7&v=4"
+        }
+      ]
+    }
+  },
+  {
+    "id": "U8",
+    "en": {
+      "title": "OSS Hackathon",
+      "speakers": [
+        {
+          "name": "Eugene Yokota (eed3si9n)",
+          "icon": "https://secure.gravatar.com/avatar/8f41595db400be30176f6f04630c2842",
+          "organization": "Twitter",
+          "speaker_experience": [
+            "Scala Days",
+            "Scala Sphere",
+            "nescala"
+          ],
+          "contributes": [
+            "sbt",
+            "Zinc",
+            "Scala"
+          ],
+          "github": "eed3si9n",
+          "twitter": "eed3si9n_ja",
+          "other_sns": ""
+        }
+      ]
+    },
+    "ja": {
+      "title": "OSS Hackathon",
+      "speakers": [
+        {
+          "name": "Eugene Yokota (eed3si9n)",
+          "icon": "https://secure.gravatar.com/avatar/8f41595db400be30176f6f04630c2842",
+          "organization": "Twitter",
+          "speaker_experience": [
+            "Scala Days",
+            "Scala Sphere",
+            "nescala"
+          ],
+          "contributes": [
+            "sbt",
+            "Zinc",
+            "Scala"
+          ],
+          "github": "eed3si9n",
+          "twitter": "eed3si9n_ja",
+          "other_sns": ""
+        }
+      ]
+    }
+  }
+]
