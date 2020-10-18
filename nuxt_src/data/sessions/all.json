@@ -388,16 +388,16 @@
     "endAt": 1603017600
   },
   {
-    "id": "U3",
-    "room": "TrackB",
-    "startAt": 1603000800,
-    "endAt": 1603003200
-  },
-  {
     "id": "U4",
     "room": "Track A",
     "startAt": 1602990000,
     "endAt": 1602992400
+  },
+  {
+    "id": "U3",
+    "room": "TrackB",
+    "startAt": 1603000800,
+    "endAt": 1603003200
   },
   {
     "id": "U5",
@@ -409,6 +409,12 @@
     "id": "U6",
     "room": "Track B",
     "startAt": 1602993600,
+    "endAt": 1602997200
+  },
+  {
+    "id": "U6",
+    "room": "Track B",
+    "startAt": 1602997200,
     "endAt": 1603000800
   },
   {
@@ -421,6 +427,18 @@
     "id": "U8",
     "room": "MTG Track",
     "startAt": 1602990000,
+    "endAt": 1602997200
+  },
+  {
+    "id": "U8",
+    "room": "MTG Track",
+    "startAt": 1602997200,
+    "endAt": 1603000800
+  },
+  {
+    "id": "U8",
+    "room": "MTG Track",
+    "startAt": 1603000800,
     "endAt": 1603004400
   }
 ]
