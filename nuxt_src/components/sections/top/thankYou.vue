@@ -3,14 +3,14 @@
 ja:
   title: 開催御礼
   overview: |
-    ScalaMatsuri 2020 は参加者、スポンサー、スタッフ等、皆様のおかげで盛況のうちに終了しました。<br/>
+    ScalaMatsuri 2020 は参加者、スピーカー、スポンサー、スタッフ等、皆様のおかげで盛況のうちに終了しました。<br/>
     ご来場・ご協力いただいた皆様、ありがとうございました。<br/>
     また、下記Doorkeeperのリンクよりメンバー登録をしておいてくださると、次回開催の情報をいち早くゲットできます！
 en:
   title: Thank You
   overview: |
     ScalaMatsuri 2020 came out to be another successful one thanks in many parts to sponsors, speakers, staffs, and your attendance!<br/>
-    We owe you great gratitude, and we hope to see you again next year!
+    We owe you great gratitude, and we hope to see you again next time. Please register to Doorkeeper to get notified.
 </i18n>
 <template>
   <section class="content pre-events">
