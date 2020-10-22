@@ -6,12 +6,14 @@ en:
   tshirt_url: "https://scalamatsuri.myshopify.com/collections/all"
   cfp: "Call for proposals"
   ticket: "Ticket"
+  doorkeeper: "Doorkeeper"
 ja:
   sponsorship: "スポンサー募集"
   tshirt: "Tシャツ購入"
   tshirt_url: "https://scalamatsuri.official.ec/"
   cfp: "セッションに応募する"
   ticket: "チケット購入"
+  doorkeeper: "Doorkeeper"
 </i18n>
 <template>
   <div class="banner">
@@ -30,7 +32,7 @@ ja:
       </nuxt-link>
       -->
       <a href="https://scalaconfjp.doorkeeper.jp/events/103550" target="_blank" rel="noopener" class="banner_item banner_item-staff">
-        <span>{{ $t('ticket') }}</span>
+        <span>{{ $t('doorkeeper') }}</span>
       </a>
     </div>
   </div>
