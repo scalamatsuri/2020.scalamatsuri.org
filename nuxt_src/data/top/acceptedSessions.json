@@ -1,6 +1,17 @@
 [
   {
     "id": "E14",
+    "artifacts": {
+      "youtube_embed_url": "//www.youtube.com/embed/xIQVnLzKG4U",
+      "slides": {
+        "other_url": "",
+        "embed_url": "//slides.com/avasil/understanding-monix-observable-scalamatsuri2020/embed",
+        "speakerdeck": {
+          "data_id": "",
+          "data_ratio": ""
+        }
+      }
+    },
     "en": {
       "title": "Understanding Monix Observable",
       "detail": "Monix Observable is a streaming data type which marries ReactiveX with purely functional programming in Scala.\n\nLet’s dive deep into its internals, explain how and why it works and what are some of the less pleasant consequences of its design.",
@@ -78,6 +89,17 @@
   },
   {
     "id": "E16",
+    "artifacts": {
+      "youtube_embed_url": "//www.youtube.com/embed/83yyIQVBwFQ",
+      "slides": {
+        "other_url": "",
+        "embed_url": "",
+        "speakerdeck": {
+          "data_id": "",
+          "data_ratio": ""
+        }
+      }
+    },
     "en": {
       "title": "# Touch the Types - Types at your fingertips in IntelliJ Scala",
       "detail": "Scala's powerful type system helps you develop complex programs with less runtime errors. But sometimes understanding the types while programming becomes a challenge onto itself. I will show you how the IntelliJ Scala plugin helps you get a grip on your types to support your development flow. \n\n I describe some ways to get the most out of Scala's type system in the IntelliJ Scala plugin",
@@ -155,6 +177,17 @@
   },
   {
     "id": "J6",
+    "artifacts": {
+      "youtube_embed_url": "//www.youtube.com/embed/xosWHE97Gik",
+      "slides": {
+        "other_url": "",
+        "embed_url": "",
+        "speakerdeck": {
+          "data_id": "9f8b1f77b61e4b0fa0d5c4d75b7dd8b2",
+          "data_ratio": "1.37081659973226"
+        }
+      }
+    },
     "en": {
       "title": " Explain model-driven design based on business patterns using Scala",
       "detail": "\"Model-Driven Design Using Business Patterns\" by Pavel Hruby published in 2006 is a book that provides useful patterns related to Domain-Driven Design(DDD). This book introduces universal modeling patterns for business applications called REA (Resource, Event, Agent).\nBased on these REA structures, behavior patterns such as \"date\" and \"classification\" are also useful. I'm interested in how Scala expresses the patterns invented 10 years ago. This time I want to discuss some patterns from REA.",
@@ -210,6 +243,17 @@
   },
   {
     "id": "E27",
+    "artifacts": {
+      "youtube_embed_url": "//www.youtube.com/embed/oLvdhVNIC3k",
+      "slides": {
+        "other_url": "",
+        "embed_url": "//www.slideshare.net/slideshow/embed_code/key/xz2uXXgLJzKqeo",
+        "speakerdeck": {
+          "data_id": "",
+          "data_ratio": ""
+        }
+      }
+    },
     "en": {
       "title": "Caliban: Functional GraphQL Library for Scala",
       "detail": "Caliban is a library for GraphQL in Scala. It was designed with the goal of reducing boilerplate to a minimum while exposing a purely functional interface. In this talk, we’ll discover how to create a simple GraphQL API from the ground up, then we’ll dig into advanced features such as query optimization and middlewares. Finally, we will take a look at the recently released GraphQL client support.",
@@ -283,6 +327,17 @@
   },
   {
     "id": "J7",
+    "artifacts": {
+      "youtube_embed_url": "//www.youtube.com/embed/BFW4YRr6m58",
+      "slides": {
+        "other_url": "",
+        "embed_url": "",
+        "speakerdeck": {
+          "data_id": "d44b879378314bec9eff1bf7ce86036d",
+          "data_ratio": "1.77777777777778"
+        }
+      }
+    },
     "en": {
       "title": "Big Timesavers for Busy Scala Developers",
       "detail": "Introduces plugins and bots, maybe not well-known, useful for daily Scala development.\nBe more productive Scala developer together !!\n\n* Finish deprecated APIs rewrites in a flash\n* Don't repeat easy-to-miss coding errors and fix them\n* Get relief from watching releases of tons of libraries\n\nThis talk introduces various convenient tools and methods, e.g. to auto-fix common Scala programming pitfalls.\nI hope those will enhance your productivity as Scala developers for many years to come.",
@@ -362,6 +417,18 @@
   },
   {
     "id": "E30",
+    "artifacts": {
+      "youtube_embed_url": "//www.youtube.com/embed/peWo4bsTV9A",
+      "youtube_embed_url_2": "//www.youtube.com/embed/8FJqUncYSdA",
+      "slides": {
+        "other_url": "",
+        "embed_url": "//pjurczenko.github.io/modern-jvm-multithreading.html#/",
+        "speakerdeck": {
+          "data_id": "",
+          "data_ratio": ""
+        }
+      }
+    },
     "en": {
       "title": "Modern JVM Multithreading",
       "detail": "In this presentation I will show what might be taken into consideration when writing a modern JVM application using Scala language. What are the differences between green threads and fibers? What kind of thread pools and how many of them should be used? Can we have a non-blocking communication with relational databases? Can we decouple our domain logic from asynchrony? Is it possible to have a reasonable stack-trace in asynchronous code? These are the main questions I'd like to address in the presentation.",
@@ -427,6 +494,17 @@
   },
   {
     "id": "J8",
+    "artifacts": {
+      "youtube_embed_url": "//www.youtube.com/embed/LI7IwzVy2dI",
+      "slides": {
+        "other_url": "",
+        "embed_url": "//www.slideshare.net/slideshow/embed_code/key/56vFz2wmhTTFRN",
+        "speakerdeck": {
+          "data_id": "",
+          "data_ratio": ""
+        }
+      }
+    },
     "en": {
       "title": "Scala for Everything: From Frontend to Backend Applications",
       "detail": "Scala is a powerful language; You can build frontend applications with Scala.js, and efficient backend application servers for JVM. In this session, we will learn how to build everything with Scala by using Airframe OSS framework. \n\nAirframe is a library designed for maximizing the advantages of Scala as a hybrid of object-oriented and functional programming language. In this session, we will learn how to use Airframe to build REST APIs and RPC services, and how to create frontend applications in Scala.js that interact with the servers using functional interfaces for dynamically updating web pages.",
@@ -492,6 +570,17 @@
   },
   {
     "id": "J10",
+    "artifacts": {
+      "youtube_embed_url": "//www.youtube.com/embed/zBxX-Adn5XI",
+      "slides": {
+        "other_url": "",
+        "embed_url": "",
+        "speakerdeck": {
+          "data_id": "937be872f8ad4f7a978d606ff64ea9dd",
+          "data_ratio": "1.6"
+        }
+      }
+    },
     "en": {
       "title": "Re-architecting in GANMA!",
       "detail": "GANMA! is an original manga distribution service that implemented by Scala.\n7 years have passed since starting a project and have a lot of technical debt.\nIn this session, we will talk struggle to re-architecture.",
@@ -585,6 +674,17 @@
   },
   {
     "id": "J12",
+    "artifacts": {
+      "youtube_embed_url": "//www.youtube.com/embed/AxdKpXsvUxk",
+      "slides": {
+        "other_url": "",
+        "embed_url": "//y-yu.github.io/scalamatsuri2020/scalamatsuri2020.pdf",
+        "speakerdeck": {
+          "data_id": "",
+          "data_ratio": ""
+        }
+      }
+    },
     "en": {
       "title": "A interpreter handling over effects for Eff",
       "detail": "We consider that we use DBIO(in Slick) and Either as DBIO[Either[E, A]], it cannot allow us to implement that “if the result would be Either.Left then turn it into DBIO.failed and rollback!” without changing any interfaces because monads(or monad transformers) and its processes are coupled tightly. On the other hands in Extensible Effects(Eff) we add types as effects to the effect stack and interpreters process the types. Since effects and interpreters are separated so we can implement an interpreter which process two effects at one shot. I'll talk about that topic in this session.",
@@ -668,6 +768,17 @@
   },
   {
     "id": "J14",
+    "artifacts": {
+      "youtube_embed_url": "//www.youtube.com/embed/KAtLZ1Mwioc",
+      "slides": {
+        "other_url": "",
+        "embed_url": "",
+        "speakerdeck": {
+          "data_id": "32e8e448ddf140548cc6004f190756ac",
+          "data_ratio": "1.77777777777778"
+        }
+      }
+    },
     "en": {
       "title": "Expressing complex domain regions and boundaries with 'modular monoliths'",
       "detail": "The architecture must change constantly, considering three requirements: organizational growth, domain and performance.\nHowever, to implement microservices at startup, it can be difficult to meet all the requirements.\nWe will explain how to realize context boundaries and reduce the pain of service division using \"modular monolith\" in Scala.",
@@ -727,6 +838,17 @@
   },
   {
     "id": "E36",
+    "artifacts": {
+      "youtube_embed_url": "//www.youtube.com/embed/s4J3aaXsuH8",
+      "slides": {
+        "other_url": "",
+        "embed_url": "//www.slideshare.net/slideshow/embed_code/key/xANpWhuS3XTblZ",
+        "speakerdeck": {
+          "data_id": "",
+          "data_ratio": ""
+        }
+      }
+    },
     "en": {
       "title": "Friendly Functional Programming",
       "detail": "Functional programming is one of the possible paradigm that we can use to write applications using Scala, \nIn this talk you will learn about: \n* The benefits of using Functional programming approach\n* The type classes in Scala\n* And the common functional abstractions: semigroup, monoid, functor, applicative, and monad\n\nThe challenge that the newcomers who were writing imperative code and want to start using Scala is: to change the way of thinking and reasoning about the code in a Functional way, in this talk I will go through the details and explain functional programming paradigm and how to work with type classes in Scala.",
@@ -800,6 +922,17 @@
   },
   {
     "id": "J19",
+    "artifacts": {
+      "youtube_embed_url": "//www.youtube.com/embed/HI2XdC4qL1A",
+      "slides": {
+        "other_url": "",
+        "embed_url": "//drive.google.com/file/d/1J3hAEe2dBPi37orQHmVv-wel3iLlERgO/preview",
+        "speakerdeck": {
+          "data_id": "",
+          "data_ratio": ""
+        }
+      }
+    },
     "en": {
       "title": "Onboarding process of the Scala team",
       "detail": "Scala is unique in its flexibility and expressiveness. On the other hand, such aspects sometimes make it hard for newcomer to catch up with the coding style of team.\nIn this session, I will share our Scala team's \"Onboarding\" process and tools to make teamwork work.\n\nI'll also talk about topics that might be useful to newcomers, such as how to apply Scala's language features to production code and learning resources.",
@@ -883,6 +1016,17 @@
   },
   {
     "id": "J22",
+    "artifacts": {
+      "youtube_embed_url": "//www.youtube.com/embed/gpQHgcIIzFY",
+      "slides": {
+        "other_url": "https://github.com/knih/scalamatsuri2020/blob/master/slides/intro-msp-with-dotty.pdf",
+        "embed_url": "",
+        "speakerdeck": {
+          "data_id": "",
+          "data_ratio": ""
+        }
+      }
+    },
     "en": {
       "title": "An introduction to multi-stage programming with Dotty",
       "detail": "Multi-stage programming (MSP) is a kind of meta-programming that enables type-safe runtime code generation and abstraction without regrets.\nDotty (Scala 3) has enhanced the meta-programming mechanism to allow MSP.\nIn this session, we will talk about the concept of MSP and how to write its program, and an approach combining MSP and tagless-final.",
@@ -942,6 +1086,17 @@
   },
   {
     "id": "J24",
+    "artifacts": {
+      "youtube_embed_url": "//www.youtube.com/embed/cmgIXnhs5mE",
+      "slides": {
+        "other_url": "",
+        "embed_url": "//www.slideshare.net/slideshow/embed_code/key/1h01MMqdppTivV",
+        "speakerdeck": {
+          "data_id": "",
+          "data_ratio": ""
+        }
+      }
+    },
     "en": {
       "title": "Akka Streams vs Spark Structured  Streaming",
       "detail": "Akka Streams and Spark Structured Streaming are way to implement streaming for big data.\nSo, which is better?\nHow about the power of expression, reliable, responsive, elastic, resilient.\nI'll explain the overview and compare these worrisome parts and introduce techniques for clearing the issues.",
@@ -1005,6 +1160,17 @@
   },
   {
     "id": "J26",
+    "artifacts": {
+      "youtube_embed_url": "//www.youtube.com/embed/0B81qSzQhss",
+      "slides": {
+        "other_url": "",
+        "embed_url": "",
+        "speakerdeck": {
+          "data_id": "e1a89af9f06447ce9788c3837ea0b416",
+          "data_ratio": "1.33333333333333"
+        }
+      }
+    },
     "en": {
       "title": "Making of SaaS backend, guided by PofEAA",
       "detail": "On SaaS development scenes, mature design skill is required to make code refrect complex business models.In that situation, Martin Fowler's \"Patterns of Enterprise Application Architecture\" is still a powerful source of idea even after the times.In this session, I will explain Implementation of SaaS backend API using patterns from PofEAA.\n\nIt may be difficult to understand Scala's OO and FP characteristics simultaneously for beginners.I think that focusing OO aspect is helpful for them.PofEAA contains a lot of hints for writing well Object Oriented code.Of course they can be applied to Scala.",
@@ -1070,6 +1236,17 @@
   },
   {
     "id": "J27",
+    "artifacts": {
+      "youtube_embed_url": "//www.youtube.com/embed/dQsTyzb8sUc",
+      "slides": {
+        "other_url": "",
+        "embed_url": "//gakuzzzz.github.io/slides/scala_from_other_languages/index.html",
+        "speakerdeck": {
+          "data_id": "",
+          "data_ratio": ""
+        }
+      }
+    },
     "en": {
       "title": "Beginning Scala from zero for other language exparts: ~block exp, for exp, type classes",
       "detail": "Scala is sometimes said to be expensive to learn.\n\nThe existence of language mechanisms that are difficult to analogize from the experience of other languages,\nIn other languages, specially prepared functions are realized by a combination of simple functions,\nso, some people feel difficult to learn.\n\nIn this session, it ’s helpful to know first,\nI would like to explain the effective language mechanisms that are difficult to learn by analogy from other languages.\n\nSome language mechanisms that are difficult to learn by analogy from other languages.\nSpecifically those are \"\"block expression\"\", \"\"for expression\"\", and \"\"implicit parameter\"\".",
@@ -1135,6 +1312,17 @@
   },
   {
     "id": "J20",
+    "artifacts": {
+      "youtube_embed_url": "//www.youtube.com/embed/V8QR92XciTc",
+      "slides": {
+        "other_url": "",
+        "embed_url": "//www.slideshare.net/slideshow/embed_code/key/B1w0ZTZcXPlFvT",
+        "speakerdeck": {
+          "data_id": "",
+          "data_ratio": ""
+        }
+      }
+    },
     "en": {
       "title": "liberty, equality, and boxed primitive types",
       "detail": "In this talk, I will explore the equality in Scala. == is seemingly easy, but it's actually a complicated topic.\n\nThe Scala Language Spec doesn't explain much about equality. We'll try to revisit some of the past discussions and think how == actually behave.",
@@ -1206,6 +1394,17 @@
   },
   {
     "id": "E29",
+    "artifacts": {
+      "youtube_embed_url": "//www.youtube.com/embed/t4yJCDB-_H4",
+      "slides": {
+        "other_url": "",
+        "embed_url": "//drive.google.com/file/d/1Z9blolF6wdc88W2AwKVj5VYbnaW95JUUSRnY8K-zi8Q/preview",
+        "speakerdeck": {
+          "data_id": "",
+          "data_ratio": ""
+        }
+      }
+    },
     "en": {
       "title": "First-Class Type-Level Programming",
       "detail": "Scala already supports type-level programming through implicits, but can we do better? In this talk we introduce \"match types\", i.e., type functions, arriving in Scala 3.0 and some of their use cases. We also explore how the language could evolve to support fully-fledged dependent types.",

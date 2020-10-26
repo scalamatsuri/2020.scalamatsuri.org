@@ -1,6 +1,17 @@
 [
   {
     "id": "S1",
+    "artifacts": {
+      "youtube_embed_url": "",
+      "slides": {
+        "other_url": "",
+        "embed_url": "",
+        "speakerdeck": {
+          "data_id": "",
+          "data_ratio": ""
+        }
+      }
+    },
     "en": {
       "title": "ｴｯ、Chatworkのブースでそんなことすんの？何やるかの概要をお伝えします！(available in Japanese)",
       "language": "Japanese",
@@ -26,8 +37,20 @@
   },
   {
     "id": "S2",
+    "artifacts": {
+      "youtube_embed_url": "",
+      "slides": {
+        "other_url": "",
+        "embed_url": "",
+        "speakerdeck": {
+          "data_id": "356a3046dc8c437b80eb1c2efc417a77",
+          "data_ratio": "1.77777777777778"
+        }
+      }
+    },
     "en": {
       "title": "How Scala works at Mercari (available in Japanese)",
+      "detail": "How Scala works at Mercari (available in Japanese)",
       "language": "Japanese",
       "length": 20,
       "speakers": [
@@ -39,6 +62,7 @@
     },
     "ja": {
       "title": "Scala がメルカリでどう動くか？",
+      "detail": "Scala がメルカリでどう動くか？",
       "language": "Japanese",
       "length": 20,
       "speakers": [
@@ -51,6 +75,17 @@
   },
   {
     "id": "S3",
+    "artifacts": {
+      "youtube_embed_url": "",
+      "slides": {
+        "other_url": "",
+        "embed_url": "",
+        "speakerdeck": {
+          "data_id": "",
+          "data_ratio": ""
+        }
+      }
+    },
     "en": {
       "title": "Akka Split Brain Resolver 実機検証 on Raspberry Pi クラスタ(available in Japanese)",
       "language": "Japanese",
@@ -76,6 +111,17 @@
   },
   {
     "id": "S4",
+    "artifacts": {
+      "youtube_embed_url": "",
+      "slides": {
+        "other_url": "",
+        "embed_url": "",
+        "speakerdeck": {
+          "data_id": "",
+          "data_ratio": ""
+        }
+      }
+    },
     "en": {
       "title": "Alp x BizReach ゆるゆる会 〜SaaS 事業の2社がお互いに気になることをゆるゆる聞いてみる〜 (available in Japanese)",
       "language": "Japanese",
@@ -143,6 +189,17 @@
   },
   {
     "id": "S5",
+    "artifacts": {
+      "youtube_embed_url": "",
+      "slides": {
+        "other_url": "",
+        "embed_url": "",
+        "speakerdeck": {
+          "data_id": "ce7f23ed175048ec8a89553fd29fe2da",
+          "data_ratio": "1.77777777777778"
+        }
+      }
+    },
     "en": {
       "title": "Slinky で Scala.js製 React Webアプリケーションをつくったはなし(available in Japanese)",
       "detail": "主にバックエンドで活躍しているScalaですが、フロントエンドアプリケーションのための Scala.js の存在も最近際立ってきました。\nこのLTでは、Scala.js の React.js フレームワークである Slinky を用いて実際にWebアプリケーションを作成した過程とそのノウハウについて紹介いたします。",
@@ -196,6 +253,17 @@
   },
   {
     "id": "S6",
+    "artifacts": {
+      "youtube_embed_url": "",
+      "slides": {
+        "other_url": "",
+        "embed_url": "",
+        "speakerdeck": {
+          "data_id": "",
+          "data_ratio": ""
+        }
+      }
+    },
     "en": {
       "title": "セプオリ史上初！技術も仕事も会社のことも、ココだけの話を大公開！社員が赤裸々に語る『セプオリラジオ』！(available in Japanese)",
       "detail": "弊社社員が赤裸々に語る番組『セプオリラジオ』！\n史上初の取り組みとして、セプオリの社員たちへのインタビューをScalaMatsuri限定で大公開！\nベテランから若手まで、またエンジニアに留まらず多様な職種の方々の生の声を皆様にお届けします！\n\nまた当日は、リスナーの皆さまからの質問もリアルタイムで受け付けます！\nScala についての質問をするもよし、セプオリについて聞くのもよし、茶々を入れるだけでもよし！\nみなさんの気軽なご参加をお待ちしております！",
@@ -224,6 +292,17 @@
 
   {
     "id": "S7",
+    "artifacts": {
+      "youtube_embed_url": "",
+      "slides": {
+        "other_url": "",
+        "embed_url": "",
+        "speakerdeck": {
+          "data_id": "",
+          "data_ratio": ""
+        }
+      }
+    },
     "en": {
       "title": "1日耐久Chatwork説明会 ～バーチャルブースで僕と握手～(available in Japanese)",
       "language": "Japanese",
@@ -249,6 +328,17 @@
   },
   {
     "id": "S8",
+    "artifacts": {
+      "youtube_embed_url": "",
+      "slides": {
+        "other_url": "",
+        "embed_url": "",
+        "speakerdeck": {
+          "data_id": "3ad925f61c494a7aa55ccb75497d3801",
+          "data_ratio": "1.77777777777778"
+        }
+      }
+    },
     "en": {
       "title": "大変だよ、Tagless-final パターン(available in Japanese)",
       "detail": "大変美しく作用を分離できると巷で話題の(?) Tagless-final パターン。しかし、実際に導入してみると、その抽象度の高さが故の悩みどころがいくつも見えてきました。この LT では、そんな悩みポイントの共有と、それを踏まえてどんな場面で導入すべきか否かのお話を致します。",
@@ -322,8 +412,20 @@
   },
   {
     "id": "S9",
+    "artifacts": {
+      "youtube_embed_url": "",
+      "slides": {
+        "other_url": "",
+        "embed_url": "",
+        "speakerdeck": {
+          "data_id": "356a3046dc8c437b80eb1c2efc417a77",
+          "data_ratio": "1.77777777777778"
+        }
+      }
+    },
     "en": {
       "title": "How Scala works at Mercari (available in Japanese)",
+      "detail": "How Scala works at Mercari (available in Japanese)",
       "language": "Japanese",
       "length": 20,
       "speakers": [
@@ -335,6 +437,7 @@
     },
     "ja": {
       "title": "Scala がメルカリでどう動くか？",
+      "detail": "Scala がメルカリでどう動くか？",
       "language": "Japanese",
       "length": 20,
       "speakers": [
@@ -347,6 +450,17 @@
   },
   {
     "id": "S10",
+    "artifacts": {
+      "youtube_embed_url": "",
+      "slides": {
+        "other_url": "",
+        "embed_url": "",
+        "speakerdeck": {
+          "data_id": "",
+          "data_ratio": ""
+        }
+      }
+    },
     "en": {
       "title": "知ってました？実はチャットツールだけじゃない会社なんです ～ゆるくつながるChatwork説明会～(available in Japanese)",
       "language": "Japanese",
@@ -372,6 +486,17 @@
   },
   {
     "id": "S11",
+    "artifacts": {
+      "youtube_embed_url": "",
+      "slides": {
+        "other_url": "",
+        "embed_url": "",
+        "speakerdeck": {
+          "data_id": "",
+          "data_ratio": ""
+        }
+      }
+    },
     "en": {
       "title": "熟練Scalaエンジニアの匠の技術を盗め！リアーキテクティングの技をライブで披露します！(available in Japanese)",
       "detail": "Scala(Play Framework)で構築されたアプリケーションをリアーキテクティングする様子をライブで披露致します！\n天然物のアプリケーションを、保守性が高く運用のオーバーヘッドが低い設計へと見直して参ります。\nさらに Play Framework 最新バージョンでのベストプラクティスも併せてご紹介！\nScala初心者から上級者まで楽しめて、かつ学びを得て頂けるようなコンテンツとなっております！\nぜひ奮ってご参加下さい！",
@@ -479,8 +604,19 @@
   },
   {
     "id": "S12",
+    "artifacts": {
+      "youtube_embed_url": "",
+      "slides": {
+        "other_url": "",
+        "embed_url": "",
+        "speakerdeck": {
+          "data_id": "",
+          "data_ratio": ""
+        }
+      }
+    },
     "en": {
-      "title": "脆弱性対策のための Clean Architecture 〜脆弱性に対するレジリエンスを確保せよ〜(available in Japanese)",      
+      "title": "脆弱性対策のための Clean Architecture 〜脆弱性に対するレジリエンスを確保せよ〜(available in Japanese)",
       "language": "Japanese",
       "length": 40,
       "speakers": [
@@ -520,8 +656,19 @@
   },
   {
     "id": "S13",
+    "artifacts": {
+      "youtube_embed_url": "",
+      "slides": {
+        "other_url": "",
+        "embed_url": "",
+        "speakerdeck": {
+          "data_id": "",
+          "data_ratio": ""
+        }
+      }
+    },
     "en": {
-      "title": "Forkwellのライトな転職相談ブース",      
+      "title": "Forkwellのライトな転職相談ブース",
       "language": "Japanese",
       "length": 20,
       "speakers": [
