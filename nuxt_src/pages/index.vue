@@ -2,6 +2,7 @@
   <div id="top">
     <main-visual />
     <news :posts="blogPosts" />
+    <thankYou />
     <banner />
     <program />
     <events />
@@ -16,6 +17,7 @@
 import { mapActions, mapState } from 'vuex'
 import mainVisual from '@/components/sections/top/mainVisual'
 import news from '@/components/sections/top/news'
+import thankYou from '@/components/sections/top/thankYou'
 import banner from '@/components/sections/top/banner'
 import events from '@/components/sections/top/events'
 // import access from '@/components/sections/top/access'
@@ -27,6 +29,7 @@ export default {
   components: {
     mainVisual,
     news,
+    thankYou,
     banner,
     events,
     info,
