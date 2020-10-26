@@ -43,6 +43,55 @@
       </ul>
       <div class="individual_text">
         <p v-text="program[$i18n.locale].detail" />
+        <br>
+        <div v-if="program.artifacts.youtube_embed_url" class="session">
+          <iframe
+            width="560"
+            height="315"
+            :src="`${program.artifacts.youtube_embed_url}`"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          />
+        </div>
+        <div v-if="program.artifacts.youtube_embed_url_2" class="session">
+          <iframe
+            width="560"
+            height="315"
+            :src="`${program.artifacts.youtube_embed_url_2}`"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          />
+        </div>
+        <div v-if="program.artifacts.slides.embed_url" class="session">
+          <iframe
+            :src="`${program.artifacts.slides.embed_url}`"
+            width="595"
+            height="485"
+            frameborder="0"
+            marginwidth="0"
+            marginheight="0"
+            scrolling="no"
+            style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;"
+            allowfullscreen
+          />
+        </div>
+        <div v-if="program.artifacts.slides.speakerdeck.data_id" class="session">
+          <script
+            async
+            class="speakerdeck-embed"
+            :data-id="`${program.artifacts.slides.speakerdeck.data_id}`"
+            :data-ratio="`${program.artifacts.slides.speakerdeck.data_ratio}`"
+            src="//speakerdeck.com/assets/embed.js"
+          />
+        </div>
+        <div v-if="program.artifacts.slides.other_url">
+          <h3>Slide</h3>
+          <nuxt-link :to="program.artifacts.slides.other_url" no-prefetch target="_blank">
+            {{ program.artifacts.slides.other_url }}
+          </nuxt-link>
+        </div>
       </div>
       <div class="individual_scopeArea">
         <dl class="individual_scope">
