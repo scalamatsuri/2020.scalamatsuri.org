@@ -2,6 +2,7 @@
   <div id="top">
     <main-visual />
     <news :posts="blogPosts" />
+    <chairpersonRecruit />
     <thankYou />
     <banner />
     <program />
@@ -18,6 +19,7 @@ import { mapActions, mapState } from 'vuex'
 import mainVisual from '@/components/sections/top/mainVisual'
 import news from '@/components/sections/top/news'
 import thankYou from '@/components/sections/top/thankYou'
+import chairpersonRecruit from '@/components/sections/top/chairpersonRecruit'
 import banner from '@/components/sections/top/banner'
 import events from '@/components/sections/top/events'
 // import access from '@/components/sections/top/access'
@@ -29,6 +31,7 @@ export default {
   components: {
     mainVisual,
     news,
+    chairpersonRecruit,
     thankYou,
     banner,
     events,
