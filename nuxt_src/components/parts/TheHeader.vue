@@ -2,6 +2,7 @@
 ## language=yaml
   en:
     sponsors: "Sponsors(ja)"
+    cm: "CM"
     access: "Access"
     code-of-conduct: "Code of Conduct"
     program: "Program"
@@ -15,6 +16,7 @@
     logout_successful: "Logged out successfully."
   ja:
     sponsors: "スポンサー"
+    cm: "CM"
     access: "アクセス"
     code-of-conduct: "行動規範"
     program: "プログラム"
@@ -63,6 +65,11 @@
             <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/sponsors') }">
               <nuxt-link :to="localePath('sponsors')">
                 <span>{{ $t('sponsors') }}</span>
+              </nuxt-link>
+            </li>
+            <li class="gnav_item" :class="{ 'gnav_item-current': current_path('/cm') }">
+              <nuxt-link :to="localePath('cm')">
+                <span>{{ $t('CM') }}</span>
               </nuxt-link>
             </li>
             <!--
