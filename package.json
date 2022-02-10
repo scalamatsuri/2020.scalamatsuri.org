@@ -74,7 +74,7 @@
     "firebase-admin": "^8.9.2",
     "firebase-tools": "^7.12.1",
     "jest": "^23.6.0",
-    "node-sass": "^4.13.0",
+    "node-sass": "^7.0.0",
     "nodemon": "^1.18.9",
     "npm-run-all": "^4.1.5",
     "rimraf": "^3.0.0",
