@@ -23,9 +23,11 @@ ja:
         <span>{{ $t('sponsorship') }} </span>
       </nuxt-link>
       -->
+      <!--
       <a :href="$t('tshirt_url')" class="banner_item banner_item-tshirt">
         <span>{{ $t('tshirt') }} </span>
       </a>
+      -->
       <!--
       <nuxt-link :to="localePath('cfp')" class="banner_item banner_item-staff">
         <span>{{ $t('cfp') }}</span>
